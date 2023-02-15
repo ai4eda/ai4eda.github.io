@@ -1,0 +1,66 @@
+---
+layout: base
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1 vcenter idxHdr">
+      <div style='font-size: 2em; color: #4582ec; font-weight: bold; padding-bottom: 0.3em;'>Awesome AI for EDA</div>
+       <div style='font-size: 1.2em; margin:0.5em'>
+            <p>
+            A curated paper list of existing Artificial Intelligence (AI) for
+            </p>
+            <p style='margin:0.3em'>
+            Electronic Design Automation (EDA) studies.
+            </p>
+      </div>
+      <br/>
+      {% comment %} <div style="padding: 0.3em; background-color: #4582ec; display: inline-block; border-radius: 4px; font-size: 1em;">
+        <a href="data/cv.pdf" target='_blank' style='text-decoration: none;'>
+          <i style='color: white' class="fa fa-download"></i>
+        </a>
+        <a href="data/cv.pdf" target='_blank' style='color: white; text-decoration: none;'>Resume</a>
+      </div> {% endcomment %}
+
+      <ul class="list-inline idxIcons" style='font-size: 2em; margin-top: 0.5em;'>
+        <li>
+          <a href="http://github.com/ai4eda" target="_blank">
+            <i class="fa fa-fw fa-github"></i></a>
+        </li>
+        {% comment %} <li>
+          <a href="http://twitter.com/joyg_phd" target="_blank">
+            <i class="fa fa-fw fa-twitter"></i></a>
+        </li> {% endcomment %}
+        {% comment %} <li>
+          <a href="https://scholar.google.com/citations?user=842nSvkAAAAJ" target="_blank">
+          <i class="ai ai-google-scholar"></i></a>
+        </li> {% endcomment %}
+        {% comment %} <li>
+          <a href="http://www.linkedin.com/in/dekura" target="_blank">
+            <i class="fa fa-fw fa-linkedin"></i></a>
+        </li> {% endcomment %}
+        <li>
+          <a href="mailto:cgjcuhk@gmail.com" target="_blank" style='text-decoration: none;'>
+            <i class="fa fa-fw fa-envelope" style='font-size: 1em;'></i></a>
+        </li>
+        {% comment %} <li>
+          <a href="/atom.xml" target="_blank">
+            <i class="fa fa-fw fa-rss"></i></a>
+        </li> {% endcomment %}
+      </ul>
+    </div>
+    <div class="col-md-3 vcenter idxHdr">
+      <a href="/images/logo.png">
+        <img src="/images/logo.png"
+             style="border-radius: 20px; margin: 10px; max-width: none; width: 100%; min-height: 17em"
+             alt="Me."/>
+      </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+        {{ content }}
+    </div>
+  </div>
+</div>

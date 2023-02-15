@@ -1,0 +1,32 @@
+name: Awesome AI for EDA
+title: Awesome AI for EDA
+url: https://ai4eda.github.io
+description: This is a curated paper list of existing Artificial Intelligence (AI) for Electronic Design Automation (EDA) studies.
+destination: ./_site
+repository: ai4eda/ai4eda.github.io
+twitter: joyg_phd
+lsi: false
+port: 4000
+markdown: kramdown
+future: true
+kramdown:
+  parse_block_html: true
+  syntax_highlighter: rouge
+permalink: pretty
+#seo
+tagline: A curated paper list of AI for EDA | Awesome AI for EDA | ai4eda | awesome-ai4eda | VLSI |  Artificial Intelligence | Machine Learning | Deep Learning | EDA | ML | Guojin Chen | AI | CUHK | CSE | CS
+#paginate: 5
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - .travis.yml
+  - validate.rb
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - bower_components
+  - update-vendor-deps.sh
+  - vendor/bundle
+  - vendor/bower.json
