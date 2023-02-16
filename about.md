@@ -26,7 +26,7 @@ Or contact [Guojin Chen](https://gjchen.me) by email [cgjcuhk@gmail.com](cgjcuhk
 
 We provide different categories according to the EDA flow, please copy your bibtex to the corresponding category.
 
-The categories are defined in `pub.yaml` of repo: [awesome-AI4EDA](https://github.com/ai4eda/awesome-AI4EDA), you can also submit new categories to `pub.yaml` or contact [cgjcuhk@gmail.com](mailto:cgjcuhk@gmail.com) to help you add the categories. 
+The categories are defined in `pub.yaml` of repo: [awesome-AI4EDA](https://github.com/ai4eda/awesome-AI4EDA), you can also submit new categories to `pub.yaml` or contact [cgjcuhk@gmail.com](mailto:cgjcuhk@gmail.com) to help you add the categories.
 
 ```yaml
 # pub.yaml
@@ -80,7 +80,7 @@ Add the `abstract` field to show the paper abstract.
 
 Add the `code_url`, `slides_url`, `video_url`, `talk_url`, `project_url` field for link to your codes, slides, video, talks, or project pages.
 
-```bibtex
+```txt
 @inproceedings{DAC23_Nitho,
   title={Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields},
   author={Chen, Guojin and Pei, Zehua and Yang, Haoyu and Ma, Yuzhe and Yu, Bei and Wong, Martin},
