@@ -29,8 +29,8 @@
 1.
 </td>
 <td>
-    <em>DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement</em> <br>
-    <a href='https://yibolin.com/' target='_blank'>Yibo&nbsp;Lin</a>, <a href='https://scholar.google.com/citations?user=kc1yV_4AAAAJ' target='_blank'>Shounak&nbsp;Dhar</a>, Wuxi&nbsp;Li, <a href='https://research.nvidia.com/person/mark-ren' target='_blank'>Haoxing&nbsp;Ren</a>, <a href='https://research.nvidia.com/person/brucek-khailany' target='_blank'>Brucek&nbsp;Khailany</a>, and <a href='https://users.ece.utexas.edu/~dpan/' target='_blank'>David&nbsp;Z.&nbsp;Pan</a><br>
+    DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement <br>
+    <em>Yibo&nbsp;Lin, Shounak&nbsp;Dhar, Wuxi&nbsp;Li, Haoxing&nbsp;Ren, Brucek&nbsp;Khailany, and David&nbsp;Z.&nbsp;Pan</em><br>
     DAC 2019  <br>
     
 </td>
@@ -62,28 +62,6 @@
 
 ## <i class="fa fa-chevron-right"></i> Mask Optimization
 
-<h3>Ilt</h3>
-<table class="table table-hover">
-
-<tr id="tr-ICCAD21_develset" >
-<td align='right'>
-1.
-</td>
-<td>
-    <em><a href='https://www.cse.cuhk.edu.hk/~byu/papers/C124-ICCAD2021-DevelSet.pdf' target='_blank'>DevelSet: Deep Neural Level Set for Instant Mask optimization</a> </em> 
-[<a href='javascript:;'
-    onclick='$("#abs_ICCAD21_develset").toggle()'>abs</a>]<br>
-    <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://scarecrowyu.github.io/' target='_blank'>Ziyang&nbsp;Yu</a>, <a href='https://liuhongduosc.github.io/' target='_blank'>Hongduo&nbsp;Liu</a>, <a href='https://yuzhe630.github.io/' target='_blank'>Yuzhe&nbsp;Ma</a>, and <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a><br>
-    ICCAD 2021  <br>
-    
-<div id="abs_ICCAD21_develset" style="text-align: justify; display: none" markdown="1">
-With the feature size continuously shrinking in advanced technology nodes, mask optimization is increasingly crucial in the conventional design flow, accompanied by an explosive growth in prohibitive computational overhead in optical proximity correction (OPC) methods. Recently, inverse lithography technique (ILT) has drawn significant attention and is becoming prevalent in emerging OPC solutions. However, ILT methods are either time-consuming or in weak performance of mask printability and manufacturability. In this paper, we present DevelSet, a GPU and deep neural network (DNN) accelerated level set OPC framework for metal layer. We first improve the conventional level set-based ILT algorithm by introducing the curvature term to reduce mask complexity and applying GPU acceleration to overcome computational bottlenecks. To further enhance printability and fast iterative convergence, we propose a novel deep neural network delicately designed with level set intrinsic principles to facilitate the joint optimization of DNN and GPU accelerated level set optimizer. Experimental results show that DevelSet framework surpasses the state-of-theart methods in printability and boost the runtime performance achieving instant level (around 1 second).
-</div>
-
-</td>
-</tr>
-
-</table>
 <h3>Mask Optimization</h3>
 <table class="table table-hover">
 
@@ -92,8 +70,8 @@ With the feature size continuously shrinking in advanced technology nodes, mask 
 1.
 </td>
 <td>
-    <em>AdaOPC: A Self-Adaptive Mask Optimization Framework For Real Design Patterns</em> <br>
-    <a href='https://wenqian1228.github.io/' target='_blank'>Wenqian&nbsp;Zhao</a>, <a href='https://appsrv.cse.cuhk.edu.hk/~xfyao/' target='_blank'>Xufeng&nbsp;Yao</a>, <a href='https://scarecrowyu.github.io/' target='_blank'>Ziyang&nbsp;Yu</a>, <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://yuzhe630.github.io/' target='_blank'>Yuzhe&nbsp;Ma</a>, <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a>, and <a href='https://scholar.google.com/citations?user=WPhoQiUAAAAJ' target='_blank'>Martin&nbsp;Wong</a><br>
+    AdaOPC: A Self-Adaptive Mask Optimization Framework For Real Design Patterns <br>
+    <em>Wenqian&nbsp;Zhao, Xufeng&nbsp;Yao, Ziyang&nbsp;Yu, Guojin&nbsp;Chen, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
     ICCAD 2022  <br>
     
 </td>
@@ -105,10 +83,10 @@ With the feature size continuously shrinking in advanced technology nodes, mask 
 2.
 </td>
 <td>
-    <em><a href='https://www.cse.cuhk.edu.hk/~byu/papers/C104-ICCAD2020-DAMO.pdf' target='_blank'>DAMO: Deep Agile Mask Optimization for Full Chip Scale</a> </em> 
+    DAMO: Deep Agile Mask Optimization for Full Chip Scale 
 [<a href='javascript:;'
-    onclick='$("#abs_ICCAD20_damo").toggle()'>abs</a>]<br>
-    <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://cwanli.github.io/' target='_blank'>Wanli&nbsp;Chen</a>, <a href='https://yuzhe630.github.io/' target='_blank'>Yuzhe&nbsp;Ma</a>, <a href='https://phdyang007.github.io/' target='_blank'>Haoyu&nbsp;Yang</a>, and <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a><br>
+    onclick='$("#abs_ICCAD20_damo").toggle()'>abs</a>] [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C104-ICCAD2020-DAMO.pdf' target='_blank'>paper</a>] <br>
+    <em>Guojin&nbsp;Chen, Wanli&nbsp;Chen, Yuzhe&nbsp;Ma, Haoyu&nbsp;Yang, and Bei&nbsp;Yu</em><br>
     ICCAD 2020  <br>
     
 <div id="abs_ICCAD20_damo" style="text-align: justify; display: none" markdown="1">
@@ -127,8 +105,8 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 1.
 </td>
 <td>
-    <em>Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields</em> <br>
-    <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://scholar.google.com/citations?user=FjZurHkAAAAJ' target='_blank'>Zehua&nbsp;Pei</a>, <a href='https://phdyang007.github.io/' target='_blank'>Haoyu&nbsp;Yang</a>, <a href='https://yuzhe630.github.io/' target='_blank'>Yuzhe&nbsp;Ma</a>, <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a>, and <a href='https://scholar.google.com/citations?user=WPhoQiUAAAAJ' target='_blank'>Martin&nbsp;Wong</a><br>
+    Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields [<a href='https://ai4eda.github.io' target='_blank'>paper</a>]  [<a href='https://ai4eda.github.io' target='_blank'>code</a>]  [<a href='https://ai4eda.github.io' target='_blank'>slides</a>]  [<a href='https://ai4eda.github.io' target='_blank'>talk</a>]  [<a href='https://ai4eda.github.io' target='_blank'>video</a>]  [<a href='https://ai4eda.github.io' target='_blank'>project</a>] <br>
+    <em>Guojin&nbsp;Chen, Zehua&nbsp;Pei, Haoyu&nbsp;Yang, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
     DAC 2023  <br>
     
 </td>
@@ -143,10 +121,32 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 1.
 </td>
 <td>
-    <em>DiffPattern: Layout Pattern Generation via Discrete Diffusion</em> <br>
-    <a href='https://shiningsord.github.io/' target='_blank'>Zixiao&nbsp;Wang</a>, <a href='https://shiningsord.github.io/' target='_blank'>Yunheng&nbsp;Shen</a>, <a href='https://wenqian1228.github.io/' target='_blank'>Wenqian&nbsp;Zhao</a>, <a href='https://ybai62868.github.io/' target='_blank'>Yang&nbsp;Bai</a>, <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://www.cse.cuhk.edu.hk/people/faculty/farzan-farnia/' target='_blank'>Farzan&nbsp;Farnia</a>, and <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a><br>
+    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
+    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
     DAC 2023  <br>
     
+</td>
+</tr>
+
+</table>
+<h3>Ilt</h3>
+<table class="table table-hover">
+
+<tr id="tr-ICCAD21_develset" >
+<td align='right'>
+1.
+</td>
+<td>
+    DevelSet: Deep Neural Level Set for Instant Mask optimization 
+[<a href='javascript:;'
+    onclick='$("#abs_ICCAD21_develset").toggle()'>abs</a>] [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C124-ICCAD2021-DevelSet.pdf' target='_blank'>paper</a>] <br>
+    <em>Guojin&nbsp;Chen, Ziyang&nbsp;Yu, Hongduo&nbsp;Liu, Yuzhe&nbsp;Ma, and Bei&nbsp;Yu</em><br>
+    ICCAD 2021  <br>
+    
+<div id="abs_ICCAD21_develset" style="text-align: justify; display: none" markdown="1">
+With the feature size continuously shrinking in advanced technology nodes, mask optimization is increasingly crucial in the conventional design flow, accompanied by an explosive growth in prohibitive computational overhead in optical proximity correction (OPC) methods. Recently, inverse lithography technique (ILT) has drawn significant attention and is becoming prevalent in emerging OPC solutions. However, ILT methods are either time-consuming or in weak performance of mask printability and manufacturability. In this paper, we present DevelSet, a GPU and deep neural network (DNN) accelerated level set OPC framework for metal layer. We first improve the conventional level set-based ILT algorithm by introducing the curvature term to reduce mask complexity and applying GPU acceleration to overcome computational bottlenecks. To further enhance printability and fast iterative convergence, we propose a novel deep neural network delicately designed with level set intrinsic principles to facilitate the joint optimization of DNN and GPU accelerated level set optimizer. Experimental results show that DevelSet framework surpasses the state-of-theart methods in printability and boost the runtime performance achieving instant level (around 1 second).
+</div>
+
 </td>
 </tr>
 
