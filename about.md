@@ -13,7 +13,6 @@ So you only need to submit your bibtex file to [https://github.com/ai4eda/awesom
 Or contact [Guojin Chen](https://gjchen.me) by email [cgjcuhk@gmail.com](cgjcuhk@gmail.com)
 
 
-
 ## Example
 
 ![Bibtex2Html](/images/bibtex2html.png)
@@ -99,7 +98,9 @@ Submit a PR to repo: [awesome-AI4EDA](https://github.com/ai4eda/awesome-AI4EDA)
 Thank you.
 
 
+## Acknowledgement
 
+Thanks for the contribution and support from Prof. [Bei Yu](https://www.cse.cuhk.edu.hk/~byu/), Prof. [Yibo Lin](https://yibolin.com/) and Mr.[Jing Mai](https://magic3007.github.io/)
 
 
 <br/>
