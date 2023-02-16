@@ -50,6 +50,11 @@
 
 
 
+## <i class="fa fa-chevron-right"></i> Timing
+
+
+
+
 ## <i class="fa fa-chevron-right"></i> Layout Verification
 
 
@@ -57,38 +62,6 @@
 
 ## <i class="fa fa-chevron-right"></i> Mask Optimization
 
-<h3>Lithography Modeling</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_Nitho" >
-<td align='right'>
-1.
-</td>
-<td>
-    <em>Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields</em> <br>
-    <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://scholar.google.com/citations?user=FjZurHkAAAAJ' target='_blank'>Zehua&nbsp;Pei</a>, <a href='https://phdyang007.github.io/' target='_blank'>Haoyu&nbsp;Yang</a>, <a href='https://yuzhe630.github.io/' target='_blank'>Yuzhe&nbsp;Ma</a>, <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a>, and <a href='https://scholar.google.com/citations?user=WPhoQiUAAAAJ' target='_blank'>Martin&nbsp;Wong</a><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Layout Generation</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_Diff" >
-<td align='right'>
-1.
-</td>
-<td>
-    <em>DiffPattern: Layout Pattern Generation via Discrete Diffusion</em> <br>
-    <a href='https://shiningsord.github.io/' target='_blank'>Zixiao&nbsp;Wang</a>, <a href='https://shiningsord.github.io/' target='_blank'>Yunheng&nbsp;Shen</a>, <a href='https://wenqian1228.github.io/' target='_blank'>Wenqian&nbsp;Zhao</a>, <a href='https://ybai62868.github.io/' target='_blank'>Yang&nbsp;Bai</a>, <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://www.cse.cuhk.edu.hk/people/faculty/farzan-farnia/' target='_blank'>Farzan&nbsp;Farnia</a>, and <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-</table>
 <h3>Ilt</h3>
 <table class="table table-hover">
 
@@ -142,6 +115,38 @@ With the feature size continuously shrinking in advanced technology nodes, mask 
 Continuous scaling of the VLSI system leaves a great challenge on manufacturing and optical proximity correction (OPC) is widely applied in conventional design flow for manufacturability optimization. Traditional techniques conducted OPC by leveraging a lithography model and suffered from prohibitive computational overhead, and mostly focused on optimizing a single clip without addressing how to tackle the full chip. In this paper, we present DAMO, a high performance and scalable deep learning-enabled OPC system for full chip scale. It is an end-to-end mask optimization paradigm which contains a Deep Lithography Simulator (DLS) for lithography modeling and a Deep Mask Generator (DMG) for mask pattern generation. Moreover, a novel layout splitting algorithm customized for DAMO is proposed to handle the full chip OPC problem. Extensive experiments show that DAMO outperforms the state-of-the-art OPC solutions in both academia and industrial commercial toolkit.
 </div>
 
+</td>
+</tr>
+
+</table>
+<h3>Lithography Modeling</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_Nitho" >
+<td align='right'>
+1.
+</td>
+<td>
+    <em>Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields</em> <br>
+    <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://scholar.google.com/citations?user=FjZurHkAAAAJ' target='_blank'>Zehua&nbsp;Pei</a>, <a href='https://phdyang007.github.io/' target='_blank'>Haoyu&nbsp;Yang</a>, <a href='https://yuzhe630.github.io/' target='_blank'>Yuzhe&nbsp;Ma</a>, <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a>, and <a href='https://scholar.google.com/citations?user=WPhoQiUAAAAJ' target='_blank'>Martin&nbsp;Wong</a><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Layout Generation</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_Diff" >
+<td align='right'>
+1.
+</td>
+<td>
+    <em>DiffPattern: Layout Pattern Generation via Discrete Diffusion</em> <br>
+    <a href='https://shiningsord.github.io/' target='_blank'>Zixiao&nbsp;Wang</a>, <a href='https://shiningsord.github.io/' target='_blank'>Yunheng&nbsp;Shen</a>, <a href='https://wenqian1228.github.io/' target='_blank'>Wenqian&nbsp;Zhao</a>, <a href='https://ybai62868.github.io/' target='_blank'>Yang&nbsp;Bai</a>, <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://www.cse.cuhk.edu.hk/people/faculty/farzan-farnia/' target='_blank'>Farzan&nbsp;Farnia</a>, and <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a><br>
+    DAC 2023  <br>
+    
 </td>
 </tr>
 
