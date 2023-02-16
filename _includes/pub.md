@@ -15,7 +15,7 @@
 </td>
 <td>
     <em>BOOM-Explorer: RISC-V BOOM Microarchitecture Design Space Exploration Framework</em> <br>
-    Chen&nbsp;Bai, Qi&nbsp;Sun, Jianwang&nbsp;Zhai, <a href='https://yuzhe630.github.io/' target='_blank'>Yuzhe&nbsp;Ma</a>, <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a>, and Martin&nbsp;DF&nbsp;Wong<br>
+    <a href='https://baichen318.github.io/' target='_blank'>Chen&nbsp;Bai</a>, <a href='http://qisunchn.top/' target='_blank'>Qi&nbsp;Sun</a>, Jianwang&nbsp;Zhai, <a href='https://yuzhe630.github.io/' target='_blank'>Yuzhe&nbsp;Ma</a>, <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a>, and <a href='https://scholar.google.com/citations?user=WPhoQiUAAAAJ' target='_blank'>Martin&nbsp;DF&nbsp;Wong</a><br>
     ICCAD 2021  <br>
     
 </td>
@@ -48,38 +48,6 @@
 
 ## <i class="fa fa-chevron-right"></i> Design for Manufacutring
 
-<h3>Layout Generation</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_Diff" >
-<td align='right'>
-1.
-</td>
-<td>
-    <em>DiffPattern: Layout Pattern Generation via Discrete Diffusion</em> <br>
-    <a href='https://shiningsord.github.io/' target='_blank'>Zixiao&nbsp;Wang</a>, <a href='https://shiningsord.github.io/' target='_blank'>Yunheng&nbsp;Shen</a>, <a href='https://wenqian1228.github.io/' target='_blank'>Wenqian&nbsp;Zhao</a>, <a href='https://ybai62868.github.io/' target='_blank'>Yang&nbsp;Bai</a>, <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://www.cse.cuhk.edu.hk/people/faculty/farzan-farnia/' target='_blank'>Farzan&nbsp;Farnia</a>, and <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Lithography</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_Nitho" >
-<td align='right'>
-1.
-</td>
-<td>
-    <em>Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields</em> <br>
-    <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://scholar.google.com/citations?user=FjZurHkAAAAJ' target='_blank'>Zehua&nbsp;Pei</a>, <a href='https://phdyang007.github.io/' target='_blank'>Haoyu&nbsp;Yang</a>, <a href='https://yuzhe630.github.io/' target='_blank'>Yuzhe&nbsp;Ma</a>, <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a>, and <a href='https://scholar.google.com/citations?user=WPhoQiUAAAAJ' target='_blank'>Martin&nbsp;Wong</a><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-</table>
 <h3>Mask Optimization</h3>
 <table class="table table-hover">
 
@@ -133,22 +101,35 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 </td>
 </tr>
 
+</table>
+<h3>Lithography</h3>
+<table class="table table-hover">
 
-<tr id="tr-DATE21_levelset" >
+<tr id="tr-DAC23_Nitho" >
 <td align='right'>
-4.
+1.
 </td>
 <td>
-    <em>A GPU-enabled Level Set Method for Mask Optimization</em> 
-[<a href='javascript:;'
-    onclick='$("#abs_DATE21_levelset").toggle()'>abs</a>]<br>
-    <a href='https://scarecrowyu.github.io/' target='_blank'>Ziyang&nbsp;Yu</a>, <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://yuzhe630.github.io/' target='_blank'>Yuzhe&nbsp;Ma</a>, and <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a><br>
-    DATE 2020  <br>
+    <em>Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields</em> <br>
+    <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://scholar.google.com/citations?user=FjZurHkAAAAJ' target='_blank'>Zehua&nbsp;Pei</a>, <a href='https://phdyang007.github.io/' target='_blank'>Haoyu&nbsp;Yang</a>, <a href='https://yuzhe630.github.io/' target='_blank'>Yuzhe&nbsp;Ma</a>, <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a>, and <a href='https://scholar.google.com/citations?user=WPhoQiUAAAAJ' target='_blank'>Martin&nbsp;Wong</a><br>
+    DAC 2023  <br>
     
-<div id="abs_DATE21_levelset" style="text-align: justify; display: none" markdown="1">
-As the feature size of advanced integrated circuits keeps shrinking, resolution enhancement technique (RET) is utilized to improve the printability in the lithography process. Optical proximity correction (OPC) is one of the most widely used RETs aiming at compensating the mask to generate a more precise wafer image. In this paper, we put forward a level-set based OPC with high mask optimization quality and fast convergence. In order to suppress the disturbance of the condition fluctuation in lithography process, we propose a new process window-aware cost function. Then, a novel momentum-based evolution technique is adopted, which demonstrates substantial improvement. Moreover, graphics processing unit (GPU) is leveraged for accelerating the proposed algorithm. Experimental results on ICCAD 2013 benchmarks show that our algorithm outperforms all previous OPC algorithms in terms of both solution quality and runtime overhead.
-</div>
+</td>
+</tr>
 
+</table>
+<h3>Layout Generation</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_Diff" >
+<td align='right'>
+1.
+</td>
+<td>
+    <em>DiffPattern: Layout Pattern Generation via Discrete Diffusion</em> <br>
+    <a href='https://shiningsord.github.io/' target='_blank'>Zixiao&nbsp;Wang</a>, <a href='https://shiningsord.github.io/' target='_blank'>Yunheng&nbsp;Shen</a>, <a href='https://wenqian1228.github.io/' target='_blank'>Wenqian&nbsp;Zhao</a>, <a href='https://ybai62868.github.io/' target='_blank'>Yang&nbsp;Bai</a>, <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://www.cse.cuhk.edu.hk/people/faculty/farzan-farnia/' target='_blank'>Farzan&nbsp;Farnia</a>, and <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a><br>
+    DAC 2023  <br>
+    
 </td>
 </tr>
 
