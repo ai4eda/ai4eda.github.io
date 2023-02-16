@@ -4,30 +4,50 @@
 
 
 
-## <i class="fa fa-chevron-right"></i> Design for Manufacutring
+## <i class="fa fa-chevron-right"></i> Architechture Design
 
-<h3></h3>
+<h3>Design Space Exploration</h3>
 <table class="table table-hover">
 
-<tr id="tr-ISPD21_learn-pointcloud" >
+<tr id="tr-RISC-ICCAD2021-BOOM-Explorer" >
 <td align='right'>
 1.
 </td>
 <td>
-    <em><a href='https://www.cse.cuhk.edu.hk/~byu/papers/C116-ISPD2021-PointCloud.pdf' target='_blank'>Learning Point Clouds in EDA. **(Invited Paper)**</a> </em> 
-[<a href='javascript:;'
-    onclick='$("#abs_ISPD21_learn-pointcloud").toggle()'>abs</a>]<br>
-    <a href='https://wadmes.github.io/cv/' target='_blank'>Wei&nbsp;Li</a>, <a href='https://gjchen.me' target='_blank'>Guojin&nbsp;Chen</a>, <a href='https://phdyang007.github.io/' target='_blank'>Haoyu&nbsp;Yang</a>, <a href='https://appsrv.cse.cuhk.edu.hk/~rchen/' target='_blank'>Ran&nbsp;Chen</a>, and <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a><br>
-    ISPD 2021  <br>
+    <em>BOOM-Explorer: RISC-V BOOM Microarchitecture Design Space Exploration Framework</em> <br>
+    Chen&nbsp;Bai, Qi&nbsp;Sun, Jianwang&nbsp;Zhai, <a href='https://yuzhe630.github.io/' target='_blank'>Yuzhe&nbsp;Ma</a>, <a href='https://www.cse.cuhk.edu.hk/~byu/' target='_blank'>Bei&nbsp;Yu</a>, and Martin&nbsp;DF&nbsp;Wong<br>
+    ICCAD 2021  <br>
     
-<div id="abs_ISPD21_learn-pointcloud" style="text-align: justify; display: none" markdown="1">
-The exploding of deep learning techniques have motivated the development in various fields, including intelligent EDA algorithms from physical implementation to design for manufacturability. Point cloud, defined as the set of data points in space, is one of the most important data representations in deep learning since it directly preserves the original geometric information without any discretization. However, there are still some challenges that stifle the applications of point clouds in the EDA field. In this paper, we first review previous works about deep learning in EDA and point clouds in other fields. Then, we discuss some challenges of point clouds in EDA raised by some intrinsic characteristics of point clouds. Finally, to stimulate future research, we present several possible applications of point clouds in EDA and demonstrate the feasibility by two case studies.
-</div>
-
 </td>
 </tr>
 
 </table>
+
+
+
+## <i class="fa fa-chevron-right"></i> Placement
+
+<h3></h3>
+<table class="table table-hover">
+
+<tr id="tr-PLACE-DAC2019-DREAMPlace" >
+<td align='right'>
+1.
+</td>
+<td>
+    <em>DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement</em> <br>
+    <a href='https://yibolin.com/' target='_blank'>Yibo&nbsp;Lin</a>, <a href='https://scholar.google.com/citations?user=kc1yV_4AAAAJ' target='_blank'>Shounak&nbsp;Dhar</a>, Wuxi&nbsp;Li, <a href='https://research.nvidia.com/person/mark-ren' target='_blank'>Haoxing&nbsp;Ren</a>, <a href='https://research.nvidia.com/person/brucek-khailany' target='_blank'>Brucek&nbsp;Khailany</a>, and <a href='https://users.ece.utexas.edu/~dpan/' target='_blank'>David&nbsp;Z.&nbsp;Pan</a><br>
+    DAC 2019  <br>
+    
+</td>
+</tr>
+
+</table>
+
+
+
+## <i class="fa fa-chevron-right"></i> Design for Manufacutring
+
 <h3>Layout Generation</h3>
 <table class="table table-hover">
 
@@ -129,27 +149,6 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 As the feature size of advanced integrated circuits keeps shrinking, resolution enhancement technique (RET) is utilized to improve the printability in the lithography process. Optical proximity correction (OPC) is one of the most widely used RETs aiming at compensating the mask to generate a more precise wafer image. In this paper, we put forward a level-set based OPC with high mask optimization quality and fast convergence. In order to suppress the disturbance of the condition fluctuation in lithography process, we propose a new process window-aware cost function. Then, a novel momentum-based evolution technique is adopted, which demonstrates substantial improvement. Moreover, graphics processing unit (GPU) is leveraged for accelerating the proposed algorithm. Experimental results on ICCAD 2013 benchmarks show that our algorithm outperforms all previous OPC algorithms in terms of both solution quality and runtime overhead.
 </div>
 
-</td>
-</tr>
-
-</table>
-
-
-
-## <i class="fa fa-chevron-right"></i> Placement
-
-<h3></h3>
-<table class="table table-hover">
-
-<tr id="tr-PLACE-DAC2019-DREAMPlace" >
-<td align='right'>
-1.
-</td>
-<td>
-    <em>DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement</em> <br>
-    <a href='https://yibolin.com/' target='_blank'>Yibo&nbsp;Lin</a>, <a href='https://scholar.google.com/citations?user=kc1yV_4AAAAJ' target='_blank'>Shounak&nbsp;Dhar</a>, Wuxi&nbsp;Li, <a href='https://research.nvidia.com/person/mark-ren' target='_blank'>Haoxing&nbsp;Ren</a>, <a href='https://research.nvidia.com/person/brucek-khailany' target='_blank'>Brucek&nbsp;Khailany</a>, and <a href='https://users.ece.utexas.edu/~dpan/' target='_blank'>David&nbsp;Z.&nbsp;Pan</a><br>
-    DAC 2019  <br>
-    
 </td>
 </tr>
 
