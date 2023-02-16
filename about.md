@@ -77,6 +77,7 @@ Example: 👇🏻 the `_venue`, `year`, `topic` fileds are required. You publica
 
 You can also add `url` filed to attach the paper link. 
 And the `abstract` filed to add the paper abstract.
+Add the `code` filed for link to your codes.
 
 ```bibtex
 @inproceedings{DAC23_Nitho,
@@ -87,7 +88,8 @@ And the `abstract` filed to add the paper abstract.
   year={2023},
   topic = {Lithography},
   url = {link to your paper},
-  abstract = {abstract of your paper}
+  abstract = {abstract of your paper},
+  code = {link to your codes}
 }
 ```
 
