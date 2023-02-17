@@ -62,44 +62,6 @@
 
 ## <i class="fa fa-chevron-right"></i> Mask Optimization
 
-<h3>Lithography Modeling</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_Nitho" >
-<td align='right'>
-1.
-</td>
-<td>
-    Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields [<a href='https://ai4eda.github.io' target='_blank'>paper</a>]  [<a href='https://ai4eda.github.io' target='_blank'>code</a>]  [<a href='https://ai4eda.github.io' target='_blank'>slides</a>]  [<a href='https://ai4eda.github.io' target='_blank'>talk</a>]  [<a href='https://ai4eda.github.io' target='_blank'>video</a>]  [<a href='https://ai4eda.github.io' target='_blank'>project</a>] <br>
-    <em>Guojin&nbsp;Chen, Zehua&nbsp;Pei, Haoyu&nbsp;Yang, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Ilt</h3>
-<table class="table table-hover">
-
-<tr id="tr-ICCAD21_develset" >
-<td align='right'>
-1.
-</td>
-<td>
-    DevelSet: Deep Neural Level Set for Instant Mask optimization 
-[<a href='javascript:;'
-    onclick='$("#abs_ICCAD21_develset").toggle()'>abs</a>] [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C124-ICCAD2021-DevelSet.pdf' target='_blank'>paper</a>] <br>
-    <em>Guojin&nbsp;Chen, Ziyang&nbsp;Yu, Hongduo&nbsp;Liu, Yuzhe&nbsp;Ma, and Bei&nbsp;Yu</em><br>
-    ICCAD 2021  <br>
-    
-<div id="abs_ICCAD21_develset" style="text-align: justify; display: none" markdown="1">
-With the feature size continuously shrinking in advanced technology nodes, mask optimization is increasingly crucial in the conventional design flow, accompanied by an explosive growth in prohibitive computational overhead in optical proximity correction (OPC) methods. Recently, inverse lithography technique (ILT) has drawn significant attention and is becoming prevalent in emerging OPC solutions. However, ILT methods are either time-consuming or in weak performance of mask printability and manufacturability. In this paper, we present DevelSet, a GPU and deep neural network (DNN) accelerated level set OPC framework for metal layer. We first improve the conventional level set-based ILT algorithm by introducing the curvature term to reduce mask complexity and applying GPU acceleration to overcome computational bottlenecks. To further enhance printability and fast iterative convergence, we propose a novel deep neural network delicately designed with level set intrinsic principles to facilitate the joint optimization of DNN and GPU accelerated level set optimizer. Experimental results show that DevelSet framework surpasses the state-of-theart methods in printability and boost the runtime performance achieving instant level (around 1 second).
-</div>
-
-</td>
-</tr>
-
-</table>
 <h3>Mask Optimization</h3>
 <table class="table table-hover">
 
@@ -135,6 +97,35 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 </tr>
 
 </table>
+<h3>Lithography</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_Nitho" >
+<td align='right'>
+1.
+</td>
+<td>
+    Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields [<a href='https://ai4eda.github.io' target='_blank'>paper</a>]  [<a href='https://ai4eda.github.io' target='_blank'>code</a>]  [<a href='https://ai4eda.github.io' target='_blank'>slides</a>]  [<a href='https://ai4eda.github.io' target='_blank'>talk</a>]  [<a href='https://ai4eda.github.io' target='_blank'>video</a>]  [<a href='https://ai4eda.github.io' target='_blank'>project</a>] <br>
+    <em>Guojin&nbsp;Chen, Zehua&nbsp;Pei, Haoyu&nbsp;Yang, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wang2022deepeb" >
+<td align='right'>
+2.
+</td>
+<td>
+    DeePEB: A Neural Partial Differential Equation Solver for Post Exposure Baking Simulation in Lithography [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549398' target='_blank'>paper</a>]  [<a href='https://github.com/Brilight/DeePEB' target='_blank'>code</a>] <br>
+    <em>Qipan&nbsp;Wang, Xiaohan&nbsp;Gao, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Layout Generation</h3>
 <table class="table table-hover">
 
@@ -151,12 +142,34 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 </tr>
 
 </table>
+<h3>Ilt</h3>
+<table class="table table-hover">
+
+<tr id="tr-ICCAD21_develset" >
+<td align='right'>
+1.
+</td>
+<td>
+    DevelSet: Deep Neural Level Set for Instant Mask optimization 
+[<a href='javascript:;'
+    onclick='$("#abs_ICCAD21_develset").toggle()'>abs</a>] [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C124-ICCAD2021-DevelSet.pdf' target='_blank'>paper</a>] <br>
+    <em>Guojin&nbsp;Chen, Ziyang&nbsp;Yu, Hongduo&nbsp;Liu, Yuzhe&nbsp;Ma, and Bei&nbsp;Yu</em><br>
+    ICCAD 2021  <br>
+    
+<div id="abs_ICCAD21_develset" style="text-align: justify; display: none" markdown="1">
+With the feature size continuously shrinking in advanced technology nodes, mask optimization is increasingly crucial in the conventional design flow, accompanied by an explosive growth in prohibitive computational overhead in optical proximity correction (OPC) methods. Recently, inverse lithography technique (ILT) has drawn significant attention and is becoming prevalent in emerging OPC solutions. However, ILT methods are either time-consuming or in weak performance of mask printability and manufacturability. In this paper, we present DevelSet, a GPU and deep neural network (DNN) accelerated level set OPC framework for metal layer. We first improve the conventional level set-based ILT algorithm by introducing the curvature term to reduce mask complexity and applying GPU acceleration to overcome computational bottlenecks. To further enhance printability and fast iterative convergence, we propose a novel deep neural network delicately designed with level set intrinsic principles to facilitate the joint optimization of DNN and GPU accelerated level set optimizer. Experimental results show that DevelSet framework surpasses the state-of-theart methods in printability and boost the runtime performance achieving instant level (around 1 second).
+</div>
+
+</td>
+</tr>
+
+</table>
 
 
 
 ## <i class="fa fa-chevron-right"></i> Analog Layout Synthesis
 
-<h3></h3>
+<h3>Analog Layout Placement</h3>
 <table class="table table-hover">
 
 <tr id="tr-9712592" >
