@@ -61,6 +61,9 @@ categories_publications:
     -
       heading: "Mask Optimization"
       file: opc.bib
+    -
+      heading: "Analog Layout Synthesis"
+      file: analog.bib
 ```
 
 
@@ -70,7 +73,7 @@ Example: 👇🏻
 
 **Required Fields**
 
-the `_venue`, `year`, `topic` Fields are required. You publication will be displayed into the corresponding topic.
+The `title`, `author`, `_venue`, `year`, `topic` Fields are required. You publication will be displayed into the corresponding topic.
 
 **Optional Fields**
 
