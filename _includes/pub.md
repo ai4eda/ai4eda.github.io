@@ -11,11 +11,160 @@
 
 ## <i class="fa fa-chevron-right"></i> Logic Synthesis
 
+<h3>Operator Sequence Scheduling</h3>
+<table class="table table-hover">
+
+<tr id="tr-ICCAD20_flowtune" >
+<td align='right'>
+1.
+</td>
+<td>
+    Practical Multi-armed Bandits in Boolean Optimization 
+[<a href='javascript:;'
+    onclick='$("#abs_ICCAD20_flowtune").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3400302.3415615' target='_blank'>paper</a>]  [<a href='https://github.com/Yu-Utah/FlowTune' target='_blank'>code</a>]  [<a href='https://www.youtube.com/watch?v=EPcn5ttp1TM&t=360s' target='_blank'>talk</a>] <br>
+    <em>Cunxi&nbsp;Yu</em><br>
+    ICCAD 2020  <br>
+    
+<div id="abs_ICCAD20_flowtune" style="text-align: justify; display: none" markdown="1">
+Recent years have seen increasing employment of decision intelligence in electronic design automation (EDA), which aims to reduce the manual efforts and boost the design closure process in modern toolflows. However, existing approaches either require a large number of labeled data for training or are limited in practical EDA toolflow integration due to computation overhead. This paper presents a generic end-to-end and high-performance domainspecific, multi-stage multi-armed bandit framework for Boolean logic optimization. This framework addresses optimization problems on a) And-Inv-Graphs (# nodes), b) Conjunction Normal Form (CNF) minimization (# clauses) for Boolean Satisfiability, c) post static timing analysis (STA) delay and area optimization for standard-cell technology mapping, and d) FPGA technology mapping for 6-in LUT architectures. Moreover, the proposed framework has been integrated with ABC, Yosys, VTR, and industrial tools. The experimental results demonstrate that our framework outperforms both hand-crafted flows and ML explored flows in quality of results, and is orders of magnitude faster compared to ML-based approaches.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-ASPDAC20_drills" >
+<td align='right'>
+2.
+</td>
+<td>
+    DRiLLS: Deep Reinforcement Learning for Logic Synthesis 
+[<a href='javascript:;'
+    onclick='$("#abs_ASPDAC20_drills").toggle()'>abs</a>] [<a href='https://ieeexplore.ieee.org/abstract/document/9045559' target='_blank'>paper</a>]  [<a href='https://github.com/scale-lab/DRiLLS' target='_blank'>code</a>] <br>
+    <em>Abdelrahman&nbsp;Hosny, Soheil&nbsp;Hashemi, Mohamed&nbsp;Shalan, and Sherief&nbsp;Reda</em><br>
+    ASP-DAC 2020  <br>
+    
+<div id="abs_ASPDAC20_drills" style="text-align: justify; display: none" markdown="1">
+Logic synthesis requires extensive tuning of the synthesis optimization flow where the quality of results (QoR) depends on the sequence of optimizations used. Efficient design space exploration is challenging due to the exponential number of possible optimization permutations. Therefore, automating the optimization process is necessary. In this work, we propose a novel reinforcement learning-based methodology that navigates the optimization space without human intervention. We demonstrate the training of an Advantage Actor Critic (A2C) agent that seeks to minimize area subject to a timing constraint. Using the proposed methodology, designs can be optimized autonomously with no-humans in-loop. Evaluation on the comprehensive EPFL benchmark suite shows that the agent outperforms existing exploration methodologies and improves QoRs by an average of 13%.
+</div>
+
+</td>
+</tr>
+
+</table>
+<h3>Synthesis Results Estimation</h3>
+<table class="table table-hover">
+
+<tr id="tr-ISCA22_sns" >
+<td align='right'>
+1.
+</td>
+<td>
+    SNS's Not a Synthesizer: A Deep-Learning-Based Synthesis Predictor 
+[<a href='javascript:;'
+    onclick='$("#abs_ISCA22_sns").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3470496.3527444' target='_blank'>paper</a>]  [<a href='https://github.com/Entropy-xcy/sns' target='_blank'>code</a>] <br>
+    <em>Ceyu&nbsp;Xu, Chris&nbsp;Kjellqvist, and Lisa&nbsp;Wu&nbsp;Wills</em><br>
+    ISCA 2022  <br>
+    
+<div id="abs_ISCA22_sns" style="text-align: justify; display: none" markdown="1">
+The number of transistors that can fit on one monolithic chip has reached billions to tens of billions in this decade thanks to Moore's Law. With the advancement of every technology generation, the transistor counts per chip grow at a pace that brings about exponential increase in design time, including the synthesis process used to perform design space explorations. Such a long delay in obtaining synthesis results hinders an efficient chip development process, significantly impacting time-to-market. In addition, these large-scale integrated circuits tend to have larger and higher-dimension design spaces to explore, making it prohibitively expensive to obtain physical characteristics of all possible designs using traditional synthesis tools.In this work, we propose a deep-learning-based synthesis predictor called SNS (SNS's not a Synthesizer), that predicts the area, power, and timing physical characteristics of a broad range of designs at two to three orders of magnitude faster than the Synopsys Design Compiler while providing on average a 0.4998 RRSE (root relative square error). We further evaluate SNS via two representative case studies, a general-purpose out-of-order CPU case study using RISC-V Boom open-source design and an accelerator case study using an in-house Chisel implementation of DianNao, to demonstrate the capabilities and validity of SNS.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-TCAD22_bullseye" >
+<td align='right'>
+2.
+</td>
+<td>
+    Bulls-Eye: Active Few-shot Learning Guided Logic Synthesis 
+[<a href='javascript:;'
+    onclick='$("#abs_TCAD22_bullseye").toggle()'>abs</a>] [<a href='https://ieeexplore.ieee.org/abstract/document/9969911' target='_blank'>paper</a>] <br>
+    <em>Animesh&nbsp;Basak&nbsp;Chowdhury, Benjamin&nbsp;Tan, Ryan&nbsp;Carey, Tushit&nbsp;Jain, Ramesh&nbsp;Karri, and Siddharth&nbsp;Garg</em><br>
+    TCAD 2022  <br>
+    
+<div id="abs_TCAD22_bullseye" style="text-align: justify; display: none" markdown="1">
+Generating sub-optimal synthesis transformation sequences (“synthesis recipe”) is an important problem in logic synthesis. Manually crafted synthesis recipes have poor quality. State-of-the art machine learning (ML) works to generate synthesis recipes do not scale to large netlists as the models need to be trained from scratch, for which training data is collected using time consuming synthesis runs. We propose a new approach, Bulls-Eye, that fine-tunes a pre-trained model on past synthesis data to accurately predict the quality of a synthesis recipe for an unseen netlist. Our approach achieves 2x-30x run-time improvement and generates synthesis recipes achieving close to 95% quality-of-result (QoR) compared to conventional techniques using actual synthesis runs. We show our QoR beat state-of-the-art approaches on various benchmarks.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-MLCAD20_decision" >
+<td align='right'>
+3.
+</td>
+<td>
+    Decision making in synthesis cross technologies using LSTMs and transfer learning 
+[<a href='javascript:;'
+    onclick='$("#abs_MLCAD20_decision").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3380446.3430638' target='_blank'>paper</a>]  [<a href='https://www.youtube.com/watch?v=c5k1uQahMa8&t=184s' target='_blank'>talk</a>] <br>
+    <em>Cunxi&nbsp;Yu and Wang&nbsp;Zhou</em><br>
+    MLCAD 2020  <br>
+    
+<div id="abs_MLCAD20_decision" style="text-align: justify; display: none" markdown="1">
+We propose a general approach that precisely estimates the Quality-of-Result (QoR), such as delay and area, of unseen synthesis flows for specific designs. The main idea is leveraging LSTM-based network to forecast the QoR, where the inputs are synthesis flows represented in novel timed-flow modeling, and QoRs are ground truth. This approach is demonstrated with 1.2 million data points collected using 14nm, 7nm regular-voltage (RVT), and 7nm low-voltage (LVT) technologies with twelve IC designs. The accuracy of predicting the QoRs (delay and area) evaluated using mean absolute prediction error (MAPE). While collecting training data points in EDA can be extremely challenging, we propose to elaborate transfer learning in our approach, which enables accurate predictions cross different technologies and different IC designs. Our transfer learning approach obtains estimation MAPE 3.7% over 960,000 test points collected on 7nm technologies, with only 100 data points used for training the pre-trained LSTM network using 14nm dataset.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-DAC18_angel" >
+<td align='right'>
+4.
+</td>
+<td>
+    Developing synthesis flows without human knowledge 
+[<a href='javascript:;'
+    onclick='$("#abs_DAC18_angel").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3195970.3196026' target='_blank'>paper</a>]  [<a href='https://github.com/ycunxi/FLowGen-CNNs-DAC18' target='_blank'>code</a>]  [<a href='https://ycunxi.github.io/cunxiyu/slides/dac18.pdf' target='_blank'>slides</a>] <br>
+    <em>Cunxi&nbsp;Yu, Houping&nbsp;Xiao, and Giovanni&nbsp;De&nbsp;Micheli</em><br>
+    DAC 2018  <br>
+    
+<div id="abs_DAC18_angel" style="text-align: justify; display: none" markdown="1">
+Design flows are the explicit combinations of design transformations, primarily involved in synthesis, placement and routing processes, to accomplish the design of Integrated Circuits (ICs) and System-on-Chip (SoC). Mostly, the flows are developed based on the knowledge of the experts. However, due to the large search space of design flows and the increasing design complexity, developing Intellectual Property (IP)-specific synthesis flows providing high Quality of Result (QoR) is extremely challenging. This work presents a fully autonomous framework that artificially produces design-specific synthesis flows without human guidance and baseline flows, using Convolutional Neural Network (CNN). The demonstrations are made by successfully designing logic synthesis flows of three large scaled designs.
+</div>
+
+</td>
+</tr>
+
+</table>
 
 
 
 ## <i class="fa fa-chevron-right"></i> Circuit Verification
 
+<h3>Circuit Verification</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC22_ncl" >
+<td align='right'>
+1.
+</td>
+<td>
+    Functionality matters in netlist representation learning [<a href='http://www.cse.cuhk.edu.hk/~byu/papers/C142-DAC2022-GCL.pdf' target='_blank'>paper</a>] <br>
+    <em>Ziyi&nbsp;Wang, Chen&nbsp;Bai, Zhuolun&nbsp;He, Guangliang&nbsp;Zhang, Qiang&nbsp;Xu, Tsung-Yi&nbsp;Ho, Bei&nbsp;Yu, and Yu&nbsp;Huang</em><br>
+    DAC 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ICCAD21_abgnn" >
+<td align='right'>
+2.
+</td>
+<td>
+    Graph Learning-Based Arithmetic Block Identification [<a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9643581&casa_token=eTSwwwdrkj0AAAAA:iSIYCHnrvx8WxjcHJRg-LZFEa5c9sA1ZlWBo7YUiUdpwVPq4m5-j-V2mi3tk7sFz7cJIRMk&tag=1' target='_blank'>paper</a>] <br>
+    <em>Zhuolun&nbsp;He, Ziyi&nbsp;Wang, Chen&nbsp;Bail, Haoyu&nbsp;Yang, and Bei&nbsp;Yu</em><br>
+    ICCAD 2021  <br>
+    
+</td>
+</tr>
+
+</table>
 
 
 
@@ -24,14 +173,66 @@
 <h3></h3>
 <table class="table table-hover">
 
-<tr id="tr-PLACE-DAC2019-DREAMPlace" >
+<tr id="tr-PLACE-DATE2021-Cong" >
 <td align='right'>
 1.
+</td>
+<td>
+    Global placement with deep learning-enabled explicit routability optimization <br>
+    <em>Siting&nbsp;Liu, Qi&nbsp;Sun, Peiyu&nbsp;Liao, Yibo&nbsp;Lin, and Bei&nbsp;Yu</em><br>
+    DATE 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-PLACE-DAC2019-DREAMPlace" >
+<td align='right'>
+2.
 </td>
 <td>
     DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement <br>
     <em>Yibo&nbsp;Lin, Shounak&nbsp;Dhar, Wuxi&nbsp;Li, Haoxing&nbsp;Ren, Brucek&nbsp;Khailany, and David&nbsp;Z.&nbsp;Pan</em><br>
     DAC 2019  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-PLACE-DAC2019-painting" >
+<td align='right'>
+3.
+</td>
+<td>
+    Painting on placement: Forecasting routing congestion using conditional generative adversarial nets <br>
+    <em>Cunxi&nbsp;Yu and Zhiru&nbsp;Zhang</em><br>
+    DAC 2019  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-PLACE-DAC2019-pin" >
+<td align='right'>
+4.
+</td>
+<td>
+    Pin accessibility prediction and optimization with deep learning-based pin pattern recognition <br>
+    <em>Tao-Chun&nbsp;Yu, Shao-Yun&nbsp;Fang, Hsien-Shih&nbsp;Chiu, Kai-Shun&nbsp;Hu, Philip&nbsp;Hui-Yuh&nbsp;Tai, Cindy&nbsp;Chin-Fang&nbsp;Shen, and Henry&nbsp;Sheng</em><br>
+    DAC 2019  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-PLACE-ICCAD2018-routenet" >
+<td align='right'>
+5.
+</td>
+<td>
+    RouteNet: Routability prediction for mixed-size designs using convolutional neural network <br>
+    <em>Zhiyao&nbsp;Xie, Yu-Hung&nbsp;Huang, Guan-Qi&nbsp;Fang, Haoxing&nbsp;Ren, Shao-Yun&nbsp;Fang, Yiran&nbsp;Chen, and Jiang&nbsp;Hu</em><br>
+    ICCAD 2018  <br>
     
 </td>
 </tr>
@@ -47,11 +248,82 @@
 
 ## <i class="fa fa-chevron-right"></i> Routing
 
+<h3>Routing</h3>
+<table class="table table-hover">
+
+<tr id="tr-ROUTE-DAC2023-Steiner" >
+<td align='right'>
+1.
+</td>
+<td>
+    Concurrent Sign-off Timing Optimization via Deep Steiner Points Refinement <br>
+    <em>Siting&nbsp;Liu, Ziyi&nbsp;Wang, Fangzhou&nbsp;Liu, Yibo&nbsp;Lin, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ROUTE-DATE2021-RLOrder" >
+<td align='right'>
+2.
+</td>
+<td>
+    Asynchronous reinforcement learning framework for net order exploration in detailed routing <br>
+    <em>Tong&nbsp;Qu, Yibo&nbsp;Lin, Zongqing&nbsp;Lu, Yajuan&nbsp;Su, and Yayi&nbsp;Wei</em><br>
+    DATE 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ROUTE-DAC2020-NNICs" >
+<td align='right'>
+3.
+</td>
+<td>
+    Late breaking results: A neural network that routes ics <br>
+    <em>Dmitry&nbsp;Utyamishev and Inna&nbsp;Partin-Vaisband</em><br>
+    DAC 2020  <br>
+    
+</td>
+</tr>
+
+</table>
 
 
 
 ## <i class="fa fa-chevron-right"></i> Timing
 
+<h3>Timing</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_gnnOpt" >
+<td align='right'>
+1.
+</td>
+<td>
+    Restructure-Tolerant Timing Prediction via Multimodal Fusion <br>
+    <em>Ziyi&nbsp;Wang, Siting&nbsp;Liu, Yuan&nbsp;Pu, Song&nbsp;Chen, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC22_gnnSTA" >
+<td align='right'>
+2.
+</td>
+<td>
+    A timing engine inspired graph neural network model for pre-routing slack prediction <br>
+    <em>Zizheng&nbsp;Guo, Mingjie&nbsp;Liu, Jiaqi&nbsp;Gu, Shuhan&nbsp;Zhang, David&nbsp;Z&nbsp;Pan, and Yibo&nbsp;Lin</em><br>
+    DAC 2022  <br>
+    
+</td>
+</tr>
+
+</table>
 
 
 
@@ -97,6 +369,22 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 </tr>
 
 </table>
+<h3>Layout Generation</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_Diff" >
+<td align='right'>
+1.
+</td>
+<td>
+    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
+    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Lithography</h3>
 <table class="table table-hover">
 
@@ -121,22 +409,6 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
     DeePEB: A Neural Partial Differential Equation Solver for Post Exposure Baking Simulation in Lithography [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549398' target='_blank'>paper</a>]  [<a href='https://github.com/Brilight/DeePEB' target='_blank'>code</a>] <br>
     <em>Qipan&nbsp;Wang, Xiaohan&nbsp;Gao, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
     ICCAD 2022  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Layout Generation</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_Diff" >
-<td align='right'>
-1.
-</td>
-<td>
-    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
-    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
-    DAC 2023  <br>
     
 </td>
 </tr>
