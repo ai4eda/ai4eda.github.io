@@ -15,12 +15,59 @@ Or contact [Guojin Chen](https://gjchen.me) by email [cgjcuhk@gmail.com](cgjcuhk
 
 ## Example
 
+`bibtex` -> `html`
+
 ![Bibtex2Html](/images/bibtex2html.png)
 
 
 <br/>
 
-## How to contribute / add my publications?
+# How to contribute / add my publications?
+
+By email or By github PR.
+
+## Method 1: send your `bibtex` to Guojin Chen by email [cgjcuhk@gmail.com](cgjcuhk@gmail.com)
+
+
+### `bibtex` format
+Following this format. Example: 👇🏻
+
+**Required Fields**
+
+The `title`, `author`, `_venue`, `year`, `topic` Fields are required. You publication will be displayed into the corresponding topic.
+
+**Optional Fields**
+
+You can also add `url` or `link` field to attach the paper link.
+
+Add the `abstract` field to show the paper abstract.
+
+Add the `code_url`, `slides_url`, `video_url`, `talk_url`, `project_url` field for link to your codes, slides, video, talks, or project pages.
+
+```txt
+@inproceedings{DAC23_Nitho,
+  title={Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields},
+  author={Chen, Guojin and Pei, Zehua and Yang, Haoyu and Ma, Yuzhe and Yu, Bei and Wong, Martin},
+  booktitle={ACM/IEEE Design Automation Conference,  (\textbf{DAC '23})},
+  _venue={DAC},                              # Required field,
+  year={2023},                               # Required field,
+  topic = {Lithography},                     # Required field,
+  url = {link to your paper},                # Optional field,
+  abstract = {abstract of your paper},       # Optional field,
+  code_url = {link to your codes},           # Optional field,
+  slides_url = {link to your slides},        # Optional field,
+  talk_url = {link to your talk video},      # Optional field,
+  video_url = {link to your video},          # Optional field,
+  project_url = {link to your project page}, # Optional field,
+}
+```
+
+<br/>
+<br/>
+
+## Method 2: Submit a github PR to [https://github.com/ai4eda/awesome-AI4EDA](https://github.com/ai4eda/awesome-AI4EDA)
+
+
 
 ### Step 1: Add your `bibtex` file to `./publications/***.bib`
 
@@ -69,41 +116,13 @@ categories_publications:
 
 ### Step 2: Add the topic for your pub in the bibtex file.
 
-Example: 👇🏻
-
-**Required Fields**
-
-The `title`, `author`, `_venue`, `year`, `topic` Fields are required. You publication will be displayed into the corresponding topic.
-
-**Optional Fields**
-
-You can also add `url` or `link` field to attach the paper link.
-
-Add the `abstract` field to show the paper abstract.
-
-Add the `code_url`, `slides_url`, `video_url`, `talk_url`, `project_url` field for link to your codes, slides, video, talks, or project pages.
-
-```txt
-@inproceedings{DAC23_Nitho,
-  title={Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields},
-  author={Chen, Guojin and Pei, Zehua and Yang, Haoyu and Ma, Yuzhe and Yu, Bei and Wong, Martin},
-  booktitle={ACM/IEEE Design Automation Conference,  (\textbf{DAC '23})},
-  _venue={DAC},                              # Required field,
-  year={2023},                               # Required field,
-  topic = {Lithography},                     # Required field,
-  url = {link to your paper},                # Optional field,
-  abstract = {abstract of your paper},       # Optional field,
-  code_url = {link to your codes},           # Optional field,
-  slides_url = {link to your slides},        # Optional field,
-  talk_url = {link to your talk video},      # Optional field,
-  video_url = {link to your video},          # Optional field,
-  project_url = {link to your project page}, # Optional field,
-}
-```
+Follow the `bibtex` format above. Add your `bibtex` to the corresponding file.
 
 ### Step3: Submit a PR  or email to Guojin Chen ([cgjcuhk@gmail.com](mailto:cgjcuhk@gmail.com))
 
-Submit a PR to repo: [awesome-AI4EDA](https://github.com/ai4eda/awesome-AI4EDA)
+Submit a PR to repo: [awesome-AI4EDA](https://github.com/ai4eda/awesome-AI4EDA).
+
+Or send your plain text `bibtex` to Guojin Chen ([cgjcuhk@gmail.com](mailto:cgjcuhk@gmail.com))
 
 Thank you.
 
