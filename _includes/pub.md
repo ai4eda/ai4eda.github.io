@@ -6,6 +6,61 @@
 
 ## <i class="fa fa-chevron-right"></i> High Level Synthesis
 
+<h3></h3>
+<table class="table table-hover">
+
+<tr id="tr-10.1145/3503540" >
+<td align='right'>
+1.
+</td>
+<td>
+    Correlated Multi-Objective Multi-Fidelity Optimization for HLS Directives Design [<a href='https://doi.org/10.1145/3503540' target='_blank'>paper</a>] <br>
+    <em>Qi&nbsp;Sun, Tinghuan&nbsp;Chen, Siting&nbsp;Liu, Jianli&nbsp;Chen, Hao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
+    TODAES 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-8714724" >
+<td align='right'>
+2.
+</td>
+<td>
+    Machine Learning Based Routing Congestion Prediction in FPGA High-Level Synthesis <br>
+    <em>Jieru&nbsp;Zhao, Tingyuan&nbsp;Liang, Sharad&nbsp;Sinha, and Wei&nbsp;Zhang</em><br>
+    DATE 2019  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-10.1145/3020078.3021747" >
+<td align='right'>
+3.
+</td>
+<td>
+    A Parallel Bandit-Based Approach for Autotuning FPGA Compilation [<a href='https://doi.org/10.1145/3020078.3021747' target='_blank'>paper</a>] <br>
+    <em>Chang&nbsp;Xu, Gai&nbsp;Liu, Ritchie&nbsp;Zhao, Stephen&nbsp;Yang, Guojie&nbsp;Luo, and Zhiru&nbsp;Zhang</em><br>
+    FPGA 2017  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liu2013learning" >
+<td align='right'>
+4.
+</td>
+<td>
+    On learning-based methods for design-space exploration with high-level synthesis <br>
+    <em>Hung-Yi&nbsp;Liu and Luca&nbsp;P&nbsp;Carloni</em><br>
+    DAC 2013  <br>
+    
+</td>
+</tr>
+
+</table>
 
 
 
@@ -202,9 +257,35 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 <h3></h3>
 <table class="table table-hover">
 
-<tr id="tr-PLACE-DATE2021-Cong" >
+<tr id="tr-cheng2022the" >
 <td align='right'>
 1.
+</td>
+<td>
+    The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design [<a href='https://openreview.net/forum?id=uNYqDfPEDD8' target='_blank'>paper</a>] <br>
+    <em>Ruoyu&nbsp;Cheng, Xianglong&nbsp;Lyu, Yang&nbsp;Li, Junjie&nbsp;Ye, Jianye&nbsp;HAO, and Junchi&nbsp;Yan</em><br>
+    NeurIPS 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-lai2022maskplace" >
+<td align='right'>
+2.
+</td>
+<td>
+    MaskPlace: Fast Chip Placement via Reinforced Visual Representation Learning <br>
+    <em>Yao&nbsp;Lai, Yao&nbsp;Mu, and Ping&nbsp;Luo</em><br>
+    NeurIPS 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-PLACE-DATE2021-Cong" >
+<td align='right'>
+3.
 </td>
 <td>
     Global placement with deep learning-enabled explicit routability optimization <br>
@@ -215,9 +296,22 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 </tr>
 
 
+<tr id="tr-NEURIPS2021_898aef09" >
+<td align='right'>
+4.
+</td>
+<td>
+    On Joint Learning for Solving Placement and Routing in Chip Design [<a href='https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf' target='_blank'>paper</a>] <br>
+    <em>Ruoyu&nbsp;Cheng and Junchi&nbsp;Yan</em><br>
+    NeurIPS 2021  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-PLACE-DAC2019-DREAMPlace" >
 <td align='right'>
-2.
+5.
 </td>
 <td>
     DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement <br>
@@ -230,7 +324,7 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 
 <tr id="tr-PLACE-DAC2019-painting" >
 <td align='right'>
-3.
+6.
 </td>
 <td>
     Painting on placement: Forecasting routing congestion using conditional generative adversarial nets <br>
@@ -243,7 +337,7 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 
 <tr id="tr-PLACE-DAC2019-pin" >
 <td align='right'>
-4.
+7.
 </td>
 <td>
     Pin accessibility prediction and optimization with deep learning-based pin pattern recognition <br>
@@ -256,7 +350,7 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 
 <tr id="tr-PLACE-ICCAD2018-routenet" >
 <td align='right'>
-5.
+8.
 </td>
 <td>
     RouteNet: Routability prediction for mixed-size designs using convolutional neural network <br>
@@ -277,6 +371,35 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 
 ## <i class="fa fa-chevron-right"></i> Routing
 
+<h3></h3>
+<table class="table table-hover">
+
+<tr id="tr-NEURIPS2021_898aef09" >
+<td align='right'>
+1.
+</td>
+<td>
+    On Joint Learning for Solving Placement and Routing in Chip Design [<a href='https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf' target='_blank'>paper</a>] <br>
+    <em>Ruoyu&nbsp;Cheng and Junchi&nbsp;Yan</em><br>
+    NeurIPS 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-NEURIPS2021_898aef09" >
+<td align='right'>
+2.
+</td>
+<td>
+    On Joint Learning for Solving Placement and Routing in Chip Design [<a href='https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf' target='_blank'>paper</a>] <br>
+    <em>Ruoyu&nbsp;Cheng and Junchi&nbsp;Yan</em><br>
+    NeurIPS 2021  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Routing</h3>
 <table class="table table-hover">
 
@@ -442,6 +565,41 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 </td>
 </tr>
 
+
+<tr id="tr-10.1145/3195970.3196056" >
+<td align='right'>
+4.
+</td>
+<td>
+    GAN-OPC: Mask Optimization with Lithography-Guided Generative Adversarial Nets 
+[<a href='javascript:;'
+    onclick='$("#abs_10.1145/3195970.3196056").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3195970.3196056' target='_blank'>paper</a>] <br>
+    <em>Haoyu&nbsp;Yang, Shuhe&nbsp;Li, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Evangeline&nbsp;F.&nbsp;Y.&nbsp;Young</em><br>
+    DAC 2018  <br>
+    
+<div id="abs_10.1145/3195970.3196056" style="text-align: justify; display: none" markdown="1">
+Mask optimization has been a critical problem in the VLSI design flow due to the mismatch between the lithography system and the continuously shrinking feature sizes. Optical proximity correction (OPC) is one of the prevailing resolution enhancement techniques (RETs) that can significantly improve mask printability. However, in advanced technology nodes, the mask optimization process consumes more and more computational resources. In this paper, we develop a generative adversarial network (GAN) model to achieve better mask optimization performance. We first develop an OPC-oriented GAN flow that can learn target-mask mapping from the improved architecture and objectives, which leads to satisfactory mask optimization results. To facilitate the training process and ensure better convergence, we also propose a pre-training procedure that jointly trains the neural network with inverse lithography technique (ILT). At convergence, the generative network is able to create quasi-optimal masks for given target circuit patterns and fewer normal OPC steps are required to generate high quality masks. Experimental results show that our flow can facilitate the mask optimization process as well as ensure a better printability.
+</div>
+
+</td>
+</tr>
+
+</table>
+<h3>Layout Generation</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_Diff" >
+<td align='right'>
+1.
+</td>
+<td>
+    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
+    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
 </table>
 <h3>Lithography</h3>
 <table class="table table-hover">
@@ -471,19 +629,22 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 </td>
 </tr>
 
-</table>
-<h3>Layout Generation</h3>
-<table class="table table-hover">
 
-<tr id="tr-DAC23_Diff" >
+<tr id="tr-10.1145/3489517.3530580" >
 <td align='right'>
-1.
+3.
 </td>
 <td>
-    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
-    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
-    DAC 2023  <br>
+    Generic Lithography Modeling with Dual-Band Optics-Inspired Neural Networks 
+[<a href='javascript:;'
+    onclick='$("#abs_10.1145/3489517.3530580").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3489517.3530580' target='_blank'>paper</a>] <br>
+    <em>Haoyu&nbsp;Yang, Zongyi&nbsp;Li, Kumara&nbsp;Sastry, Saumyadip&nbsp;Mukhopadhyay, Mark&nbsp;Kilgard, Anima&nbsp;Anandkumar, Brucek&nbsp;Khailany, Vivek&nbsp;Singh, and Haoxing&nbsp;Ren</em><br>
+    DAC 2022  <br>
     
+<div id="abs_10.1145/3489517.3530580" style="text-align: justify; display: none" markdown="1">
+Lithography simulation is a critical step in VLSI design and optimization for manufacturability. Existing solutions for highly accurate lithography simulation with rigorous models are computationally expensive and slow, even when equipped with various approximation techniques. Recently, machine learning has provided alternative solutions for lithography simulation tasks such as coarse-grained edge placement error regression and complete contour prediction. However, the impact of these learning-based methods has been limited due to restrictive usage scenarios or low simulation accuracy. To tackle these concerns, we introduce an dual-band optics-inspired neural network design that considers the optical physics underlying lithography. To the best of our knowledge, our approach yields the first published via/metal layer contour simulation at 1nm2/pixel resolution with any tile size. Compared to previous machine learning based solutions, we demonstrate that our framework can be trained much faster and offers a significant improvement on efficiency and image quality with 20\texttimes smaller model size. We also achieve 85\texttimes simulation speedup over traditional lithography simulator with ~ 1% accuracy loss.
+</div>
+
 </td>
 </tr>
 
@@ -493,6 +654,28 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 
 ## <i class="fa fa-chevron-right"></i> Analog Layout Synthesis
 
+<h3>Analog Layout Synthesis</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC20_ClosingTheDesignLoop" >
+<td align='right'>
+1.
+</td>
+<td>
+    Closing the Design Loop: Bayesian Optimization Assisted Hierarchical Analog Layout Synthesis 
+[<a href='javascript:;'
+    onclick='$("#abs_DAC20_ClosingTheDesignLoop").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/pdf/10.5555/3437539.3437770' target='_blank'>paper</a>]  [<a href='https://github.com/magical-eda/MAGICAL.git' target='_blank'>code</a>]  [<a href='https://pdfs.semanticscholar.org/e994/c108710d83541a08d21b4a34ca3dfe221c31.pdf' target='_blank'>slides</a>] <br>
+    <em>Mingjie&nbsp;Liu, Keren&nbsp;Zhu, Xiyuan&nbsp;Tang, Biying&nbsp;Xu, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
+    DAC 2019  <br>
+    
+<div id="abs_DAC20_ClosingTheDesignLoop" style="text-align: justify; display: none" markdown="1">
+Existing analog layout synthesis tools provide little guarantee to post layout performance and have limited capabilities of handling system-level designs. In this paper, we present a closed-loop hierarchical analog layout synthesizer, capable of handling system designs. To ensure system performance, the building block layout implementations are optimized efficiently, utilizing post layout simulations with multi-objective Bayesian optimization. To the best of our knowledge, this is the first work demonstrating success in automated layout synthesis on generic analog system designs. Experimental results show our synthesized continuous-time ΔΣ modulator (CTDSM) achieves post layout performance of 65.9dB in signal to noise and distortion ratio (SNDR), compared with 67.8dB in the schematic design.
+</div>
+
+</td>
+</tr>
+
+</table>
 <h3>Analog Layout Routing</h3>
 <table class="table table-hover">
 
@@ -534,28 +717,6 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
     <em>Keren&nbsp;Zhu, Hao&nbsp;Chen, Mingjie&nbsp;Liu, Xiyuan&nbsp;Tang, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
     ASP-DAC 2022  <br>
     
-</td>
-</tr>
-
-</table>
-<h3>Analog Layout Synthesis</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC20_ClosingTheDesignLoop" >
-<td align='right'>
-1.
-</td>
-<td>
-    Closing the Design Loop: Bayesian Optimization Assisted Hierarchical Analog Layout Synthesis 
-[<a href='javascript:;'
-    onclick='$("#abs_DAC20_ClosingTheDesignLoop").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/pdf/10.5555/3437539.3437770' target='_blank'>paper</a>]  [<a href='https://github.com/magical-eda/MAGICAL.git' target='_blank'>code</a>]  [<a href='https://pdfs.semanticscholar.org/e994/c108710d83541a08d21b4a34ca3dfe221c31.pdf' target='_blank'>slides</a>] <br>
-    <em>Mingjie&nbsp;Liu, Keren&nbsp;Zhu, Xiyuan&nbsp;Tang, Biying&nbsp;Xu, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
-    DAC 2019  <br>
-    
-<div id="abs_DAC20_ClosingTheDesignLoop" style="text-align: justify; display: none" markdown="1">
-Existing analog layout synthesis tools provide little guarantee to post layout performance and have limited capabilities of handling system-level designs. In this paper, we present a closed-loop hierarchical analog layout synthesizer, capable of handling system designs. To ensure system performance, the building block layout implementations are optimized efficiently, utilizing post layout simulations with multi-objective Bayesian optimization. To the best of our knowledge, this is the first work demonstrating success in automated layout synthesis on generic analog system designs. Experimental results show our synthesized continuous-time ΔΣ modulator (CTDSM) achieves post layout performance of 65.9dB in signal to noise and distortion ratio (SNDR), compared with 67.8dB in the schematic design.
-</div>
-
 </td>
 </tr>
 
