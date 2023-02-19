@@ -6,6 +6,61 @@
 
 ## <i class="fa fa-chevron-right"></i> High Level Synthesis
 
+<h3></h3>
+<table class="table table-hover">
+
+<tr id="tr-10.1145/3503540" >
+<td align='right'>
+1.
+</td>
+<td>
+    Correlated Multi-Objective Multi-Fidelity Optimization for HLS Directives Design [<a href='https://doi.org/10.1145/3503540' target='_blank'>paper</a>] <br>
+    <em>Qi&nbsp;Sun, Tinghuan&nbsp;Chen, Siting&nbsp;Liu, Jianli&nbsp;Chen, Hao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
+    TODAES 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-8714724" >
+<td align='right'>
+2.
+</td>
+<td>
+    Machine Learning Based Routing Congestion Prediction in FPGA High-Level Synthesis <br>
+    <em>Jieru&nbsp;Zhao, Tingyuan&nbsp;Liang, Sharad&nbsp;Sinha, and Wei&nbsp;Zhang</em><br>
+    DATE 2019  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-10.1145/3020078.3021747" >
+<td align='right'>
+3.
+</td>
+<td>
+    A Parallel Bandit-Based Approach for Autotuning FPGA Compilation [<a href='https://doi.org/10.1145/3020078.3021747' target='_blank'>paper</a>] <br>
+    <em>Chang&nbsp;Xu, Gai&nbsp;Liu, Ritchie&nbsp;Zhao, Stephen&nbsp;Yang, Guojie&nbsp;Luo, and Zhiru&nbsp;Zhang</em><br>
+    FPGA 2017  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liu2013learning" >
+<td align='right'>
+4.
+</td>
+<td>
+    On learning-based methods for design-space exploration with high-level synthesis <br>
+    <em>Hung-Yi&nbsp;Liu and Luca&nbsp;P&nbsp;Carloni</em><br>
+    DAC 2013  <br>
+    
+</td>
+</tr>
+
+</table>
 
 
 
@@ -389,6 +444,35 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 
 ## <i class="fa fa-chevron-right"></i> Mask Optimization
 
+<h3>Lithography</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_Nitho" >
+<td align='right'>
+1.
+</td>
+<td>
+    Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields <br>
+    <em>Guojin&nbsp;Chen, Zehua&nbsp;Pei, Haoyu&nbsp;Yang, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wang2022deepeb" >
+<td align='right'>
+2.
+</td>
+<td>
+    DeePEB: A Neural Partial Differential Equation Solver for Post Exposure Baking Simulation in Lithography [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549398' target='_blank'>paper</a>]  [<a href='https://github.com/Brilight/DeePEB' target='_blank'>code</a>] <br>
+    <em>Qipan&nbsp;Wang, Xiaohan&nbsp;Gao, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Mask Optimization</h3>
 <table class="table table-hover">
 
@@ -443,35 +527,6 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 </tr>
 
 </table>
-<h3>Lithography</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_Nitho" >
-<td align='right'>
-1.
-</td>
-<td>
-    Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields <br>
-    <em>Guojin&nbsp;Chen, Zehua&nbsp;Pei, Haoyu&nbsp;Yang, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-wang2022deepeb" >
-<td align='right'>
-2.
-</td>
-<td>
-    DeePEB: A Neural Partial Differential Equation Solver for Post Exposure Baking Simulation in Lithography [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549398' target='_blank'>paper</a>]  [<a href='https://github.com/Brilight/DeePEB' target='_blank'>code</a>] <br>
-    <em>Qipan&nbsp;Wang, Xiaohan&nbsp;Gao, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
-    ICCAD 2022  <br>
-    
-</td>
-</tr>
-
-</table>
 <h3>Layout Generation</h3>
 <table class="table table-hover">
 
@@ -493,6 +548,28 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 
 ## <i class="fa fa-chevron-right"></i> Analog Layout Synthesis
 
+<h3>Analog Layout Synthesis</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC20_ClosingTheDesignLoop" >
+<td align='right'>
+1.
+</td>
+<td>
+    Closing the Design Loop: Bayesian Optimization Assisted Hierarchical Analog Layout Synthesis 
+[<a href='javascript:;'
+    onclick='$("#abs_DAC20_ClosingTheDesignLoop").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/pdf/10.5555/3437539.3437770' target='_blank'>paper</a>]  [<a href='https://github.com/magical-eda/MAGICAL.git' target='_blank'>code</a>]  [<a href='https://pdfs.semanticscholar.org/e994/c108710d83541a08d21b4a34ca3dfe221c31.pdf' target='_blank'>slides</a>] <br>
+    <em>Mingjie&nbsp;Liu, Keren&nbsp;Zhu, Xiyuan&nbsp;Tang, Biying&nbsp;Xu, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
+    DAC 2019  <br>
+    
+<div id="abs_DAC20_ClosingTheDesignLoop" style="text-align: justify; display: none" markdown="1">
+Existing analog layout synthesis tools provide little guarantee to post layout performance and have limited capabilities of handling system-level designs. In this paper, we present a closed-loop hierarchical analog layout synthesizer, capable of handling system designs. To ensure system performance, the building block layout implementations are optimized efficiently, utilizing post layout simulations with multi-objective Bayesian optimization. To the best of our knowledge, this is the first work demonstrating success in automated layout synthesis on generic analog system designs. Experimental results show our synthesized continuous-time ΔΣ modulator (CTDSM) achieves post layout performance of 65.9dB in signal to noise and distortion ratio (SNDR), compared with 67.8dB in the schematic design.
+</div>
+
+</td>
+</tr>
+
+</table>
 <h3>Analog Layout Routing</h3>
 <table class="table table-hover">
 
@@ -534,28 +611,6 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
     <em>Keren&nbsp;Zhu, Hao&nbsp;Chen, Mingjie&nbsp;Liu, Xiyuan&nbsp;Tang, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
     ASP-DAC 2022  <br>
     
-</td>
-</tr>
-
-</table>
-<h3>Analog Layout Synthesis</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC20_ClosingTheDesignLoop" >
-<td align='right'>
-1.
-</td>
-<td>
-    Closing the Design Loop: Bayesian Optimization Assisted Hierarchical Analog Layout Synthesis 
-[<a href='javascript:;'
-    onclick='$("#abs_DAC20_ClosingTheDesignLoop").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/pdf/10.5555/3437539.3437770' target='_blank'>paper</a>]  [<a href='https://github.com/magical-eda/MAGICAL.git' target='_blank'>code</a>]  [<a href='https://pdfs.semanticscholar.org/e994/c108710d83541a08d21b4a34ca3dfe221c31.pdf' target='_blank'>slides</a>] <br>
-    <em>Mingjie&nbsp;Liu, Keren&nbsp;Zhu, Xiyuan&nbsp;Tang, Biying&nbsp;Xu, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
-    DAC 2019  <br>
-    
-<div id="abs_DAC20_ClosingTheDesignLoop" style="text-align: justify; display: none" markdown="1">
-Existing analog layout synthesis tools provide little guarantee to post layout performance and have limited capabilities of handling system-level designs. In this paper, we present a closed-loop hierarchical analog layout synthesizer, capable of handling system designs. To ensure system performance, the building block layout implementations are optimized efficiently, utilizing post layout simulations with multi-objective Bayesian optimization. To the best of our knowledge, this is the first work demonstrating success in automated layout synthesis on generic analog system designs. Experimental results show our synthesized continuous-time ΔΣ modulator (CTDSM) achieves post layout performance of 65.9dB in signal to noise and distortion ratio (SNDR), compared with 67.8dB in the schematic design.
-</div>
-
 </td>
 </tr>
 
