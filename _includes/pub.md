@@ -66,6 +66,47 @@
 
 ## <i class="fa fa-chevron-right"></i> Logic Synthesis
 
+<h3>Operator Sequence Scheduling</h3>
+<table class="table table-hover">
+
+<tr id="tr-ICCAD20_flowtune" >
+<td align='right'>
+1.
+</td>
+<td>
+    Practical Multi-armed Bandits in Boolean Optimization 
+[<a href='javascript:;'
+    onclick='$("#abs_ICCAD20_flowtune").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3400302.3415615' target='_blank'>paper</a>]  [<a href='https://github.com/Yu-Utah/FlowTune' target='_blank'>code</a>]  [<a href='https://www.youtube.com/watch?v=EPcn5ttp1TM&t=360s' target='_blank'>talk</a>] <br>
+    <em>Cunxi&nbsp;Yu</em><br>
+    ICCAD 2020  <br>
+    
+<div id="abs_ICCAD20_flowtune" style="text-align: justify; display: none" markdown="1">
+Recent years have seen increasing employment of decision intelligence in electronic design automation (EDA), which aims to reduce the manual efforts and boost the design closure process in modern toolflows. However, existing approaches either require a large number of labeled data for training or are limited in practical EDA toolflow integration due to computation overhead. This paper presents a generic end-to-end and high-performance domainspecific, multi-stage multi-armed bandit framework for Boolean logic optimization. This framework addresses optimization problems on a) And-Inv-Graphs (# nodes), b) Conjunction Normal Form (CNF) minimization (# clauses) for Boolean Satisfiability, c) post static timing analysis (STA) delay and area optimization for standard-cell technology mapping, and d) FPGA technology mapping for 6-in LUT architectures. Moreover, the proposed framework has been integrated with ABC, Yosys, VTR, and industrial tools. The experimental results demonstrate that our framework outperforms both hand-crafted flows and ML explored flows in quality of results, and is orders of magnitude faster compared to ML-based approaches.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-ASPDAC20_drills" >
+<td align='right'>
+2.
+</td>
+<td>
+    DRiLLS: Deep Reinforcement Learning for Logic Synthesis 
+[<a href='javascript:;'
+    onclick='$("#abs_ASPDAC20_drills").toggle()'>abs</a>] [<a href='https://ieeexplore.ieee.org/abstract/document/9045559' target='_blank'>paper</a>]  [<a href='https://github.com/scale-lab/DRiLLS' target='_blank'>code</a>] <br>
+    <em>Abdelrahman&nbsp;Hosny, Soheil&nbsp;Hashemi, Mohamed&nbsp;Shalan, and Sherief&nbsp;Reda</em><br>
+    ASP-DAC 2020  <br>
+    
+<div id="abs_ASPDAC20_drills" style="text-align: justify; display: none" markdown="1">
+Logic synthesis requires extensive tuning of the synthesis optimization flow where the quality of results (QoR) depends on the sequence of optimizations used. Efficient design space exploration is challenging due to the exponential number of possible optimization permutations. Therefore, automating the optimization process is necessary. In this work, we propose a novel reinforcement learning-based methodology that navigates the optimization space without human intervention. We demonstrate the training of an Advantage Actor Critic (A2C) agent that seeks to minimize area subject to a timing constraint. Using the proposed methodology, designs can be optimized autonomously with no-humans in-loop. Evaluation on the comprehensive EPFL benchmark suite shows that the agent outperforms existing exploration methodologies and improves QoRs by an average of 13%.
+</div>
+
+</td>
+</tr>
+
+</table>
 <h3>Synthesis Results Estimation</h3>
 <table class="table table-hover">
 
@@ -145,81 +186,11 @@ Design flows are the explicit combinations of design transformations, primarily 
 </tr>
 
 </table>
-<h3>Operator Sequence Scheduling</h3>
-<table class="table table-hover">
-
-<tr id="tr-ICCAD20_flowtune" >
-<td align='right'>
-1.
-</td>
-<td>
-    Practical Multi-armed Bandits in Boolean Optimization 
-[<a href='javascript:;'
-    onclick='$("#abs_ICCAD20_flowtune").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3400302.3415615' target='_blank'>paper</a>]  [<a href='https://github.com/Yu-Utah/FlowTune' target='_blank'>code</a>]  [<a href='https://www.youtube.com/watch?v=EPcn5ttp1TM&t=360s' target='_blank'>talk</a>] <br>
-    <em>Cunxi&nbsp;Yu</em><br>
-    ICCAD 2020  <br>
-    
-<div id="abs_ICCAD20_flowtune" style="text-align: justify; display: none" markdown="1">
-Recent years have seen increasing employment of decision intelligence in electronic design automation (EDA), which aims to reduce the manual efforts and boost the design closure process in modern toolflows. However, existing approaches either require a large number of labeled data for training or are limited in practical EDA toolflow integration due to computation overhead. This paper presents a generic end-to-end and high-performance domainspecific, multi-stage multi-armed bandit framework for Boolean logic optimization. This framework addresses optimization problems on a) And-Inv-Graphs (# nodes), b) Conjunction Normal Form (CNF) minimization (# clauses) for Boolean Satisfiability, c) post static timing analysis (STA) delay and area optimization for standard-cell technology mapping, and d) FPGA technology mapping for 6-in LUT architectures. Moreover, the proposed framework has been integrated with ABC, Yosys, VTR, and industrial tools. The experimental results demonstrate that our framework outperforms both hand-crafted flows and ML explored flows in quality of results, and is orders of magnitude faster compared to ML-based approaches.
-</div>
-
-</td>
-</tr>
-
-
-<tr id="tr-ASPDAC20_drills" >
-<td align='right'>
-2.
-</td>
-<td>
-    DRiLLS: Deep Reinforcement Learning for Logic Synthesis 
-[<a href='javascript:;'
-    onclick='$("#abs_ASPDAC20_drills").toggle()'>abs</a>] [<a href='https://ieeexplore.ieee.org/abstract/document/9045559' target='_blank'>paper</a>]  [<a href='https://github.com/scale-lab/DRiLLS' target='_blank'>code</a>] <br>
-    <em>Abdelrahman&nbsp;Hosny, Soheil&nbsp;Hashemi, Mohamed&nbsp;Shalan, and Sherief&nbsp;Reda</em><br>
-    ASP-DAC 2020  <br>
-    
-<div id="abs_ASPDAC20_drills" style="text-align: justify; display: none" markdown="1">
-Logic synthesis requires extensive tuning of the synthesis optimization flow where the quality of results (QoR) depends on the sequence of optimizations used. Efficient design space exploration is challenging due to the exponential number of possible optimization permutations. Therefore, automating the optimization process is necessary. In this work, we propose a novel reinforcement learning-based methodology that navigates the optimization space without human intervention. We demonstrate the training of an Advantage Actor Critic (A2C) agent that seeks to minimize area subject to a timing constraint. Using the proposed methodology, designs can be optimized autonomously with no-humans in-loop. Evaluation on the comprehensive EPFL benchmark suite shows that the agent outperforms existing exploration methodologies and improves QoRs by an average of 13%.
-</div>
-
-</td>
-</tr>
-
-</table>
 
 
 
 ## <i class="fa fa-chevron-right"></i> Circuit Verification
 
-<h3>Reliability</h3>
-<table class="table table-hover">
-
-<tr id="tr-chen2021deep" >
-<td align='right'>
-1.
-</td>
-<td>
-    Deep H-GCN: Fast analog IC aging-induced degradation estimation <br>
-    <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
-    TCAD 2021  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-chen2021analog" >
-<td align='right'>
-2.
-</td>
-<td>
-    Analog IC aging-induced degradation estimation via heterogeneous graph convolutional networks <br>
-    <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
-    ASP-DAC 2021  <br>
-    
-</td>
-</tr>
-
-</table>
 <h3>Circuit Verification</h3>
 <table class="table table-hover">
 
@@ -249,6 +220,35 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 </tr>
 
 </table>
+<h3>Reliability</h3>
+<table class="table table-hover">
+
+<tr id="tr-chen2021deep" >
+<td align='right'>
+1.
+</td>
+<td>
+    Deep H-GCN: Fast analog IC aging-induced degradation estimation <br>
+    <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
+    TCAD 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2021analog" >
+<td align='right'>
+2.
+</td>
+<td>
+    Analog IC aging-induced degradation estimation via heterogeneous graph convolutional networks <br>
+    <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
+    ASP-DAC 2021  <br>
+    
+</td>
+</tr>
+
+</table>
 
 
 
@@ -257,9 +257,35 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 <h3></h3>
 <table class="table table-hover">
 
-<tr id="tr-PLACE-DATE2021-Cong" >
+<tr id="tr-cheng2022the" >
 <td align='right'>
 1.
+</td>
+<td>
+    The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design [<a href='https://openreview.net/forum?id=uNYqDfPEDD8' target='_blank'>paper</a>] <br>
+    <em>Ruoyu&nbsp;Cheng, Xianglong&nbsp;Lyu, Yang&nbsp;Li, Junjie&nbsp;Ye, Jianye&nbsp;HAO, and Junchi&nbsp;Yan</em><br>
+    NeurIPS 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-lai2022maskplace" >
+<td align='right'>
+2.
+</td>
+<td>
+    MaskPlace: Fast Chip Placement via Reinforced Visual Representation Learning <br>
+    <em>Yao&nbsp;Lai, Yao&nbsp;Mu, and Ping&nbsp;Luo</em><br>
+    NeurIPS 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-PLACE-DATE2021-Cong" >
+<td align='right'>
+3.
 </td>
 <td>
     Global placement with deep learning-enabled explicit routability optimization <br>
@@ -270,9 +296,22 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 </tr>
 
 
+<tr id="tr-NEURIPS2021_898aef09" >
+<td align='right'>
+4.
+</td>
+<td>
+    On Joint Learning for Solving Placement and Routing in Chip Design [<a href='https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf' target='_blank'>paper</a>] <br>
+    <em>Ruoyu&nbsp;Cheng and Junchi&nbsp;Yan</em><br>
+    NeurIPS 2021  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-PLACE-DAC2019-DREAMPlace" >
 <td align='right'>
-2.
+5.
 </td>
 <td>
     DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement <br>
@@ -285,7 +324,7 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 
 <tr id="tr-PLACE-DAC2019-painting" >
 <td align='right'>
-3.
+6.
 </td>
 <td>
     Painting on placement: Forecasting routing congestion using conditional generative adversarial nets <br>
@@ -298,7 +337,7 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 
 <tr id="tr-PLACE-DAC2019-pin" >
 <td align='right'>
-4.
+7.
 </td>
 <td>
     Pin accessibility prediction and optimization with deep learning-based pin pattern recognition <br>
@@ -311,7 +350,7 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 
 <tr id="tr-PLACE-ICCAD2018-routenet" >
 <td align='right'>
-5.
+8.
 </td>
 <td>
     RouteNet: Routability prediction for mixed-size designs using convolutional neural network <br>
@@ -332,6 +371,35 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 
 ## <i class="fa fa-chevron-right"></i> Routing
 
+<h3></h3>
+<table class="table table-hover">
+
+<tr id="tr-NEURIPS2021_898aef09" >
+<td align='right'>
+1.
+</td>
+<td>
+    On Joint Learning for Solving Placement and Routing in Chip Design [<a href='https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf' target='_blank'>paper</a>] <br>
+    <em>Ruoyu&nbsp;Cheng and Junchi&nbsp;Yan</em><br>
+    NeurIPS 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-NEURIPS2021_898aef09" >
+<td align='right'>
+2.
+</td>
+<td>
+    On Joint Learning for Solving Placement and Routing in Chip Design [<a href='https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf' target='_blank'>paper</a>] <br>
+    <em>Ruoyu&nbsp;Cheng and Junchi&nbsp;Yan</em><br>
+    NeurIPS 2021  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Routing</h3>
 <table class="table table-hover">
 
@@ -444,6 +512,22 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 
 ## <i class="fa fa-chevron-right"></i> Mask Optimization
 
+<h3>Layout Generation</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_Diff" >
+<td align='right'>
+1.
+</td>
+<td>
+    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
+    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Lithography</h3>
 <table class="table table-hover">
 
@@ -527,45 +611,23 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 </tr>
 
 </table>
-<h3>Layout Generation</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_Diff" >
-<td align='right'>
-1.
-</td>
-<td>
-    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
-    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-</table>
 
 
 
 ## <i class="fa fa-chevron-right"></i> Analog Layout Synthesis
 
-<h3>Analog Layout Synthesis</h3>
+<h3>Analog Layout Placement</h3>
 <table class="table table-hover">
 
-<tr id="tr-DAC20_ClosingTheDesignLoop" >
+<tr id="tr-9712592" >
 <td align='right'>
 1.
 </td>
 <td>
-    Closing the Design Loop: Bayesian Optimization Assisted Hierarchical Analog Layout Synthesis 
-[<a href='javascript:;'
-    onclick='$("#abs_DAC20_ClosingTheDesignLoop").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/pdf/10.5555/3437539.3437770' target='_blank'>paper</a>]  [<a href='https://github.com/magical-eda/MAGICAL.git' target='_blank'>code</a>]  [<a href='https://pdfs.semanticscholar.org/e994/c108710d83541a08d21b4a34ca3dfe221c31.pdf' target='_blank'>slides</a>] <br>
-    <em>Mingjie&nbsp;Liu, Keren&nbsp;Zhu, Xiyuan&nbsp;Tang, Biying&nbsp;Xu, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
-    DAC 2019  <br>
+    Generative-Adversarial-Network-Guided Well-Aware Placement for Analog Circuits <br>
+    <em>Keren&nbsp;Zhu, Hao&nbsp;Chen, Mingjie&nbsp;Liu, Xiyuan&nbsp;Tang, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
+    ASP-DAC 2022  <br>
     
-<div id="abs_DAC20_ClosingTheDesignLoop" style="text-align: justify; display: none" markdown="1">
-Existing analog layout synthesis tools provide little guarantee to post layout performance and have limited capabilities of handling system-level designs. In this paper, we present a closed-loop hierarchical analog layout synthesizer, capable of handling system designs. To ensure system performance, the building block layout implementations are optimized efficiently, utilizing post layout simulations with multi-objective Bayesian optimization. To the best of our knowledge, this is the first work demonstrating success in automated layout synthesis on generic analog system designs. Experimental results show our synthesized continuous-time ΔΣ modulator (CTDSM) achieves post layout performance of 65.9dB in signal to noise and distortion ratio (SNDR), compared with 67.8dB in the schematic design.
-</div>
-
 </td>
 </tr>
 
@@ -599,18 +661,24 @@ Existing analog layout synthesis tools provide little guarantee to post layout p
 </tr>
 
 </table>
-<h3>Analog Layout Placement</h3>
+<h3>Analog Layout Synthesis</h3>
 <table class="table table-hover">
 
-<tr id="tr-9712592" >
+<tr id="tr-DAC20_ClosingTheDesignLoop" >
 <td align='right'>
 1.
 </td>
 <td>
-    Generative-Adversarial-Network-Guided Well-Aware Placement for Analog Circuits <br>
-    <em>Keren&nbsp;Zhu, Hao&nbsp;Chen, Mingjie&nbsp;Liu, Xiyuan&nbsp;Tang, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
-    ASP-DAC 2022  <br>
+    Closing the Design Loop: Bayesian Optimization Assisted Hierarchical Analog Layout Synthesis 
+[<a href='javascript:;'
+    onclick='$("#abs_DAC20_ClosingTheDesignLoop").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/pdf/10.5555/3437539.3437770' target='_blank'>paper</a>]  [<a href='https://github.com/magical-eda/MAGICAL.git' target='_blank'>code</a>]  [<a href='https://pdfs.semanticscholar.org/e994/c108710d83541a08d21b4a34ca3dfe221c31.pdf' target='_blank'>slides</a>] <br>
+    <em>Mingjie&nbsp;Liu, Keren&nbsp;Zhu, Xiyuan&nbsp;Tang, Biying&nbsp;Xu, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
+    DAC 2019  <br>
     
+<div id="abs_DAC20_ClosingTheDesignLoop" style="text-align: justify; display: none" markdown="1">
+Existing analog layout synthesis tools provide little guarantee to post layout performance and have limited capabilities of handling system-level designs. In this paper, we present a closed-loop hierarchical analog layout synthesizer, capable of handling system designs. To ensure system performance, the building block layout implementations are optimized efficiently, utilizing post layout simulations with multi-objective Bayesian optimization. To the best of our knowledge, this is the first work demonstrating success in automated layout synthesis on generic analog system designs. Experimental results show our synthesized continuous-time ΔΣ modulator (CTDSM) achieves post layout performance of 65.9dB in signal to noise and distortion ratio (SNDR), compared with 67.8dB in the schematic design.
+</div>
+
 </td>
 </tr>
 
