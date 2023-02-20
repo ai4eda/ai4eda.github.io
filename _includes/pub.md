@@ -66,6 +66,47 @@
 
 ## <i class="fa fa-chevron-right"></i> Logic Synthesis
 
+<h3>Operator Sequence Scheduling</h3>
+<table class="table table-hover">
+
+<tr id="tr-ICCAD20_flowtune" >
+<td align='right'>
+1.
+</td>
+<td>
+    Practical Multi-armed Bandits in Boolean Optimization 
+[<a href='javascript:;'
+    onclick='$("#abs_ICCAD20_flowtune").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3400302.3415615' target='_blank'>paper</a>]  [<a href='https://github.com/Yu-Utah/FlowTune' target='_blank'>code</a>]  [<a href='https://www.youtube.com/watch?v=EPcn5ttp1TM&t=360s' target='_blank'>talk</a>] <br>
+    <em>Cunxi&nbsp;Yu</em><br>
+    ICCAD 2020  <br>
+    
+<div id="abs_ICCAD20_flowtune" style="text-align: justify; display: none" markdown="1">
+Recent years have seen increasing employment of decision intelligence in electronic design automation (EDA), which aims to reduce the manual efforts and boost the design closure process in modern toolflows. However, existing approaches either require a large number of labeled data for training or are limited in practical EDA toolflow integration due to computation overhead. This paper presents a generic end-to-end and high-performance domainspecific, multi-stage multi-armed bandit framework for Boolean logic optimization. This framework addresses optimization problems on a) And-Inv-Graphs (# nodes), b) Conjunction Normal Form (CNF) minimization (# clauses) for Boolean Satisfiability, c) post static timing analysis (STA) delay and area optimization for standard-cell technology mapping, and d) FPGA technology mapping for 6-in LUT architectures. Moreover, the proposed framework has been integrated with ABC, Yosys, VTR, and industrial tools. The experimental results demonstrate that our framework outperforms both hand-crafted flows and ML explored flows in quality of results, and is orders of magnitude faster compared to ML-based approaches.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-ASPDAC20_drills" >
+<td align='right'>
+2.
+</td>
+<td>
+    DRiLLS: Deep Reinforcement Learning for Logic Synthesis 
+[<a href='javascript:;'
+    onclick='$("#abs_ASPDAC20_drills").toggle()'>abs</a>] [<a href='https://ieeexplore.ieee.org/abstract/document/9045559' target='_blank'>paper</a>]  [<a href='https://github.com/scale-lab/DRiLLS' target='_blank'>code</a>] <br>
+    <em>Abdelrahman&nbsp;Hosny, Soheil&nbsp;Hashemi, Mohamed&nbsp;Shalan, and Sherief&nbsp;Reda</em><br>
+    ASP-DAC 2020  <br>
+    
+<div id="abs_ASPDAC20_drills" style="text-align: justify; display: none" markdown="1">
+Logic synthesis requires extensive tuning of the synthesis optimization flow where the quality of results (QoR) depends on the sequence of optimizations used. Efficient design space exploration is challenging due to the exponential number of possible optimization permutations. Therefore, automating the optimization process is necessary. In this work, we propose a novel reinforcement learning-based methodology that navigates the optimization space without human intervention. We demonstrate the training of an Advantage Actor Critic (A2C) agent that seeks to minimize area subject to a timing constraint. Using the proposed methodology, designs can be optimized autonomously with no-humans in-loop. Evaluation on the comprehensive EPFL benchmark suite shows that the agent outperforms existing exploration methodologies and improves QoRs by an average of 13%.
+</div>
+
+</td>
+</tr>
+
+</table>
 <h3>Synthesis Results Estimation</h3>
 <table class="table table-hover">
 
@@ -139,47 +180,6 @@ We propose a general approach that precisely estimates the Quality-of-Result (Qo
     
 <div id="abs_DAC18_angel" style="text-align: justify; display: none" markdown="1">
 Design flows are the explicit combinations of design transformations, primarily involved in synthesis, placement and routing processes, to accomplish the design of Integrated Circuits (ICs) and System-on-Chip (SoC). Mostly, the flows are developed based on the knowledge of the experts. However, due to the large search space of design flows and the increasing design complexity, developing Intellectual Property (IP)-specific synthesis flows providing high Quality of Result (QoR) is extremely challenging. This work presents a fully autonomous framework that artificially produces design-specific synthesis flows without human guidance and baseline flows, using Convolutional Neural Network (CNN). The demonstrations are made by successfully designing logic synthesis flows of three large scaled designs.
-</div>
-
-</td>
-</tr>
-
-</table>
-<h3>Operator Sequence Scheduling</h3>
-<table class="table table-hover">
-
-<tr id="tr-ICCAD20_flowtune" >
-<td align='right'>
-1.
-</td>
-<td>
-    Practical Multi-armed Bandits in Boolean Optimization 
-[<a href='javascript:;'
-    onclick='$("#abs_ICCAD20_flowtune").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3400302.3415615' target='_blank'>paper</a>]  [<a href='https://github.com/Yu-Utah/FlowTune' target='_blank'>code</a>]  [<a href='https://www.youtube.com/watch?v=EPcn5ttp1TM&t=360s' target='_blank'>talk</a>] <br>
-    <em>Cunxi&nbsp;Yu</em><br>
-    ICCAD 2020  <br>
-    
-<div id="abs_ICCAD20_flowtune" style="text-align: justify; display: none" markdown="1">
-Recent years have seen increasing employment of decision intelligence in electronic design automation (EDA), which aims to reduce the manual efforts and boost the design closure process in modern toolflows. However, existing approaches either require a large number of labeled data for training or are limited in practical EDA toolflow integration due to computation overhead. This paper presents a generic end-to-end and high-performance domainspecific, multi-stage multi-armed bandit framework for Boolean logic optimization. This framework addresses optimization problems on a) And-Inv-Graphs (# nodes), b) Conjunction Normal Form (CNF) minimization (# clauses) for Boolean Satisfiability, c) post static timing analysis (STA) delay and area optimization for standard-cell technology mapping, and d) FPGA technology mapping for 6-in LUT architectures. Moreover, the proposed framework has been integrated with ABC, Yosys, VTR, and industrial tools. The experimental results demonstrate that our framework outperforms both hand-crafted flows and ML explored flows in quality of results, and is orders of magnitude faster compared to ML-based approaches.
-</div>
-
-</td>
-</tr>
-
-
-<tr id="tr-ASPDAC20_drills" >
-<td align='right'>
-2.
-</td>
-<td>
-    DRiLLS: Deep Reinforcement Learning for Logic Synthesis 
-[<a href='javascript:;'
-    onclick='$("#abs_ASPDAC20_drills").toggle()'>abs</a>] [<a href='https://ieeexplore.ieee.org/abstract/document/9045559' target='_blank'>paper</a>]  [<a href='https://github.com/scale-lab/DRiLLS' target='_blank'>code</a>] <br>
-    <em>Abdelrahman&nbsp;Hosny, Soheil&nbsp;Hashemi, Mohamed&nbsp;Shalan, and Sherief&nbsp;Reda</em><br>
-    ASP-DAC 2020  <br>
-    
-<div id="abs_ASPDAC20_drills" style="text-align: justify; display: none" markdown="1">
-Logic synthesis requires extensive tuning of the synthesis optimization flow where the quality of results (QoR) depends on the sequence of optimizations used. Efficient design space exploration is challenging due to the exponential number of possible optimization permutations. Therefore, automating the optimization process is necessary. In this work, we propose a novel reinforcement learning-based methodology that navigates the optimization space without human intervention. We demonstrate the training of an Advantage Actor Critic (A2C) agent that seeks to minimize area subject to a timing constraint. Using the proposed methodology, designs can be optimized autonomously with no-humans in-loop. Evaluation on the comprehensive EPFL benchmark suite shows that the agent outperforms existing exploration methodologies and improves QoRs by an average of 13%.
 </div>
 
 </td>
@@ -735,6 +735,35 @@ Lithography simulation is a critical step in VLSI design and optimization for ma
 
 ## <i class="fa fa-chevron-right"></i> Analog Layout Synthesis
 
+<h3>Analog Layout Routing</h3>
+<table class="table table-hover">
+
+<tr id="tr-chen2023trouter" >
+<td align='right'>
+1.
+</td>
+<td>
+    TRouter: Thermal-driven PCB Routing via Non-Local Crisscross Attention Networks <br>
+    <em>Tinghuan&nbsp;Chen, Silu&nbsp;Xiong, Huan&nbsp;He, and Bei&nbsp;Yu</em><br>
+    TCAD 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-zhu2019geniusroute" >
+<td align='right'>
+2.
+</td>
+<td>
+    GeniusRoute: A new analog routing paradigm using generative neural network guidance <br>
+    <em>Keren&nbsp;Zhu, Mingjie&nbsp;Liu, Yibo&nbsp;Lin, Biying&nbsp;Xu, Shaolan&nbsp;Li, Xiyuan&nbsp;Tang, Nan&nbsp;Sun, and David&nbsp;Z&nbsp;Pan</em><br>
+    ICCAD 2019  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Analog Layout Synthesis</h3>
 <table class="table table-hover">
 
@@ -773,35 +802,6 @@ Existing analog layout synthesis tools provide little guarantee to post layout p
 </tr>
 
 </table>
-<h3>Analog Layout Routing</h3>
-<table class="table table-hover">
-
-<tr id="tr-chen2023trouter" >
-<td align='right'>
-1.
-</td>
-<td>
-    TRouter: Thermal-driven PCB Routing via Non-Local Crisscross Attention Networks <br>
-    <em>Tinghuan&nbsp;Chen, Silu&nbsp;Xiong, Huan&nbsp;He, and Bei&nbsp;Yu</em><br>
-    TCAD 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-zhu2019geniusroute" >
-<td align='right'>
-2.
-</td>
-<td>
-    GeniusRoute: A new analog routing paradigm using generative neural network guidance <br>
-    <em>Keren&nbsp;Zhu, Mingjie&nbsp;Liu, Yibo&nbsp;Lin, Biying&nbsp;Xu, Shaolan&nbsp;Li, Xiyuan&nbsp;Tang, Nan&nbsp;Sun, and David&nbsp;Z&nbsp;Pan</em><br>
-    ICCAD 2019  <br>
-    
-</td>
-</tr>
-
-</table>
 
 
 
@@ -815,7 +815,7 @@ Existing analog layout synthesis tools provide little guarantee to post layout p
 1.
 </td>
 <td>
-    CircuitNet: An Open-Source Dataset for Machine Learning Applications in Electronic Design Automation (EDA) <br>
+    CircuitNet: An Open-Source Dataset for Machine Learning Applications in Electronic Design Automation (EDA) [<a href='https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3571-8' target='_blank'>paper</a>]  [<a href='https://circuitnet.github.io/' target='_blank'>code</a>] <br>
     <em>Zhuomin&nbsp;Chai, Yuxiang&nbsp;Zhao, Yibo&nbsp;Lin, Wei&nbsp;Liu, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
     SCIENCE CHINA Information Sciences 2022  <br>
     
