@@ -66,6 +66,22 @@
 
 ## <i class="fa fa-chevron-right"></i> Logic Synthesis
 
+<h3></h3>
+<table class="table table-hover">
+
+<tr id="tr-DBLP:conf/iccad/FengLCYYH22" >
+<td align='right'>
+1.
+</td>
+<td>
+    Batch Sequential Black-Box Optimization with Embedding Alignment Cells for Logic Synthesis [<a href='https://doi.org/10.1145/3508352.3549363' target='_blank'>paper</a>] <br>
+    <em>Chang&nbsp;Feng, Wenlong&nbsp;Lyu, Zhitang&nbsp;Chen, Junjie&nbsp;Ye, Mingxuan&nbsp;Yuan, and Jianye&nbsp;Hao</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Operator Sequence Scheduling</h3>
 <table class="table table-hover">
 
@@ -194,9 +210,22 @@ Design flows are the explicit combinations of design transformations, primarily 
 <h3>Reliability</h3>
 <table class="table table-hover">
 
-<tr id="tr-chen2021deep" >
+<tr id="tr-DBLP:conf/aspdac/GengSCXHY23" >
 <td align='right'>
 1.
+</td>
+<td>
+    Mixed-Type Wafer Failure Pattern Recognition [<a href='https://doi.org/10.1145/3566097.3568363' target='_blank'>paper</a>] <br>
+    <em>Hao&nbsp;Geng, Qi&nbsp;Sun, Tinghuan&nbsp;Chen, Qi&nbsp;Xu, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    ASP-DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2021deep" >
+<td align='right'>
+2.
 </td>
 <td>
     Deep H-GCN: Fast analog IC aging-induced degradation estimation [<a href='https://ieeexplore.ieee.org/document/9521579' target='_blank'>paper</a>] <br>
@@ -209,7 +238,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-chen2021analog" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     Analog IC aging-induced degradation estimation via heterogeneous graph convolutional networks [<a href='https://dl.acm.org/doi/10.1145/3394885.3431546' target='_blank'>paper</a>] <br>
@@ -249,6 +278,69 @@ Design flows are the explicit combinations of design transformations, primarily 
 </tr>
 
 </table>
+<h3>Security</h3>
+<table class="table table-hover">
+
+<tr id="tr-DBLP:conf/aspdac/ChangPXH023" >
+<td align='right'>
+1.
+</td>
+<td>
+    Rethink before Releasing Your Model: ML Model Extraction Attack in EDA [<a href='https://doi.org/10.1145/3566097.3567896' target='_blank'>paper</a>] <br>
+    <em>Chen-Chia&nbsp;Chang, Jingyu&nbsp;Pan, Zhiyao&nbsp;Xie, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
+    ASP-DAC 2023  <br>
+    
+</td>
+</tr>
+
+</table>
+
+
+
+## <i class="fa fa-chevron-right"></i> Floorplan
+
+<h3></h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC22_SpecPart" >
+<td align='right'>
+1.
+</td>
+<td>
+    SpecPart: A Supervised Spectral Framework for Hypergraph Partitioning Solution Improvement [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549390' target='_blank'>paper</a>] <br>
+    <em>Ismail&nbsp;Bustany, Andrew&nbsp;B.&nbsp;Kahng, Ioannis&nbsp;Koutis, Bodhisatta&nbsp;Pramanik, and Zhiang&nbsp;Wang</em><br>
+    DAC 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/iccad/WenZYCYLX22" >
+<td align='right'>
+2.
+</td>
+<td>
+    LayouTransformer: Generating Layout Patterns with Transformer via Sequential Pattern Modeling [<a href='https://doi.org/10.1145/3508352.3549350' target='_blank'>paper</a>] <br>
+    <em>Liangjian&nbsp;Wen, Yi&nbsp;Zhu, Lei&nbsp;Ye, Guojin&nbsp;Chen, Bei&nbsp;Yu, Jianzhuang&nbsp;Liu, and Chunjing&nbsp;Xu</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC20_TPGNN" >
+<td align='right'>
+3.
+</td>
+<td>
+    TP-GNN: A Graph Neural Network Framework for Tier Partitioning in Monolithic 3D ICs [<a href='https://ieeexplore.ieee.org/document/9218582' target='_blank'>paper</a>] <br>
+    <em>Yi-Chen&nbsp;Lu, Sai&nbsp;Surya&nbsp;Kiran&nbsp;Pentapati, Lingjun&nbsp;Zhu, Kambiz&nbsp;Samadi, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
+    DAC 2020  <br>
+    
+</td>
+</tr>
+
+</table>
 
 
 
@@ -257,9 +349,48 @@ Design flows are the explicit combinations of design transformations, primarily 
 <h3></h3>
 <table class="table table-hover">
 
-<tr id="tr-cheng2022the" >
+<tr id="tr-tcadChenKZHY23" >
 <td align='right'>
 1.
+</td>
+<td>
+    PROS 2.0: A Plug-In for Routability Optimization and Routed Wirelength Estimation Using Deep Learning [<a href='https://doi.org/10.1109/TCAD.2022.3168259' target='_blank'>paper</a>] <br>
+    <em>Jingsong&nbsp;Chen, Jian&nbsp;Kuang, Guowei&nbsp;Zhao, Dennis&nbsp;J.&nbsp;-H.&nbsp;Huang, and Evangeline&nbsp;F.&nbsp;Y.&nbsp;Young</em><br>
+    TCAD 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/aspdac/ChenMGZL23" >
+<td align='right'>
+2.
+</td>
+<td>
+    MacroRank: Ranking Macro Placement Solutions Leveraging Translation Equivariancy [<a href='https://doi.org/10.1145/3566097.3567899' target='_blank'>paper</a>] <br>
+    <em>Yifan&nbsp;Chen, Jing&nbsp;Mai, Xiaohan&nbsp;Gao, Muhan&nbsp;Zhang, and Yibo&nbsp;Lin</em><br>
+    ASPDAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DREAM-GAN_ISPD2023_Yichen" >
+<td align='right'>
+3.
+</td>
+<td>
+    DREAM-GAN: Advancing DREAMPlace towards Commercial-Quality using Generative Adversarial Learning <br>
+    <em>Yi-Chen&nbsp;Lu, Haoxing&nbsp;Ren, Hao-Hsiang&nbsp;Hsiao, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
+    ISPD 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-cheng2022the" >
+<td align='right'>
+4.
 </td>
 <td>
     The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design [<a href='https://openreview.net/forum?id=uNYqDfPEDD8' target='_blank'>paper</a>] <br>
@@ -272,7 +403,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-lai2022maskplace" >
 <td align='right'>
-2.
+5.
 </td>
 <td>
     MaskPlace: Fast Chip Placement via Reinforced Visual Representation Learning [<a href='https://arxiv.org/abs/2211.13382' target='_blank'>paper</a>] <br>
@@ -283,9 +414,61 @@ Design flows are the explicit combinations of design transformations, primarily 
 </tr>
 
 
+<tr id="tr-wang2022lhnna" >
+<td align='right'>
+6.
+</td>
+<td>
+    LHNN: Lattice Hypergraph Neural Network for VLSI Congestion Prediction [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530675' target='_blank'>paper</a>] <br>
+    <em>Bowen&nbsp;Wang, Guibao&nbsp;Shen, Dong&nbsp;Li, Jianye&nbsp;Hao, Wulong&nbsp;Liu, Yu&nbsp;Huang, Hongzhong&nbsp;Wu, Yibo&nbsp;Lin, Guangyong&nbsp;Chen, and Pheng&nbsp;Ann&nbsp;Heng</em><br>
+    DAC 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-baek2022pin" >
+<td align='right'>
+7.
+</td>
+<td>
+    Pin Accessibility and Routing Congestion Aware DRC Hotspot Prediction Using Graph Neural Network and U-Net [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549346' target='_blank'>paper</a>] <br>
+    <em>Kyeonghyeon&nbsp;Baek, Hyunbum&nbsp;Park, Suwan&nbsp;Kim, Kyumyung&nbsp;Choi, and Taewhan&nbsp;Kim</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liang2022stochasticb" >
+<td align='right'>
+8.
+</td>
+<td>
+    A Stochastic Approach to Handle Non-Determinism in Deep Learning-Based Design Rule Violation Predictions [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549347' target='_blank'>paper</a>] <br>
+    <em>Rongjian&nbsp;Liang, Hua&nbsp;Xiang, Jinwook&nbsp;Jung, Jiang&nbsp;Hu, and Gi-Joon&nbsp;Nam</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:journals/corr/abs-2207-08398" >
+<td align='right'>
+9.
+</td>
+<td>
+    Bayesian Optimization for Macro Placement [<a href='https://doi.org/10.48550/arXiv.2207.08398' target='_blank'>paper</a>] <br>
+    <em>ChangYong&nbsp;Oh, Roberto&nbsp;Bondesan, Dana&nbsp;Kianfar, Rehan&nbsp;Ahmed, Rishubh&nbsp;Khurana, Payal&nbsp;Agarwal, Romain&nbsp;Lepert, Mysore&nbsp;Sriram, and Max&nbsp;Welling</em><br>
+    ICML 2022  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-PLACE-DATE2021-Cong" >
 <td align='right'>
-3.
+10.
 </td>
 <td>
     Global placement with deep learning-enabled explicit routability optimization [<a href='https://ieeexplore.ieee.org/document/9473959' target='_blank'>paper</a>] <br>
@@ -298,7 +481,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-NEURIPS2021_898aef09" >
 <td align='right'>
-4.
+11.
 </td>
 <td>
     On Joint Learning for Solving Placement and Routing in Chip Design [<a href='https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf' target='_blank'>paper</a>] <br>
@@ -309,9 +492,74 @@ Design flows are the explicit combinations of design transformations, primarily 
 </tr>
 
 
+<tr id="tr-changAutomaticRoutabilityPredictor2021a" >
+<td align='right'>
+12.
+</td>
+<td>
+    Automatic Routability Predictor Development Using Neural Architecture Search [<a href='https://arxiv.org/abs/2012.01737' target='_blank'>paper</a>] <br>
+    <em>Chen-Chia&nbsp;Chang, Jingyu&nbsp;Pan, Tunhou&nbsp;Zhang, Zhiyao&nbsp;Xie, Jiang&nbsp;Hu, Weiyi&nbsp;Qi, Chun-Wei&nbsp;Lin, Rongjian&nbsp;Liang, Joydeep&nbsp;Mitra, Elias&nbsp;Fallon, and Yiran&nbsp;Chen</em><br>
+    ICCAD 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chenPROSPluginRoutability2020" >
+<td align='right'>
+13.
+</td>
+<td>
+    PROS: A Plug-in for Routability Optimization Applied in the State-of-the-art Commercial EDA Tool Using Deep Learning [<a href='https://ieeexplore.ieee.org/document/9256565' target='_blank'>paper</a>] <br>
+    <em>Jingsong&nbsp;Chen, Jian&nbsp;Kuang, Guowei&nbsp;Zhao, Dennis&nbsp;J.-H.&nbsp;Huang, and Evangeline&nbsp;F.Y.&nbsp;Young</em><br>
+    ICCAD 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ghoseGeneralizableCrossGraphEmbedding2021" >
+<td align='right'>
+14.
+</td>
+<td>
+    Generalizable Cross-Graph Embedding for GNN-based Congestion Prediction [<a href='https://arxiv.org/abs/2111.05941' target='_blank'>paper</a>] <br>
+    <em>Amur&nbsp;Ghose, Vincent&nbsp;Zhang, Yingxue&nbsp;Zhang, Dong&nbsp;Li, Wulong&nbsp;Liu, and Mark&nbsp;Coates</em><br>
+    ICCAD 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-alawiehHighDefinitionRoutingCongestion2020a" >
+<td align='right'>
+15.
+</td>
+<td>
+    High-Definition Routing Congestion Prediction for Large-Scale FPGAs [<a href='https://ieeexplore.ieee.org/document/9045178' target='_blank'>paper</a>] <br>
+    <em>Mohamed&nbsp;Baker&nbsp;Alawieh, Wuxi&nbsp;Li, Yibo&nbsp;Lin, Love&nbsp;Singhal, Mahesh&nbsp;A.&nbsp;Iyer, and David&nbsp;Z.&nbsp;Pan</em><br>
+    ASP-DAC 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liangDRCHotspotPrediction2020" >
+<td align='right'>
+16.
+</td>
+<td>
+    DRC Hotspot Prediction at Sub-10nm Process Nodes Using Customized Convolutional Network [<a href='https://dl.acm.org/doi/10.1145/3372780.3375560' target='_blank'>paper</a>] <br>
+    <em>Rongjian&nbsp;Liang, Hua&nbsp;Xiang, Diwesh&nbsp;Pandey, Lakshmi&nbsp;Reddy, Shyam&nbsp;Ramji, Gi-Joon&nbsp;Nam, and Jiang&nbsp;Hu</em><br>
+    ISPD 2020  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-PLACE-DAC2019-DREAMPlace" >
 <td align='right'>
-5.
+17.
 </td>
 <td>
     DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement [<a href='https://ieeexplore.ieee.org/document/8807076' target='_blank'>paper</a>] <br>
@@ -324,7 +572,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-PLACE-DAC2019-painting" >
 <td align='right'>
-6.
+18.
 </td>
 <td>
     Painting on placement: Forecasting routing congestion using conditional generative adversarial nets [<a href='https://dl.acm.org/doi/10.1145/3316781.3317876' target='_blank'>paper</a>] <br>
@@ -337,7 +585,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-PLACE-DAC2019-pin" >
 <td align='right'>
-7.
+19.
 </td>
 <td>
     Pin accessibility prediction and optimization with deep learning-based pin pattern recognition [<a href='https://ieeexplore.ieee.org/document/8806809' target='_blank'>paper</a>] <br>
@@ -350,12 +598,25 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-PLACE-ICCAD2018-routenet" >
 <td align='right'>
-8.
+20.
 </td>
 <td>
     RouteNet: Routability prediction for mixed-size designs using convolutional neural network [<a href='https://ieeexplore.ieee.org/document/8587655' target='_blank'>paper</a>] <br>
     <em>Zhiyao&nbsp;Xie, Yu-Hung&nbsp;Huang, Guan-Qi&nbsp;Fang, Haoxing&nbsp;Ren, Shao-Yun&nbsp;Fang, Yiran&nbsp;Chen, and Jiang&nbsp;Hu</em><br>
     ICCAD 2018  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chanRoutabilityOptimizationIndustrial2017" >
+<td align='right'>
+21.
+</td>
+<td>
+    Routability Optimization for ndustrial Designs at Sub-14nm Process Nodes Using Machine Learning [<a href='https://dl.acm.org/doi/10.1145/3036669.3036681' target='_blank'>paper</a>] <br>
+    <em>Wei-Ting&nbsp;J.&nbsp;Chan, Pei-Hsin&nbsp;Ho, Andrew&nbsp;B.&nbsp;Kahng, and Prashant&nbsp;Saxena</em><br>
+    ISPD 2017  <br>
     
 </td>
 </tr>
@@ -366,6 +627,74 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 ## <i class="fa fa-chevron-right"></i> Clock Tree Synthesis
 
+<h3></h3>
+<table class="table table-hover">
+
+<tr id="tr-DBLP:conf/aspdac/LiangNRHR23" >
+<td align='right'>
+1.
+</td>
+<td>
+    BufFormer: A Generative ML Framework for Scalable Buffering [<a href='https://doi.org/10.1145/3566097.3567900' target='_blank'>paper</a>] <br>
+    <em>Rongjian&nbsp;Liang, Siddhartha&nbsp;Nath, Anand&nbsp;Rajaram, Jiang&nbsp;Hu, and Haoxing&nbsp;Ren</em><br>
+    ASPDAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:journals/tcad/LuLASL22" >
+<td align='right'>
+2.
+</td>
+<td>
+    A Clock Tree Prediction and Optimization Framework Using Generative Adversarial Learning [<a href='https://doi.org/10.1109/TCAD.2021.3122109' target='_blank'>paper</a>] <br>
+    <em>Yi-Chen&nbsp;Lu, Jeehyun&nbsp;Lee, Anthony&nbsp;Agnesina, Kambiz&nbsp;Samadi, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
+    TCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/glvlsi/Beheshti-Shirazi21" >
+<td align='right'>
+3.
+</td>
+<td>
+    A Reinforced Learning Solution for Clock Skew Engineering to Reduce Peak Current and IR Drop [<a href='https://doi.org/10.1145/3453688.3461754' target='_blank'>paper</a>] <br>
+    <em>Sayed&nbsp;Aresh&nbsp;Beheshti-Shirazi, Ashkan&nbsp;Vakil, Sai&nbsp;Manoj&nbsp;P.&nbsp;D., Ioannis&nbsp;Savidis, Houman&nbsp;Homayoun, and Avesta&nbsp;Sasan</em><br>
+    GLSVLSI 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/ises/NagariaD20" >
+<td align='right'>
+4.
+</td>
+<td>
+    Designing of an Optimization Technique for the Prediction of CTS Outcomes using Neural Network [<a href='https://doi.org/10.1109/iSES50453.2020.00075' target='_blank'>paper</a>] <br>
+    <em>Shuchi&nbsp;Nagaria and Sujay&nbsp;Deb</em><br>
+    iSES 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/iccad/LuLASL19" >
+<td align='right'>
+5.
+</td>
+<td>
+    GAN-CTS: A Generative Adversarial Framework for Clock Tree Prediction and Optimization [<a href='https://doi.org/10.1109/ICCAD45719.2019.8942063' target='_blank'>paper</a>] <br>
+    <em>Yi-Chen&nbsp;Lu, Jeehyun&nbsp;Lee, Anthony&nbsp;Agnesina, Kambiz&nbsp;Samadi, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
+    ICCAD 2019  <br>
+    
+</td>
+</tr>
+
+</table>
 
 
 
@@ -374,14 +703,40 @@ Design flows are the explicit combinations of design transformations, primarily 
 <h3></h3>
 <table class="table table-hover">
 
-<tr id="tr-NEURIPS2021_898aef09" >
+<tr id="tr-ASPDAC23_DPRoute" >
 <td align='right'>
 1.
 </td>
 <td>
-    On Joint Learning for Solving Placement and Routing in Chip Design [<a href='https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf' target='_blank'>paper</a>] <br>
-    <em>Ruoyu&nbsp;Cheng and Junchi&nbsp;Yan</em><br>
-    NeurIPS 2021  <br>
+    DPRoute: Deep Learning Framework for Package Routing [<a href='https://dl.acm.org/doi/abs/10.1145/3566097.3567902' target='_blank'>paper</a>] <br>
+    <em>Yeu-Haw&nbsp;Yeh, Simon&nbsp;Yi-Hung&nbsp;Chen, Hung-Ming&nbsp;Chen, Deng-Yao&nbsp;Tu, Guan-Qi&nbsp;Fang, Yun-Chih&nbsp;Kuo, and Po-Yang&nbsp;Chen</em><br>
+    ASPDAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ROUTE_DAC2022_Jingyu" >
+<td align='right'>
+2.
+</td>
+<td>
+    Reinforcement Learning Guided Detailed Routing for FinFET Custom Circuits <br>
+    <em>Hao&nbsp;Chen, Kai-Chieh&nbsp;Hsu, Walker&nbsp;J.&nbsp;Turner, Po-Hsuan&nbsp;Wei, Keren&nbsp;Zhu, David&nbsp;Z.&nbsp;Pan, and Haoxing&nbsp;Ren</em><br>
+    ISPD 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC22_Pan" >
+<td align='right'>
+3.
+</td>
+<td>
+    Towards Collaborative Intelligence: Routability Estimation Based on Decentralized Private Data [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530578' target='_blank'>paper</a>] <br>
+    <em>Jingyu&nbsp;Pan, Chen-Chia&nbsp;Chang, Zhiyao&nbsp;Xie, Ang&nbsp;Li, Minxue&nbsp;Tang, Tunhou&nbsp;Zhang, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
+    DAC 2022  <br>
     
 </td>
 </tr>
@@ -389,7 +744,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-NEURIPS2021_898aef09" >
 <td align='right'>
-2.
+4.
 </td>
 <td>
     On Joint Learning for Solving Placement and Routing in Chip Design [<a href='https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf' target='_blank'>paper</a>] <br>
@@ -489,9 +844,22 @@ Design flows are the explicit combinations of design transformations, primarily 
 </tr>
 
 
-<tr id="tr-DAC22_gnnSTA" >
+<tr id="tr-DBLP:conf/aspdac/YeCGYYS23" >
 <td align='right'>
 4.
+</td>
+<td>
+    Graph-Learning-Driven Path-Based Timing Analysis Results Predictor from Graph-Based Timing Analysis [<a href='https://doi.org/10.1145/3566097.3567904' target='_blank'>paper</a>] <br>
+    <em>Yuyang&nbsp;Ye, Tinghuan&nbsp;Chen, Yifei&nbsp;Gao, Hao&nbsp;Yan, Bei&nbsp;Yu, and Longxing&nbsp;Shi</em><br>
+    ASPDAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC22_gnnSTA" >
+<td align='right'>
+5.
 </td>
 <td>
     A timing engine inspired graph neural network model for pre-routing slack prediction [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530597' target='_blank'>paper</a>] <br>
@@ -504,7 +872,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-xie_net2_2020" >
 <td align='right'>
-5.
+6.
 </td>
 <td>
     Net2: A Graph Attention Network Method Customized for Pre-Placement Net Length Estimation [<a href='http://arxiv.org/abs/2011.13522' target='_blank'>paper</a>] <br>
@@ -517,7 +885,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-liang_routing-free_2020" >
 <td align='right'>
-6.
+7.
 </td>
 <td>
     Routing-free crosstalk prediction [<a href='https://dl.acm.org/doi/10.1145/3400302.3415712' target='_blank'>paper</a>] <br>
@@ -530,7 +898,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-cheng_fast_2020" >
 <td align='right'>
-7.
+8.
 </td>
 <td>
     Fast and Accurate Wire Timing Estimation on Tree and Non-Tree Net Structures [<a href='https://ieeexplore.ieee.org/document/9218712/' target='_blank'>paper</a>] <br>
@@ -543,7 +911,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-barboza_machine_2019" >
 <td align='right'>
-8.
+9.
 </td>
 <td>
     Machine Learning-Based Pre-Routing Timing Prediction with Reduced Pessimism [<a href='https://dl.acm.org/doi/10.1145/3316781.3317857' target='_blank'>paper</a>] <br>
@@ -556,7 +924,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-hyun_accurate_2019" >
 <td align='right'>
-9.
+10.
 </td>
 <td>
     Accurate Wirelength Prediction for Placement-Aware Synthesis through Machine Learning [<a href='https://ieeexplore.ieee.org/document/8715016/' target='_blank'>paper</a>] <br>
@@ -569,7 +937,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-kahng_using_2018" >
 <td align='right'>
-10.
+11.
 </td>
 <td>
     Using Machine Learning to Predict Path-Based Slack from Graph-Based Timing Analysis [<a href='https://ieeexplore.ieee.org/document/8615746/' target='_blank'>paper</a>] <br>
@@ -582,7 +950,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-kahng_si_2015" >
 <td align='right'>
-11.
+12.
 </td>
 <td>
     SI for free: machine learning of interconnect coupling delay and transition effects [<a href='http://ieeexplore.ieee.org/document/7171706/' target='_blank'>paper</a>] <br>
@@ -595,7 +963,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-han_deep_nodate" >
 <td align='right'>
-12.
+13.
 </td>
 <td>
     A Deep Learning Methodology to Proliferate Golden Signoff Timing [<a href='https://ieeexplore.ieee.org/document/6800474' target='_blank'>paper</a>] <br>
@@ -608,7 +976,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 <tr id="tr-kahng_learning-based_2013" >
 <td align='right'>
-13.
+14.
 </td>
 <td>
     Learning-based approximation of interconnect delay and slew in signoff timing tools [<a href='http://ieeexplore.ieee.org/document/6681682/' target='_blank'>paper</a>] <br>
@@ -705,6 +1073,210 @@ Design flows are the explicit combinations of design transformations, primarily 
 </tr>
 
 </table>
+<h3>Gate Sizing</h3>
+<table class="table table-hover">
+
+<tr id="tr-DBLP:conf/iccad/ZhouYPSZWHCH22" >
+<td align='right'>
+1.
+</td>
+<td>
+    Heterogeneous Graph Neural Network-Based Imitation Learning for Gate Sizing Acceleration [<a href='https://doi.org/10.1145/3508352.3549361' target='_blank'>paper</a>] <br>
+    <em>Xinyi&nbsp;Zhou, Junjie&nbsp;Ye, Chak-Wa&nbsp;Pui, Kun&nbsp;Shao, Guangliang&nbsp;Zhang, Bin&nbsp;Wang, Jianye&nbsp;Hao, Guangyong&nbsp;Chen, and Pheng-Ann&nbsp;Heng</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/iccad/NathPHYKR22" >
+<td align='right'>
+2.
+</td>
+<td>
+    TransSizer: A Novel Transformer-Based Fast Gate Sizer [<a href='https://doi.org/10.1145/3508352.3549442' target='_blank'>paper</a>] <br>
+    <em>Siddhartha&nbsp;Nath, Geraldo&nbsp;Pradipta, Corey&nbsp;Hu, Tian&nbsp;Yang, Brucek&nbsp;Khailany, and Haoxing&nbsp;Ren</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Ir Drop</h3>
+<table class="table table-hover">
+
+<tr id="tr-hyun2023decoupling" >
+<td align='right'>
+1.
+</td>
+<td>
+    Decoupling Capacitor Insertion Minimizing IR-Drop Violations and Routing DRVs <br>
+    <em>Daijoon&nbsp;Hyun, Younggwang&nbsp;Jung, Insu&nbsp;Cho, and Youngsoo&nbsp;Shin</em><br>
+    ASP-DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2022vectorbaseda" >
+<td align='right'>
+2.
+</td>
+<td>
+    Vector-Based Dynamic IR-drop Prediction Using Machine Learning <br>
+    <em>Jia-Xian&nbsp;Chen, Shi-Tang&nbsp;Liu, Yu-Tsung&nbsp;Wu, Mu-Ting&nbsp;Wu, Chieo-Mo&nbsp;Li, Norman&nbsp;Chang, Ying-Shiun&nbsp;Li, and Wen-Tze&nbsp;Chuang</em><br>
+    ASP-DAC 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chhabriaMAVIRECMLAidedVectored2021" >
+<td align='right'>
+3.
+</td>
+<td>
+    MAVIREC: ML-Aided Vectored IR-Drop Estimation and Classification <br>
+    <em>Vidya&nbsp;A.&nbsp;Chhabria, Yanqing&nbsp;Zhang, Haoxing&nbsp;Ren, Ben&nbsp;Keller, Brucek&nbsp;Khailany, and Sachin&nbsp;S.&nbsp;Sapatnekar</em><br>
+    ASP-DAC 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chhabriaThermalIRDrop2021" >
+<td align='right'>
+4.
+</td>
+<td>
+    Thermal and IR Drop Analysis Using Convolutional Encoder-Decoder Networks <br>
+    <em>Vidya&nbsp;A.&nbsp;Chhabria, Vipul&nbsp;Ahuja, Ashwath&nbsp;Prabhu, Nikhil&nbsp;Patil, Palkesh&nbsp;Jain, and Sachin&nbsp;S.&nbsp;Sapatnekar</em><br>
+    ASP-DAC 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-huangDynamicIRDropECO2020" >
+<td align='right'>
+5.
+</td>
+<td>
+    Dynamic IR-Drop ECO Optimization by Cell Movement with Current Waveform Staggering and Machine Learning Guidance <br>
+    <em>Xuan-Xue&nbsp;Huang, Hsien-Chia&nbsp;Chen, Sheng-Wei&nbsp;Wang, Iris&nbsp;Hui-Ru&nbsp;Jiang, Yih-Chih&nbsp;Chou, and Cheng-Hong&nbsp;Tsai</em><br>
+    ICCAD 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-pao2020xgbir" >
+<td align='right'>
+6.
+</td>
+<td>
+    XGBIR: An XGBoost-based IR Drop Predictor for Power Delivery Network <br>
+    <em>Chi-Hsien&nbsp;Pao, An-Yu&nbsp;Su, and Yu-Min&nbsp;Lee</em><br>
+    DATE 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-xieFastIRDrop2020" >
+<td align='right'>
+7.
+</td>
+<td>
+    Fast IR Drop Estimation with Machine Learning <br>
+    <em>Zhiyao&nbsp;Xie, Hai&nbsp;Li, Xiaoqing&nbsp;Xu, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
+    ICCAD 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-xiePowerNetTransferableDynamic2020a" >
+<td align='right'>
+8.
+</td>
+<td>
+    PowerNet: Transferable Dynamic IR Drop Estimation via Maximum Convolutional Neural Network <br>
+    <em>Zhiyao&nbsp;Xie, Haoxing&nbsp;Ren, Brucek&nbsp;Khailany, Ye&nbsp;Sheng, Santosh&nbsp;Santosh, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
+    ASP-DAC 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-zhou2020gridnet" >
+<td align='right'>
+9.
+</td>
+<td>
+    GridNet: Fast Data-Driven EM-induced IR Drop Prediction and Localized Fixing for on-Chip Power Grid Networks <br>
+    <em>Han&nbsp;Zhou, Wentian&nbsp;Jin, and Sheldon&nbsp;X.-D.&nbsp;Tan</em><br>
+    ICCAD 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-hoIncPIRDFastLearningBased2019" >
+<td align='right'>
+10.
+</td>
+<td>
+    IncPIRD: Fast Learning-Based Prediction of Incremental IR Drop <br>
+    <em>Chia-Tung&nbsp;Ho and Andrew&nbsp;B.&nbsp;Kahng</em><br>
+    ICCAD 2019  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-fang2018machinelearningbased" >
+<td align='right'>
+11.
+</td>
+<td>
+    Machine-Learning-Based Dynamic IR Drop Prediction for ECO <br>
+    <em>Yen-Chun&nbsp;Fang, Heng-Yi&nbsp;Lin, Min-Yan&nbsp;Sui, Chien-Mo&nbsp;Li, and Eric&nbsp;Jia-Wei&nbsp;Fang</em><br>
+    ICCAD 2018  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Power</h3>
+<table class="table table-hover">
+
+<tr id="tr-DBLP:conf/aspdac/LuZJST23" >
+<td align='right'>
+1.
+</td>
+<td>
+    Learning Based Spatial Power Characterization and Full-Chip Power Estimation for Commercial TPUs [<a href='https://doi.org/10.1145/3566097.3568347' target='_blank'>paper</a>] <br>
+    <em>Jincong&nbsp;Lu, Jinwei&nbsp;Zhang, Wentian&nbsp;Jin, Sachin&nbsp;Sachdeva, and Sheldon&nbsp;X.&nbsp;-D.&nbsp;Tan</em><br>
+    ASPDAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/aspdac/ZhaiC023" >
+<td align='right'>
+2.
+</td>
+<td>
+    Microarchitecture Power Modeling via Artificial Neural Network and Transfer Learning [<a href='https://doi.org/10.1145/3566097.3567844' target='_blank'>paper</a>] <br>
+    <em>Jianwang&nbsp;Zhai, Yici&nbsp;Cai, and Bei&nbsp;Yu</em><br>
+    ASPDAC 2023  <br>
+    
+</td>
+</tr>
+
+</table>
 
 
 
@@ -757,18 +1329,15 @@ Lithography simulation is a critical step in VLSI design and optimization for ma
 </td>
 </tr>
 
-</table>
-<h3>Layout Generation</h3>
-<table class="table table-hover">
 
-<tr id="tr-DAC23_Diff" >
+<tr id="tr-DBLP:conf/iccad/PanCXH022" >
 <td align='right'>
-1.
+4.
 </td>
 <td>
-    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
-    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
-    DAC 2023  <br>
+    Robustify ML-Based Lithography Hotspot Detectors [<a href='https://doi.org/10.1145/3508352.3549389' target='_blank'>paper</a>] <br>
+    <em>Jingyu&nbsp;Pan, Chen-Chia&nbsp;Chang, Zhiyao&nbsp;Xie, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
+    ICCAD 2022  <br>
     
 </td>
 </tr>
@@ -777,9 +1346,35 @@ Lithography simulation is a critical step in VLSI design and optimization for ma
 <h3>Mask Optimization</h3>
 <table class="table table-hover">
 
-<tr id="tr-ICCAD22_AdaOPC" >
+<tr id="tr-DBLP:conf/aspdac/YangR23" >
 <td align='right'>
 1.
+</td>
+<td>
+    Enabling Scalable AI Computational Lithography with Physics-Inspired Models [<a href='https://doi.org/10.1145/3566097.3568361' target='_blank'>paper</a>] <br>
+    <em>Haoyu&nbsp;Yang and Haoxing&nbsp;Ren</em><br>
+    ASPDAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/aspdac/ShaoLF23" >
+<td align='right'>
+2.
+</td>
+<td>
+    Data-Driven Approaches for Process Simulation and Optical Proximity Correction [<a href='https://doi.org/10.1145/3566097.3568362' target='_blank'>paper</a>] <br>
+    <em>Hao-Chiang&nbsp;Shao, Chia-Wen&nbsp;Lin, and Shao-Yun&nbsp;Fang</em><br>
+    ASPDAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ICCAD22_AdaOPC" >
+<td align='right'>
+3.
 </td>
 <td>
     AdaOPC: A Self-Adaptive Mask Optimization Framework For Real Design Patterns [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C148-ICCAD2022-AdaOPC.pdf' target='_blank'>paper</a>] <br>
@@ -792,7 +1387,7 @@ Lithography simulation is a critical step in VLSI design and optimization for ma
 
 <tr id="tr-ICCAD21_develset" >
 <td align='right'>
-2.
+4.
 </td>
 <td>
     DevelSet: Deep Neural Level Set for Instant Mask optimization 
@@ -811,7 +1406,7 @@ With the feature size continuously shrinking in advanced technology nodes, mask 
 
 <tr id="tr-ICCAD20_damo" >
 <td align='right'>
-3.
+5.
 </td>
 <td>
     DAMO: Deep Agile Mask Optimization for Full Chip Scale 
@@ -830,7 +1425,7 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 
 <tr id="tr-10.1145/3195970.3196056" >
 <td align='right'>
-4.
+6.
 </td>
 <td>
     GAN-OPC: Mask Optimization with Lithography-Guided Generative Adversarial Nets 
@@ -847,27 +1442,27 @@ Mask optimization has been a critical problem in the VLSI design flow due to the
 </tr>
 
 </table>
-
-
-
-## <i class="fa fa-chevron-right"></i> Analog Layout Synthesis
-
-<h3>Analog Layout Placement</h3>
+<h3>Layout Generation</h3>
 <table class="table table-hover">
 
-<tr id="tr-9712592" >
+<tr id="tr-DAC23_Diff" >
 <td align='right'>
 1.
 </td>
 <td>
-    Generative-Adversarial-Network-Guided Well-Aware Placement for Analog Circuits [<a href='https://ieeexplore.ieee.org/document/9712592' target='_blank'>paper</a>] <br>
-    <em>Keren&nbsp;Zhu, Hao&nbsp;Chen, Mingjie&nbsp;Liu, Xiyuan&nbsp;Tang, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
-    ASP-DAC 2022  <br>
+    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
+    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
+    DAC 2023  <br>
     
 </td>
 </tr>
 
 </table>
+
+
+
+## <i class="fa fa-chevron-right"></i> Analog Layout Synthesis
+
 <h3>Analog Layout Synthesis</h3>
 <table class="table table-hover">
 
@@ -886,6 +1481,61 @@ Mask optimization has been a critical problem in the VLSI design flow due to the
 Existing analog layout synthesis tools provide little guarantee to post layout performance and have limited capabilities of handling system-level designs. In this paper, we present a closed-loop hierarchical analog layout synthesizer, capable of handling system designs. To ensure system performance, the building block layout implementations are optimized efficiently, utilizing post layout simulations with multi-objective Bayesian optimization. To the best of our knowledge, this is the first work demonstrating success in automated layout synthesis on generic analog system designs. Experimental results show our synthesized continuous-time ΔΣ modulator (CTDSM) achieves post layout performance of 65.9dB in signal to noise and distortion ratio (SNDR), compared with 67.8dB in the schematic design.
 </div>
 
+</td>
+</tr>
+
+</table>
+<h3>Analog Layout Placement</h3>
+<table class="table table-hover">
+
+<tr id="tr-ChangPXLLH023" >
+<td align='right'>
+1.
+</td>
+<td>
+    Fully Automated Machine Learning Model Development for Analog Placement Quality Prediction [<a href='https://doi.org/10.1145/3566097.3567881' target='_blank'>paper</a>] <br>
+    <em>Chen-Chia&nbsp;Chang, Jingyu&nbsp;Pan, Zhiyao&nbsp;Xie, Yaguang&nbsp;Li, Yishuang&nbsp;Lin, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
+    ASPDAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-BudakSSP23" >
+<td align='right'>
+2.
+</td>
+<td>
+    APOSTLE: Asynchronously Parallel Optimization for Sizing Analog Transistors Using DNN Learning [<a href='https://doi.org/10.1145/3566097.3567880' target='_blank'>paper</a>] <br>
+    <em>Ahmet&nbsp;Faruk&nbsp;Budak, David&nbsp;Smart, Brian&nbsp;Swahn, and David&nbsp;Z.&nbsp;Pan</em><br>
+    ASPDAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9712592" >
+<td align='right'>
+3.
+</td>
+<td>
+    Generative-Adversarial-Network-Guided Well-Aware Placement for Analog Circuits [<a href='https://ieeexplore.ieee.org/document/9712592' target='_blank'>paper</a>] <br>
+    <em>Keren&nbsp;Zhu, Hao&nbsp;Chen, Mingjie&nbsp;Liu, Xiyuan&nbsp;Tang, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
+    ASP-DAC 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-GaoDLZPL21" >
+<td align='right'>
+4.
+</td>
+<td>
+    Layout Symmetry Annotation for Analog Circuits with Graph Neural Networks [<a href='https://doi.org/10.1145/3394885.3431545' target='_blank'>paper</a>] <br>
+    <em>Xiaohan&nbsp;Gao, Chenhui&nbsp;Deng, Mingjie&nbsp;Liu, Zhiru&nbsp;Zhang, David&nbsp;Z.&nbsp;Pan, and Yibo&nbsp;Lin</em><br>
+    ASPDAC 2021  <br>
+    
 </td>
 </tr>
 
