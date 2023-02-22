@@ -27,7 +27,7 @@
 2.
 </td>
 <td>
-    Machine Learning Based Routing Congestion Prediction in FPGA High-Level Synthesis <br>
+    Machine Learning Based Routing Congestion Prediction in FPGA High-Level Synthesis [<a href='https://arxiv.org/abs/1905.03852' target='_blank'>paper</a>] <br>
     <em>Jieru&nbsp;Zhao, Tingyuan&nbsp;Liang, Sharad&nbsp;Sinha, and Wei&nbsp;Zhang</em><br>
     DATE 2019  <br>
     
@@ -53,7 +53,7 @@
 4.
 </td>
 <td>
-    On learning-based methods for design-space exploration with high-level synthesis <br>
+    On learning-based methods for design-space exploration with high-level synthesis [<a href='http://www.cs.columbia.edu/~luca/research/liu_DAC13.pdf' target='_blank'>paper</a>] <br>
     <em>Hung-Yi&nbsp;Liu and Luca&nbsp;P&nbsp;Carloni</em><br>
     DAC 2013  <br>
     
@@ -228,7 +228,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 1.
 </td>
 <td>
-    Deep H-GCN: Fast analog IC aging-induced degradation estimation <br>
+    Deep H-GCN: Fast analog IC aging-induced degradation estimation [<a href='https://ieeexplore.ieee.org/document/9521579' target='_blank'>paper</a>] <br>
     <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
     TCAD 2021  <br>
     
@@ -241,7 +241,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 2.
 </td>
 <td>
-    Analog IC aging-induced degradation estimation via heterogeneous graph convolutional networks <br>
+    Analog IC aging-induced degradation estimation via heterogeneous graph convolutional networks [<a href='https://dl.acm.org/doi/10.1145/3394885.3431546' target='_blank'>paper</a>] <br>
     <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
     ASP-DAC 2021  <br>
     
@@ -275,7 +275,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 2.
 </td>
 <td>
-    MaskPlace: Fast Chip Placement via Reinforced Visual Representation Learning <br>
+    MaskPlace: Fast Chip Placement via Reinforced Visual Representation Learning [<a href='https://arxiv.org/abs/2211.13382' target='_blank'>paper</a>] <br>
     <em>Yao&nbsp;Lai, Yao&nbsp;Mu, and Ping&nbsp;Luo</em><br>
     NeurIPS 2022  <br>
     
@@ -288,7 +288,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 3.
 </td>
 <td>
-    Global placement with deep learning-enabled explicit routability optimization <br>
+    Global placement with deep learning-enabled explicit routability optimization [<a href='https://ieeexplore.ieee.org/document/9473959' target='_blank'>paper</a>] <br>
     <em>Siting&nbsp;Liu, Qi&nbsp;Sun, Peiyu&nbsp;Liao, Yibo&nbsp;Lin, and Bei&nbsp;Yu</em><br>
     DATE 2021  <br>
     
@@ -314,7 +314,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 5.
 </td>
 <td>
-    DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement <br>
+    DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement [<a href='https://ieeexplore.ieee.org/document/8807076' target='_blank'>paper</a>] <br>
     <em>Yibo&nbsp;Lin, Shounak&nbsp;Dhar, Wuxi&nbsp;Li, Haoxing&nbsp;Ren, Brucek&nbsp;Khailany, and David&nbsp;Z.&nbsp;Pan</em><br>
     DAC 2019  <br>
     
@@ -327,7 +327,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 6.
 </td>
 <td>
-    Painting on placement: Forecasting routing congestion using conditional generative adversarial nets <br>
+    Painting on placement: Forecasting routing congestion using conditional generative adversarial nets [<a href='https://dl.acm.org/doi/10.1145/3316781.3317876' target='_blank'>paper</a>] <br>
     <em>Cunxi&nbsp;Yu and Zhiru&nbsp;Zhang</em><br>
     DAC 2019  <br>
     
@@ -340,7 +340,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 7.
 </td>
 <td>
-    Pin accessibility prediction and optimization with deep learning-based pin pattern recognition <br>
+    Pin accessibility prediction and optimization with deep learning-based pin pattern recognition [<a href='https://ieeexplore.ieee.org/document/8806809' target='_blank'>paper</a>] <br>
     <em>Tao-Chun&nbsp;Yu, Shao-Yun&nbsp;Fang, Hsien-Shih&nbsp;Chiu, Kai-Shun&nbsp;Hu, Philip&nbsp;Hui-Yuh&nbsp;Tai, Cindy&nbsp;Chin-Fang&nbsp;Shen, and Henry&nbsp;Sheng</em><br>
     DAC 2019  <br>
     
@@ -353,7 +353,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 8.
 </td>
 <td>
-    RouteNet: Routability prediction for mixed-size designs using convolutional neural network <br>
+    RouteNet: Routability prediction for mixed-size designs using convolutional neural network [<a href='https://ieeexplore.ieee.org/document/8587655' target='_blank'>paper</a>] <br>
     <em>Zhiyao&nbsp;Xie, Yu-Hung&nbsp;Huang, Guan-Qi&nbsp;Fang, Haoxing&nbsp;Ren, Shao-Yun&nbsp;Fang, Yiran&nbsp;Chen, and Jiang&nbsp;Hu</em><br>
     ICCAD 2018  <br>
     
@@ -421,7 +421,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 2.
 </td>
 <td>
-    Asynchronous reinforcement learning framework for net order exploration in detailed routing <br>
+    Asynchronous reinforcement learning framework for net order exploration in detailed routing [<a href='https://ieeexplore.ieee.org/document/9474007' target='_blank'>paper</a>] <br>
     <em>Tong&nbsp;Qu, Yibo&nbsp;Lin, Zongqing&nbsp;Lu, Yajuan&nbsp;Su, and Yayi&nbsp;Wei</em><br>
     DATE 2021  <br>
     
@@ -434,7 +434,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 3.
 </td>
 <td>
-    Late breaking results: A neural network that routes ics <br>
+    Late breaking results: A neural network that routes ics [<a href='https://ieeexplore.ieee.org/document/9218598' target='_blank'>paper</a>] <br>
     <em>Dmitry&nbsp;Utyamishev and Inna&nbsp;Partin-Vaisband</em><br>
     DAC 2020  <br>
     
@@ -447,7 +447,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 ## <i class="fa fa-chevron-right"></i> Timing
 
-<h3>Timing</h3>
+<h3></h3>
 <table class="table table-hover">
 
 <tr id="tr-DAC23_gnnOpt" >
@@ -468,7 +468,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 2.
 </td>
 <td>
-    Graph-Learning-Driven Path-Based Timing Analysis Results Predictor from Graph-Based Timing Analysis <br>
+    Graph-Learning-Driven Path-Based Timing Analysis Results Predictor from Graph-Based Timing Analysis [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C152-ASPDAC2023-GPBA.pdf' target='_blank'>paper</a>] <br>
     <em>Yuyang&nbsp;Ye, Tinghuan&nbsp;Chen, Yifei&nbsp;Gao, Hao&nbsp;Yan, Bei&nbsp;Yu, and Longxing&nbsp;Shi</em><br>
     ASP-DAC 2023  <br>
     
@@ -481,7 +481,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 3.
 </td>
 <td>
-    Fast and Accurate Wire Timing Estimation Based on Graph Learning <br>
+    Fast and Accurate Wire Timing Estimation Based on Graph Learning [<a href='http://www.cse.cuhk.edu.hk/~byu/papers/C159-DATE2023-NetTiming.pdf' target='_blank'>paper</a>] <br>
     <em>Yuyang&nbsp;Ye, Tinghuan&nbsp;Chen, Yifei&nbsp;Gao, Hao&nbsp;Yan, Bei&nbsp;Yu, and Longxing&nbsp;Shi</em><br>
     DATE 2023  <br>
     
@@ -494,9 +494,126 @@ Design flows are the explicit combinations of design transformations, primarily 
 4.
 </td>
 <td>
-    A timing engine inspired graph neural network model for pre-routing slack prediction <br>
+    A timing engine inspired graph neural network model for pre-routing slack prediction [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530597' target='_blank'>paper</a>] <br>
     <em>Zizheng&nbsp;Guo, Mingjie&nbsp;Liu, Jiaqi&nbsp;Gu, Shuhan&nbsp;Zhang, David&nbsp;Z&nbsp;Pan, and Yibo&nbsp;Lin</em><br>
     DAC 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-xie_net2_2020" >
+<td align='right'>
+5.
+</td>
+<td>
+    Net2: A Graph Attention Network Method Customized for Pre-Placement Net Length Estimation [<a href='http://arxiv.org/abs/2011.13522' target='_blank'>paper</a>] <br>
+    <em>Zhiyao&nbsp;Xie, Rongjian&nbsp;Liang, Xiaoqing&nbsp;Xu, Jiang&nbsp;Hu, Yixiao&nbsp;Duan, and Yiran&nbsp;Chen</em><br>
+    arXiv 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liang_routing-free_2020" >
+<td align='right'>
+6.
+</td>
+<td>
+    Routing-free crosstalk prediction [<a href='https://dl.acm.org/doi/10.1145/3400302.3415712' target='_blank'>paper</a>] <br>
+    <em>Rongjian&nbsp;Liang, Zhiyao&nbsp;Xie, Jinwook&nbsp;Jung, Vishnavi&nbsp;Chauha, Yiran&nbsp;Chen, Jiang&nbsp;Hu, Hua&nbsp;Xiang, and Gi-Joon&nbsp;Nam</em><br>
+    ICCAD 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-cheng_fast_2020" >
+<td align='right'>
+7.
+</td>
+<td>
+    Fast and Accurate Wire Timing Estimation on Tree and Non-Tree Net Structures [<a href='https://ieeexplore.ieee.org/document/9218712/' target='_blank'>paper</a>] <br>
+    <em>Hsien-Han&nbsp;Cheng, Iris&nbsp;Hui-Ru&nbsp;Jiang, and Oscar&nbsp;Ou</em><br>
+    DAC 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-barboza_machine_2019" >
+<td align='right'>
+8.
+</td>
+<td>
+    Machine Learning-Based Pre-Routing Timing Prediction with Reduced Pessimism [<a href='https://dl.acm.org/doi/10.1145/3316781.3317857' target='_blank'>paper</a>] <br>
+    <em>Erick&nbsp;Carvajal&nbsp;Barboza, Nishchal&nbsp;Shukla, Yiran&nbsp;Chen, and Jiang&nbsp;Hu</em><br>
+    DAC 2019  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-hyun_accurate_2019" >
+<td align='right'>
+9.
+</td>
+<td>
+    Accurate Wirelength Prediction for Placement-Aware Synthesis through Machine Learning [<a href='https://ieeexplore.ieee.org/document/8715016/' target='_blank'>paper</a>] <br>
+    <em>Daijoon&nbsp;Hyun, Yuepeng&nbsp;Fan, and Youngsoo&nbsp;Shin</em><br>
+    DATE 2019  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-kahng_using_2018" >
+<td align='right'>
+10.
+</td>
+<td>
+    Using Machine Learning to Predict Path-Based Slack from Graph-Based Timing Analysis [<a href='https://ieeexplore.ieee.org/document/8615746/' target='_blank'>paper</a>] <br>
+    <em>Andrew&nbsp;B.&nbsp;Kahng, Uday&nbsp;Mallappa, and Lawrence&nbsp;Saul</em><br>
+    ICCD 2018  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-kahng_si_2015" >
+<td align='right'>
+11.
+</td>
+<td>
+    SI for free: machine learning of interconnect coupling delay and transition effects [<a href='http://ieeexplore.ieee.org/document/7171706/' target='_blank'>paper</a>] <br>
+    <em>Andrew&nbsp;B.&nbsp;Kahng, Mulong&nbsp;Luo, and Siddhartha&nbsp;Nath</em><br>
+    SLIP 2015  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-han_deep_nodate" >
+<td align='right'>
+12.
+</td>
+<td>
+    A Deep Learning Methodology to Proliferate Golden Signoff Timing [<a href='https://ieeexplore.ieee.org/document/6800474' target='_blank'>paper</a>] <br>
+    <em>Seung-Soo&nbsp;Han, Andrew&nbsp;B&nbsp;Kahng, Siddhartha&nbsp;Nath, Ashok&nbsp;S&nbsp;Vydyanathan, and ECE&nbsp;Departments</em><br>
+    DATE 2014  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-kahng_learning-based_2013" >
+<td align='right'>
+13.
+</td>
+<td>
+    Learning-based approximation of interconnect delay and slew in signoff timing tools [<a href='http://ieeexplore.ieee.org/document/6681682/' target='_blank'>paper</a>] <br>
+    <em>Andrew&nbsp;B.&nbsp;Kahng, Seokhyeong&nbsp;Kang, Hyein&nbsp;Lee, Siddhartha&nbsp;Nath, and Jyoti&nbsp;Wadhwani</em><br>
+    SLIP 2013  <br>
     
 </td>
 </tr>
@@ -507,56 +624,92 @@ Design flows are the explicit combinations of design transformations, primarily 
 
 ## <i class="fa fa-chevron-right"></i> Layout Verification
 
+<h3></h3>
+<table class="table table-hover">
+
+<tr id="tr-9536958" >
+<td align='right'>
+1.
+</td>
+<td>
+    Hotspot Detection via Attention-Based Deep Layout Metric Learning [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C106-ICCAD2020-Metric-HSD.pdf' target='_blank'>paper</a>] <br>
+    <em>Hao&nbsp;Geng, Haoyu&nbsp;Yang, Lu&nbsp;Zhang, Fan&nbsp;Yang, Xuan&nbsp;Zeng, and Bei&nbsp;Yu</em><br>
+    TCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9774579" >
+<td align='right'>
+2.
+</td>
+<td>
+    Efficient Hotspot Detection via Graph Neural Network [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C134-DATE2022-GNN-HSD.pdf' target='_blank'>paper</a>] <br>
+    <em>Shuyuan&nbsp;Sun, Yiyang&nbsp;Jiang, Fan&nbsp;Yang, Bei&nbsp;Yu, and Xuan&nbsp;Zeng</em><br>
+    DATE 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9586273" >
+<td align='right'>
+3.
+</td>
+<td>
+    Low-Cost Lithography Hotspot Detection with Active Entropy Sampling and Model Calibration [<a href='https://ieeexplore.ieee.org/document/9586273' target='_blank'>paper</a>] <br>
+    <em>Yifeng&nbsp;Xiao, Miaodi&nbsp;Su, Haoyu&nbsp;Yang, Jianli&nbsp;Chen, Jun&nbsp;Yu, and Bei&nbsp;Yu</em><br>
+    DAC 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9164914" >
+<td align='right'>
+4.
+</td>
+<td>
+    Efficient Layout Hotspot Detection via Binarized Residual Neural Network Ensemble [<a href='https://ieeexplore.ieee.org/document/9164914' target='_blank'>paper</a>] <br>
+    <em>Yiyang&nbsp;Jiang, Fan&nbsp;Yang, Bei&nbsp;Yu, Dian&nbsp;Zhou, and Xuan&nbsp;Zeng</em><br>
+    TCAD 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9164899" >
+<td align='right'>
+5.
+</td>
+<td>
+    Bridging the Gap Between Layout Pattern Sampling and Hotspot Detection via Batch Active Learning [<a href='https://arxiv.org/abs/1807.06446' target='_blank'>paper</a>] <br>
+    <em>Haoyu&nbsp;Yang, Shuhe&nbsp;Li, Cyrus&nbsp;Tabery, Bingqing&nbsp;Lin, and Bei&nbsp;Yu</em><br>
+    TCAD 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9643590" >
+<td align='right'>
+6.
+</td>
+<td>
+    Hotspot Detection via Multi-task Learning and Transformer Encoder [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C125-ICCAD2021-H-DETR.pdf' target='_blank'>paper</a>] <br>
+    <em>Binwu&nbsp;Zhu, Ran&nbsp;Chen, Xinyun&nbsp;Zhang, Fan&nbsp;Yang, Xuan&nbsp;Zeng, Bei&nbsp;Yu, and Martin&nbsp;D.F.&nbsp;Wong</em><br>
+    ICCAD 2021  <br>
+    
+</td>
+</tr>
+
+</table>
 
 
 
 ## <i class="fa fa-chevron-right"></i> Mask Optimization
 
-<h3>Layout Generation</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_Diff" >
-<td align='right'>
-1.
-</td>
-<td>
-    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
-    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Lithography</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_Nitho" >
-<td align='right'>
-1.
-</td>
-<td>
-    Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields <br>
-    <em>Guojin&nbsp;Chen, Zehua&nbsp;Pei, Haoyu&nbsp;Yang, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-wang2022deepeb" >
-<td align='right'>
-2.
-</td>
-<td>
-    DeePEB: A Neural Partial Differential Equation Solver for Post Exposure Baking Simulation in Lithography [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549398' target='_blank'>paper</a>]  [<a href='https://github.com/Brilight/DeePEB' target='_blank'>code</a>] <br>
-    <em>Qipan&nbsp;Wang, Xiaohan&nbsp;Gao, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
-    ICCAD 2022  <br>
-    
-</td>
-</tr>
-
-</table>
 <h3>Mask Optimization</h3>
 <table class="table table-hover">
 
@@ -565,7 +718,7 @@ Design flows are the explicit combinations of design transformations, primarily 
 1.
 </td>
 <td>
-    AdaOPC: A Self-Adaptive Mask Optimization Framework For Real Design Patterns <br>
+    AdaOPC: A Self-Adaptive Mask Optimization Framework For Real Design Patterns [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C148-ICCAD2022-AdaOPC.pdf' target='_blank'>paper</a>] <br>
     <em>Wenqian&nbsp;Zhao, Xufeng&nbsp;Yao, Ziyang&nbsp;Yu, Guojin&nbsp;Chen, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
     ICCAD 2022  <br>
     
@@ -610,28 +763,95 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 </td>
 </tr>
 
+
+<tr id="tr-10.1145/3195970.3196056" >
+<td align='right'>
+4.
+</td>
+<td>
+    GAN-OPC: Mask Optimization with Lithography-Guided Generative Adversarial Nets 
+[<a href='javascript:;'
+    onclick='$("#abs_10.1145/3195970.3196056").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3195970.3196056' target='_blank'>paper</a>] <br>
+    <em>Haoyu&nbsp;Yang, Shuhe&nbsp;Li, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Evangeline&nbsp;F.&nbsp;Y.&nbsp;Young</em><br>
+    DAC 2018  <br>
+    
+<div id="abs_10.1145/3195970.3196056" style="text-align: justify; display: none" markdown="1">
+Mask optimization has been a critical problem in the VLSI design flow due to the mismatch between the lithography system and the continuously shrinking feature sizes. Optical proximity correction (OPC) is one of the prevailing resolution enhancement techniques (RETs) that can significantly improve mask printability. However, in advanced technology nodes, the mask optimization process consumes more and more computational resources. In this paper, we develop a generative adversarial network (GAN) model to achieve better mask optimization performance. We first develop an OPC-oriented GAN flow that can learn target-mask mapping from the improved architecture and objectives, which leads to satisfactory mask optimization results. To facilitate the training process and ensure better convergence, we also propose a pre-training procedure that jointly trains the neural network with inverse lithography technique (ILT). At convergence, the generative network is able to create quasi-optimal masks for given target circuit patterns and fewer normal OPC steps are required to generate high quality masks. Experimental results show that our flow can facilitate the mask optimization process as well as ensure a better printability.
+</div>
+
+</td>
+</tr>
+
+</table>
+<h3>Lithography</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_Nitho" >
+<td align='right'>
+1.
+</td>
+<td>
+    Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields <br>
+    <em>Guojin&nbsp;Chen, Zehua&nbsp;Pei, Haoyu&nbsp;Yang, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wang2022deepeb" >
+<td align='right'>
+2.
+</td>
+<td>
+    DeePEB: A Neural Partial Differential Equation Solver for Post Exposure Baking Simulation in Lithography [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549398' target='_blank'>paper</a>]  [<a href='https://github.com/Brilight/DeePEB' target='_blank'>code</a>] <br>
+    <em>Qipan&nbsp;Wang, Xiaohan&nbsp;Gao, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-10.1145/3489517.3530580" >
+<td align='right'>
+3.
+</td>
+<td>
+    Generic Lithography Modeling with Dual-Band Optics-Inspired Neural Networks 
+[<a href='javascript:;'
+    onclick='$("#abs_10.1145/3489517.3530580").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3489517.3530580' target='_blank'>paper</a>] <br>
+    <em>Haoyu&nbsp;Yang, Zongyi&nbsp;Li, Kumara&nbsp;Sastry, Saumyadip&nbsp;Mukhopadhyay, Mark&nbsp;Kilgard, Anima&nbsp;Anandkumar, Brucek&nbsp;Khailany, Vivek&nbsp;Singh, and Haoxing&nbsp;Ren</em><br>
+    DAC 2022  <br>
+    
+<div id="abs_10.1145/3489517.3530580" style="text-align: justify; display: none" markdown="1">
+Lithography simulation is a critical step in VLSI design and optimization for manufacturability. Existing solutions for highly accurate lithography simulation with rigorous models are computationally expensive and slow, even when equipped with various approximation techniques. Recently, machine learning has provided alternative solutions for lithography simulation tasks such as coarse-grained edge placement error regression and complete contour prediction. However, the impact of these learning-based methods has been limited due to restrictive usage scenarios or low simulation accuracy. To tackle these concerns, we introduce an dual-band optics-inspired neural network design that considers the optical physics underlying lithography. To the best of our knowledge, our approach yields the first published via/metal layer contour simulation at 1nm2/pixel resolution with any tile size. Compared to previous machine learning based solutions, we demonstrate that our framework can be trained much faster and offers a significant improvement on efficiency and image quality with 20\texttimes smaller model size. We also achieve 85\texttimes simulation speedup over traditional lithography simulator with ~ 1% accuracy loss.
+</div>
+
+</td>
+</tr>
+
+</table>
+<h3>Layout Generation</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_Diff" >
+<td align='right'>
+1.
+</td>
+<td>
+    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
+    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
 </table>
 
 
 
 ## <i class="fa fa-chevron-right"></i> Analog Layout Synthesis
 
-<h3>Analog Layout Placement</h3>
-<table class="table table-hover">
-
-<tr id="tr-9712592" >
-<td align='right'>
-1.
-</td>
-<td>
-    Generative-Adversarial-Network-Guided Well-Aware Placement for Analog Circuits <br>
-    <em>Keren&nbsp;Zhu, Hao&nbsp;Chen, Mingjie&nbsp;Liu, Xiyuan&nbsp;Tang, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
-    ASP-DAC 2022  <br>
-    
-</td>
-</tr>
-
-</table>
 <h3>Analog Layout Routing</h3>
 <table class="table table-hover">
 
@@ -640,7 +860,7 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 1.
 </td>
 <td>
-    TRouter: Thermal-driven PCB Routing via Non-Local Crisscross Attention Networks <br>
+    TRouter: Thermal-driven PCB Routing via Non-Local Crisscross Attention Networks [<a href='https://ieeexplore.ieee.org/abstract/document/10042057' target='_blank'>paper</a>] <br>
     <em>Tinghuan&nbsp;Chen, Silu&nbsp;Xiong, Huan&nbsp;He, and Bei&nbsp;Yu</em><br>
     TCAD 2023  <br>
     
@@ -653,7 +873,7 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 2.
 </td>
 <td>
-    GeniusRoute: A new analog routing paradigm using generative neural network guidance <br>
+    GeniusRoute: A new analog routing paradigm using generative neural network guidance [<a href='https://ieeexplore.ieee.org/document/8942164' target='_blank'>paper</a>] <br>
     <em>Keren&nbsp;Zhu, Mingjie&nbsp;Liu, Yibo&nbsp;Lin, Biying&nbsp;Xu, Shaolan&nbsp;Li, Xiyuan&nbsp;Tang, Nan&nbsp;Sun, and David&nbsp;Z&nbsp;Pan</em><br>
     ICCAD 2019  <br>
     
@@ -679,6 +899,43 @@ Continuous scaling of the VLSI system leaves a great challenge on manufacturing 
 Existing analog layout synthesis tools provide little guarantee to post layout performance and have limited capabilities of handling system-level designs. In this paper, we present a closed-loop hierarchical analog layout synthesizer, capable of handling system designs. To ensure system performance, the building block layout implementations are optimized efficiently, utilizing post layout simulations with multi-objective Bayesian optimization. To the best of our knowledge, this is the first work demonstrating success in automated layout synthesis on generic analog system designs. Experimental results show our synthesized continuous-time ΔΣ modulator (CTDSM) achieves post layout performance of 65.9dB in signal to noise and distortion ratio (SNDR), compared with 67.8dB in the schematic design.
 </div>
 
+</td>
+</tr>
+
+</table>
+<h3>Analog Layout Placement</h3>
+<table class="table table-hover">
+
+<tr id="tr-9712592" >
+<td align='right'>
+1.
+</td>
+<td>
+    Generative-Adversarial-Network-Guided Well-Aware Placement for Analog Circuits [<a href='https://ieeexplore.ieee.org/document/9712592' target='_blank'>paper</a>] <br>
+    <em>Keren&nbsp;Zhu, Hao&nbsp;Chen, Mingjie&nbsp;Liu, Xiyuan&nbsp;Tang, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
+    ASP-DAC 2022  <br>
+    
+</td>
+</tr>
+
+</table>
+
+
+
+## <i class="fa fa-chevron-right"></i> Dataset and Tools
+
+<h3></h3>
+<table class="table table-hover">
+
+<tr id="tr-chai2022circuitnet" >
+<td align='right'>
+1.
+</td>
+<td>
+    CircuitNet: An Open-Source Dataset for Machine Learning Applications in Electronic Design Automation (EDA) [<a href='https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3571-8' target='_blank'>paper</a>]  [<a href='https://circuitnet.github.io/' target='_blank'>code</a>] <br>
+    <em>Zhuomin&nbsp;Chai, Yuxiang&nbsp;Zhao, Yibo&nbsp;Lin, Wei&nbsp;Liu, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
+    SCIENCE CHINA Information Sciences 2022  <br>
+    
 </td>
 </tr>
 
