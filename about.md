@@ -133,6 +133,7 @@ Thank you.
 
 Thanks for the contribution and support from Prof. [Bei Yu](https://www.cse.cuhk.edu.hk/~byu/), Prof. [Yibo Lin](https://yibolin.com/) and Mr.[Jing Mai](https://magic3007.github.io/)
 
+See [more contributors here](https://github.com/ai4eda/awesome-AI4EDA/graphs/contributors).
 
 <br/>
 <br/>
