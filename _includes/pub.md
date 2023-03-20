@@ -66,6 +66,22 @@
 
 ## <i class="fa fa-chevron-right"></i> Logic Synthesis
 
+<h3></h3>
+<table class="table table-hover">
+
+<tr id="tr-DBLP:conf/iccad/FengLCYYH22" >
+<td align='right'>
+1.
+</td>
+<td>
+    Batch Sequential Black-Box Optimization with Embedding Alignment Cells for Logic Synthesis [<a href='https://doi.org/10.1145/3508352.3549363' target='_blank'>paper</a>] <br>
+    <em>Chang&nbsp;Feng, Wenlong&nbsp;Lyu, Zhitang&nbsp;Chen, Junjie&nbsp;Ye, Mingxuan&nbsp;Yuan, and Jianye&nbsp;Hao</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Operator Sequence Scheduling</h3>
 <table class="table table-hover">
 
@@ -186,57 +202,12 @@ Design flows are the explicit combinations of design transformations, primarily 
 </tr>
 
 </table>
-<h3></h3>
-<table class="table table-hover">
-
-<tr id="tr-DBLP:conf/iccad/FengLCYYH22" >
-<td align='right'>
-1.
-</td>
-<td>
-    Batch Sequential Black-Box Optimization with Embedding Alignment Cells for Logic Synthesis [<a href='https://doi.org/10.1145/3508352.3549363' target='_blank'>paper</a>] <br>
-    <em>Chang&nbsp;Feng, Wenlong&nbsp;Lyu, Zhitang&nbsp;Chen, Junjie&nbsp;Ye, Mingxuan&nbsp;Yuan, and Jianye&nbsp;Hao</em><br>
-    ICCAD 2022  <br>
-    
-</td>
-</tr>
-
-</table>
 
 
 
 ## <i class="fa fa-chevron-right"></i> Circuit Verification
 
 <h3></h3>
-<table class="table table-hover">
-
-<tr id="tr-ICCAD20_Aadam" >
-<td align='right'>
-1.
-</td>
-<td>
-    Aadam: A Fast, Accurate, and Versatile Aging-Aware Cell Library Delay Model using Feed-Forward Neural Network [<a href='https://ieeexplore.ieee.org/document/9256491/' target='_blank'>paper</a>] <br>
-    <em>Seyed&nbsp;Milad&nbsp;Ebrahimipour, Behnam&nbsp;Ghavami, Hamid&nbsp;Mousavi, Mohsen&nbsp;Raji, Zhenman&nbsp;Fang, and Lesley&nbsp;Shannon</em><br>
-    ICCAD 2020  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-ICCAD_Gao" >
-<td align='right'>
-2.
-</td>
-<td>
-    Efficient Performance Trade-off Modeling for Analog Circuit based on Bayesian Neural Network [<a href='https://ieeexplore.ieee.org/document/8942174' target='_blank'>paper</a>] <br>
-    <em>Zhengqi&nbsp;Gao, Jun&nbsp;Tao, Fan&nbsp;Yang, Yangfeng&nbsp;Su, Dian&nbsp;Zhou, and Xuan&nbsp;Zeng</em><br>
-    ICCAD 2019  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Circuit Verification</h3>
 <table class="table table-hover">
 
 <tr id="tr-DAC22_ncl" >
@@ -260,6 +231,74 @@ Design flows are the explicit combinations of design transformations, primarily 
     Graph Learning-Based Arithmetic Block Identification [<a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9643581&casa_token=eTSwwwdrkj0AAAAA:iSIYCHnrvx8WxjcHJRg-LZFEa5c9sA1ZlWBo7YUiUdpwVPq4m5-j-V2mi3tk7sFz7cJIRMk&tag=1' target='_blank'>paper</a>] <br>
     <em>Zhuolun&nbsp;He, Ziyi&nbsp;Wang, Chen&nbsp;Bail, Haoyu&nbsp;Yang, and Bei&nbsp;Yu</em><br>
     ICCAD 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ICCAD20_Aadam" >
+<td align='right'>
+3.
+</td>
+<td>
+    Aadam: A Fast, Accurate, and Versatile Aging-Aware Cell Library Delay Model using Feed-Forward Neural Network [<a href='https://ieeexplore.ieee.org/document/9256491/' target='_blank'>paper</a>] <br>
+    <em>Seyed&nbsp;Milad&nbsp;Ebrahimipour, Behnam&nbsp;Ghavami, Hamid&nbsp;Mousavi, Mohsen&nbsp;Raji, Zhenman&nbsp;Fang, and Lesley&nbsp;Shannon</em><br>
+    ICCAD 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ICCAD_Gao" >
+<td align='right'>
+4.
+</td>
+<td>
+    Efficient Performance Trade-off Modeling for Analog Circuit based on Bayesian Neural Network [<a href='https://ieeexplore.ieee.org/document/8942174' target='_blank'>paper</a>] <br>
+    <em>Zhengqi&nbsp;Gao, Jun&nbsp;Tao, Fan&nbsp;Yang, Yangfeng&nbsp;Su, Dian&nbsp;Zhou, and Xuan&nbsp;Zeng</em><br>
+    ICCAD 2019  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Reliability</h3>
+<table class="table table-hover">
+
+<tr id="tr-DBLP:conf/aspdac/GengSCXHY23" >
+<td align='right'>
+1.
+</td>
+<td>
+    Mixed-Type Wafer Failure Pattern Recognition [<a href='https://doi.org/10.1145/3566097.3568363' target='_blank'>paper</a>] <br>
+    <em>Hao&nbsp;Geng, Qi&nbsp;Sun, Tinghuan&nbsp;Chen, Qi&nbsp;Xu, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    ASP-DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2021deep" >
+<td align='right'>
+2.
+</td>
+<td>
+    Deep H-GCN: Fast analog IC aging-induced degradation estimation [<a href='https://ieeexplore.ieee.org/document/9521579' target='_blank'>paper</a>] <br>
+    <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
+    TCAD 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2021analog" >
+<td align='right'>
+3.
+</td>
+<td>
+    Analog IC aging-induced degradation estimation via heterogeneous graph convolutional networks [<a href='https://dl.acm.org/doi/10.1145/3394885.3431546' target='_blank'>paper</a>] <br>
+    <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
+    ASP-DAC 2021  <br>
     
 </td>
 </tr>
@@ -369,48 +408,6 @@ DC analysis is the foundation for nonlinear electronic circuit simulation. Pseud
     Application of Deep Learning in Back-End Simulation: Challenges and Opportunities [<a href='https://www.ssslab.cn/assets/papers/2022-chen-backend.pdf' target='_blank'>paper</a>] <br>
     <em>Yufei&nbsp;Chen, Haojie&nbsp;Pei, Xiao&nbsp;Dong, Zhou&nbsp;Jin, and Cheng&nbsp;Zhuo</em><br>
     ASP-DAC 2022  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Reliability</h3>
-<table class="table table-hover">
-
-<tr id="tr-DBLP:conf/aspdac/GengSCXHY23" >
-<td align='right'>
-1.
-</td>
-<td>
-    Mixed-Type Wafer Failure Pattern Recognition [<a href='https://doi.org/10.1145/3566097.3568363' target='_blank'>paper</a>] <br>
-    <em>Hao&nbsp;Geng, Qi&nbsp;Sun, Tinghuan&nbsp;Chen, Qi&nbsp;Xu, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
-    ASP-DAC 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-chen2021deep" >
-<td align='right'>
-2.
-</td>
-<td>
-    Deep H-GCN: Fast analog IC aging-induced degradation estimation [<a href='https://ieeexplore.ieee.org/document/9521579' target='_blank'>paper</a>] <br>
-    <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
-    TCAD 2021  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-chen2021analog" >
-<td align='right'>
-3.
-</td>
-<td>
-    Analog IC aging-induced degradation estimation via heterogeneous graph convolutional networks [<a href='https://dl.acm.org/doi/10.1145/3394885.3431546' target='_blank'>paper</a>] <br>
-    <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
-    ASP-DAC 2021  <br>
     
 </td>
 </tr>
@@ -1322,61 +1319,6 @@ DC analysis is the foundation for nonlinear electronic circuit simulation. Pseud
 </tr>
 
 </table>
-<h3>Gate Sizing</h3>
-<table class="table table-hover">
-
-<tr id="tr-DBLP:conf/iccad/ZhouYPSZWHCH22" >
-<td align='right'>
-1.
-</td>
-<td>
-    Heterogeneous Graph Neural Network-Based Imitation Learning for Gate Sizing Acceleration [<a href='https://doi.org/10.1145/3508352.3549361' target='_blank'>paper</a>] <br>
-    <em>Xinyi&nbsp;Zhou, Junjie&nbsp;Ye, Chak-Wa&nbsp;Pui, Kun&nbsp;Shao, Guangliang&nbsp;Zhang, Bin&nbsp;Wang, Jianye&nbsp;Hao, Guangyong&nbsp;Chen, and Pheng-Ann&nbsp;Heng</em><br>
-    ICCAD 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-DBLP:conf/iccad/NathPHYKR22" >
-<td align='right'>
-2.
-</td>
-<td>
-    TransSizer: A Novel Transformer-Based Fast Gate Sizer [<a href='https://doi.org/10.1145/3508352.3549442' target='_blank'>paper</a>] <br>
-    <em>Siddhartha&nbsp;Nath, Geraldo&nbsp;Pradipta, Corey&nbsp;Hu, Tian&nbsp;Yang, Brucek&nbsp;Khailany, and Haoxing&nbsp;Ren</em><br>
-    ICCAD 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-lu2021rl" >
-<td align='right'>
-3.
-</td>
-<td>
-    Rl-sizer: Vlsi gate sizing for timing optimization using deep reinforcement learning [<a href='https://ieeexplore.ieee.org/document/9586138' target='_blank'>paper</a>] <br>
-    <em>Yi-Chen&nbsp;Lu, Siddhartha&nbsp;Nath, Vishal&nbsp;Khandelwal, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
-    DAC 2021  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-wang2020gcn" >
-<td align='right'>
-4.
-</td>
-<td>
-    GCN-RL circuit designer: Transferable transistor sizing with graph neural networks and reinforcement learning [<a href='https://arxiv.org/abs/2005.00406' target='_blank'>paper</a>] <br>
-    <em>Hanrui&nbsp;Wang, Kuan&nbsp;Wang, Jiacheng&nbsp;Yang, Linxiao&nbsp;Shen, Nan&nbsp;Sun, Hae-Seung&nbsp;Lee, and Song&nbsp;Han</em><br>
-    DAC 2020  <br>
-    
-</td>
-</tr>
-
-</table>
 <h3>Ir Drop</h3>
 <table class="table table-hover">
 
@@ -1523,6 +1465,90 @@ DC analysis is the foundation for nonlinear electronic circuit simulation. Pseud
 </tr>
 
 </table>
+<h3>Power</h3>
+<table class="table table-hover">
+
+<tr id="tr-DBLP:conf/aspdac/LuZJST23" >
+<td align='right'>
+1.
+</td>
+<td>
+    Learning Based Spatial Power Characterization and Full-Chip Power Estimation for Commercial TPUs [<a href='https://doi.org/10.1145/3566097.3568347' target='_blank'>paper</a>] <br>
+    <em>Jincong&nbsp;Lu, Jinwei&nbsp;Zhang, Wentian&nbsp;Jin, Sachin&nbsp;Sachdeva, and Sheldon&nbsp;X.&nbsp;-D.&nbsp;Tan</em><br>
+    ASPDAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/aspdac/ZhaiC023" >
+<td align='right'>
+2.
+</td>
+<td>
+    Microarchitecture Power Modeling via Artificial Neural Network and Transfer Learning [<a href='https://doi.org/10.1145/3566097.3567844' target='_blank'>paper</a>] <br>
+    <em>Jianwang&nbsp;Zhai, Yici&nbsp;Cai, and Bei&nbsp;Yu</em><br>
+    ASPDAC 2023  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Gate Sizing</h3>
+<table class="table table-hover">
+
+<tr id="tr-DBLP:conf/iccad/ZhouYPSZWHCH22" >
+<td align='right'>
+1.
+</td>
+<td>
+    Heterogeneous Graph Neural Network-Based Imitation Learning for Gate Sizing Acceleration [<a href='https://doi.org/10.1145/3508352.3549361' target='_blank'>paper</a>] <br>
+    <em>Xinyi&nbsp;Zhou, Junjie&nbsp;Ye, Chak-Wa&nbsp;Pui, Kun&nbsp;Shao, Guangliang&nbsp;Zhang, Bin&nbsp;Wang, Jianye&nbsp;Hao, Guangyong&nbsp;Chen, and Pheng-Ann&nbsp;Heng</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/iccad/NathPHYKR22" >
+<td align='right'>
+2.
+</td>
+<td>
+    TransSizer: A Novel Transformer-Based Fast Gate Sizer [<a href='https://doi.org/10.1145/3508352.3549442' target='_blank'>paper</a>] <br>
+    <em>Siddhartha&nbsp;Nath, Geraldo&nbsp;Pradipta, Corey&nbsp;Hu, Tian&nbsp;Yang, Brucek&nbsp;Khailany, and Haoxing&nbsp;Ren</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-lu2021rl" >
+<td align='right'>
+3.
+</td>
+<td>
+    Rl-sizer: Vlsi gate sizing for timing optimization using deep reinforcement learning [<a href='https://ieeexplore.ieee.org/document/9586138' target='_blank'>paper</a>] <br>
+    <em>Yi-Chen&nbsp;Lu, Siddhartha&nbsp;Nath, Vishal&nbsp;Khandelwal, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
+    DAC 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wang2020gcn" >
+<td align='right'>
+4.
+</td>
+<td>
+    GCN-RL circuit designer: Transferable transistor sizing with graph neural networks and reinforcement learning [<a href='https://arxiv.org/abs/2005.00406' target='_blank'>paper</a>] <br>
+    <em>Hanrui&nbsp;Wang, Kuan&nbsp;Wang, Jiacheng&nbsp;Yang, Linxiao&nbsp;Shen, Nan&nbsp;Sun, Hae-Seung&nbsp;Lee, and Song&nbsp;Han</em><br>
+    DAC 2020  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Reliability</h3>
 <table class="table table-hover">
 
@@ -1560,35 +1586,6 @@ DC analysis is the foundation for nonlinear electronic circuit simulation. Pseud
     Machine Learning for On-the-Fly Reliability-Aware Cell Library Characterization [<a href='https://ieeexplore.ieee.org/document/9394564' target='_blank'>paper</a>] <br>
     <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
     TCSI 2021  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Power</h3>
-<table class="table table-hover">
-
-<tr id="tr-DBLP:conf/aspdac/LuZJST23" >
-<td align='right'>
-1.
-</td>
-<td>
-    Learning Based Spatial Power Characterization and Full-Chip Power Estimation for Commercial TPUs [<a href='https://doi.org/10.1145/3566097.3568347' target='_blank'>paper</a>] <br>
-    <em>Jincong&nbsp;Lu, Jinwei&nbsp;Zhang, Wentian&nbsp;Jin, Sachin&nbsp;Sachdeva, and Sheldon&nbsp;X.&nbsp;-D.&nbsp;Tan</em><br>
-    ASPDAC 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-DBLP:conf/aspdac/ZhaiC023" >
-<td align='right'>
-2.
-</td>
-<td>
-    Microarchitecture Power Modeling via Artificial Neural Network and Transfer Learning [<a href='https://doi.org/10.1145/3566097.3567844' target='_blank'>paper</a>] <br>
-    <em>Jianwang&nbsp;Zhai, Yici&nbsp;Cai, and Bei&nbsp;Yu</em><br>
-    ASPDAC 2023  <br>
     
 </td>
 </tr>
@@ -1698,6 +1695,22 @@ Mask optimization has been a critical problem in the VLSI design flow due to the
 </tr>
 
 </table>
+<h3>Layout Generation</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_Diff" >
+<td align='right'>
+1.
+</td>
+<td>
+    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
+    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Lithography</h3>
 <table class="table table-hover">
 
@@ -1759,27 +1772,98 @@ Lithography simulation is a critical step in VLSI design and optimization for ma
 </tr>
 
 </table>
-<h3>Layout Generation</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_Diff" >
-<td align='right'>
-1.
-</td>
-<td>
-    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
-    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-</table>
 
 
 
 ## <i class="fa fa-chevron-right"></i> Analog Layout Synthesis
 
+<h3>Electromigration Analysis</h3>
+<table class="table table-hover">
+
+<tr id="tr-jin2022hierpinn" >
+<td align='right'>
+1.
+</td>
+<td>
+    HierPINN-EM: Fast Learning-Based Electromigration Analysis for Multi-Segment Interconnects Using Hierarchical Physics-Informed Neural Network [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549371' target='_blank'>paper</a>] <br>
+    <em>Wentian&nbsp;Jin, Liang&nbsp;Chen, Subed&nbsp;Lamichhane, Mohammadamir&nbsp;Kavousi, and Sheldon&nbsp;X-D&nbsp;Tan</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-hou2022space" >
+<td align='right'>
+2.
+</td>
+<td>
+    A Space-Time Neural Network for Analysis of Stress Evolution Under DC Current Stressing [<a href='https://arxiv.org/abs/2203.15247' target='_blank'>paper</a>] <br>
+    <em>Tianshu&nbsp;Hou, Ngai&nbsp;Wong, Quan&nbsp;Chen, Zhigang&nbsp;Ji, and Hai-Bao&nbsp;Chen</em><br>
+    TCAD 2022  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Analog Simulation</h3>
+<table class="table table-hover">
+
+<tr id="tr-li2022deep" >
+<td align='right'>
+1.
+</td>
+<td>
+    A Deep Learning Approach for Efficient Electromagnetic Analysis of On-Chip Inductor with Dummy Metal Fillings [<a href='https://doi.org/10.3390/electronics11244214' target='_blank'>paper</a>] <br>
+    <em>Xiangliang&nbsp;Li, Yijie&nbsp;Tang, Peng&nbsp;Zhao, Shichang&nbsp;Chen, Kuiwen&nbsp;Xu, and Gaofeng&nbsp;Wang</em><br>
+    Electronics 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-huang2022applications" >
+<td align='right'>
+2.
+</td>
+<td>
+    Applications of physics-informed neural networks in power systems-a review [<a href='https://ieeexplore.ieee.org/document/9743327' target='_blank'>paper</a>] <br>
+    <em>Bin&nbsp;Huang and Jianhui&nbsp;Wang</em><br>
+    Transactions on Power Systems 2022  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Thermal Simulation</h3>
+<table class="table table-hover">
+
+<tr id="tr-ranade2022thermal" >
+<td align='right'>
+1.
+</td>
+<td>
+    A Thermal Machine Learning Solver For Chip Simulation [<a href='https://doi.org/10.1145/3551901.3556484' target='_blank'>paper</a>] <br>
+    <em>Rishikesh&nbsp;Ranade, Haiyang&nbsp;He, Jay&nbsp;Pathak, Norman&nbsp;Chang, Akhilesh&nbsp;Kumar, and Jimin&nbsp;Wen</em><br>
+    ML4CAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2022fast" >
+<td align='right'>
+2.
+</td>
+<td>
+    Fast Thermal Analysis for Chiplet Design based on Graph Convolution Networks [<a href='https://ieeexplore.ieee.org/document/9712583' target='_blank'>paper</a>] <br>
+    <em>Liang&nbsp;Chen, Wentian&nbsp;Jin, and Sheldon&nbsp;X-D&nbsp;Tan</em><br>
+    ASP-DAC 2022  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Analog Layout Placement</h3>
 <table class="table table-hover">
 
@@ -1864,64 +1948,6 @@ Lithography simulation is a critical step in VLSI design and optimization for ma
 </tr>
 
 </table>
-<h3>Electromigration Analysis</h3>
-<table class="table table-hover">
-
-<tr id="tr-jin2022hierpinn" >
-<td align='right'>
-1.
-</td>
-<td>
-    HierPINN-EM: Fast Learning-Based Electromigration Analysis for Multi-Segment Interconnects Using Hierarchical Physics-Informed Neural Network [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549371' target='_blank'>paper</a>] <br>
-    <em>Wentian&nbsp;Jin, Liang&nbsp;Chen, Subed&nbsp;Lamichhane, Mohammadamir&nbsp;Kavousi, and Sheldon&nbsp;X-D&nbsp;Tan</em><br>
-    ICCAD 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-hou2022space" >
-<td align='right'>
-2.
-</td>
-<td>
-    A Space-Time Neural Network for Analysis of Stress Evolution Under DC Current Stressing [<a href='https://arxiv.org/abs/2203.15247' target='_blank'>paper</a>] <br>
-    <em>Tianshu&nbsp;Hou, Ngai&nbsp;Wong, Quan&nbsp;Chen, Zhigang&nbsp;Ji, and Hai-Bao&nbsp;Chen</em><br>
-    TCAD 2022  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Analog Simulation</h3>
-<table class="table table-hover">
-
-<tr id="tr-li2022deep" >
-<td align='right'>
-1.
-</td>
-<td>
-    A Deep Learning Approach for Efficient Electromagnetic Analysis of On-Chip Inductor with Dummy Metal Fillings [<a href='https://doi.org/10.3390/electronics11244214' target='_blank'>paper</a>] <br>
-    <em>Xiangliang&nbsp;Li, Yijie&nbsp;Tang, Peng&nbsp;Zhao, Shichang&nbsp;Chen, Kuiwen&nbsp;Xu, and Gaofeng&nbsp;Wang</em><br>
-    Electronics 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-huang2022applications" >
-<td align='right'>
-2.
-</td>
-<td>
-    Applications of physics-informed neural networks in power systems-a review [<a href='https://ieeexplore.ieee.org/document/9743327' target='_blank'>paper</a>] <br>
-    <em>Bin&nbsp;Huang and Jianhui&nbsp;Wang</em><br>
-    Transactions on Power Systems 2022  <br>
-    
-</td>
-</tr>
-
-</table>
 <h3>Analog Layout Synthesis</h3>
 <table class="table table-hover">
 
@@ -1953,35 +1979,6 @@ Lithography simulation is a critical step in VLSI design and optimization for ma
 Existing analog layout synthesis tools provide little guarantee to post layout performance and have limited capabilities of handling system-level designs. In this paper, we present a closed-loop hierarchical analog layout synthesizer, capable of handling system designs. To ensure system performance, the building block layout implementations are optimized efficiently, utilizing post layout simulations with multi-objective Bayesian optimization. To the best of our knowledge, this is the first work demonstrating success in automated layout synthesis on generic analog system designs. Experimental results show our synthesized continuous-time ΔΣ modulator (CTDSM) achieves post layout performance of 65.9dB in signal to noise and distortion ratio (SNDR), compared with 67.8dB in the schematic design.
 </div>
 
-</td>
-</tr>
-
-</table>
-<h3>Thermal Simulation</h3>
-<table class="table table-hover">
-
-<tr id="tr-ranade2022thermal" >
-<td align='right'>
-1.
-</td>
-<td>
-    A Thermal Machine Learning Solver For Chip Simulation [<a href='https://doi.org/10.1145/3551901.3556484' target='_blank'>paper</a>] <br>
-    <em>Rishikesh&nbsp;Ranade, Haiyang&nbsp;He, Jay&nbsp;Pathak, Norman&nbsp;Chang, Akhilesh&nbsp;Kumar, and Jimin&nbsp;Wen</em><br>
-    ML4CAD 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-chen2022fast" >
-<td align='right'>
-2.
-</td>
-<td>
-    Fast Thermal Analysis for Chiplet Design based on Graph Convolution Networks [<a href='https://ieeexplore.ieee.org/document/9712583' target='_blank'>paper</a>] <br>
-    <em>Liang&nbsp;Chen, Wentian&nbsp;Jin, and Sheldon&nbsp;X-D&nbsp;Tan</em><br>
-    ASP-DAC 2022  <br>
-    
 </td>
 </tr>
 
