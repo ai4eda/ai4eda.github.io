@@ -262,64 +262,6 @@ Logic synthesis requires extensive tuning of the synthesis optimization flow whe
 </tr>
 
 </table>
-<h3>Reliability</h3>
-<table class="table table-hover">
-
-<tr id="tr-DBLP:conf/aspdac/GengSCXHY23" >
-<td align='right'>
-1.
-</td>
-<td>
-    Mixed-Type Wafer Failure Pattern Recognition [<a href='https://doi.org/10.1145/3566097.3568363' target='_blank'>paper</a>] <br>
-    <em>Hao&nbsp;Geng, Qi&nbsp;Sun, Tinghuan&nbsp;Chen, Qi&nbsp;Xu, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
-    ASP-DAC 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-chen2021deep" >
-<td align='right'>
-2.
-</td>
-<td>
-    Deep H-GCN: Fast analog IC aging-induced degradation estimation [<a href='https://ieeexplore.ieee.org/document/9521579' target='_blank'>paper</a>] <br>
-    <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
-    TCAD 2021  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-chen2021analog" >
-<td align='right'>
-3.
-</td>
-<td>
-    Analog IC aging-induced degradation estimation via heterogeneous graph convolutional networks [<a href='https://dl.acm.org/doi/10.1145/3394885.3431546' target='_blank'>paper</a>] <br>
-    <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
-    ASP-DAC 2021  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Security</h3>
-<table class="table table-hover">
-
-<tr id="tr-DBLP:conf/aspdac/ChangPXH023" >
-<td align='right'>
-1.
-</td>
-<td>
-    Rethink before Releasing Your Model: ML Model Extraction Attack in EDA [<a href='https://doi.org/10.1145/3566097.3567896' target='_blank'>paper</a>] <br>
-    <em>Chen-Chia&nbsp;Chang, Jingyu&nbsp;Pan, Zhiyao&nbsp;Xie, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
-    ASP-DAC 2023  <br>
-    
-</td>
-</tr>
-
-</table>
 <h3>Circuit Simulation</h3>
 <table class="table table-hover">
 
@@ -408,6 +350,64 @@ DC analysis is the foundation for nonlinear electronic circuit simulation. Pseud
     Application of Deep Learning in Back-End Simulation: Challenges and Opportunities [<a href='https://www.ssslab.cn/assets/papers/2022-chen-backend.pdf' target='_blank'>paper</a>] <br>
     <em>Yufei&nbsp;Chen, Haojie&nbsp;Pei, Xiao&nbsp;Dong, Zhou&nbsp;Jin, and Cheng&nbsp;Zhuo</em><br>
     ASP-DAC 2022  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Security</h3>
+<table class="table table-hover">
+
+<tr id="tr-DBLP:conf/aspdac/ChangPXH023" >
+<td align='right'>
+1.
+</td>
+<td>
+    Rethink before Releasing Your Model: ML Model Extraction Attack in EDA [<a href='https://doi.org/10.1145/3566097.3567896' target='_blank'>paper</a>] <br>
+    <em>Chen-Chia&nbsp;Chang, Jingyu&nbsp;Pan, Zhiyao&nbsp;Xie, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
+    ASP-DAC 2023  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Reliability</h3>
+<table class="table table-hover">
+
+<tr id="tr-DBLP:conf/aspdac/GengSCXHY23" >
+<td align='right'>
+1.
+</td>
+<td>
+    Mixed-Type Wafer Failure Pattern Recognition [<a href='https://doi.org/10.1145/3566097.3568363' target='_blank'>paper</a>] <br>
+    <em>Hao&nbsp;Geng, Qi&nbsp;Sun, Tinghuan&nbsp;Chen, Qi&nbsp;Xu, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    ASP-DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2021deep" >
+<td align='right'>
+2.
+</td>
+<td>
+    Deep H-GCN: Fast analog IC aging-induced degradation estimation [<a href='https://ieeexplore.ieee.org/document/9521579' target='_blank'>paper</a>] <br>
+    <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
+    TCAD 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2021analog" >
+<td align='right'>
+3.
+</td>
+<td>
+    Analog IC aging-induced degradation estimation via heterogeneous graph convolutional networks [<a href='https://dl.acm.org/doi/10.1145/3394885.3431546' target='_blank'>paper</a>] <br>
+    <em>Tinghuan&nbsp;Chen, Qi&nbsp;Sun, Canhui&nbsp;Zhan, Changze&nbsp;Liu, Huatao&nbsp;Yu, and Bei&nbsp;Yu</em><br>
+    ASP-DAC 2021  <br>
     
 </td>
 </tr>
@@ -1083,9 +1083,28 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 </tr>
 
 
-<tr id="tr-xie_net2_2020" >
+<tr id="tr-Ren_DAC22_Gatesizign" >
 <td align='right'>
 10.
+</td>
+<td>
+    Generative Self-Supervised Learning for Gate Sizing: Invited 
+[<a href='javascript:;'
+    onclick='$("#abs_Ren_DAC22_Gatesizign").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3489517.3530645' target='_blank'>paper</a>] <br>
+    <em>Siddhartha&nbsp;Nath, Geraldo&nbsp;Pradipta, Corey&nbsp;Hu, Tian&nbsp;Yang, Brucek&nbsp;Khailany, and Haoxing&nbsp;Ren</em><br>
+    DAC 2022  <br>
+    
+<div id="abs_Ren_DAC22_Gatesizign" style="text-align: justify; display: none" markdown="1">
+Self-supervised learning has shown great promise in leveraging large amounts of unlabeled data to achieve higher accuracy than supervised learning methods in many domains. Generative self-supervised learning can generate new data based on the trained data distribution. In this paper, we evaluate the effectiveness of generative self-supervised learning on combinational gate sizing in VLSI designs. We propose a novel use of Transformers for gate sizing when trained on a large dataset generate from a commercial EDA tool. We demonstrate that our trained model can achieve 93% accuracy, 1440X speedup and fast design convergence when compared to a leading commercial EDA tool.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-xie_net2_2020" >
+<td align='right'>
+11.
 </td>
 <td>
     Net2: A Graph Attention Network Method Customized for Pre-Placement Net Length Estimation [<a href='http://arxiv.org/abs/2011.13522' target='_blank'>paper</a>] <br>
@@ -1098,7 +1117,7 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 
 <tr id="tr-liang_routing-free_2020" >
 <td align='right'>
-11.
+12.
 </td>
 <td>
     Routing-free crosstalk prediction [<a href='https://dl.acm.org/doi/10.1145/3400302.3415712' target='_blank'>paper</a>] <br>
@@ -1111,7 +1130,7 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 
 <tr id="tr-cheng_fast_2020" >
 <td align='right'>
-12.
+13.
 </td>
 <td>
     Fast and Accurate Wire Timing Estimation on Tree and Non-Tree Net Structures [<a href='https://ieeexplore.ieee.org/document/9218712/' target='_blank'>paper</a>] <br>
@@ -1124,7 +1143,7 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 
 <tr id="tr-GNN_HLS_timing" >
 <td align='right'>
-13.
+14.
 </td>
 <td>
     Accurate Operation Delay Prediction for FPGA HLS Using Graph Neural Networks [<a href='https://www.csl.cornell.edu/~zhiruz/pdfs/dsp-gnn-iccad2020.pdf' target='_blank'>paper</a>] <br>
@@ -1137,7 +1156,7 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 
 <tr id="tr-9218588" >
 <td align='right'>
-14.
+15.
 </td>
 <td>
     TEVoT: Timing Error Modeling of Functional Units under Dynamic Voltage and Temperature Variations [<a href='https://ieeexplore.ieee.org/document/9218588' target='_blank'>paper</a>] <br>
@@ -1150,7 +1169,7 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 
 <tr id="tr-9116363" >
 <td align='right'>
-15.
+16.
 </td>
 <td>
     DEFCON: Generating and Detecting Failure-prone Instruction Sequences via Stochastic Search [<a href='https://ieeexplore.ieee.org/document/9116363' target='_blank'>paper</a>] <br>
@@ -1163,7 +1182,7 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 
 <tr id="tr-barboza_machine_2019" >
 <td align='right'>
-16.
+17.
 </td>
 <td>
     Machine Learning-Based Pre-Routing Timing Prediction with Reduced Pessimism [<a href='https://dl.acm.org/doi/10.1145/3316781.3317857' target='_blank'>paper</a>] <br>
@@ -1176,7 +1195,7 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 
 <tr id="tr-hyun_accurate_2019" >
 <td align='right'>
-17.
+18.
 </td>
 <td>
     Accurate Wirelength Prediction for Placement-Aware Synthesis through Machine Learning [<a href='https://ieeexplore.ieee.org/document/8715016/' target='_blank'>paper</a>] <br>
@@ -1189,7 +1208,7 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 
 <tr id="tr-kahng_using_2018" >
 <td align='right'>
-18.
+19.
 </td>
 <td>
     Using Machine Learning to Predict Path-Based Slack from Graph-Based Timing Analysis [<a href='https://ieeexplore.ieee.org/document/8615746/' target='_blank'>paper</a>] <br>
@@ -1202,7 +1221,7 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 
 <tr id="tr-CLIM" >
 <td align='right'>
-19.
+20.
 </td>
 <td>
     CLIM: A Cross-Level Workload-Aware Timing Error Prediction Model for Functional Units [<a href='https://ieeexplore.ieee.org/document/8207606' target='_blank'>paper</a>] <br>
@@ -1215,7 +1234,7 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 
 <tr id="tr-kahng_si_2015" >
 <td align='right'>
-20.
+21.
 </td>
 <td>
     SI for free: machine learning of interconnect coupling delay and transition effects [<a href='http://ieeexplore.ieee.org/document/7171706/' target='_blank'>paper</a>] <br>
@@ -1228,7 +1247,7 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 
 <tr id="tr-han_deep_nodate" >
 <td align='right'>
-21.
+22.
 </td>
 <td>
     A Deep Learning Methodology to Proliferate Golden Signoff Timing [<a href='https://ieeexplore.ieee.org/document/6800474' target='_blank'>paper</a>] <br>
@@ -1241,7 +1260,7 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 
 <tr id="tr-kahng_learning-based_2013" >
 <td align='right'>
-22.
+23.
 </td>
 <td>
     Learning-based approximation of interconnect delay and slew in signoff timing tools [<a href='http://ieeexplore.ieee.org/document/6681682/' target='_blank'>paper</a>] <br>
@@ -1422,48 +1441,6 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 </tr>
 
 </table>
-<h3>Reliability</h3>
-<table class="table table-hover">
-
-<tr id="tr-9875000" >
-<td align='right'>
-1.
-</td>
-<td>
-    Efficient Learning Strategies for Machine Learning-Based Characterization of Aging-Aware Cell Libraries [<a href='https://ieeexplore.ieee.org/document/9875000/' target='_blank'>paper</a>] <br>
-    <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
-    TCSI 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-9704874" >
-<td align='right'>
-2.
-</td>
-<td>
-    Scalable Machine Learning to Estimate the Impact of Aging on Circuits Under Workload Dependency [<a href='https://ieeexplore.ieee.org/document/9704874' target='_blank'>paper</a>] <br>
-    <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
-    TCSI 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-9394564" >
-<td align='right'>
-3.
-</td>
-<td>
-    Machine Learning for On-the-Fly Reliability-Aware Cell Library Characterization [<a href='https://ieeexplore.ieee.org/document/9394564' target='_blank'>paper</a>] <br>
-    <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
-    TCSI 2021  <br>
-    
-</td>
-</tr>
-
-</table>
 <h3>Ir Drop</h3>
 <table class="table table-hover">
 
@@ -1610,88 +1587,53 @@ Accurate delay prediction is important in the early stages of logic and high-lev
 </tr>
 
 </table>
+<h3>Reliability</h3>
+<table class="table table-hover">
+
+<tr id="tr-9875000" >
+<td align='right'>
+1.
+</td>
+<td>
+    Efficient Learning Strategies for Machine Learning-Based Characterization of Aging-Aware Cell Libraries [<a href='https://ieeexplore.ieee.org/document/9875000/' target='_blank'>paper</a>] <br>
+    <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
+    TCSI 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9704874" >
+<td align='right'>
+2.
+</td>
+<td>
+    Scalable Machine Learning to Estimate the Impact of Aging on Circuits Under Workload Dependency [<a href='https://ieeexplore.ieee.org/document/9704874' target='_blank'>paper</a>] <br>
+    <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
+    TCSI 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9394564" >
+<td align='right'>
+3.
+</td>
+<td>
+    Machine Learning for On-the-Fly Reliability-Aware Cell Library Characterization [<a href='https://ieeexplore.ieee.org/document/9394564' target='_blank'>paper</a>] <br>
+    <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
+    TCSI 2021  <br>
+    
+</td>
+</tr>
+
+</table>
 
 
 
 ## <i class="fa fa-chevron-right"></i> Mask Optimization
 
-<h3>Lithography</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_Nitho" >
-<td align='right'>
-1.
-</td>
-<td>
-    Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields [<a href='https://arxiv.org/pdf/2303.08435.pdf' target='_blank'>paper</a>] <br>
-    <em>Guojin&nbsp;Chen, Zehua&nbsp;Pei, Haoyu&nbsp;Yang, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-wang2022deepeb" >
-<td align='right'>
-2.
-</td>
-<td>
-    DeePEB: A Neural Partial Differential Equation Solver for Post Exposure Baking Simulation in Lithography [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549398' target='_blank'>paper</a>]  [<a href='https://github.com/Brilight/DeePEB' target='_blank'>code</a>] <br>
-    <em>Qipan&nbsp;Wang, Xiaohan&nbsp;Gao, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
-    ICCAD 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-10.1145/3489517.3530580" >
-<td align='right'>
-3.
-</td>
-<td>
-    Generic Lithography Modeling with Dual-Band Optics-Inspired Neural Networks 
-[<a href='javascript:;'
-    onclick='$("#abs_10.1145/3489517.3530580").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3489517.3530580' target='_blank'>paper</a>] <br>
-    <em>Haoyu&nbsp;Yang, Zongyi&nbsp;Li, Kumara&nbsp;Sastry, Saumyadip&nbsp;Mukhopadhyay, Mark&nbsp;Kilgard, Anima&nbsp;Anandkumar, Brucek&nbsp;Khailany, Vivek&nbsp;Singh, and Haoxing&nbsp;Ren</em><br>
-    DAC 2022  <br>
-    
-<div id="abs_10.1145/3489517.3530580" style="text-align: justify; display: none" markdown="1">
-Lithography simulation is a critical step in VLSI design and optimization for manufacturability. Existing solutions for highly accurate lithography simulation with rigorous models are computationally expensive and slow, even when equipped with various approximation techniques. Recently, machine learning has provided alternative solutions for lithography simulation tasks such as coarse-grained edge placement error regression and complete contour prediction. However, the impact of these learning-based methods has been limited due to restrictive usage scenarios or low simulation accuracy. To tackle these concerns, we introduce an dual-band optics-inspired neural network design that considers the optical physics underlying lithography. To the best of our knowledge, our approach yields the first published via/metal layer contour simulation at 1nm2/pixel resolution with any tile size. Compared to previous machine learning based solutions, we demonstrate that our framework can be trained much faster and offers a significant improvement on efficiency and image quality with 20\texttimes smaller model size. We also achieve 85\texttimes simulation speedup over traditional lithography simulator with ~ 1% accuracy loss.
-</div>
-
-</td>
-</tr>
-
-
-<tr id="tr-DBLP:conf/iccad/PanCXH022" >
-<td align='right'>
-4.
-</td>
-<td>
-    Robustify ML-Based Lithography Hotspot Detectors [<a href='https://doi.org/10.1145/3508352.3549389' target='_blank'>paper</a>] <br>
-    <em>Jingyu&nbsp;Pan, Chen-Chia&nbsp;Chang, Zhiyao&nbsp;Xie, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
-    ICCAD 2022  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Layout Generation</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_Diff" >
-<td align='right'>
-1.
-</td>
-<td>
-    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
-    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-</table>
 <h3>Mask Optimization</h3>
 <table class="table table-hover">
 
@@ -1791,75 +1733,88 @@ Mask optimization has been a critical problem in the VLSI design flow due to the
 </tr>
 
 </table>
-
-
-
-## <i class="fa fa-chevron-right"></i> Analog Layout Synthesis
-
-<h3>Analog Layout Synthesis</h3>
+<h3>Lithography</h3>
 <table class="table table-hover">
 
-<tr id="tr-DAC23_MTLD" >
+<tr id="tr-DAC23_Nitho" >
 <td align='right'>
 1.
 </td>
 <td>
-    MTL-Designer: An Integrated Flow for Analysis and Synthesis of Microstrip Transmission Line <br>
-    <em>Qipan&nbsp;Wang, Ping&nbsp;Liu, Liguo&nbsp;Jiang, Mingjie&nbsp;Liu, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
+    Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields [<a href='https://arxiv.org/pdf/2303.08435.pdf' target='_blank'>paper</a>] <br>
+    <em>Guojin&nbsp;Chen, Zehua&nbsp;Pei, Haoyu&nbsp;Yang, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
     DAC 2023  <br>
     
 </td>
 </tr>
 
 
-<tr id="tr-DAC20_ClosingTheDesignLoop" >
+<tr id="tr-wang2022deepeb" >
 <td align='right'>
 2.
 </td>
 <td>
-    Closing the Design Loop: Bayesian Optimization Assisted Hierarchical Analog Layout Synthesis 
-[<a href='javascript:;'
-    onclick='$("#abs_DAC20_ClosingTheDesignLoop").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/pdf/10.5555/3437539.3437770' target='_blank'>paper</a>]  [<a href='https://github.com/magical-eda/MAGICAL.git' target='_blank'>code</a>]  [<a href='https://pdfs.semanticscholar.org/e994/c108710d83541a08d21b4a34ca3dfe221c31.pdf' target='_blank'>slides</a>] <br>
-    <em>Mingjie&nbsp;Liu, Keren&nbsp;Zhu, Xiyuan&nbsp;Tang, Biying&nbsp;Xu, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
-    DAC 2019  <br>
+    DeePEB: A Neural Partial Differential Equation Solver for Post Exposure Baking Simulation in Lithography [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549398' target='_blank'>paper</a>]  [<a href='https://github.com/Brilight/DeePEB' target='_blank'>code</a>] <br>
+    <em>Qipan&nbsp;Wang, Xiaohan&nbsp;Gao, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
+    ICCAD 2022  <br>
     
-<div id="abs_DAC20_ClosingTheDesignLoop" style="text-align: justify; display: none" markdown="1">
-Existing analog layout synthesis tools provide little guarantee to post layout performance and have limited capabilities of handling system-level designs. In this paper, we present a closed-loop hierarchical analog layout synthesizer, capable of handling system designs. To ensure system performance, the building block layout implementations are optimized efficiently, utilizing post layout simulations with multi-objective Bayesian optimization. To the best of our knowledge, this is the first work demonstrating success in automated layout synthesis on generic analog system designs. Experimental results show our synthesized continuous-time ΔΣ modulator (CTDSM) achieves post layout performance of 65.9dB in signal to noise and distortion ratio (SNDR), compared with 67.8dB in the schematic design.
+</td>
+</tr>
+
+
+<tr id="tr-10.1145/3489517.3530580" >
+<td align='right'>
+3.
+</td>
+<td>
+    Generic Lithography Modeling with Dual-Band Optics-Inspired Neural Networks 
+[<a href='javascript:;'
+    onclick='$("#abs_10.1145/3489517.3530580").toggle()'>abs</a>] [<a href='https://doi.org/10.1145/3489517.3530580' target='_blank'>paper</a>] <br>
+    <em>Haoyu&nbsp;Yang, Zongyi&nbsp;Li, Kumara&nbsp;Sastry, Saumyadip&nbsp;Mukhopadhyay, Mark&nbsp;Kilgard, Anima&nbsp;Anandkumar, Brucek&nbsp;Khailany, Vivek&nbsp;Singh, and Haoxing&nbsp;Ren</em><br>
+    DAC 2022  <br>
+    
+<div id="abs_10.1145/3489517.3530580" style="text-align: justify; display: none" markdown="1">
+Lithography simulation is a critical step in VLSI design and optimization for manufacturability. Existing solutions for highly accurate lithography simulation with rigorous models are computationally expensive and slow, even when equipped with various approximation techniques. Recently, machine learning has provided alternative solutions for lithography simulation tasks such as coarse-grained edge placement error regression and complete contour prediction. However, the impact of these learning-based methods has been limited due to restrictive usage scenarios or low simulation accuracy. To tackle these concerns, we introduce an dual-band optics-inspired neural network design that considers the optical physics underlying lithography. To the best of our knowledge, our approach yields the first published via/metal layer contour simulation at 1nm2/pixel resolution with any tile size. Compared to previous machine learning based solutions, we demonstrate that our framework can be trained much faster and offers a significant improvement on efficiency and image quality with 20\texttimes smaller model size. We also achieve 85\texttimes simulation speedup over traditional lithography simulator with ~ 1% accuracy loss.
 </div>
 
 </td>
 </tr>
 
+
+<tr id="tr-DBLP:conf/iccad/PanCXH022" >
+<td align='right'>
+4.
+</td>
+<td>
+    Robustify ML-Based Lithography Hotspot Detectors [<a href='https://doi.org/10.1145/3508352.3549389' target='_blank'>paper</a>] <br>
+    <em>Jingyu&nbsp;Pan, Chen-Chia&nbsp;Chang, Zhiyao&nbsp;Xie, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
 </table>
-<h3>Analog Layout Routing</h3>
+<h3>Layout Generation</h3>
 <table class="table table-hover">
 
-<tr id="tr-chen2023trouter" >
+<tr id="tr-DAC23_Diff" >
 <td align='right'>
 1.
 </td>
 <td>
-    TRouter: Thermal-driven PCB Routing via Non-Local Crisscross Attention Networks [<a href='https://ieeexplore.ieee.org/abstract/document/10042057' target='_blank'>paper</a>] <br>
-    <em>Tinghuan&nbsp;Chen, Silu&nbsp;Xiong, Huan&nbsp;He, and Bei&nbsp;Yu</em><br>
-    TCAD 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-zhu2019geniusroute" >
-<td align='right'>
-2.
-</td>
-<td>
-    GeniusRoute: A new analog routing paradigm using generative neural network guidance [<a href='https://ieeexplore.ieee.org/document/8942164' target='_blank'>paper</a>] <br>
-    <em>Keren&nbsp;Zhu, Mingjie&nbsp;Liu, Yibo&nbsp;Lin, Biying&nbsp;Xu, Shaolan&nbsp;Li, Xiyuan&nbsp;Tang, Nan&nbsp;Sun, and David&nbsp;Z&nbsp;Pan</em><br>
-    ICCAD 2019  <br>
+    DiffPattern: Layout Pattern Generation via Discrete Diffusion <br>
+    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
+    DAC 2023  <br>
     
 </td>
 </tr>
 
 </table>
+
+
+
+## <i class="fa fa-chevron-right"></i> Analog Layout Synthesis
+
 <h3>Analog Simulation</h3>
 <table class="table table-hover">
 
@@ -1884,64 +1839,6 @@ Existing analog layout synthesis tools provide little guarantee to post layout p
     Applications of physics-informed neural networks in power systems-a review [<a href='https://ieeexplore.ieee.org/document/9743327' target='_blank'>paper</a>] <br>
     <em>Bin&nbsp;Huang and Jianhui&nbsp;Wang</em><br>
     Transactions on Power Systems 2022  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Thermal Simulation</h3>
-<table class="table table-hover">
-
-<tr id="tr-ranade2022thermal" >
-<td align='right'>
-1.
-</td>
-<td>
-    A Thermal Machine Learning Solver For Chip Simulation [<a href='https://doi.org/10.1145/3551901.3556484' target='_blank'>paper</a>] <br>
-    <em>Rishikesh&nbsp;Ranade, Haiyang&nbsp;He, Jay&nbsp;Pathak, Norman&nbsp;Chang, Akhilesh&nbsp;Kumar, and Jimin&nbsp;Wen</em><br>
-    ML4CAD 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-chen2022fast" >
-<td align='right'>
-2.
-</td>
-<td>
-    Fast Thermal Analysis for Chiplet Design based on Graph Convolution Networks [<a href='https://ieeexplore.ieee.org/document/9712583' target='_blank'>paper</a>] <br>
-    <em>Liang&nbsp;Chen, Wentian&nbsp;Jin, and Sheldon&nbsp;X-D&nbsp;Tan</em><br>
-    ASP-DAC 2022  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Electromigration Analysis</h3>
-<table class="table table-hover">
-
-<tr id="tr-jin2022hierpinn" >
-<td align='right'>
-1.
-</td>
-<td>
-    HierPINN-EM: Fast Learning-Based Electromigration Analysis for Multi-Segment Interconnects Using Hierarchical Physics-Informed Neural Network [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549371' target='_blank'>paper</a>] <br>
-    <em>Wentian&nbsp;Jin, Liang&nbsp;Chen, Subed&nbsp;Lamichhane, Mohammadamir&nbsp;Kavousi, and Sheldon&nbsp;X-D&nbsp;Tan</em><br>
-    ICCAD 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-hou2022space" >
-<td align='right'>
-2.
-</td>
-<td>
-    A Space-Time Neural Network for Analysis of Stress Evolution Under DC Current Stressing [<a href='https://arxiv.org/abs/2203.15247' target='_blank'>paper</a>] <br>
-    <em>Tianshu&nbsp;Hou, Ngai&nbsp;Wong, Quan&nbsp;Chen, Zhigang&nbsp;Ji, and Hai-Bao&nbsp;Chen</em><br>
-    TCAD 2022  <br>
     
 </td>
 </tr>
@@ -1997,6 +1894,128 @@ Existing analog layout synthesis tools provide little guarantee to post layout p
     Layout Symmetry Annotation for Analog Circuits with Graph Neural Networks [<a href='https://doi.org/10.1145/3394885.3431545' target='_blank'>paper</a>] <br>
     <em>Xiaohan&nbsp;Gao, Chenhui&nbsp;Deng, Mingjie&nbsp;Liu, Zhiru&nbsp;Zhang, David&nbsp;Z.&nbsp;Pan, and Yibo&nbsp;Lin</em><br>
     ASPDAC 2021  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Analog Layout Routing</h3>
+<table class="table table-hover">
+
+<tr id="tr-chen2023trouter" >
+<td align='right'>
+1.
+</td>
+<td>
+    TRouter: Thermal-driven PCB Routing via Non-Local Crisscross Attention Networks [<a href='https://ieeexplore.ieee.org/abstract/document/10042057' target='_blank'>paper</a>] <br>
+    <em>Tinghuan&nbsp;Chen, Silu&nbsp;Xiong, Huan&nbsp;He, and Bei&nbsp;Yu</em><br>
+    TCAD 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-zhu2019geniusroute" >
+<td align='right'>
+2.
+</td>
+<td>
+    GeniusRoute: A new analog routing paradigm using generative neural network guidance [<a href='https://ieeexplore.ieee.org/document/8942164' target='_blank'>paper</a>] <br>
+    <em>Keren&nbsp;Zhu, Mingjie&nbsp;Liu, Yibo&nbsp;Lin, Biying&nbsp;Xu, Shaolan&nbsp;Li, Xiyuan&nbsp;Tang, Nan&nbsp;Sun, and David&nbsp;Z&nbsp;Pan</em><br>
+    ICCAD 2019  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Electromigration Analysis</h3>
+<table class="table table-hover">
+
+<tr id="tr-jin2022hierpinn" >
+<td align='right'>
+1.
+</td>
+<td>
+    HierPINN-EM: Fast Learning-Based Electromigration Analysis for Multi-Segment Interconnects Using Hierarchical Physics-Informed Neural Network [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549371' target='_blank'>paper</a>] <br>
+    <em>Wentian&nbsp;Jin, Liang&nbsp;Chen, Subed&nbsp;Lamichhane, Mohammadamir&nbsp;Kavousi, and Sheldon&nbsp;X-D&nbsp;Tan</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-hou2022space" >
+<td align='right'>
+2.
+</td>
+<td>
+    A Space-Time Neural Network for Analysis of Stress Evolution Under DC Current Stressing [<a href='https://arxiv.org/abs/2203.15247' target='_blank'>paper</a>] <br>
+    <em>Tianshu&nbsp;Hou, Ngai&nbsp;Wong, Quan&nbsp;Chen, Zhigang&nbsp;Ji, and Hai-Bao&nbsp;Chen</em><br>
+    TCAD 2022  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Analog Layout Synthesis</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_MTLD" >
+<td align='right'>
+1.
+</td>
+<td>
+    MTL-Designer: An Integrated Flow for Analysis and Synthesis of Microstrip Transmission Line <br>
+    <em>Qipan&nbsp;Wang, Ping&nbsp;Liu, Liguo&nbsp;Jiang, Mingjie&nbsp;Liu, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC20_ClosingTheDesignLoop" >
+<td align='right'>
+2.
+</td>
+<td>
+    Closing the Design Loop: Bayesian Optimization Assisted Hierarchical Analog Layout Synthesis 
+[<a href='javascript:;'
+    onclick='$("#abs_DAC20_ClosingTheDesignLoop").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/pdf/10.5555/3437539.3437770' target='_blank'>paper</a>]  [<a href='https://github.com/magical-eda/MAGICAL.git' target='_blank'>code</a>]  [<a href='https://pdfs.semanticscholar.org/e994/c108710d83541a08d21b4a34ca3dfe221c31.pdf' target='_blank'>slides</a>] <br>
+    <em>Mingjie&nbsp;Liu, Keren&nbsp;Zhu, Xiyuan&nbsp;Tang, Biying&nbsp;Xu, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
+    DAC 2019  <br>
+    
+<div id="abs_DAC20_ClosingTheDesignLoop" style="text-align: justify; display: none" markdown="1">
+Existing analog layout synthesis tools provide little guarantee to post layout performance and have limited capabilities of handling system-level designs. In this paper, we present a closed-loop hierarchical analog layout synthesizer, capable of handling system designs. To ensure system performance, the building block layout implementations are optimized efficiently, utilizing post layout simulations with multi-objective Bayesian optimization. To the best of our knowledge, this is the first work demonstrating success in automated layout synthesis on generic analog system designs. Experimental results show our synthesized continuous-time ΔΣ modulator (CTDSM) achieves post layout performance of 65.9dB in signal to noise and distortion ratio (SNDR), compared with 67.8dB in the schematic design.
+</div>
+
+</td>
+</tr>
+
+</table>
+<h3>Thermal Simulation</h3>
+<table class="table table-hover">
+
+<tr id="tr-ranade2022thermal" >
+<td align='right'>
+1.
+</td>
+<td>
+    A Thermal Machine Learning Solver For Chip Simulation [<a href='https://doi.org/10.1145/3551901.3556484' target='_blank'>paper</a>] <br>
+    <em>Rishikesh&nbsp;Ranade, Haiyang&nbsp;He, Jay&nbsp;Pathak, Norman&nbsp;Chang, Akhilesh&nbsp;Kumar, and Jimin&nbsp;Wen</em><br>
+    ML4CAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2022fast" >
+<td align='right'>
+2.
+</td>
+<td>
+    Fast Thermal Analysis for Chiplet Design based on Graph Convolution Networks [<a href='https://ieeexplore.ieee.org/document/9712583' target='_blank'>paper</a>] <br>
+    <em>Liang&nbsp;Chen, Wentian&nbsp;Jin, and Sheldon&nbsp;X-D&nbsp;Tan</em><br>
+    ASP-DAC 2022  <br>
     
 </td>
 </tr>
