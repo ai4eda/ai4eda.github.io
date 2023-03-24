@@ -5,3 +5,5 @@ gem 'github-pages', group: :jekyll_plugins
 # gem 'html5_validator', '~> 1.0'
 # gem 'w3c_validators', '~> 1.2'
 # gem 'html-proofer', '~> 3.0.6'
+
+gem "webrick", "~> 1.8"
