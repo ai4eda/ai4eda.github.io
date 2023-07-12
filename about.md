@@ -10,7 +10,7 @@ This page contains a curated list of AI for EDA papers.
 It is under construction and you are welcomed to submit your publications.
 This page can **automatically** render the plain `bibtex` file into `html` for display on the webpage.
 So you only need to submit your bibtex file to [https://github.com/ai4eda/awesome-AI4EDA](https://github.com/ai4eda/awesome-AI4EDA).
-Or contact [Guojin Chen](https://gjchen.me) by email [cgjcuhk@gmail.com](cgjcuhk@gmail.com)
+Or contact [Guojin Chen](https://gjchen.me) by email [cgjcuhk@gmail.com](mailto:cgjcuhk@gmail.com)
 
 
 ## Example
@@ -26,7 +26,7 @@ Or contact [Guojin Chen](https://gjchen.me) by email [cgjcuhk@gmail.com](cgjcuhk
 
 By email or By github PR.
 
-## Method 1: send your `bibtex` to Guojin Chen by email [cgjcuhk@gmail.com](cgjcuhk@gmail.com)
+## Method 1: send your `bibtex` to Guojin Chen by email [cgjcuhk@gmail.com](mailto:cgjcuhk@gmail.com)
 
 
 ### `bibtex` format
