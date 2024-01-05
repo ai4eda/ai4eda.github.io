@@ -1,11 +1,20 @@
-# <i class="fa fa-chevron-right"></i> Publications
+<h1>Publications
+<a class="btn btn-sm btn-primary" role="button" href='javascript:;' onclick="$('.collapse').collapse('show')">Show all</a>
+<a class="btn btn-sm btn-primary" role="button" href='javascript:;' onclick="$('.collapse').collapse('hide')">Hide all</a>
+</h1>
+Click on section title to see details.
 
 <br>
 
+<h2>
+<a data-toggle="collapse" href="#high_level_synthesis" aria-expanded="false" aria-controls="#high_level_synthesis">
+<i class="fa fa-chevron-right"></i>
+<i class="fa fa-chevron-down"></i>
+High Level Synthesis
+</a>
+</h2>
 
-
-## <i class="fa fa-chevron-right"></i> High Level Synthesis
-
+<div id="high_level_synthesis" class="collapse">
 <h3></h3>
 <table class="table table-hover">
 
@@ -62,10 +71,18 @@
 
 </table>
 
+</div>
+<br>
 
+<h2>
+<a data-toggle="collapse" href="#logic_synthesis" aria-expanded="false" aria-controls="#logic_synthesis">
+<i class="fa fa-chevron-right"></i>
+<i class="fa fa-chevron-down"></i>
+Logic Synthesis
+</a>
+</h2>
 
-## <i class="fa fa-chevron-right"></i> Logic Synthesis
-
+<div id="logic_synthesis" class="collapse">
 <h3></h3>
 <table class="table table-hover">
 
@@ -77,48 +94,6 @@
     Machine-Learning-Driven Architectural Selection of Adders and Multipliers in Logic Synthesis [<a href='https://doi.org/10.1145/3560712' target='_blank'>paper</a>] <br>
     <em>Jiawen&nbsp;Cheng, Yong&nbsp;Xiao, Yun&nbsp;Shao, Guanghai&nbsp;Dong, Songlin&nbsp;Lyu, and Wenjian&nbsp;Yu</em><br>
     TODAES 2023  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Operator Sequence Scheduling</h3>
-<table class="table table-hover">
-
-<tr id="tr-HLS-ICCAD23-Pei" >
-<td align='right'>
-1.
-</td>
-<td>
-    AlphaSyn: Logic Synthesis Optimization with Efficient Monte Carlo Tree Search <br>
-    <em>Zehua&nbsp;Pei, Fangzhou&nbsp;Liu, Zhuolun&nbsp;He, Guojin&nbsp;Chen, Haisheng&nbsp;Zheng, Keren&nbsp;Zhu, and Bei&nbsp;Yu</em><br>
-    ICCAD 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-ICCAD20_flowtune" >
-<td align='right'>
-2.
-</td>
-<td>
-    Practical Multi-armed Bandits in Boolean Optimization [<a href='https://doi.org/10.1145/3400302.3415615' target='_blank'>paper</a>]  [<a href='https://github.com/Yu-Utah/FlowTune' target='_blank'>code</a>]  [<a href='https://www.youtube.com/watch?v=EPcn5ttp1TM&t=360s' target='_blank'>talk</a>] <br>
-    <em>Cunxi&nbsp;Yu</em><br>
-    ICCAD 2020  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-ASPDAC20_drills" >
-<td align='right'>
-3.
-</td>
-<td>
-    DRiLLS: Deep Reinforcement Learning for Logic Synthesis [<a href='https://ieeexplore.ieee.org/abstract/document/9045559' target='_blank'>paper</a>]  [<a href='https://github.com/scale-lab/DRiLLS' target='_blank'>code</a>] <br>
-    <em>Abdelrahman&nbsp;Hosny, Soheil&nbsp;Hashemi, Mohamed&nbsp;Shalan, and Sherief&nbsp;Reda</em><br>
-    ASP-DAC 2020  <br>
     
 </td>
 </tr>
@@ -205,11 +180,61 @@
 </tr>
 
 </table>
+<h3>Operator Sequence Scheduling</h3>
+<table class="table table-hover">
+
+<tr id="tr-HLS-ICCAD23-Pei" >
+<td align='right'>
+1.
+</td>
+<td>
+    AlphaSyn: Logic Synthesis Optimization with Efficient Monte Carlo Tree Search [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C184-ICCAD2023-AlphaSyn.pdf' target='_blank'>paper</a>] <br>
+    <em>Zehua&nbsp;Pei, Fangzhou&nbsp;Liu, Zhuolun&nbsp;He, Guojin&nbsp;Chen, Haisheng&nbsp;Zheng, Keren&nbsp;Zhu, and Bei&nbsp;Yu</em><br>
+    ICCAD 2023  <br>
+    
+</td>
+</tr>
 
 
+<tr id="tr-ICCAD20_flowtune" >
+<td align='right'>
+2.
+</td>
+<td>
+    Practical Multi-armed Bandits in Boolean Optimization [<a href='https://doi.org/10.1145/3400302.3415615' target='_blank'>paper</a>]  [<a href='https://github.com/Yu-Utah/FlowTune' target='_blank'>code</a>]  [<a href='https://www.youtube.com/watch?v=EPcn5ttp1TM&t=360s' target='_blank'>talk</a>] <br>
+    <em>Cunxi&nbsp;Yu</em><br>
+    ICCAD 2020  <br>
+    
+</td>
+</tr>
 
-## <i class="fa fa-chevron-right"></i> Circuit Verification
 
+<tr id="tr-ASPDAC20_drills" >
+<td align='right'>
+3.
+</td>
+<td>
+    DRiLLS: Deep Reinforcement Learning for Logic Synthesis [<a href='https://ieeexplore.ieee.org/abstract/document/9045559' target='_blank'>paper</a>]  [<a href='https://github.com/scale-lab/DRiLLS' target='_blank'>code</a>] <br>
+    <em>Abdelrahman&nbsp;Hosny, Soheil&nbsp;Hashemi, Mohamed&nbsp;Shalan, and Sherief&nbsp;Reda</em><br>
+    ASP-DAC 2020  <br>
+    
+</td>
+</tr>
+
+</table>
+
+</div>
+<br>
+
+<h2>
+<a data-toggle="collapse" href="#circuit_verification" aria-expanded="false" aria-controls="#circuit_verification">
+<i class="fa fa-chevron-right"></i>
+<i class="fa fa-chevron-down"></i>
+Circuit Verification
+</a>
+</h2>
+
+<div id="circuit_verification" class="collapse">
 <h3></h3>
 <table class="table table-hover">
 
@@ -260,6 +285,35 @@
     Efficient Performance Trade-off Modeling for Analog Circuit based on Bayesian Neural Network [<a href='https://ieeexplore.ieee.org/document/8942174' target='_blank'>paper</a>] <br>
     <em>Zhengqi&nbsp;Gao, Jun&nbsp;Tao, Fan&nbsp;Yang, Yangfeng&nbsp;Su, Dian&nbsp;Zhou, and Xuan&nbsp;Zeng</em><br>
     ICCAD 2019  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Parasitic Extraction</h3>
+<table class="table table-hover">
+
+<tr id="tr-10.1145/3564931" >
+<td align='right'>
+1.
+</td>
+<td>
+    CNN-Cap: Effective Convolutional Neural Network-Based Capacitance Models for Interconnect Capacitance Extraction [<a href='https://doi.org/10.1145/3564931' target='_blank'>paper</a>] <br>
+    <em>Dingcheng&nbsp;Yang, Haoyuan&nbsp;Li, Wenjian&nbsp;Yu, Yuanbo&nbsp;Guo, and Wenjie&nbsp;Liang</em><br>
+    TODAES 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9643461" >
+<td align='right'>
+2.
+</td>
+<td>
+    CNN-Cap: Effective Convolutional Neural Network Based Capacitance Models for Full-Chip Parasitic Extraction [<a href='https://arxiv.org/abs/2107.06511' target='_blank'>paper</a>] <br>
+    <em>Dingcheng&nbsp;Yang, Wenjian&nbsp;Yu, Yuanbo&nbsp;Guo, and Wenjie&nbsp;Liang</em><br>
+    ICCAD 2021  <br>
     
 </td>
 </tr>
@@ -361,6 +415,19 @@
 </td>
 </tr>
 
+
+<tr id="tr-8715086" >
+<td align='right'>
+7.
+</td>
+<td>
+    Machine-Learning-Driven Matrix Ordering for Power Grid Analysis [<a href='https://ieeexplore.ieee.org/document/8715086' target='_blank'>paper</a>] <br>
+    <em>Ganqu&nbsp;Cui, Wenjian&nbsp;Yu, Xin&nbsp;Li, Zhiyu&nbsp;Zeng, and Ben&nbsp;Gu</em><br>
+    DATE 2019  <br>
+    
+</td>
+</tr>
+
 </table>
 <h3>Reliability</h3>
 <table class="table table-hover">
@@ -405,10 +472,18 @@
 
 </table>
 
+</div>
+<br>
 
+<h2>
+<a data-toggle="collapse" href="#floorplan" aria-expanded="false" aria-controls="#floorplan">
+<i class="fa fa-chevron-right"></i>
+<i class="fa fa-chevron-down"></i>
+Floorplan
+</a>
+</h2>
 
-## <i class="fa fa-chevron-right"></i> Floorplan
-
+<div id="floorplan" class="collapse">
 <h3></h3>
 <table class="table table-hover">
 
@@ -478,10 +553,18 @@
 
 </table>
 
+</div>
+<br>
 
+<h2>
+<a data-toggle="collapse" href="#placement" aria-expanded="false" aria-controls="#placement">
+<i class="fa fa-chevron-right"></i>
+<i class="fa fa-chevron-down"></i>
+Placement
+</a>
+</h2>
 
-## <i class="fa fa-chevron-right"></i> Placement
-
+<div id="placement" class="collapse">
 <h3></h3>
 <table class="table table-hover">
 
@@ -759,10 +842,18 @@
 
 </table>
 
+</div>
+<br>
 
+<h2>
+<a data-toggle="collapse" href="#clock_tree_synthesis" aria-expanded="false" aria-controls="#clock_tree_synthesis">
+<i class="fa fa-chevron-right"></i>
+<i class="fa fa-chevron-down"></i>
+Clock Tree Synthesis
+</a>
+</h2>
 
-## <i class="fa fa-chevron-right"></i> Clock Tree Synthesis
-
+<div id="clock_tree_synthesis" class="collapse">
 <h3></h3>
 <table class="table table-hover">
 
@@ -832,10 +923,18 @@
 
 </table>
 
+</div>
+<br>
 
+<h2>
+<a data-toggle="collapse" href="#routing" aria-expanded="false" aria-controls="#routing">
+<i class="fa fa-chevron-right"></i>
+<i class="fa fa-chevron-down"></i>
+Routing
+</a>
+</h2>
 
-## <i class="fa fa-chevron-right"></i> Routing
-
+<div id="routing" class="collapse">
 <h3></h3>
 <table class="table table-hover">
 
@@ -931,10 +1030,18 @@
 
 </table>
 
+</div>
+<br>
 
+<h2>
+<a data-toggle="collapse" href="#timing" aria-expanded="false" aria-controls="#timing">
+<i class="fa fa-chevron-right"></i>
+<i class="fa fa-chevron-down"></i>
+Timing
+</a>
+</h2>
 
-## <i class="fa fa-chevron-right"></i> Timing
-
+<div id="timing" class="collapse">
 <h3></h3>
 <table class="table table-hover">
 
@@ -1238,10 +1345,18 @@
 
 </table>
 
+</div>
+<br>
 
+<h2>
+<a data-toggle="collapse" href="#layout_verification" aria-expanded="false" aria-controls="#layout_verification">
+<i class="fa fa-chevron-right"></i>
+<i class="fa fa-chevron-down"></i>
+Layout Verification
+</a>
+</h2>
 
-## <i class="fa fa-chevron-right"></i> Layout Verification
-
+<div id="layout_verification" class="collapse">
 <h3></h3>
 <table class="table table-hover">
 
@@ -1318,103 +1433,6 @@
     Hotspot Detection via Multi-task Learning and Transformer Encoder [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C125-ICCAD2021-H-DETR.pdf' target='_blank'>paper</a>] <br>
     <em>Binwu&nbsp;Zhu, Ran&nbsp;Chen, Xinyun&nbsp;Zhang, Fan&nbsp;Yang, Xuan&nbsp;Zeng, Bei&nbsp;Yu, and Martin&nbsp;D.F.&nbsp;Wong</em><br>
     ICCAD 2021  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Gate Sizing</h3>
-<table class="table table-hover">
-
-<tr id="tr-DBLP:conf/iccad/ZhouYPSZWHCH22" >
-<td align='right'>
-1.
-</td>
-<td>
-    Heterogeneous Graph Neural Network-Based Imitation Learning for Gate Sizing Acceleration [<a href='https://doi.org/10.1145/3508352.3549361' target='_blank'>paper</a>] <br>
-    <em>Xinyi&nbsp;Zhou, Junjie&nbsp;Ye, Chak-Wa&nbsp;Pui, Kun&nbsp;Shao, Guangliang&nbsp;Zhang, Bin&nbsp;Wang, Jianye&nbsp;Hao, Guangyong&nbsp;Chen, and Pheng-Ann&nbsp;Heng</em><br>
-    ICCAD 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-DBLP:conf/iccad/NathPHYKR22" >
-<td align='right'>
-2.
-</td>
-<td>
-    TransSizer: A Novel Transformer-Based Fast Gate Sizer [<a href='https://doi.org/10.1145/3508352.3549442' target='_blank'>paper</a>] <br>
-    <em>Siddhartha&nbsp;Nath, Geraldo&nbsp;Pradipta, Corey&nbsp;Hu, Tian&nbsp;Yang, Brucek&nbsp;Khailany, and Haoxing&nbsp;Ren</em><br>
-    ICCAD 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-lu2021rl" >
-<td align='right'>
-3.
-</td>
-<td>
-    Rl-sizer: Vlsi gate sizing for timing optimization using deep reinforcement learning [<a href='https://ieeexplore.ieee.org/document/9586138' target='_blank'>paper</a>] <br>
-    <em>Yi-Chen&nbsp;Lu, Siddhartha&nbsp;Nath, Vishal&nbsp;Khandelwal, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
-    DAC 2021  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-wang2020gcn" >
-<td align='right'>
-4.
-</td>
-<td>
-    GCN-RL circuit designer: Transferable transistor sizing with graph neural networks and reinforcement learning [<a href='https://arxiv.org/abs/2005.00406' target='_blank'>paper</a>] <br>
-    <em>Hanrui&nbsp;Wang, Kuan&nbsp;Wang, Jiacheng&nbsp;Yang, Linxiao&nbsp;Shen, Nan&nbsp;Sun, Hae-Seung&nbsp;Lee, and Song&nbsp;Han</em><br>
-    DAC 2020  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Reliability</h3>
-<table class="table table-hover">
-
-<tr id="tr-9875000" >
-<td align='right'>
-1.
-</td>
-<td>
-    Efficient Learning Strategies for Machine Learning-Based Characterization of Aging-Aware Cell Libraries [<a href='https://ieeexplore.ieee.org/document/9875000/' target='_blank'>paper</a>] <br>
-    <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
-    TCSI 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-9704874" >
-<td align='right'>
-2.
-</td>
-<td>
-    Scalable Machine Learning to Estimate the Impact of Aging on Circuits Under Workload Dependency [<a href='https://ieeexplore.ieee.org/document/9704874' target='_blank'>paper</a>] <br>
-    <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
-    TCSI 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-9394564" >
-<td align='right'>
-3.
-</td>
-<td>
-    Machine Learning for On-the-Fly Reliability-Aware Cell Library Characterization [<a href='https://ieeexplore.ieee.org/document/9394564' target='_blank'>paper</a>] <br>
-    <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
-    TCSI 2021  <br>
     
 </td>
 </tr>
@@ -1595,27 +1613,116 @@
 </tr>
 
 </table>
-
-
-
-## <i class="fa fa-chevron-right"></i> Mask Optimization
-
-<h3>Layout Generation</h3>
+<h3>Gate Sizing</h3>
 <table class="table table-hover">
 
-<tr id="tr-DAC23_Diff" >
+<tr id="tr-DBLP:conf/iccad/ZhouYPSZWHCH22" >
 <td align='right'>
 1.
 </td>
 <td>
-    DiffPattern: Layout Pattern Generation via Discrete Diffusion [<a href='https://arxiv.org/abs/2303.13060' target='_blank'>paper</a>] <br>
-    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
-    DAC 2023  <br>
+    Heterogeneous Graph Neural Network-Based Imitation Learning for Gate Sizing Acceleration [<a href='https://doi.org/10.1145/3508352.3549361' target='_blank'>paper</a>] <br>
+    <em>Xinyi&nbsp;Zhou, Junjie&nbsp;Ye, Chak-Wa&nbsp;Pui, Kun&nbsp;Shao, Guangliang&nbsp;Zhang, Bin&nbsp;Wang, Jianye&nbsp;Hao, Guangyong&nbsp;Chen, and Pheng-Ann&nbsp;Heng</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/iccad/NathPHYKR22" >
+<td align='right'>
+2.
+</td>
+<td>
+    TransSizer: A Novel Transformer-Based Fast Gate Sizer [<a href='https://doi.org/10.1145/3508352.3549442' target='_blank'>paper</a>] <br>
+    <em>Siddhartha&nbsp;Nath, Geraldo&nbsp;Pradipta, Corey&nbsp;Hu, Tian&nbsp;Yang, Brucek&nbsp;Khailany, and Haoxing&nbsp;Ren</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-lu2021rl" >
+<td align='right'>
+3.
+</td>
+<td>
+    Rl-sizer: Vlsi gate sizing for timing optimization using deep reinforcement learning [<a href='https://ieeexplore.ieee.org/document/9586138' target='_blank'>paper</a>] <br>
+    <em>Yi-Chen&nbsp;Lu, Siddhartha&nbsp;Nath, Vishal&nbsp;Khandelwal, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
+    DAC 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wang2020gcn" >
+<td align='right'>
+4.
+</td>
+<td>
+    GCN-RL circuit designer: Transferable transistor sizing with graph neural networks and reinforcement learning [<a href='https://arxiv.org/abs/2005.00406' target='_blank'>paper</a>] <br>
+    <em>Hanrui&nbsp;Wang, Kuan&nbsp;Wang, Jiacheng&nbsp;Yang, Linxiao&nbsp;Shen, Nan&nbsp;Sun, Hae-Seung&nbsp;Lee, and Song&nbsp;Han</em><br>
+    DAC 2020  <br>
     
 </td>
 </tr>
 
 </table>
+<h3>Reliability</h3>
+<table class="table table-hover">
+
+<tr id="tr-9875000" >
+<td align='right'>
+1.
+</td>
+<td>
+    Efficient Learning Strategies for Machine Learning-Based Characterization of Aging-Aware Cell Libraries [<a href='https://ieeexplore.ieee.org/document/9875000/' target='_blank'>paper</a>] <br>
+    <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
+    TCSI 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9704874" >
+<td align='right'>
+2.
+</td>
+<td>
+    Scalable Machine Learning to Estimate the Impact of Aging on Circuits Under Workload Dependency [<a href='https://ieeexplore.ieee.org/document/9704874' target='_blank'>paper</a>] <br>
+    <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
+    TCSI 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9394564" >
+<td align='right'>
+3.
+</td>
+<td>
+    Machine Learning for On-the-Fly Reliability-Aware Cell Library Characterization [<a href='https://ieeexplore.ieee.org/document/9394564' target='_blank'>paper</a>] <br>
+    <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
+    TCSI 2021  <br>
+    
+</td>
+</tr>
+
+</table>
+
+</div>
+<br>
+
+<h2>
+<a data-toggle="collapse" href="#mask_optimization" aria-expanded="false" aria-controls="#mask_optimization">
+<i class="fa fa-chevron-right"></i>
+<i class="fa fa-chevron-down"></i>
+Mask Optimization
+</a>
+</h2>
+
+<div id="mask_optimization" class="collapse">
 <h3>Lithography</h3>
 <table class="table table-hover">
 
@@ -1666,6 +1773,22 @@
     Robustify ML-Based Lithography Hotspot Detectors [<a href='https://doi.org/10.1145/3508352.3549389' target='_blank'>paper</a>] <br>
     <em>Jingyu&nbsp;Pan, Chen-Chia&nbsp;Chang, Zhiyao&nbsp;Xie, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
     ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Layout Generation</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_Diff" >
+<td align='right'>
+1.
+</td>
+<td>
+    DiffPattern: Layout Pattern Generation via Discrete Diffusion [<a href='https://arxiv.org/abs/2303.13060' target='_blank'>paper</a>] <br>
+    <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
+    DAC 2023  <br>
     
 </td>
 </tr>
@@ -1753,10 +1876,47 @@
 
 </table>
 
+</div>
+<br>
+
+<h2>
+<a data-toggle="collapse" href="#analog_layout_synthesis" aria-expanded="false" aria-controls="#analog_layout_synthesis">
+<i class="fa fa-chevron-right"></i>
+<i class="fa fa-chevron-down"></i>
+Analog Layout Synthesis
+</a>
+</h2>
+
+<div id="analog_layout_synthesis" class="collapse">
+<h3>Analog Layout Synthesis</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC23_MTLD" >
+<td align='right'>
+1.
+</td>
+<td>
+    MTL-Designer: An Integrated Flow for Analysis and Synthesis of Microstrip Transmission Line [<a href='https://yibolin.com/publications/papers/ANALOG_DAC2023_Wang.pdf' target='_blank'>paper</a>] <br>
+    <em>Qipan&nbsp;Wang, Ping&nbsp;Liu, Liguo&nbsp;Jiang, Mingjie&nbsp;Liu, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
 
 
-## <i class="fa fa-chevron-right"></i> Analog Layout Synthesis
+<tr id="tr-DAC20_ClosingTheDesignLoop" >
+<td align='right'>
+2.
+</td>
+<td>
+    Closing the Design Loop: Bayesian Optimization Assisted Hierarchical Analog Layout Synthesis [<a href='https://dl.acm.org/doi/pdf/10.5555/3437539.3437770' target='_blank'>paper</a>]  [<a href='https://github.com/magical-eda/MAGICAL.git' target='_blank'>code</a>]  [<a href='https://pdfs.semanticscholar.org/e994/c108710d83541a08d21b4a34ca3dfe221c31.pdf' target='_blank'>slides</a>] <br>
+    <em>Mingjie&nbsp;Liu, Keren&nbsp;Zhu, Xiyuan&nbsp;Tang, Biying&nbsp;Xu, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
+    DAC 2019  <br>
+    
+</td>
+</tr>
 
+</table>
 <h3></h3>
 <table class="table table-hover">
 
@@ -1825,6 +1985,35 @@
 </tr>
 
 </table>
+<h3>Electromigration Analysis</h3>
+<table class="table table-hover">
+
+<tr id="tr-jin2022hierpinn" >
+<td align='right'>
+1.
+</td>
+<td>
+    HierPINN-EM: Fast Learning-Based Electromigration Analysis for Multi-Segment Interconnects Using Hierarchical Physics-Informed Neural Network [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549371' target='_blank'>paper</a>] <br>
+    <em>Wentian&nbsp;Jin, Liang&nbsp;Chen, Subed&nbsp;Lamichhane, Mohammadamir&nbsp;Kavousi, and Sheldon&nbsp;X-D&nbsp;Tan</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-hou2022space" >
+<td align='right'>
+2.
+</td>
+<td>
+    A Space-Time Neural Network for Analysis of Stress Evolution Under DC Current Stressing [<a href='https://arxiv.org/abs/2203.15247' target='_blank'>paper</a>] <br>
+    <em>Tianshu&nbsp;Hou, Ngai&nbsp;Wong, Quan&nbsp;Chen, Zhigang&nbsp;Ji, and Hai-Bao&nbsp;Chen</em><br>
+    TCAD 2022  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Analog Simulation</h3>
 <table class="table table-hover">
 
@@ -1849,93 +2038,6 @@
     Applications of physics-informed neural networks in power systems-a review [<a href='https://ieeexplore.ieee.org/document/9743327' target='_blank'>paper</a>] <br>
     <em>Bin&nbsp;Huang and Jianhui&nbsp;Wang</em><br>
     Transactions on Power Systems 2022  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Thermal Simulation</h3>
-<table class="table table-hover">
-
-<tr id="tr-ranade2022thermal" >
-<td align='right'>
-1.
-</td>
-<td>
-    A Thermal Machine Learning Solver For Chip Simulation [<a href='https://doi.org/10.1145/3551901.3556484' target='_blank'>paper</a>] <br>
-    <em>Rishikesh&nbsp;Ranade, Haiyang&nbsp;He, Jay&nbsp;Pathak, Norman&nbsp;Chang, Akhilesh&nbsp;Kumar, and Jimin&nbsp;Wen</em><br>
-    ML4CAD 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-chen2022fast" >
-<td align='right'>
-2.
-</td>
-<td>
-    Fast Thermal Analysis for Chiplet Design based on Graph Convolution Networks [<a href='https://ieeexplore.ieee.org/document/9712583' target='_blank'>paper</a>] <br>
-    <em>Liang&nbsp;Chen, Wentian&nbsp;Jin, and Sheldon&nbsp;X-D&nbsp;Tan</em><br>
-    ASP-DAC 2022  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Analog Layout Synthesis</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC23_MTLD" >
-<td align='right'>
-1.
-</td>
-<td>
-    MTL-Designer: An Integrated Flow for Analysis and Synthesis of Microstrip Transmission Line [<a href='https://yibolin.com/publications/papers/ANALOG_DAC2023_Wang.pdf' target='_blank'>paper</a>] <br>
-    <em>Qipan&nbsp;Wang, Ping&nbsp;Liu, Liguo&nbsp;Jiang, Mingjie&nbsp;Liu, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-DAC20_ClosingTheDesignLoop" >
-<td align='right'>
-2.
-</td>
-<td>
-    Closing the Design Loop: Bayesian Optimization Assisted Hierarchical Analog Layout Synthesis [<a href='https://dl.acm.org/doi/pdf/10.5555/3437539.3437770' target='_blank'>paper</a>]  [<a href='https://github.com/magical-eda/MAGICAL.git' target='_blank'>code</a>]  [<a href='https://pdfs.semanticscholar.org/e994/c108710d83541a08d21b4a34ca3dfe221c31.pdf' target='_blank'>slides</a>] <br>
-    <em>Mingjie&nbsp;Liu, Keren&nbsp;Zhu, Xiyuan&nbsp;Tang, Biying&nbsp;Xu, Wei&nbsp;Shi, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
-    DAC 2019  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Analog Layout Routing</h3>
-<table class="table table-hover">
-
-<tr id="tr-chen2023trouter" >
-<td align='right'>
-1.
-</td>
-<td>
-    TRouter: Thermal-driven PCB Routing via Non-Local Crisscross Attention Networks [<a href='https://ieeexplore.ieee.org/abstract/document/10042057' target='_blank'>paper</a>] <br>
-    <em>Tinghuan&nbsp;Chen, Silu&nbsp;Xiong, Huan&nbsp;He, and Bei&nbsp;Yu</em><br>
-    TCAD 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-zhu2019geniusroute" >
-<td align='right'>
-2.
-</td>
-<td>
-    GeniusRoute: A new analog routing paradigm using generative neural network guidance [<a href='https://ieeexplore.ieee.org/document/8942164' target='_blank'>paper</a>] <br>
-    <em>Keren&nbsp;Zhu, Mingjie&nbsp;Liu, Yibo&nbsp;Lin, Biying&nbsp;Xu, Shaolan&nbsp;Li, Xiyuan&nbsp;Tang, Nan&nbsp;Sun, and David&nbsp;Z&nbsp;Pan</em><br>
-    ICCAD 2019  <br>
     
 </td>
 </tr>
@@ -2009,40 +2111,77 @@
 </tr>
 
 </table>
-<h3>Electromigration Analysis</h3>
+<h3>Thermal Simulation</h3>
 <table class="table table-hover">
 
-<tr id="tr-jin2022hierpinn" >
+<tr id="tr-ranade2022thermal" >
 <td align='right'>
 1.
 </td>
 <td>
-    HierPINN-EM: Fast Learning-Based Electromigration Analysis for Multi-Segment Interconnects Using Hierarchical Physics-Informed Neural Network [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549371' target='_blank'>paper</a>] <br>
-    <em>Wentian&nbsp;Jin, Liang&nbsp;Chen, Subed&nbsp;Lamichhane, Mohammadamir&nbsp;Kavousi, and Sheldon&nbsp;X-D&nbsp;Tan</em><br>
-    ICCAD 2022  <br>
+    A Thermal Machine Learning Solver For Chip Simulation [<a href='https://doi.org/10.1145/3551901.3556484' target='_blank'>paper</a>] <br>
+    <em>Rishikesh&nbsp;Ranade, Haiyang&nbsp;He, Jay&nbsp;Pathak, Norman&nbsp;Chang, Akhilesh&nbsp;Kumar, and Jimin&nbsp;Wen</em><br>
+    ML4CAD 2022  <br>
     
 </td>
 </tr>
 
 
-<tr id="tr-hou2022space" >
+<tr id="tr-chen2022fast" >
 <td align='right'>
 2.
 </td>
 <td>
-    A Space-Time Neural Network for Analysis of Stress Evolution Under DC Current Stressing [<a href='https://arxiv.org/abs/2203.15247' target='_blank'>paper</a>] <br>
-    <em>Tianshu&nbsp;Hou, Ngai&nbsp;Wong, Quan&nbsp;Chen, Zhigang&nbsp;Ji, and Hai-Bao&nbsp;Chen</em><br>
-    TCAD 2022  <br>
+    Fast Thermal Analysis for Chiplet Design based on Graph Convolution Networks [<a href='https://ieeexplore.ieee.org/document/9712583' target='_blank'>paper</a>] <br>
+    <em>Liang&nbsp;Chen, Wentian&nbsp;Jin, and Sheldon&nbsp;X-D&nbsp;Tan</em><br>
+    ASP-DAC 2022  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Analog Layout Routing</h3>
+<table class="table table-hover">
+
+<tr id="tr-chen2023trouter" >
+<td align='right'>
+1.
+</td>
+<td>
+    TRouter: Thermal-driven PCB Routing via Non-Local Crisscross Attention Networks [<a href='https://ieeexplore.ieee.org/abstract/document/10042057' target='_blank'>paper</a>] <br>
+    <em>Tinghuan&nbsp;Chen, Silu&nbsp;Xiong, Huan&nbsp;He, and Bei&nbsp;Yu</em><br>
+    TCAD 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-zhu2019geniusroute" >
+<td align='right'>
+2.
+</td>
+<td>
+    GeniusRoute: A new analog routing paradigm using generative neural network guidance [<a href='https://ieeexplore.ieee.org/document/8942164' target='_blank'>paper</a>] <br>
+    <em>Keren&nbsp;Zhu, Mingjie&nbsp;Liu, Yibo&nbsp;Lin, Biying&nbsp;Xu, Shaolan&nbsp;Li, Xiyuan&nbsp;Tang, Nan&nbsp;Sun, and David&nbsp;Z&nbsp;Pan</em><br>
+    ICCAD 2019  <br>
     
 </td>
 </tr>
 
 </table>
 
+</div>
+<br>
 
+<h2>
+<a data-toggle="collapse" href="#testing" aria-expanded="false" aria-controls="#testing">
+<i class="fa fa-chevron-right"></i>
+<i class="fa fa-chevron-down"></i>
+Testing
+</a>
+</h2>
 
-## <i class="fa fa-chevron-right"></i> Testing
-
+<div id="testing" class="collapse">
 <h3></h3>
 <table class="table table-hover">
 
@@ -2086,57 +2225,18 @@
 
 </table>
 
+</div>
+<br>
 
+<h2>
+<a data-toggle="collapse" href="#dataset_and_tools" aria-expanded="false" aria-controls="#dataset_and_tools">
+<i class="fa fa-chevron-right"></i>
+<i class="fa fa-chevron-down"></i>
+Dataset and Tools
+</a>
+</h2>
 
-## <i class="fa fa-chevron-right"></i> Simulation
-
-<h3></h3>
-<table class="table table-hover">
-
-<tr id="tr-10.1145/3564931" >
-<td align='right'>
-1.
-</td>
-<td>
-    CNN-Cap: Effective Convolutional Neural Network-Based Capacitance Models for Interconnect Capacitance Extraction [<a href='https://doi.org/10.1145/3564931' target='_blank'>paper</a>] <br>
-    <em>Dingcheng&nbsp;Yang, Haoyuan&nbsp;Li, Wenjian&nbsp;Yu, Yuanbo&nbsp;Guo, and Wenjie&nbsp;Liang</em><br>
-    TODAES 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-9643461" >
-<td align='right'>
-2.
-</td>
-<td>
-    CNN-Cap: Effective Convolutional Neural Network Based Capacitance Models for Full-Chip Parasitic Extraction [<a href='https://arxiv.org/abs/2107.06511' target='_blank'>paper</a>] <br>
-    <em>Dingcheng&nbsp;Yang, Wenjian&nbsp;Yu, Yuanbo&nbsp;Guo, and Wenjie&nbsp;Liang</em><br>
-    ICCAD 2021  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-8715086" >
-<td align='right'>
-3.
-</td>
-<td>
-    Machine-Learning-Driven Matrix Ordering for Power Grid Analysis [<a href='https://ieeexplore.ieee.org/document/8715086' target='_blank'>paper</a>] <br>
-    <em>Ganqu&nbsp;Cui, Wenjian&nbsp;Yu, Xin&nbsp;Li, Zhiyu&nbsp;Zeng, and Ben&nbsp;Gu</em><br>
-    DATE 2019  <br>
-    
-</td>
-</tr>
-
-</table>
-
-
-
-## <i class="fa fa-chevron-right"></i> Dataset and Tools
-
+<div id="dataset_and_tools" class="collapse">
 <h3></h3>
 <table class="table table-hover">
 
@@ -2153,3 +2253,9 @@
 </tr>
 
 </table>
+
+</div>
+<br>
+
+<a class="btn btn-sm btn-primary" role="button" href='javascript:;' onclick="$('.collapse').collapse('show')">Show all</a>
+<a class="btn btn-sm btn-primary" role="button" href='javascript:;' onclick="$('.collapse').collapse('hide')">Hide all</a>
