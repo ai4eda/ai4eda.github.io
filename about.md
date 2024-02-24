@@ -13,6 +13,18 @@ So you only need to submit your bibtex file to [https://github.com/ai4eda/awesom
 Or contact [Guojin Chen](https://gjchen.me) by email [cgjcuhk@gmail.com](mailto:cgjcuhk@gmail.com)
 
 
+If you find it helpful, feel free to cite it as
+
+```txt
+@article{chen2023ai4eda,
+  title   = "Awesome AI for EDA: A curated paper list of Artificial Intelligence for Electronic Design Automation studies.",
+  author  = "Chen, Guojin and Mai, Jing and Lin, Yibo and Yu, Bei",
+  journal = "ai4eda.github.io",
+  year    = "2022",
+  url     = "https://ai4eda.github.io/"
+}
+```
+
 ## Example
 
 `bibtex` -> `html`
@@ -44,7 +56,7 @@ Add the `abstract` field to show the paper abstract.
 
 Add the `code_url`, `slides_url`, `video_url`, `talk_url`, `project_url` field for link to your codes, slides, video, talks, or project pages.
 
-```txt
+```bibtex
 @inproceedings{DAC23_Nitho,
   title={Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields},
   author={Chen, Guojin and Pei, Zehua and Yang, Haoyu and Ma, Yuzhe and Yu, Bei and Wong, Martin},
