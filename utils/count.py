@@ -33,5 +33,5 @@ while True:
     total_visitors = request_url()
     print("Total visitors:", total_visitors)
     time.sleep(0.01)
-    if total_visitors > 12000:
+    if total_visitors > 12219:
         break
