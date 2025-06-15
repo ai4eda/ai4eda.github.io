@@ -19,6 +19,7 @@ tagline: A curated paper list of AI for EDA | Awesome AI for EDA | ai4eda | awes
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-github-metadata
 
 exclude:
   - .travis.yml

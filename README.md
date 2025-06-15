@@ -20,6 +20,13 @@ If you find it helpful, feel free to cite it as
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fai4eda.github.io%2F&labelColor=%231863e6&countColor=%23d9e3f0)
 
 
+## Env
+
+```shell
+ruby 3.3.1
+```
+
+
 ## Example
 
 `bibtex` -> `html`
