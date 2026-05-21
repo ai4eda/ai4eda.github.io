@@ -238,9 +238,22 @@ Logic Synthesis
 </tr>
 
 
-<tr id="tr-ICCAD20_flowtune" >
+<tr id="tr-DBLP:conf/iccad/FengLCYYH22" >
 <td align='right'>
 4.
+</td>
+<td>
+    Batch Sequential Black-Box Optimization with Embedding Alignment Cells for Logic Synthesis [<a href='https://doi.org/10.1145/3508352.3549363' target='_blank'>paper</a>] <br>
+    <em>Chang&nbsp;Feng, Wenlong&nbsp;Lyu, Zhitang&nbsp;Chen, Junjie&nbsp;Ye, Mingxuan&nbsp;Yuan, and Jianye&nbsp;Hao</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ICCAD20_flowtune" >
+<td align='right'>
+5.
 </td>
 <td>
     Practical Multi-armed Bandits in Boolean Optimization [<a href='https://doi.org/10.1145/3400302.3415615' target='_blank'>paper</a>]  [<a href='https://github.com/Yu-Utah/FlowTune' target='_blank'>code</a>]  [<a href='https://www.youtube.com/watch?v=EPcn5ttp1TM&t=360s' target='_blank'>talk</a>] <br>
@@ -253,12 +266,38 @@ Logic Synthesis
 
 <tr id="tr-ASPDAC20_drills" >
 <td align='right'>
-5.
+6.
 </td>
 <td>
     DRiLLS: Deep Reinforcement Learning for Logic Synthesis [<a href='https://ieeexplore.ieee.org/abstract/document/9045559' target='_blank'>paper</a>]  [<a href='https://github.com/scale-lab/DRiLLS' target='_blank'>code</a>] <br>
     <em>Abdelrahman&nbsp;Hosny, Soheil&nbsp;Hashemi, Mohamed&nbsp;Shalan, and Sherief&nbsp;Reda</em><br>
     ASP-DAC 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-LS_MLCAD20_Zhu" >
+<td align='right'>
+7.
+</td>
+<td>
+    Exploring Logic Optimizations with Reinforcement Learning and Graph Convolutional Network [<a href='https://ieeexplore.ieee.org/document/9394650' target='_blank'>paper</a>] <br>
+    <em>Keren&nbsp;Zhu, Mingjie&nbsp;Liu, Hao&nbsp;Chen, Zheng&nbsp;Zhao, and David&nbsp;Z.&nbsp;Pan</em><br>
+    MLCAD 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC18_angel" >
+<td align='right'>
+8.
+</td>
+<td>
+    Developing synthesis flows without human knowledge [<a href='https://doi.org/10.1145/3195970.3196026' target='_blank'>paper</a>]  [<a href='https://github.com/ycunxi/FLowGen-CNNs-DAC18' target='_blank'>code</a>]  [<a href='https://ycunxi.github.io/cunxiyu/slides/dac18.pdf' target='_blank'>slides</a>] <br>
+    <em>Cunxi&nbsp;Yu, Houping&nbsp;Xiao, and Giovanni&nbsp;De&nbsp;Micheli</em><br>
+    DAC 2018  <br>
     
 </td>
 </tr>
@@ -306,53 +345,14 @@ Logic Synthesis
 </tr>
 
 
-<tr id="tr-DBLP:conf/iccad/FengLCYYH22" >
-<td align='right'>
-4.
-</td>
-<td>
-    Batch Sequential Black-Box Optimization with Embedding Alignment Cells for Logic Synthesis [<a href='https://doi.org/10.1145/3508352.3549363' target='_blank'>paper</a>] <br>
-    <em>Chang&nbsp;Feng, Wenlong&nbsp;Lyu, Zhitang&nbsp;Chen, Junjie&nbsp;Ye, Mingxuan&nbsp;Yuan, and Jianye&nbsp;Hao</em><br>
-    ICCAD 2022  <br>
-    
-</td>
-</tr>
-
-
 <tr id="tr-MLCAD20_decision" >
 <td align='right'>
-5.
+4.
 </td>
 <td>
     Decision making in synthesis cross technologies using LSTMs and transfer learning [<a href='https://doi.org/10.1145/3380446.3430638' target='_blank'>paper</a>]  [<a href='https://www.youtube.com/watch?v=c5k1uQahMa8&t=184s' target='_blank'>talk</a>] <br>
     <em>Cunxi&nbsp;Yu and Wang&nbsp;Zhou</em><br>
     MLCAD 2020  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-LS_MLCAD20_Zhu" >
-<td align='right'>
-6.
-</td>
-<td>
-    Exploring Logic Optimizations with Reinforcement Learning and Graph Convolutional Network [<a href='https://ieeexplore.ieee.org/document/9394650' target='_blank'>paper</a>] <br>
-    <em>Keren&nbsp;Zhu, Mingjie&nbsp;Liu, Hao&nbsp;Chen, Zheng&nbsp;Zhao, and David&nbsp;Z.&nbsp;Pan</em><br>
-    MLCAD 2020  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-DAC18_angel" >
-<td align='right'>
-7.
-</td>
-<td>
-    Developing synthesis flows without human knowledge [<a href='https://doi.org/10.1145/3195970.3196026' target='_blank'>paper</a>]  [<a href='https://github.com/ycunxi/FLowGen-CNNs-DAC18' target='_blank'>code</a>]  [<a href='https://ycunxi.github.io/cunxiyu/slides/dac18.pdf' target='_blank'>slides</a>] <br>
-    <em>Cunxi&nbsp;Yu, Houping&nbsp;Xiao, and Giovanni&nbsp;De&nbsp;Micheli</em><br>
-    DAC 2018  <br>
     
 </td>
 </tr>
@@ -401,22 +401,6 @@ Logic Synthesis
     Polargate: Breaking the functionality representation bottleneck of and-inverter graph neural network [<a href='https://doi.org/10.1145/3676536.3676834' target='_blank'>paper</a>] <br>
     <em>Jiawei&nbsp;Liu, Jianwang&nbsp;Zhai, Mingyu&nbsp;Zhao, Zhe&nbsp;Lin, Bei&nbsp;Yu, and Chuan&nbsp;Shi</em><br>
     ICCAD 2024  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3></h3>
-<table class="table table-hover">
-
-<tr id="tr-10.1145/3560712" >
-<td align='right'>
-1.
-</td>
-<td>
-    Machine-Learning-Driven Architectural Selection of Adders and Multipliers in Logic Synthesis [<a href='https://doi.org/10.1145/3560712' target='_blank'>paper</a>] <br>
-    <em>Jiawen&nbsp;Cheng, Yong&nbsp;Xiao, Yun&nbsp;Shao, Guanghai&nbsp;Dong, Songlin&nbsp;Lyu, and Wenjian&nbsp;Yu</em><br>
-    TODAES 2023  <br>
     
 </td>
 </tr>
