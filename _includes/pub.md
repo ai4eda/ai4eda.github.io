@@ -15,28 +15,25 @@ High Level Synthesis
 </h2>
 
 <div id="high_level_synthesis" class="collapse-table collapse">
-<h3>LLM for HLS</h3>
+<h3>QoR Prediction for DSE</h3>
 <table class="table table-hover">
 
-<tr id="tr-yao2025high" >
+<tr id="tr-zheng2026enhancing" >
 <td align='right'>
 1.
 </td>
 <td>
-    High-level synthesis directives design optimization via large language model [<a href='https://dl.acm.org/doi/10.1145/3747291' target='_blank'>paper</a>] <br>
-    <em>Xufeng&nbsp;Yao, Wenqian&nbsp;Zhao, Qi&nbsp;Sun, Cheng&nbsp;Zhuo, and Bei&nbsp;Yu</em><br>
-    TODAES 2025  <br>
+    Enhancing ASIC HLS Design Optimization via Knowledge Transfer from FPGA HLS Models [<a href='https://ieeexplore.ieee.org/abstract/document/11517472?casa_token=J3WqtxSl6YcAAAAA:SEptYHsnoidzCAQApXIe0zfFTUb0ggs6Lc2Z1sbmTC-T1WCZSSMXRxJKLbNziI7Lqc7wFjLwRw' target='_blank'>paper</a>] <br>
+    <em>Su&nbsp;Zheng, Zijian&nbsp;Ding, Chengyue&nbsp;Wang, Bei&nbsp;Yu, Martin&nbsp;Wong, Yizhou&nbsp;Sun, and Jason&nbsp;Cong</em><br>
+    TCAD 2026  <br>
     
 </td>
 </tr>
 
-</table>
-<h3>QoR Prediction for DSE</h3>
-<table class="table table-hover">
 
 <tr id="tr-li2025hierarchical" >
 <td align='right'>
-1.
+2.
 </td>
 <td>
     Hierarchical mixture of experts: Generalizable learning for high-level synthesis [<a href='https://ojs.aaai.org/index.php/AAAI/article/view/34033' target='_blank'>paper</a>] <br>
@@ -49,7 +46,7 @@ High Level Synthesis
 
 <tr id="tr-10546555" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     Hierarchical Source-to-Post-Route QoR Prediction in High-Level Synthesis with GNNs [<a href='https://ieeexplore.ieee.org/abstract/document/10546555' target='_blank'>paper</a>] <br>
@@ -62,7 +59,7 @@ High Level Synthesis
 
 <tr id="tr-qin2024cross" >
 <td align='right'>
-3.
+4.
 </td>
 <td>
     Cross-modality program representation learning for electronic design automation with high-level synthesis [<a href='https://dl.acm.org/doi/abs/10.1145/3670474.3685952' target='_blank'>paper</a>] <br>
@@ -75,7 +72,7 @@ High Level Synthesis
 
 <tr id="tr-sohrabizadeh2023robust" >
 <td align='right'>
-4.
+5.
 </td>
 <td>
     Robust GNN-based representation learning for HLS [<a href='https://ieeexplore.ieee.org/abstract/document/10323853' target='_blank'>paper</a>] <br>
@@ -88,7 +85,7 @@ High Level Synthesis
 
 <tr id="tr-sohrabizadeh2022automated" >
 <td align='right'>
-5.
+6.
 </td>
 <td>
     Automated accelerator optimization aided by graph neural networks [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530409' target='_blank'>paper</a>] <br>
@@ -101,7 +98,7 @@ High Level Synthesis
 
 <tr id="tr-wu2022high" >
 <td align='right'>
-6.
+7.
 </td>
 <td>
     High-level synthesis performance prediction using gnns: Benchmarking, modeling, and advancing [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530408' target='_blank'>paper</a>] <br>
@@ -114,7 +111,7 @@ High Level Synthesis
 
 <tr id="tr-10.1145/3503540" >
 <td align='right'>
-7.
+8.
 </td>
 <td>
     Correlated Multi-Objective Multi-Fidelity Optimization for HLS Directives Design [<a href='https://doi.org/10.1145/3503540' target='_blank'>paper</a>] <br>
@@ -127,12 +124,28 @@ High Level Synthesis
 
 <tr id="tr-liu2013learning" >
 <td align='right'>
-8.
+9.
 </td>
 <td>
     On learning-based methods for design-space exploration with high-level synthesis [<a href='http://www.cs.columbia.edu/~luca/research/liu_DAC13.pdf' target='_blank'>paper</a>] <br>
     <em>Hung-Yi&nbsp;Liu and Luca&nbsp;P&nbsp;Carloni</em><br>
     DAC 2013  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>LLM for HLS</h3>
+<table class="table table-hover">
+
+<tr id="tr-yao2025high" >
+<td align='right'>
+1.
+</td>
+<td>
+    High-level synthesis directives design optimization via large language model [<a href='https://dl.acm.org/doi/10.1145/3747291' target='_blank'>paper</a>] <br>
+    <em>Xufeng&nbsp;Yao, Wenqian&nbsp;Zhao, Qi&nbsp;Sun, Cheng&nbsp;Zhuo, and Bei&nbsp;Yu</em><br>
+    TODAES 2025  <br>
     
 </td>
 </tr>
