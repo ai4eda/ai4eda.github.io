@@ -196,12 +196,83 @@ Logic Synthesis
 </h2>
 
 <div id="logic_synthesis" class="collapse-table collapse">
+<h3>Heterogeneous Logic Optimization</h3>
+<table class="table table-hover">
+
+<tr id="tr-TCAD26_CHOP" >
+<td align='right'>
+1.
+</td>
+<td>
+    CHOP: Clustered Hybrid Optimization for Logic Synthesis with Self-Supervised Prediction [<a href='https://doi.org/10.1109/TCAD.2026.3650860' target='_blank'>paper</a>] <br>
+    <em>Rongliang&nbsp;Fu, Ran&nbsp;Zhang, Ziyang&nbsp;Zheng, Zhengyuan&nbsp;Shi, Yuan&nbsp;Pu, Junying&nbsp;Huang, Bei&nbsp;Yu, Qiang&nbsp;Xu, and Tsung-Yi&nbsp;Ho</em><br>
+    TCAD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ISPD25_HeLO" >
+<td align='right'>
+2.
+</td>
+<td>
+    HeLO: A Heterogeneous Logic Optimization Framework by Hierarchical Clustering and Graph Learning [<a href='https://doi.org/10.1145/3698364.3705354' target='_blank'>paper</a>] <br>
+    <em>Yuan&nbsp;Pu, Fangzhou&nbsp;Liu, Zhuolun&nbsp;He, Keren&nbsp;Zhu, Rongliang&nbsp;Fu, Ziyi&nbsp;Wang, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    ISPD 2025  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Approximate Logic Synthesis</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC25_MOALS" >
+<td align='right'>
+1.
+</td>
+<td>
+    Rank-based Multi-objective Approximate Logic Synthesis via Monte Carlo Tree Search [<a href='https://doi.org/10.1109/DAC63849.2025.11132589' target='_blank'>paper</a>] <br>
+    <em>Yuyang&nbsp;Ye, Xiangfei&nbsp;Hu, Yuchen&nbsp;Liu, Peng&nbsp;Xu, Yu&nbsp;Gong, Tinghuan&nbsp;Chen, Hao&nbsp;Yan, Bei&nbsp;Yu, and Longxing&nbsp;Shi</em><br>
+    DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DATE25_DCGWO_ALS" >
+<td align='right'>
+2.
+</td>
+<td>
+    Timing-driven Approximate Logic Synthesis Based on Double-chase Grey Wolf Optimizer [<a href='https://doi.org/10.23919/DATE64628.2025.10992793' target='_blank'>paper</a>] <br>
+    <em>Xiangfei&nbsp;Hu, Yuyang&nbsp;Ye, Tinghuan&nbsp;Chen, Hao&nbsp;Yan, and Bei&nbsp;Yu</em><br>
+    DATE 2025  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Operator Sequence Scheduling</h3>
 <table class="table table-hover">
 
-<tr id="tr-ASPDAC25_PIRLLS" >
+<tr id="tr-TODAES25_CBEVO" >
 <td align='right'>
 1.
+</td>
+<td>
+    CB-EVO: Contextual Bandit Tuning with Evolutionary Search for Logic Synthesis [<a href='https://doi.org/10.1145/3779431' target='_blank'>paper</a>] <br>
+    <em>Fangzhou&nbsp;Liu, Wuqian&nbsp;Tang, Zehua&nbsp;Pei, Ziyang&nbsp;Yu, Haisheng&nbsp;Zheng, Zhuolun&nbsp;He, Mengjia&nbsp;Dai, Tinghuan&nbsp;Chen, and Bei&nbsp;Yu</em><br>
+    TODAES 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ASPDAC25_PIRLLS" >
+<td align='right'>
+2.
 </td>
 <td>
     PIRLLS: Pretraining with Imitation and RL Finetuning for Logic Synthesis [<a href='https://doi.org/10.1145/3658617.3697786' target='_blank'>paper</a>] <br>
@@ -214,7 +285,7 @@ Logic Synthesis
 
 <tr id="tr-DATE24_CBTune" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     CBTune: Contextual Bandit Tuning for Logic Synthesis [<a href='https://doi.org/10.23919/DATE58400.2024.10546766' target='_blank'>paper</a>] <br>
@@ -227,7 +298,7 @@ Logic Synthesis
 
 <tr id="tr-HLS-ICCAD23-Pei" >
 <td align='right'>
-3.
+4.
 </td>
 <td>
     AlphaSyn: Logic Synthesis Optimization with Efficient Monte Carlo Tree Search [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C184-ICCAD2023-AlphaSyn.pdf' target='_blank'>paper</a>] <br>
@@ -240,7 +311,7 @@ Logic Synthesis
 
 <tr id="tr-DBLP:conf/iccad/FengLCYYH22" >
 <td align='right'>
-4.
+5.
 </td>
 <td>
     Batch Sequential Black-Box Optimization with Embedding Alignment Cells for Logic Synthesis [<a href='https://doi.org/10.1145/3508352.3549363' target='_blank'>paper</a>] <br>
@@ -253,7 +324,7 @@ Logic Synthesis
 
 <tr id="tr-ICCAD20_flowtune" >
 <td align='right'>
-5.
+6.
 </td>
 <td>
     Practical Multi-armed Bandits in Boolean Optimization [<a href='https://doi.org/10.1145/3400302.3415615' target='_blank'>paper</a>]  [<a href='https://github.com/Yu-Utah/FlowTune' target='_blank'>code</a>]  [<a href='https://www.youtube.com/watch?v=EPcn5ttp1TM&t=360s' target='_blank'>talk</a>] <br>
@@ -266,7 +337,7 @@ Logic Synthesis
 
 <tr id="tr-ASPDAC20_drills" >
 <td align='right'>
-6.
+7.
 </td>
 <td>
     DRiLLS: Deep Reinforcement Learning for Logic Synthesis [<a href='https://ieeexplore.ieee.org/abstract/document/9045559' target='_blank'>paper</a>]  [<a href='https://github.com/scale-lab/DRiLLS' target='_blank'>code</a>] <br>
@@ -279,7 +350,7 @@ Logic Synthesis
 
 <tr id="tr-LS_MLCAD20_Zhu" >
 <td align='right'>
-7.
+8.
 </td>
 <td>
     Exploring Logic Optimizations with Reinforcement Learning and Graph Convolutional Network [<a href='https://ieeexplore.ieee.org/document/9394650' target='_blank'>paper</a>] <br>
@@ -292,7 +363,7 @@ Logic Synthesis
 
 <tr id="tr-DAC18_angel" >
 <td align='right'>
-8.
+9.
 </td>
 <td>
     Developing synthesis flows without human knowledge [<a href='https://doi.org/10.1145/3195970.3196026' target='_blank'>paper</a>]  [<a href='https://github.com/ycunxi/FLowGen-CNNs-DAC18' target='_blank'>code</a>]  [<a href='https://ycunxi.github.io/cunxiyu/slides/dac18.pdf' target='_blank'>slides</a>] <br>
@@ -319,9 +390,22 @@ Logic Synthesis
 </tr>
 
 
-<tr id="tr-ISCA22_sns" >
+<tr id="tr-ASPDAC24_LSTP" >
 <td align='right'>
 2.
+</td>
+<td>
+    LSTP: A Logic Synthesis Timing Predictor [<a href='https://doi.org/10.1109/ASP-DAC58780.2024.10473925' target='_blank'>paper</a>] <br>
+    <em>Haisheng&nbsp;Zheng, Zhuolun&nbsp;He, Fangzhou&nbsp;Liu, Zehua&nbsp;Pei, and Bei&nbsp;Yu</em><br>
+    ASP-DAC 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ISCA22_sns" >
+<td align='right'>
+3.
 </td>
 <td>
     SNS's Not a Synthesizer: A Deep-Learning-Based Synthesis Predictor [<a href='https://doi.org/10.1145/3470496.3527444' target='_blank'>paper</a>]  [<a href='https://github.com/Entropy-xcy/sns' target='_blank'>code</a>] <br>
@@ -334,7 +418,7 @@ Logic Synthesis
 
 <tr id="tr-TCAD22_bullseye" >
 <td align='right'>
-3.
+4.
 </td>
 <td>
     Bulls-Eye: Active Few-shot Learning Guided Logic Synthesis [<a href='https://ieeexplore.ieee.org/abstract/document/9969911' target='_blank'>paper</a>] <br>
@@ -347,7 +431,7 @@ Logic Synthesis
 
 <tr id="tr-MLCAD20_decision" >
 <td align='right'>
-4.
+5.
 </td>
 <td>
     Decision making in synthesis cross technologies using LSTMs and transfer learning [<a href='https://doi.org/10.1145/3380446.3430638' target='_blank'>paper</a>]  [<a href='https://www.youtube.com/watch?v=c5k1uQahMa8&t=184s' target='_blank'>talk</a>] <br>
@@ -369,22 +453,6 @@ Logic Synthesis
     LLSM: LLM-enhanced Logic Synthesis Model with EDA-guided CoT Prompting, Hybrid Embedding and AIG-tailored Acceleration [<a href='https://doi.org/10.1145/3658617.3697618' target='_blank'>paper</a>] <br>
     <em>Shan&nbsp;Huang, Jinhao&nbsp;Li, Zhen&nbsp;Yu, Jiancai&nbsp;Ye, Jiaming&nbsp;Xu, Ningyi&nbsp;Xu, and Guohao&nbsp;Dai</em><br>
     ASP-DAC 2025  <br>
-    
-</td>
-</tr>
-
-</table>
-<h3>Heterogeneous Logic Optimization</h3>
-<table class="table table-hover">
-
-<tr id="tr-ISPD25_HeLO" >
-<td align='right'>
-1.
-</td>
-<td>
-    HeLO: A Heterogeneous Logic Optimization Framework by Hierarchical Clustering and Graph Learning [<a href='https://doi.org/10.1145/3698364.3705354' target='_blank'>paper</a>] <br>
-    <em>Yuan&nbsp;Pu, Fangzhou&nbsp;Liu, Zhuolun&nbsp;He, Keren&nbsp;Zhu, Rongliang&nbsp;Fu, Ziyi&nbsp;Wang, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
-    ISPD 2025  <br>
     
 </td>
 </tr>
