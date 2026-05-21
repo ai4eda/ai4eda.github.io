@@ -503,7 +503,107 @@ Circuit Verification
 </h2>
 
 <div id="circuit_verification" class="collapse-table collapse">
-<h3></h3>
+<h3>Assertion Generation</h3>
+<table class="table table-hover">
+
+<tr id="tr-ASPDAC25_assertllm" >
+<td align='right'>
+1.
+</td>
+<td>
+    AssertLLM: Generating Hardware Verification Assertions from Design Specifications via Multi-LLMs [<a href='https://doi.org/10.1145/3658617.3697756' target='_blank'>paper</a>] <br>
+    <em>Zhiyuan&nbsp;Yan, Wenji&nbsp;Fang, Mengming&nbsp;Li, Min&nbsp;Li, Shang&nbsp;Liu, Zhiyao&nbsp;Xie, and Hongce&nbsp;Zhang</em><br>
+    ASP-DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-TCAD22_harm" >
+<td align='right'>
+2.
+</td>
+<td>
+    HARM: A Hint-Based Assertion Miner [<a href='https://doi.org/10.1109/TCAD.2022.3197525' target='_blank'>paper</a>] <br>
+    <em>Samuele&nbsp;Germiniani and Graziano&nbsp;Pravadelli</em><br>
+    TCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ATS22_hybrid_nl_assertion" >
+<td align='right'>
+3.
+</td>
+<td>
+    Hybrid Rule-Based and Machine Learning System for Assertion Generation from Natural Language Specifications [<a href='https://doi.org/10.1109/ATS56056.2022.00034' target='_blank'>paper</a>] <br>
+    <em>Fnu&nbsp;Aditi and Michael&nbsp;S.&nbsp;Hsiao</em><br>
+    ATS 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC21_autosva" >
+<td align='right'>
+4.
+</td>
+<td>
+    AutoSVA: Democratizing Formal Verification of RTL Module Interactions [<a href='https://doi.org/10.1109/DAC18074.2021.9586118' target='_blank'>paper</a>] <br>
+    <em>Marcelo&nbsp;Orenes-Vera, Aninda&nbsp;Manocha, David&nbsp;Wentzlaff, and Margaret&nbsp;Martonosi</em><br>
+    DAC 2021  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Survey</h3>
+<table class="table table-hover">
+
+<tr id="tr-ASPDAC26_llm_verification_survey" >
+<td align='right'>
+1.
+</td>
+<td>
+    LLM-Assisted Circuit Verification: A Comprehensive Survey [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C312-ASPDAC2026-Verif-slides.pdf' target='_blank'>paper</a>] <br>
+    <em>Hongduo&nbsp;Liu, Yuntao&nbsp;Lu, Mingjun&nbsp;Wang, Xufeng&nbsp;Yao, and Bei&nbsp;Yu</em><br>
+    ASP-DAC 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wu2024survey" >
+<td align='right'>
+2.
+</td>
+<td>
+    Survey of machine learning for software-assisted hardware design verification: Past, present, and prospect [<a href='https://dl.acm.org/doi/full/10.1145/3661308' target='_blank'>paper</a>] <br>
+    <em>Nan&nbsp;Wu, Yingjie&nbsp;Li, Hang&nbsp;Yang, Hanqiu&nbsp;Chen, Steve&nbsp;Dai, Cong&nbsp;Hao, Cunxi&nbsp;Yu, and Yuan&nbsp;Xie</em><br>
+    TODAES 2024  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Dataset</h3>
+<table class="table table-hover">
+
+<tr id="tr-TODAES25_vert" >
+<td align='right'>
+1.
+</td>
+<td>
+    A Novel SystemVerilog Assertion Dataset [<a href='https://doi.org/10.1145/3764934' target='_blank'>paper</a>] <br>
+    <em>Anand&nbsp;Menon, Samit&nbsp;Miftah, Shamik&nbsp;Kundu, Souvik&nbsp;Kundu, Amisha&nbsp;Srivastava, Arnab&nbsp;Raha, Gaberiel&nbsp;Sonnenschien, Suvadeep&nbsp;Banerjee, Deepak&nbsp;Mathaikutty, and Kanad&nbsp;Basu</em><br>
+    TODAES 2025  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Others</h3>
 <table class="table table-hover">
 
 <tr id="tr-DAC22_ncl" >
@@ -531,52 +631,13 @@ Circuit Verification
 </td>
 </tr>
 
-
-<tr id="tr-ICCAD20_Aadam" >
-<td align='right'>
-3.
-</td>
-<td>
-    Aadam: A Fast, Accurate, and Versatile Aging-Aware Cell Library Delay Model using Feed-Forward Neural Network [<a href='https://ieeexplore.ieee.org/document/9256491/' target='_blank'>paper</a>] <br>
-    <em>Seyed&nbsp;Milad&nbsp;Ebrahimipour, Behnam&nbsp;Ghavami, Hamid&nbsp;Mousavi, Mohsen&nbsp;Raji, Zhenman&nbsp;Fang, and Lesley&nbsp;Shannon</em><br>
-    ICCAD 2020  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-ICCAD_Gao" >
-<td align='right'>
-4.
-</td>
-<td>
-    Efficient Performance Trade-off Modeling for Analog Circuit based on Bayesian Neural Network [<a href='https://ieeexplore.ieee.org/document/8942174' target='_blank'>paper</a>] <br>
-    <em>Zhengqi&nbsp;Gao, Jun&nbsp;Tao, Fan&nbsp;Yang, Yangfeng&nbsp;Su, Dian&nbsp;Zhou, and Xuan&nbsp;Zeng</em><br>
-    ICCAD 2019  <br>
-    
-</td>
-</tr>
-
 </table>
 <h3>Reliability</h3>
 <table class="table table-hover">
 
-<tr id="tr-DBLP:conf/aspdac/GengSCXHY23" >
-<td align='right'>
-1.
-</td>
-<td>
-    Mixed-Type Wafer Failure Pattern Recognition [<a href='https://doi.org/10.1145/3566097.3568363' target='_blank'>paper</a>] <br>
-    <em>Hao&nbsp;Geng, Qi&nbsp;Sun, Tinghuan&nbsp;Chen, Qi&nbsp;Xu, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
-    ASP-DAC 2023  <br>
-    
-</td>
-</tr>
-
-
 <tr id="tr-chen2021deep" >
 <td align='right'>
-2.
+1.
 </td>
 <td>
     Deep H-GCN: Fast analog IC aging-induced degradation estimation [<a href='https://ieeexplore.ieee.org/document/9521579' target='_blank'>paper</a>] <br>
@@ -589,7 +650,7 @@ Circuit Verification
 
 <tr id="tr-chen2021analog" >
 <td align='right'>
-3.
+2.
 </td>
 <td>
     Analog IC aging-induced degradation estimation via heterogeneous graph convolutional networks [<a href='https://dl.acm.org/doi/10.1145/3394885.3431546' target='_blank'>paper</a>] <br>
@@ -599,18 +660,15 @@ Circuit Verification
 </td>
 </tr>
 
-</table>
-<h3>Security</h3>
-<table class="table table-hover">
 
-<tr id="tr-DBLP:conf/aspdac/ChangPXH023" >
+<tr id="tr-ICCAD20_Aadam" >
 <td align='right'>
-1.
+3.
 </td>
 <td>
-    Rethink before Releasing Your Model: ML Model Extraction Attack in EDA [<a href='https://doi.org/10.1145/3566097.3567896' target='_blank'>paper</a>] <br>
-    <em>Chen-Chia&nbsp;Chang, Jingyu&nbsp;Pan, Zhiyao&nbsp;Xie, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
-    ASP-DAC 2023  <br>
+    Aadam: A Fast, Accurate, and Versatile Aging-Aware Cell Library Delay Model using Feed-Forward Neural Network [<a href='https://ieeexplore.ieee.org/document/9256491/' target='_blank'>paper</a>] <br>
+    <em>Seyed&nbsp;Milad&nbsp;Ebrahimipour, Behnam&nbsp;Ghavami, Hamid&nbsp;Mousavi, Mohsen&nbsp;Raji, Zhenman&nbsp;Fang, and Lesley&nbsp;Shannon</em><br>
+    ICCAD 2020  <br>
     
 </td>
 </tr>
@@ -705,6 +763,19 @@ Circuit Verification
     Machine-Learning-Driven Matrix Ordering for Power Grid Analysis [<a href='https://ieeexplore.ieee.org/document/8715086' target='_blank'>paper</a>] <br>
     <em>Ganqu&nbsp;Cui, Wenjian&nbsp;Yu, Xin&nbsp;Li, Zhiyu&nbsp;Zeng, and Ben&nbsp;Gu</em><br>
     DATE 2019  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ICCAD_Gao" >
+<td align='right'>
+8.
+</td>
+<td>
+    Efficient Performance Trade-off Modeling for Analog Circuit based on Bayesian Neural Network [<a href='https://ieeexplore.ieee.org/document/8942174' target='_blank'>paper</a>] <br>
+    <em>Zhengqi&nbsp;Gao, Jun&nbsp;Tao, Fan&nbsp;Yang, Yangfeng&nbsp;Su, Dian&nbsp;Zhou, and Xuan&nbsp;Zeng</em><br>
+    ICCAD 2019  <br>
     
 </td>
 </tr>
@@ -1978,9 +2049,22 @@ Layout Verification
 <h3>Reliability</h3>
 <table class="table table-hover">
 
-<tr id="tr-9875000" >
+<tr id="tr-DBLP:conf/aspdac/GengSCXHY23" >
 <td align='right'>
 1.
+</td>
+<td>
+    Mixed-Type Wafer Failure Pattern Recognition [<a href='https://doi.org/10.1145/3566097.3568363' target='_blank'>paper</a>] <br>
+    <em>Hao&nbsp;Geng, Qi&nbsp;Sun, Tinghuan&nbsp;Chen, Qi&nbsp;Xu, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    ASP-DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9875000" >
+<td align='right'>
+2.
 </td>
 <td>
     Efficient Learning Strategies for Machine Learning-Based Characterization of Aging-Aware Cell Libraries [<a href='https://ieeexplore.ieee.org/document/9875000/' target='_blank'>paper</a>] <br>
@@ -1993,7 +2077,7 @@ Layout Verification
 
 <tr id="tr-9704874" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     Scalable Machine Learning to Estimate the Impact of Aging on Circuits Under Workload Dependency [<a href='https://ieeexplore.ieee.org/document/9704874' target='_blank'>paper</a>] <br>
@@ -2006,7 +2090,7 @@ Layout Verification
 
 <tr id="tr-9394564" >
 <td align='right'>
-3.
+4.
 </td>
 <td>
     Machine Learning for On-the-Fly Reliability-Aware Cell Library Characterization [<a href='https://ieeexplore.ieee.org/document/9394564' target='_blank'>paper</a>] <br>
