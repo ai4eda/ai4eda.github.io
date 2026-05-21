@@ -199,9 +199,35 @@ Logic Synthesis
 <h3>Operator Sequence Scheduling</h3>
 <table class="table table-hover">
 
-<tr id="tr-HLS-ICCAD23-Pei" >
+<tr id="tr-ASPDAC25_PIRLLS" >
 <td align='right'>
 1.
+</td>
+<td>
+    PIRLLS: Pretraining with Imitation and RL Finetuning for Logic Synthesis [<a href='https://doi.org/10.1145/3658617.3697786' target='_blank'>paper</a>] <br>
+    <em>Guande&nbsp;Dong, Jianwang&nbsp;Zhai, Hongtao&nbsp;Cheng, Xiao&nbsp;Yang, Chuan&nbsp;Shi, and Kang&nbsp;Zhao</em><br>
+    ASP-DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DATE24_CBTune" >
+<td align='right'>
+2.
+</td>
+<td>
+    CBTune: Contextual Bandit Tuning for Logic Synthesis [<a href='https://doi.org/10.23919/DATE58400.2024.10546766' target='_blank'>paper</a>] <br>
+    <em>Fangzhou&nbsp;Liu, Zehua&nbsp;Pei, Ziyang&nbsp;Yu, Haisheng&nbsp;Zheng, Zhuolun&nbsp;He, Tinghuan&nbsp;Chen, and Bei&nbsp;Yu</em><br>
+    DATE 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-HLS-ICCAD23-Pei" >
+<td align='right'>
+3.
 </td>
 <td>
     AlphaSyn: Logic Synthesis Optimization with Efficient Monte Carlo Tree Search [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C184-ICCAD2023-AlphaSyn.pdf' target='_blank'>paper</a>] <br>
@@ -214,7 +240,7 @@ Logic Synthesis
 
 <tr id="tr-ICCAD20_flowtune" >
 <td align='right'>
-2.
+4.
 </td>
 <td>
     Practical Multi-armed Bandits in Boolean Optimization [<a href='https://doi.org/10.1145/3400302.3415615' target='_blank'>paper</a>]  [<a href='https://github.com/Yu-Utah/FlowTune' target='_blank'>code</a>]  [<a href='https://www.youtube.com/watch?v=EPcn5ttp1TM&t=360s' target='_blank'>talk</a>] <br>
@@ -227,7 +253,7 @@ Logic Synthesis
 
 <tr id="tr-ASPDAC20_drills" >
 <td align='right'>
-3.
+5.
 </td>
 <td>
     DRiLLS: Deep Reinforcement Learning for Logic Synthesis [<a href='https://ieeexplore.ieee.org/abstract/document/9045559' target='_blank'>paper</a>]  [<a href='https://github.com/scale-lab/DRiLLS' target='_blank'>code</a>] <br>
@@ -241,9 +267,22 @@ Logic Synthesis
 <h3>Synthesis Results Estimation</h3>
 <table class="table table-hover">
 
-<tr id="tr-ISCA22_sns" >
+<tr id="tr-ASPDAC25_MTLSO" >
 <td align='right'>
 1.
+</td>
+<td>
+    MTLSO: A Multi-Task Learning Approach for Logic Synthesis Optimization [<a href='https://doi.org/10.1145/3658617.3697721' target='_blank'>paper</a>] <br>
+    <em>Faezeh&nbsp;Faez, Raika&nbsp;Karimi, Yingxue&nbsp;Zhang, Xing&nbsp;Li, Lei&nbsp;Chen, Mingxuan&nbsp;Yuan, and Mahdi&nbsp;Biparva</em><br>
+    ASP-DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ISCA22_sns" >
+<td align='right'>
+2.
 </td>
 <td>
     SNS's Not a Synthesizer: A Deep-Learning-Based Synthesis Predictor [<a href='https://doi.org/10.1145/3470496.3527444' target='_blank'>paper</a>]  [<a href='https://github.com/Entropy-xcy/sns' target='_blank'>code</a>] <br>
@@ -256,7 +295,7 @@ Logic Synthesis
 
 <tr id="tr-TCAD22_bullseye" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     Bulls-Eye: Active Few-shot Learning Guided Logic Synthesis [<a href='https://ieeexplore.ieee.org/abstract/document/9969911' target='_blank'>paper</a>] <br>
@@ -269,7 +308,7 @@ Logic Synthesis
 
 <tr id="tr-DBLP:conf/iccad/FengLCYYH22" >
 <td align='right'>
-3.
+4.
 </td>
 <td>
     Batch Sequential Black-Box Optimization with Embedding Alignment Cells for Logic Synthesis [<a href='https://doi.org/10.1145/3508352.3549363' target='_blank'>paper</a>] <br>
@@ -282,7 +321,7 @@ Logic Synthesis
 
 <tr id="tr-MLCAD20_decision" >
 <td align='right'>
-4.
+5.
 </td>
 <td>
     Decision making in synthesis cross technologies using LSTMs and transfer learning [<a href='https://doi.org/10.1145/3380446.3430638' target='_blank'>paper</a>]  [<a href='https://www.youtube.com/watch?v=c5k1uQahMa8&t=184s' target='_blank'>talk</a>] <br>
@@ -295,7 +334,7 @@ Logic Synthesis
 
 <tr id="tr-LS_MLCAD20_Zhu" >
 <td align='right'>
-5.
+6.
 </td>
 <td>
     Exploring Logic Optimizations with Reinforcement Learning and Graph Convolutional Network [<a href='https://ieeexplore.ieee.org/document/9394650' target='_blank'>paper</a>] <br>
@@ -308,12 +347,60 @@ Logic Synthesis
 
 <tr id="tr-DAC18_angel" >
 <td align='right'>
-6.
+7.
 </td>
 <td>
     Developing synthesis flows without human knowledge [<a href='https://doi.org/10.1145/3195970.3196026' target='_blank'>paper</a>]  [<a href='https://github.com/ycunxi/FLowGen-CNNs-DAC18' target='_blank'>code</a>]  [<a href='https://ycunxi.github.io/cunxiyu/slides/dac18.pdf' target='_blank'>slides</a>] <br>
     <em>Cunxi&nbsp;Yu, Houping&nbsp;Xiao, and Giovanni&nbsp;De&nbsp;Micheli</em><br>
     DAC 2018  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>LLM-enhanced Logic Synthesis</h3>
+<table class="table table-hover">
+
+<tr id="tr-ASPDAC25_LLSM" >
+<td align='right'>
+1.
+</td>
+<td>
+    LLSM: LLM-enhanced Logic Synthesis Model with EDA-guided CoT Prompting, Hybrid Embedding and AIG-tailored Acceleration [<a href='https://doi.org/10.1145/3658617.3697618' target='_blank'>paper</a>] <br>
+    <em>Shan&nbsp;Huang, Jinhao&nbsp;Li, Zhen&nbsp;Yu, Jiancai&nbsp;Ye, Jiaming&nbsp;Xu, Ningyi&nbsp;Xu, and Guohao&nbsp;Dai</em><br>
+    ASP-DAC 2025  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Heterogeneous Logic Optimization</h3>
+<table class="table table-hover">
+
+<tr id="tr-ISPD25_HeLO" >
+<td align='right'>
+1.
+</td>
+<td>
+    HeLO: A Heterogeneous Logic Optimization Framework by Hierarchical Clustering and Graph Learning [<a href='https://doi.org/10.1145/3698364.3705354' target='_blank'>paper</a>] <br>
+    <em>Yuan&nbsp;Pu, Fangzhou&nbsp;Liu, Zhuolun&nbsp;He, Keren&nbsp;Zhu, Rongliang&nbsp;Fu, Ziyi&nbsp;Wang, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    ISPD 2025  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Representation Learning for Logic Circuits</h3>
+<table class="table table-hover">
+
+<tr id="tr-liu2024polargate" >
+<td align='right'>
+1.
+</td>
+<td>
+    Polargate: Breaking the functionality representation bottleneck of and-inverter graph neural network [<a href='https://doi.org/10.1145/3676536.3676834' target='_blank'>paper</a>] <br>
+    <em>Jiawei&nbsp;Liu, Jianwang&nbsp;Zhai, Mingyu&nbsp;Zhao, Zhe&nbsp;Lin, Bei&nbsp;Yu, and Chuan&nbsp;Shi</em><br>
+    ICCAD 2024  <br>
     
 </td>
 </tr>
