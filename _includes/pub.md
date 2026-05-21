@@ -784,9 +784,87 @@ Circuit Verification
 <h3>Parasitic Extraction</h3>
 <table class="table table-hover">
 
-<tr id="tr-10.1145/3564931" >
+<tr id="tr-aspdac25_rescap" >
 <td align='right'>
 1.
+</td>
+<td>
+    ResCap: Fast-yet-Accurate Capacitance Extraction for Standard Cell Design by Physics-Guided Machine Learning [<a href='https://doi.org/10.1145/3658617.3697737' target='_blank'>paper</a>] <br>
+    <em>Jiun-Cheng&nbsp;Tsai, Hsuan-Ming&nbsp;Huang, Wei-Min&nbsp;Hsu, P.&nbsp;T.&nbsp;Lee, J.&nbsp;H.&nbsp;Yang, H.&nbsp;L.&nbsp;Huang, Y.&nbsp;J.&nbsp;Su, and Charles&nbsp;H.-P.&nbsp;Wen</em><br>
+    ASP-DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-aspdac25_dl_cap_survey" >
+<td align='right'>
+2.
+</td>
+<td>
+    Deep Learning Inspired Capacitance Extraction Techniques [<a href='https://doi.org/10.1145/3658617.3703148' target='_blank'>paper</a>] <br>
+    <em>Wenjian&nbsp;Yu, Shan&nbsp;Shen, Dingcheng&nbsp;Yang, Haoyuan&nbsp;Li, Jiechen&nbsp;Huang, and Chunyan&nbsp;Pei</em><br>
+    ASP-DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-dac25_circuitgps" >
+<td align='right'>
+3.
+</td>
+<td>
+    Few-Shot Learning on AMS Circuits and Its Application to Parasitic Capacitance Prediction [<a href='https://doi.org/10.1109/DAC63849.2025.11132936' target='_blank'>paper</a>] <br>
+    <em>Shan&nbsp;Shen, Yibin&nbsp;Zhang, Hector&nbsp;Rodriguez, and Wenjian&nbsp;Yu</em><br>
+    DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liu2024gnncap" >
+<td align='right'>
+4.
+</td>
+<td>
+    GNN-Cap: Chip-Scale Interconnect Capacitance Extraction Using Graph Neural Network [<a href='https://doi.org/10.1109/TCAD.2023.3331942' target='_blank'>paper</a>] <br>
+    <em>Lihao&nbsp;Liu, Fan&nbsp;Yang, Li&nbsp;Shang, and Xuan&nbsp;Zeng</em><br>
+    TCAD 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-date24_nascap_short" >
+<td align='right'>
+5.
+</td>
+<td>
+    Training Better CNN Models for 3-D Capacitance Extraction with Neural Architecture Search [<a href='https://doi.org/10.23919/DATE58400.2024.10546811' target='_blank'>paper</a>] <br>
+    <em>Haoyuan&nbsp;Li, Dingcheng&nbsp;Yang, and Wenjian&nbsp;Yu</em><br>
+    DATE 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-glsvlsi24_pre_layout_cap_pred" >
+<td align='right'>
+6.
+</td>
+<td>
+    Deep-Learning-Based Pre-Layout Parasitic Capacitance Prediction on SRAM Designs [<a href='https://doi.org/10.1145/3649476.3658754' target='_blank'>paper</a>] <br>
+    <em>Shan&nbsp;Shen, Dingcheng&nbsp;Yang, Yuyang&nbsp;Xie, Chunyan&nbsp;Pei, Wenjian&nbsp;Yu, and Bei&nbsp;Yu</em><br>
+    GLSVLSI 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-10.1145/3564931" >
+<td align='right'>
+7.
 </td>
 <td>
     CNN-Cap: Effective Convolutional Neural Network-Based Capacitance Models for Interconnect Capacitance Extraction [<a href='https://doi.org/10.1145/3564931' target='_blank'>paper</a>] <br>
@@ -799,7 +877,7 @@ Circuit Verification
 
 <tr id="tr-9643461" >
 <td align='right'>
-2.
+8.
 </td>
 <td>
     CNN-Cap: Effective Convolutional Neural Network Based Capacitance Models for Full-Chip Parasitic Extraction [<a href='https://arxiv.org/abs/2107.06511' target='_blank'>paper</a>] <br>
