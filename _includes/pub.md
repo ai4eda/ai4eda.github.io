@@ -406,6 +406,22 @@ Logic Synthesis
 </tr>
 
 </table>
+<h3>Arithmetic Architecture Selection</h3>
+<table class="table table-hover">
+
+<tr id="tr-10.1145/3560712" >
+<td align='right'>
+1.
+</td>
+<td>
+    Machine-Learning-Driven Architectural Selection of Adders and Multipliers in Logic Synthesis [<a href='https://doi.org/10.1145/3560712' target='_blank'>paper</a>] <br>
+    <em>Jiawen&nbsp;Cheng, Yong&nbsp;Xiao, Yun&nbsp;Shao, Guanghai&nbsp;Dong, Songlin&nbsp;Lyu, and Wenjian&nbsp;Yu</em><br>
+    TODAES 2023  <br>
+    
+</td>
+</tr>
+
+</table>
 
 </div>
 <br>
