@@ -2943,9 +2943,61 @@ Mask Optimization
 <h3>Mask Optimization</h3>
 <table class="table table-hover">
 
-<tr id="tr-DBLP:conf/aspdac/YangR23" >
+<tr id="tr-li2025llmsraf" >
 <td align='right'>
 1.
+</td>
+<td>
+    LLM-SRAF: Sub-Resolution Assist Feature Generation Using Large Language Model [<a href='https://doi.org/10.23919/DATE64628.2025.10993108' target='_blank'>paper</a>] <br>
+    <em>Tianyi&nbsp;Li, Zhexin&nbsp;Tang, Tao&nbsp;Wu, Bei&nbsp;Yu, Jingyi&nbsp;Yu, and Hao&nbsp;Geng</em><br>
+    DATE 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2024bilevel" >
+<td align='right'>
+2.
+</td>
+<td>
+    Efficient Bilevel Source Mask Optimization [<a href='https://doi.org/10.1145/3649329.3656252' target='_blank'>paper</a>] <br>
+    <em>Guojin&nbsp;Chen, Hongquan&nbsp;He, Peng&nbsp;Xu, Hao&nbsp;Geng, and Bei&nbsp;Yu</em><br>
+    DAC 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-zheng2024emogen" >
+<td align='right'>
+3.
+</td>
+<td>
+    EMOGen: Enhancing Mask Optimization via Pattern Generation [<a href='https://doi.org/10.1145/3649329.3655680' target='_blank'>paper</a>] <br>
+    <em>Su&nbsp;Zheng, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;D.&nbsp;F.&nbsp;Wong</em><br>
+    DAC 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liang2024camo" >
+<td align='right'>
+4.
+</td>
+<td>
+    CAMO: Correlation-Aware Mask Optimization with Modulated Reinforcement Learning [<a href='https://doi.org/10.1145/3649329.3656254' target='_blank'>paper</a>] <br>
+    <em>Xiaoxiao&nbsp;Liang, Haoyu&nbsp;Yang, Kang&nbsp;Liu, Bei&nbsp;Yu, and Yuzhe&nbsp;Ma</em><br>
+    DAC 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/aspdac/YangR23" >
+<td align='right'>
+5.
 </td>
 <td>
     Enabling Scalable AI Computational Lithography with Physics-Inspired Models [<a href='https://doi.org/10.1145/3566097.3568361' target='_blank'>paper</a>] <br>
@@ -2958,7 +3010,7 @@ Mask Optimization
 
 <tr id="tr-DBLP:conf/aspdac/ShaoLF23" >
 <td align='right'>
-2.
+6.
 </td>
 <td>
     Data-Driven Approaches for Process Simulation and Optical Proximity Correction [<a href='https://doi.org/10.1145/3566097.3568362' target='_blank'>paper</a>] <br>
@@ -2969,9 +3021,22 @@ Mask Optimization
 </tr>
 
 
+<tr id="tr-yu2023ctmsraf" >
+<td align='right'>
+7.
+</td>
+<td>
+    CTM-SRAF: Continuous Transmission Mask-Based Constraint-Aware Subresolution Assist Feature Generation [<a href='https://doi.org/10.1109/TCAD.2023.3239559' target='_blank'>paper</a>] <br>
+    <em>Ziyang&nbsp;Yu, Peiyu&nbsp;Liao, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;D.&nbsp;F.&nbsp;Wong</em><br>
+    TCAD 2023  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-ICCAD22_AdaOPC" >
 <td align='right'>
-3.
+8.
 </td>
 <td>
     AdaOPC: A Self-Adaptive Mask Optimization Framework For Real Design Patterns [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C148-ICCAD2022-AdaOPC.pdf' target='_blank'>paper</a>] <br>
@@ -2984,7 +3049,7 @@ Mask Optimization
 
 <tr id="tr-ICCAD21_develset" >
 <td align='right'>
-4.
+9.
 </td>
 <td>
     DevelSet: Deep Neural Level Set for Instant Mask optimization [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C124-ICCAD2021-DevelSet.pdf' target='_blank'>paper</a>] <br>
@@ -2997,7 +3062,7 @@ Mask Optimization
 
 <tr id="tr-ICCAD20_damo" >
 <td align='right'>
-5.
+10.
 </td>
 <td>
     DAMO: Deep Agile Mask Optimization for Full Chip Scale [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C104-ICCAD2020-DAMO.pdf' target='_blank'>paper</a>] <br>
@@ -3010,7 +3075,7 @@ Mask Optimization
 
 <tr id="tr-10.1145/3195970.3196056" >
 <td align='right'>
-6.
+11.
 </td>
 <td>
     GAN-OPC: Mask Optimization with Lithography-Guided Generative Adversarial Nets [<a href='https://doi.org/10.1145/3195970.3196056' target='_blank'>paper</a>] <br>
