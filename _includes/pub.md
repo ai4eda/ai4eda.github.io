@@ -2013,7 +2013,383 @@ Timing
 </h2>
 
 <div id="timing" class="collapse-table collapse">
-<h3></h3>
+<h3>Pre-Routing and Early-Stage Timing Prediction</h3>
+<table class="table table-hover">
+
+<tr id="tr-jiang2025aig" >
+<td align='right'>
+1.
+</td>
+<td>
+    ML-Based AIG Timing Prediction to Enhance Logic Optimization [<a href='https://doi.org/10.23919/DATE64628.2025.10993071' target='_blank'>paper</a>] <br>
+    <em>Wenjing&nbsp;Jiang, Jin&nbsp;Yan, and Sachin&nbsp;S.&nbsp;Sapatnekar</em><br>
+    DATE 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ye2025truly" >
+<td align='right'>
+2.
+</td>
+<td>
+    Truly Pre-Routing Timing Prediction via Considering Power Delivery Network [<a href='https://doi.org/10.1109/DAC63849.2025.11133278' target='_blank'>paper</a>] <br>
+    <em>Yuyang&nbsp;Ye, Mingwei&nbsp;He, Lizheng&nbsp;Ren, Jianwang&nbsp;Zhai, Tinghuan&nbsp;Chen, Jun&nbsp;Yang, and Longxing&nbsp;Shi</em><br>
+    DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-amik2025graph" >
+<td align='right'>
+3.
+</td>
+<td>
+    Graph-Based Timing Prediction at Early-Stage RTL Using Large Language Model [<a href='https://doi.org/10.1145/3658617.3697742' target='_blank'>paper</a>] <br>
+    <em>Fahad&nbsp;Rahman&nbsp;Amik, Yousef&nbsp;Safari, Zhanguang&nbsp;Zhang, and Boris&nbsp;Vaisband</em><br>
+    ASP-DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-Ismail_FPGA_delay" >
+<td align='right'>
+4.
+</td>
+<td>
+    Machine-Learning Based Delay Prediction for FPGA Technology Mapping [<a href='https://doi.org/10.1145/3557988.3569713' target='_blank'>paper</a>] <br>
+    <em>Hailiang&nbsp;Hu, Jiang&nbsp;Hu, Fan&nbsp;Zhang, Bing&nbsp;Tian, and Ismail&nbsp;Bustany</em><br>
+    SLIP 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC22_gnnSTA" >
+<td align='right'>
+5.
+</td>
+<td>
+    A timing engine inspired graph neural network model for pre-routing slack prediction [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530597' target='_blank'>paper</a>] <br>
+    <em>Zizheng&nbsp;Guo, Mingjie&nbsp;Liu, Jiaqi&nbsp;Gu, Shuhan&nbsp;Zhang, David&nbsp;Z&nbsp;Pan, and Yibo&nbsp;Lin</em><br>
+    DAC 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-xie2021net2" >
+<td align='right'>
+6.
+</td>
+<td>
+    Net2: A Graph Attention Network Method Customized for Pre-Placement Net Length Estimation [<a href='https://doi.org/10.1145/3394885.3431562' target='_blank'>paper</a>] <br>
+    <em>Zhiyao&nbsp;Xie, Rongjian&nbsp;Liang, Xiaoqing&nbsp;Xu, Jiang&nbsp;Hu, Yixiao&nbsp;Duan, and Yiran&nbsp;Chen</em><br>
+    ASP-DAC 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-GNN_HLS_timing" >
+<td align='right'>
+7.
+</td>
+<td>
+    Accurate Operation Delay Prediction for FPGA HLS Using Graph Neural Networks [<a href='https://www.csl.cornell.edu/~zhiruz/pdfs/dsp-gnn-iccad2020.pdf' target='_blank'>paper</a>] <br>
+    <em>Ecenur&nbsp;Ustun, Chenhui&nbsp;Deng, Debjit&nbsp;Pal, Zhijing&nbsp;Li, and Zhiru&nbsp;Zhang</em><br>
+    ICCAD 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-barboza_machine_2019" >
+<td align='right'>
+8.
+</td>
+<td>
+    Machine Learning-Based Pre-Routing Timing Prediction with Reduced Pessimism [<a href='https://dl.acm.org/doi/10.1145/3316781.3317857' target='_blank'>paper</a>] <br>
+    <em>Erick&nbsp;Carvajal&nbsp;Barboza, Nishchal&nbsp;Shukla, Yiran&nbsp;Chen, and Jiang&nbsp;Hu</em><br>
+    DAC 2019  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-hyun_accurate_2019" >
+<td align='right'>
+9.
+</td>
+<td>
+    Accurate Wirelength Prediction for Placement-Aware Synthesis through Machine Learning [<a href='https://ieeexplore.ieee.org/document/8715016/' target='_blank'>paper</a>] <br>
+    <em>Daijoon&nbsp;Hyun, Yuepeng&nbsp;Fan, and Youngsoo&nbsp;Shin</em><br>
+    DATE 2019  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Post-Route and Path Timing Analysis</h3>
+<table class="table table-hover">
+
+<tr id="tr-xi2026yield" >
+<td align='right'>
+1.
+</td>
+<td>
+    GNN-Based Timing Yield Prediction From Statistical Static Timing Analysis [<a href='https://doi.org/10.1109/ASP-DAC66049.2026.11420486' target='_blank'>paper</a>] <br>
+    <em>Chenbo&nbsp;Xi, Liang&nbsp;Zhang, Biwei&nbsp;Xie, and Pingqiang&nbsp;Zhou</em><br>
+    ASP-DAC 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liu2025gtnpath" >
+<td align='right'>
+2.
+</td>
+<td>
+    GTN-Path: Efficient Path Timing Prediction through Waveform Propagation with Graph Transformer [<a href='https://doi.org/10.1109/DAC63849.2025.11132846' target='_blank'>paper</a>] <br>
+    <em>Lihao&nbsp;Liu, Beisi&nbsp;Lu, Yunhui&nbsp;Li, Li&nbsp;Shang, and Fan&nbsp;Yang</em><br>
+    DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC23_gnnOpt" >
+<td align='right'>
+3.
+</td>
+<td>
+    Restructure-Tolerant Timing Prediction via Multimodal Fusion [<a href='http://www.cse.cuhk.edu.hk/~byu/papers/C167-DAC2023-PathPred.pdf' target='_blank'>paper</a>] <br>
+    <em>Ziyi&nbsp;Wang, Siting&nbsp;Liu, Yuan&nbsp;Pu, Song&nbsp;Chen, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ye2023graph" >
+<td align='right'>
+4.
+</td>
+<td>
+    Graph-Learning-Driven Path-Based Timing Analysis Results Predictor from Graph-Based Timing Analysis [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C152-ASPDAC2023-GPBA.pdf' target='_blank'>paper</a>] <br>
+    <em>Yuyang&nbsp;Ye, Tinghuan&nbsp;Chen, Yifei&nbsp;Gao, Hao&nbsp;Yan, Bei&nbsp;Yu, and Longxing&nbsp;Shi</em><br>
+    ASP-DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ye2023fast" >
+<td align='right'>
+5.
+</td>
+<td>
+    Fast and Accurate Wire Timing Estimation Based on Graph Learning [<a href='http://www.cse.cuhk.edu.hk/~byu/papers/C159-DATE2023-NetTiming.pdf' target='_blank'>paper</a>] <br>
+    <em>Yuyang&nbsp;Ye, Tinghuan&nbsp;Chen, Yifei&nbsp;Gao, Hao&nbsp;Yan, Bei&nbsp;Yu, and Longxing&nbsp;Shi</em><br>
+    DATE 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-10.1145/3526241.3530343" >
+<td align='right'>
+6.
+</td>
+<td>
+    Leveraging Machine Learning for Gate-Level Timing Estimation Using Current Source Models and Effective Capacitance [<a href='https://dl.acm.org/doi/abs/10.1145/3526241.3530343' target='_blank'>paper</a>] <br>
+    <em>Dimitrios&nbsp;Garyfallou, Anastasis&nbsp;Vagenas, Charalampos&nbsp;Antoniadis, Yehia&nbsp;Massoud, and George&nbsp;Stamoulis</em><br>
+    GLSVLSI 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-cheng_fast_2020" >
+<td align='right'>
+7.
+</td>
+<td>
+    Fast and Accurate Wire Timing Estimation on Tree and Non-Tree Net Structures [<a href='https://ieeexplore.ieee.org/document/9218712/' target='_blank'>paper</a>] <br>
+    <em>Hsien-Han&nbsp;Cheng, Iris&nbsp;Hui-Ru&nbsp;Jiang, and Oscar&nbsp;Ou</em><br>
+    DAC 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-kahng_using_2018" >
+<td align='right'>
+8.
+</td>
+<td>
+    Using Machine Learning to Predict Path-Based Slack from Graph-Based Timing Analysis [<a href='https://ieeexplore.ieee.org/document/8615746/' target='_blank'>paper</a>] <br>
+    <em>Andrew&nbsp;B.&nbsp;Kahng, Uday&nbsp;Mallappa, and Lawrence&nbsp;Saul</em><br>
+    ICCD 2018  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-han_deep_nodate" >
+<td align='right'>
+9.
+</td>
+<td>
+    A Deep Learning Methodology to Proliferate Golden Signoff Timing [<a href='https://ieeexplore.ieee.org/document/6800474' target='_blank'>paper</a>] <br>
+    <em>Seung-Soo&nbsp;Han, Andrew&nbsp;B&nbsp;Kahng, Siddhartha&nbsp;Nath, and Ashok&nbsp;S&nbsp;Vydyanathan</em><br>
+    DATE 2014  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Interconnect and Crosstalk Modeling</h3>
+<table class="table table-hover">
+
+<tr id="tr-zhou2026crosstalk" >
+<td align='right'>
+1.
+</td>
+<td>
+    Crosstalk Timing Prediction via Graph Prompt Learning in Aggressor-Victim RC Networks [<a href='https://doi.org/10.1145/3770743.3804353' target='_blank'>paper</a>] <br>
+    <em>Yuren&nbsp;Zhou, Fan&nbsp;Yang, Zihao&nbsp;Zeng, Yifan&nbsp;Wang, Yuyang&nbsp;Ye, and Qing&nbsp;He</em><br>
+    DAC 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liang_routing-free_2020" >
+<td align='right'>
+2.
+</td>
+<td>
+    Routing-free crosstalk prediction [<a href='https://dl.acm.org/doi/10.1145/3400302.3415712' target='_blank'>paper</a>] <br>
+    <em>Rongjian&nbsp;Liang, Zhiyao&nbsp;Xie, Jinwook&nbsp;Jung, Vishnavi&nbsp;Chauha, Yiran&nbsp;Chen, Jiang&nbsp;Hu, Hua&nbsp;Xiang, and Gi-Joon&nbsp;Nam</em><br>
+    ICCAD 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-kahng_si_2015" >
+<td align='right'>
+3.
+</td>
+<td>
+    SI for free: machine learning of interconnect coupling delay and transition effects [<a href='http://ieeexplore.ieee.org/document/7171706/' target='_blank'>paper</a>] <br>
+    <em>Andrew&nbsp;B.&nbsp;Kahng, Mulong&nbsp;Luo, and Siddhartha&nbsp;Nath</em><br>
+    SLIP 2015  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-kahng_learning-based_2013" >
+<td align='right'>
+4.
+</td>
+<td>
+    Learning-based approximation of interconnect delay and slew in signoff timing tools [<a href='http://ieeexplore.ieee.org/document/6681682/' target='_blank'>paper</a>] <br>
+    <em>Andrew&nbsp;B.&nbsp;Kahng, Seokhyeong&nbsp;Kang, Hyein&nbsp;Lee, Siddhartha&nbsp;Nath, and Jyoti&nbsp;Wadhwani</em><br>
+    SLIP 2013  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Timing Error and Reliability</h3>
+<table class="table table-hover">
+
+<tr id="tr-9832695" >
+<td align='right'>
+1.
+</td>
+<td>
+    ARETE: Accurate Error Assessment via Machine Learning-Guided Dynamic-Timing Analysis [<a href='https://ieeexplore.ieee.org/document/9832695/' target='_blank'>paper</a>] <br>
+    <em>Ioannis&nbsp;Tsiokanos, Styliani&nbsp;Tompazi, Giorgis&nbsp;Georgakoudis, Lev&nbsp;Mukhanov, and Georgios&nbsp;Karakonstantis</em><br>
+    TC 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9648307" >
+<td align='right'>
+2.
+</td>
+<td>
+    Estimating Code Vulnerability to Timing Errors Via Microarchitecture-Aware Machine Learning [<a href='https://ieeexplore.ieee.org/abstract/document/9648307' target='_blank'>paper</a>] <br>
+    <em>Styliani&nbsp;Tompazi, Ioannis&nbsp;Tsiokanos, Jesus&nbsp;Martinez&nbsp;del&nbsp;Rincon, and Georgios&nbsp;Karakonstantis</em><br>
+    IEEE Design & Test 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9419866" >
+<td align='right'>
+3.
+</td>
+<td>
+    DEVoT: Dynamic Delay Modeling of Functional Units Under Voltage and Temperature Variations [<a href='https://ieeexplore.ieee.org/abstract/document/9419866' target='_blank'>paper</a>] <br>
+    <em>Dongning&nbsp;Ma, Xinqiao&nbsp;Zhang, Ke&nbsp;Huang, Yu&nbsp;Jiang, Wanli&nbsp;Chang, and Xun&nbsp;Jiao</em><br>
+    TCAD 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9218588" >
+<td align='right'>
+4.
+</td>
+<td>
+    TEVoT: Timing Error Modeling of Functional Units under Dynamic Voltage and Temperature Variations [<a href='https://ieeexplore.ieee.org/document/9218588' target='_blank'>paper</a>] <br>
+    <em>Xun&nbsp;Jiao, Dongning&nbsp;Ma, Wanli&nbsp;Chang, and Yu&nbsp;Jiang</em><br>
+    DAC 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9116363" >
+<td align='right'>
+5.
+</td>
+<td>
+    DEFCON: Generating and Detecting Failure-prone Instruction Sequences via Stochastic Search [<a href='https://ieeexplore.ieee.org/document/9116363' target='_blank'>paper</a>] <br>
+    <em>Ioannis&nbsp;Tsiokanos, Lev&nbsp;Mukhanov, Giorgis&nbsp;Georgakoudis, Dimitrios&nbsp;S.&nbsp;Nikolopoulos, and Georgios&nbsp;Karakonstantis</em><br>
+    DATE 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-CLIM" >
+<td align='right'>
+6.
+</td>
+<td>
+    CLIM: A Cross-Level Workload-Aware Timing Error Prediction Model for Functional Units [<a href='https://ieeexplore.ieee.org/document/8207606' target='_blank'>paper</a>] <br>
+    <em>Xun&nbsp;Jiao, Abbas&nbsp;Rahimi, Yu&nbsp;Jiang, Jianguo&nbsp;Wang, Hamed&nbsp;Fatemi, Jose&nbsp;Pineda&nbsp;de&nbsp;Gyvez, and Rajesh&nbsp;K.&nbsp;Gupta</em><br>
+    TC 2017  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Timing Optimization and Closure</h3>
 <table class="table table-hover">
 
 <tr id="tr-sharma2026ai" >
@@ -2029,118 +2405,14 @@ Timing
 </tr>
 
 
-<tr id="tr-DAC23_gnnOpt" >
+<tr id="tr-seo2025enhancing" >
 <td align='right'>
 2.
 </td>
 <td>
-    Restructure-Tolerant Timing Prediction via Multimodal Fusion [<a href='http://www.cse.cuhk.edu.hk/~byu/papers/C167-DAC2023-PathPred.pdf' target='_blank'>paper</a>] <br>
-    <em>Ziyi&nbsp;Wang, Siting&nbsp;Liu, Yuan&nbsp;Pu, Song&nbsp;Chen, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-ye2023graph" >
-<td align='right'>
-3.
-</td>
-<td>
-    Graph-Learning-Driven Path-Based Timing Analysis Results Predictor from Graph-Based Timing Analysis [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C152-ASPDAC2023-GPBA.pdf' target='_blank'>paper</a>] <br>
-    <em>Yuyang&nbsp;Ye, Tinghuan&nbsp;Chen, Yifei&nbsp;Gao, Hao&nbsp;Yan, Bei&nbsp;Yu, and Longxing&nbsp;Shi</em><br>
-    ASP-DAC 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-ye2023fast" >
-<td align='right'>
-4.
-</td>
-<td>
-    Fast and Accurate Wire Timing Estimation Based on Graph Learning [<a href='http://www.cse.cuhk.edu.hk/~byu/papers/C159-DATE2023-NetTiming.pdf' target='_blank'>paper</a>] <br>
-    <em>Yuyang&nbsp;Ye, Tinghuan&nbsp;Chen, Yifei&nbsp;Gao, Hao&nbsp;Yan, Bei&nbsp;Yu, and Longxing&nbsp;Shi</em><br>
-    DATE 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-9648307" >
-<td align='right'>
-5.
-</td>
-<td>
-    Estimating Code Vulnerability to Timing Errors Via Microarchitecture-Aware Machine Learning [<a href='https://ieeexplore.ieee.org/abstract/document/9648307' target='_blank'>paper</a>] <br>
-    <em>Styliani&nbsp;Tompazi, Ioannis&nbsp;Tsiokanos, Jesus&nbsp;Martinez&nbsp;del&nbsp;Rincon, and Georgios&nbsp;Karakonstantis</em><br>
-    IEEE Des Test 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-Ismail_FPGA_delay" >
-<td align='right'>
-6.
-</td>
-<td>
-    Machine-Learning Based Delay Prediction for FPGA Technology Mapping [<a href='https://doi.org/10.1145/3557988.3569713' target='_blank'>paper</a>] <br>
-    <em>Hailiang&nbsp;Hu, Jiang&nbsp;Hu, Fan&nbsp;Zhang, Bing&nbsp;Tian, and Ismail&nbsp;Bustany</em><br>
-    SLIP 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-DAC22_gnnSTA" >
-<td align='right'>
-7.
-</td>
-<td>
-    A timing engine inspired graph neural network model for pre-routing slack prediction [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530597' target='_blank'>paper</a>] <br>
-    <em>Zizheng&nbsp;Guo, Mingjie&nbsp;Liu, Jiaqi&nbsp;Gu, Shuhan&nbsp;Zhang, David&nbsp;Z&nbsp;Pan, and Yibo&nbsp;Lin</em><br>
-    DAC 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-9419866" >
-<td align='right'>
-8.
-</td>
-<td>
-    DEVoT: Dynamic Delay Modeling of Functional Units Under Voltage and Temperature Variations [<a href='https://ieeexplore.ieee.org/abstract/document/9419866' target='_blank'>paper</a>] <br>
-    <em>Dongning&nbsp;Ma, Xinqiao&nbsp;Zhang, Ke&nbsp;Huang, Yu&nbsp;Jiang, Wanli&nbsp;Chang, and Xun&nbsp;Jiao</em><br>
-    TCAD 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-10.1145/3526241.3530343" >
-<td align='right'>
-9.
-</td>
-<td>
-    Leveraging Machine Learning for Gate-Level Timing Estimation Using Current Source Models and Effective Capacitance [<a href='https://dl.acm.org/doi/abs/10.1145/3526241.3530343' target='_blank'>paper</a>] <br>
-    <em>Dimitrios&nbsp;Garyfallou, Anastasis&nbsp;Vagenas, Charalampos&nbsp;Antoniadis, Yehia&nbsp;Massoud, and George&nbsp;Stamoulis</em><br>
-    GLSVLSI 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-9832695" >
-<td align='right'>
-10.
-</td>
-<td>
-    ARETE: Accurate Error Assessment via Machine Learning-Guided Dynamic-Timing Analysis [<a href='https://ieeexplore.ieee.org/document/9832695/' target='_blank'>paper</a>] <br>
-    <em>Ioannis&nbsp;Tsiokanos, Styliani&nbsp;Tompazi, Giorgis&nbsp;Georgakoudis, Lev&nbsp;Mukhanov, and Georgios&nbsp;Karakonstantis</em><br>
-    TC 2022  <br>
+    Enhancing Timing Closure via Spatially Embedded Graph Transformer with Low Power/Area Overhead [<a href='https://doi.org/10.1109/ICCAD66269.2025.11240684' target='_blank'>paper</a>] <br>
+    <em>Joonyoung&nbsp;Seo, Jonghyeon&nbsp;Nam, Howoo&nbsp;Jang, Yoonseok&nbsp;Jung, and Seokhyeong&nbsp;Kang</em><br>
+    ICCAD 2025  <br>
     
 </td>
 </tr>
@@ -2148,181 +2420,12 @@ Timing
 
 <tr id="tr-Ren_DAC22_Gatesizign" >
 <td align='right'>
-11.
+3.
 </td>
 <td>
     Generative Self-Supervised Learning for Gate Sizing: Invited [<a href='https://doi.org/10.1145/3489517.3530645' target='_blank'>paper</a>] <br>
     <em>Siddhartha&nbsp;Nath, Geraldo&nbsp;Pradipta, Corey&nbsp;Hu, Tian&nbsp;Yang, Brucek&nbsp;Khailany, and Haoxing&nbsp;Ren</em><br>
     DAC 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-xie_net2_2020" >
-<td align='right'>
-12.
-</td>
-<td>
-    Net2: A Graph Attention Network Method Customized for Pre-Placement Net Length Estimation [<a href='http://arxiv.org/abs/2011.13522' target='_blank'>paper</a>] <br>
-    <em>Zhiyao&nbsp;Xie, Rongjian&nbsp;Liang, Xiaoqing&nbsp;Xu, Jiang&nbsp;Hu, Yixiao&nbsp;Duan, and Yiran&nbsp;Chen</em><br>
-    arXiv 2020  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-liang_routing-free_2020" >
-<td align='right'>
-13.
-</td>
-<td>
-    Routing-free crosstalk prediction [<a href='https://dl.acm.org/doi/10.1145/3400302.3415712' target='_blank'>paper</a>] <br>
-    <em>Rongjian&nbsp;Liang, Zhiyao&nbsp;Xie, Jinwook&nbsp;Jung, Vishnavi&nbsp;Chauha, Yiran&nbsp;Chen, Jiang&nbsp;Hu, Hua&nbsp;Xiang, and Gi-Joon&nbsp;Nam</em><br>
-    ICCAD 2020  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-cheng_fast_2020" >
-<td align='right'>
-14.
-</td>
-<td>
-    Fast and Accurate Wire Timing Estimation on Tree and Non-Tree Net Structures [<a href='https://ieeexplore.ieee.org/document/9218712/' target='_blank'>paper</a>] <br>
-    <em>Hsien-Han&nbsp;Cheng, Iris&nbsp;Hui-Ru&nbsp;Jiang, and Oscar&nbsp;Ou</em><br>
-    DAC 2020  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-GNN_HLS_timing" >
-<td align='right'>
-15.
-</td>
-<td>
-    Accurate Operation Delay Prediction for FPGA HLS Using Graph Neural Networks [<a href='https://www.csl.cornell.edu/~zhiruz/pdfs/dsp-gnn-iccad2020.pdf' target='_blank'>paper</a>] <br>
-    <em>Ecenur&nbsp;Ustun, Chenhui&nbsp;Deng, Debjit&nbsp;Pal, Zhijing&nbsp;Li, and Zhiru&nbsp;Zhang</em><br>
-    ICCAD 2020  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-9218588" >
-<td align='right'>
-16.
-</td>
-<td>
-    TEVoT: Timing Error Modeling of Functional Units under Dynamic Voltage and Temperature Variations [<a href='https://ieeexplore.ieee.org/document/9218588' target='_blank'>paper</a>] <br>
-    <em>Xun&nbsp;Jiao, Dongning&nbsp;Ma, Wanli&nbsp;Chang, and Yu&nbsp;Jiang</em><br>
-    DAC 2020  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-9116363" >
-<td align='right'>
-17.
-</td>
-<td>
-    DEFCON: Generating and Detecting Failure-prone Instruction Sequences via Stochastic Search [<a href='https://ieeexplore.ieee.org/document/9116363' target='_blank'>paper</a>] <br>
-    <em>Ioannis&nbsp;Tsiokanos, Lev&nbsp;Mukhanov, Giorgis&nbsp;Georgakoudis, Dimitrios&nbsp;S.&nbsp;Nikolopoulos, and Georgios&nbsp;Karakonstantis</em><br>
-    DATE 2020  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-barboza_machine_2019" >
-<td align='right'>
-18.
-</td>
-<td>
-    Machine Learning-Based Pre-Routing Timing Prediction with Reduced Pessimism [<a href='https://dl.acm.org/doi/10.1145/3316781.3317857' target='_blank'>paper</a>] <br>
-    <em>Erick&nbsp;Carvajal&nbsp;Barboza, Nishchal&nbsp;Shukla, Yiran&nbsp;Chen, and Jiang&nbsp;Hu</em><br>
-    DAC 2019  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-hyun_accurate_2019" >
-<td align='right'>
-19.
-</td>
-<td>
-    Accurate Wirelength Prediction for Placement-Aware Synthesis through Machine Learning [<a href='https://ieeexplore.ieee.org/document/8715016/' target='_blank'>paper</a>] <br>
-    <em>Daijoon&nbsp;Hyun, Yuepeng&nbsp;Fan, and Youngsoo&nbsp;Shin</em><br>
-    DATE 2019  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-kahng_using_2018" >
-<td align='right'>
-20.
-</td>
-<td>
-    Using Machine Learning to Predict Path-Based Slack from Graph-Based Timing Analysis [<a href='https://ieeexplore.ieee.org/document/8615746/' target='_blank'>paper</a>] <br>
-    <em>Andrew&nbsp;B.&nbsp;Kahng, Uday&nbsp;Mallappa, and Lawrence&nbsp;Saul</em><br>
-    ICCD 2018  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-CLIM" >
-<td align='right'>
-21.
-</td>
-<td>
-    CLIM: A Cross-Level Workload-Aware Timing Error Prediction Model for Functional Units [<a href='https://ieeexplore.ieee.org/document/8207606' target='_blank'>paper</a>] <br>
-    <em>Xun&nbsp;Jiao, Abbas&nbsp;Rahimi, Yu&nbsp;Jiang, Jianguo&nbsp;Wang, Hamed&nbsp;Fatemi, Jose&nbsp;Pineda&nbsp;de&nbsp;Gyvez, and Rajesh&nbsp;K.&nbsp;Gupta</em><br>
-    TC 2018  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-kahng_si_2015" >
-<td align='right'>
-22.
-</td>
-<td>
-    SI for free: machine learning of interconnect coupling delay and transition effects [<a href='http://ieeexplore.ieee.org/document/7171706/' target='_blank'>paper</a>] <br>
-    <em>Andrew&nbsp;B.&nbsp;Kahng, Mulong&nbsp;Luo, and Siddhartha&nbsp;Nath</em><br>
-    SLIP 2015  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-han_deep_nodate" >
-<td align='right'>
-23.
-</td>
-<td>
-    A Deep Learning Methodology to Proliferate Golden Signoff Timing [<a href='https://ieeexplore.ieee.org/document/6800474' target='_blank'>paper</a>] <br>
-    <em>Seung-Soo&nbsp;Han, Andrew&nbsp;B&nbsp;Kahng, Siddhartha&nbsp;Nath, Ashok&nbsp;S&nbsp;Vydyanathan, and ECE&nbsp;Departments</em><br>
-    DATE 2014  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-kahng_learning-based_2013" >
-<td align='right'>
-24.
-</td>
-<td>
-    Learning-based approximation of interconnect delay and slew in signoff timing tools [<a href='http://ieeexplore.ieee.org/document/6681682/' target='_blank'>paper</a>] <br>
-    <em>Andrew&nbsp;B.&nbsp;Kahng, Seokhyeong&nbsp;Kang, Hyein&nbsp;Lee, Siddhartha&nbsp;Nath, and Jyoti&nbsp;Wadhwani</em><br>
-    SLIP 2013  <br>
     
 </td>
 </tr>
