@@ -1237,30 +1237,43 @@ Placement
 </h2>
 
 <div id="placement" class="collapse-table collapse">
-<h3></h3>
+<h3>Global Placement</h3>
 <table class="table table-hover">
 
-<tr id="tr-tcadChenKZHY23" >
+<tr id="tr-lu2026c3po" >
 <td align='right'>
 1.
 </td>
 <td>
-    PROS 2.0: A Plug-In for Routability Optimization and Routed Wirelength Estimation Using Deep Learning [<a href='https://doi.org/10.1109/TCAD.2022.3168259' target='_blank'>paper</a>] <br>
-    <em>Jingsong&nbsp;Chen, Jian&nbsp;Kuang, Guowei&nbsp;Zhao, Dennis&nbsp;J.&nbsp;-H.&nbsp;Huang, and Evangeline&nbsp;F.&nbsp;Y.&nbsp;Young</em><br>
-    TCAD 2023  <br>
+    C3PO: Commercial-Quality Global Placement via Coherent, Concurrent Timing, Routability, and Wirelength Optimization [<a href='https://doi.org/10.1109/ASP-DAC66049.2026.11420751' target='_blank'>paper</a>] <br>
+    <em>Yi-Chen&nbsp;Lu, Hao-Hsiang&nbsp;Hsiao, Rongjian&nbsp;Liang, Wen-Hao&nbsp;Liu, and Haoxing&nbsp;Ren</em><br>
+    ASP-DAC 2026  <br>
     
 </td>
 </tr>
 
 
-<tr id="tr-DBLP:conf/aspdac/ChenMGZL23" >
+<tr id="tr-li2025differentiable" >
 <td align='right'>
 2.
 </td>
 <td>
-    MacroRank: Ranking Macro Placement Solutions Leveraging Translation Equivariancy [<a href='https://doi.org/10.1145/3566097.3567899' target='_blank'>paper</a>] <br>
-    <em>Yifan&nbsp;Chen, Jing&nbsp;Mai, Xiaohan&nbsp;Gao, Muhan&nbsp;Zhang, and Yibo&nbsp;Lin</em><br>
-    ASPDAC 2023  <br>
+    Differentiable Net-Moving and Local Congestion Mitigation for Routability-Driven Global Placement [<a href='https://doi.org/10.1109/DAC63849.2025.11133117' target='_blank'>paper</a>] <br>
+    <em>Wenchao&nbsp;Li, Hongxi&nbsp;Wu, Duanxiang&nbsp;Liu, Xingquan&nbsp;Li, and Wenxing&nbsp;Zhu</em><br>
+    DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-fu2024hybrid" >
+<td align='right'>
+3.
+</td>
+<td>
+    Hybrid Modeling and Weighting for Timing-driven Placement with Efficient Calibration [<a href='https://doi.org/10.1145/3676536.3676803' target='_blank'>paper</a>] <br>
+    <em>Bangqi&nbsp;Fu, Lixin&nbsp;Liu, Martin&nbsp;D.&nbsp;F.&nbsp;Wong, and Evangeline&nbsp;F.&nbsp;Y.&nbsp;Young</em><br>
+    ICCAD 2024  <br>
     
 </td>
 </tr>
@@ -1268,12 +1281,93 @@ Placement
 
 <tr id="tr-DREAM-GAN_ISPD2023_Yichen" >
 <td align='right'>
+4.
+</td>
+<td>
+    DREAM-GAN: Advancing DREAMPlace towards Commercial-Quality using Generative Adversarial Learning [<a href='https://doi.org/10.1145/3569052.3572993' target='_blank'>paper</a>] <br>
+    <em>Yi-Chen&nbsp;Lu, Haoxing&nbsp;Ren, Hao-Hsiang&nbsp;Hsiao, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
+    ISPD 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liao2023dreamplace4" >
+<td align='right'>
+5.
+</td>
+<td>
+    DREAMPlace 4.0: Timing-Driven Placement With Momentum-Based Net Weighting and Lagrangian-Based Refinement [<a href='https://doi.org/10.1109/TCAD.2023.3240132' target='_blank'>paper</a>] <br>
+    <em>Peiyu&nbsp;Liao, Dawei&nbsp;Guo, Zizheng&nbsp;Guo, Siting&nbsp;Liu, Yibo&nbsp;Lin, and Bei&nbsp;Yu</em><br>
+    TCAD 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-PLACE-DATE2021-Cong" >
+<td align='right'>
+6.
+</td>
+<td>
+    Global placement with deep learning-enabled explicit routability optimization [<a href='https://ieeexplore.ieee.org/document/9473959' target='_blank'>paper</a>] <br>
+    <em>Siting&nbsp;Liu, Qi&nbsp;Sun, Peiyu&nbsp;Liao, Yibo&nbsp;Lin, and Bei&nbsp;Yu</em><br>
+    DATE 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-PLACE-DAC2019-DREAMPlace" >
+<td align='right'>
+7.
+</td>
+<td>
+    DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement [<a href='https://ieeexplore.ieee.org/document/8807076' target='_blank'>paper</a>] <br>
+    <em>Yibo&nbsp;Lin, Shounak&nbsp;Dhar, Wuxi&nbsp;Li, Haoxing&nbsp;Ren, Brucek&nbsp;Khailany, and David&nbsp;Z.&nbsp;Pan</em><br>
+    DAC 2019  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Macro Placement</h3>
+<table class="table table-hover">
+
+<tr id="tr-gao2026expertise" >
+<td align='right'>
+1.
+</td>
+<td>
+    Expertise Can Be Helpful for Reinforcement Learning-based Macro Placement [<a href='https://openreview.net/forum?id=yqvNwfxRR6' target='_blank'>paper</a>]  [<a href='https://github.com/lamda-bbo/EXPlace' target='_blank'>code</a>] <br>
+    <em>Chengrui&nbsp;Gao, Yunqi&nbsp;Shi, Ke&nbsp;Xue, Ruo-Tong&nbsp;Chen, Siyuan&nbsp;Xu, Mingxuan&nbsp;Yuan, Chao&nbsp;Qian, and Zhi-Hua&nbsp;Zhou</em><br>
+    ICLR 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-lee2025diffusion" >
+<td align='right'>
+2.
+</td>
+<td>
+    Chip Placement with Diffusion Models [<a href='https://proceedings.mlr.press/v267/lee25y.html' target='_blank'>paper</a>] <br>
+    <em>Vint&nbsp;Lee, Minh&nbsp;Nguyen, Leena&nbsp;Elzeiny, Chun&nbsp;Deng, Pieter&nbsp;Abbeel, and John&nbsp;Wawrzynek</em><br>
+    ICML 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/aspdac/ChenMGZL23" >
+<td align='right'>
 3.
 </td>
 <td>
-    DREAM-GAN: Advancing DREAMPlace towards Commercial-Quality using Generative Adversarial Learning [<a href='https://research.nvidia.com/publication/2023-03_dream-gan-advancing-dreamplace-towards-commercial-quality-using-generative' target='_blank'>paper</a>] <br>
-    <em>Yi-Chen&nbsp;Lu, Haoxing&nbsp;Ren, Hao-Hsiang&nbsp;Hsiao, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
-    ISPD 2023  <br>
+    MacroRank: Ranking Macro Placement Solutions Leveraging Translation Equivariancy [<a href='https://doi.org/10.1145/3566097.3567899' target='_blank'>paper</a>] <br>
+    <em>Yifan&nbsp;Chen, Jing&nbsp;Mai, Xiaohan&nbsp;Gao, Muhan&nbsp;Zhang, and Yibo&nbsp;Lin</em><br>
+    ASP-DAC 2023  <br>
     
 </td>
 </tr>
@@ -1305,27 +1399,14 @@ Placement
 </tr>
 
 
-<tr id="tr-zheng2023mitigating" >
+<tr id="tr-shi2023wiremask" >
 <td align='right'>
 6.
 </td>
 <td>
-    Mitigating Distribution Shift for Congestion Optimization in Global Placement [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C165-DAC2023-CongPred.pdf' target='_blank'>paper</a>] <br>
-    <em>Su&nbsp;Zheng, Lancheng&nbsp;Zou, Siting&nbsp;Liu, Yibo&nbsp;Lin, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
-    DAC 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-zheng2023lay" >
-<td align='right'>
-7.
-</td>
-<td>
-    Lay-Net: Grafting Netlist Knowledge on Layout-Based Congestion Prediction [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C185-ICCAD2023-CongViG.pdf' target='_blank'>paper</a>] <br>
-    <em>Su&nbsp;Zheng, Lancheng&nbsp;Zou, Peng&nbsp;Xu, Siting&nbsp;Liu, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
-    ICCAD 2023  <br>
+    Macro Placement by Wire-Mask-Guided Black-Box Optimization [<a href='https://doi.org/10.52202/075280-0299' target='_blank'>paper</a>] <br>
+    <em>Yunqi&nbsp;Shi, Ke&nbsp;Xue, Song&nbsp;Lei, and Chao&nbsp;Qian</em><br>
+    NeurIPS 2023  <br>
     
 </td>
 </tr>
@@ -1333,7 +1414,7 @@ Placement
 
 <tr id="tr-cheng2022the" >
 <td align='right'>
-8.
+7.
 </td>
 <td>
     The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design [<a href='https://openreview.net/forum?id=uNYqDfPEDD8' target='_blank'>paper</a>] <br>
@@ -1346,10 +1427,10 @@ Placement
 
 <tr id="tr-lai2022maskplace" >
 <td align='right'>
-9.
+8.
 </td>
 <td>
-    MaskPlace: Fast Chip Placement via Reinforced Visual Representation Learning [<a href='https://arxiv.org/abs/2211.13382' target='_blank'>paper</a>] <br>
+    MaskPlace: Fast Chip Placement via Reinforced Visual Representation Learning [<a href='https://proceedings.neurips.cc/paper_files/paper/2022/file/97c8a8eb0e5231d107d0da51b79e09cb-Paper-Conference.pdf' target='_blank'>paper</a>] <br>
     <em>Yao&nbsp;Lai, Yao&nbsp;Mu, and Ping&nbsp;Luo</em><br>
     NeurIPS 2022  <br>
     
@@ -1357,9 +1438,67 @@ Placement
 </tr>
 
 
+<tr id="tr-NEURIPS2021_898aef09" >
+<td align='right'>
+9.
+</td>
+<td>
+    On Joint Learning for Solving Placement and Routing in Chip Design [<a href='https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf' target='_blank'>paper</a>] <br>
+    <em>Ruoyu&nbsp;Cheng and Junchi&nbsp;Yan</em><br>
+    NeurIPS 2021  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Chiplet Placement</h3>
+<table class="table table-hover">
+
+<tr id="tr-wu2025p2pchiplet" >
+<td align='right'>
+1.
+</td>
+<td>
+    P2P-Chiplet: Partition and Placement Co-Optimization for Multi-Chiplet Architecture [<a href='https://doi.org/10.1109/ICCAD66269.2025.11240768' target='_blank'>paper</a>] <br>
+    <em>Qidie&nbsp;Wu, Jiangyuan&nbsp;Gu, Xuguang&nbsp;Yuan, Shaojun&nbsp;Wei, and Shouyi&nbsp;Yin</em><br>
+    ICCAD 2025  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Congestion and Routability Prediction</h3>
+<table class="table table-hover">
+
+<tr id="tr-zheng2023mitigating" >
+<td align='right'>
+1.
+</td>
+<td>
+    Mitigating Distribution Shift for Congestion Optimization in Global Placement [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C165-DAC2023-CongPred.pdf' target='_blank'>paper</a>] <br>
+    <em>Su&nbsp;Zheng, Lancheng&nbsp;Zou, Siting&nbsp;Liu, Yibo&nbsp;Lin, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-zheng2023lay" >
+<td align='right'>
+2.
+</td>
+<td>
+    Lay-Net: Grafting Netlist Knowledge on Layout-Based Congestion Prediction [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C185-ICCAD2023-CongViG.pdf' target='_blank'>paper</a>] <br>
+    <em>Su&nbsp;Zheng, Lancheng&nbsp;Zou, Peng&nbsp;Xu, Siting&nbsp;Liu, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
+    ICCAD 2023  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-wang2022lhnna" >
 <td align='right'>
-10.
+3.
 </td>
 <td>
     LHNN: Lattice Hypergraph Neural Network for VLSI Congestion Prediction [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530675' target='_blank'>paper</a>] <br>
@@ -1370,9 +1509,119 @@ Placement
 </tr>
 
 
+<tr id="tr-ghoseGeneralizableCrossGraphEmbedding2021" >
+<td align='right'>
+4.
+</td>
+<td>
+    Generalizable Cross-Graph Embedding for GNN-based Congestion Prediction [<a href='https://arxiv.org/abs/2111.05941' target='_blank'>paper</a>] <br>
+    <em>Amur&nbsp;Ghose, Vincent&nbsp;Zhang, Yingxue&nbsp;Zhang, Dong&nbsp;Li, Wulong&nbsp;Liu, and Mark&nbsp;Coates</em><br>
+    ICCAD 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-changAutomaticRoutabilityPredictor2021a" >
+<td align='right'>
+5.
+</td>
+<td>
+    Automatic Routability Predictor Development Using Neural Architecture Search [<a href='https://arxiv.org/abs/2012.01737' target='_blank'>paper</a>] <br>
+    <em>Chen-Chia&nbsp;Chang, Jingyu&nbsp;Pan, Tunhou&nbsp;Zhang, Zhiyao&nbsp;Xie, Jiang&nbsp;Hu, Weiyi&nbsp;Qi, Chun-Wei&nbsp;Lin, Rongjian&nbsp;Liang, Joydeep&nbsp;Mitra, Elias&nbsp;Fallon, and Yiran&nbsp;Chen</em><br>
+    ICCAD 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-alawiehHighDefinitionRoutingCongestion2020a" >
+<td align='right'>
+6.
+</td>
+<td>
+    High-Definition Routing Congestion Prediction for Large-Scale FPGAs [<a href='https://ieeexplore.ieee.org/document/9045178' target='_blank'>paper</a>] <br>
+    <em>Mohamed&nbsp;Baker&nbsp;Alawieh, Wuxi&nbsp;Li, Yibo&nbsp;Lin, Love&nbsp;Singhal, Mahesh&nbsp;A.&nbsp;Iyer, and David&nbsp;Z.&nbsp;Pan</em><br>
+    ASP-DAC 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-PLACE-DAC2019-painting" >
+<td align='right'>
+7.
+</td>
+<td>
+    Painting on placement: Forecasting routing congestion using conditional generative adversarial nets [<a href='https://dl.acm.org/doi/10.1145/3316781.3317876' target='_blank'>paper</a>] <br>
+    <em>Cunxi&nbsp;Yu and Zhiru&nbsp;Zhang</em><br>
+    DAC 2019  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-PLACE-ICCAD2018-routenet" >
+<td align='right'>
+8.
+</td>
+<td>
+    RouteNet: Routability prediction for mixed-size designs using convolutional neural network [<a href='https://ieeexplore.ieee.org/document/8587655' target='_blank'>paper</a>] <br>
+    <em>Zhiyao&nbsp;Xie, Yu-Hung&nbsp;Huang, Guan-Qi&nbsp;Fang, Haoxing&nbsp;Ren, Shao-Yun&nbsp;Fang, Yiran&nbsp;Chen, and Jiang&nbsp;Hu</em><br>
+    ICCAD 2018  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Routability Optimization</h3>
+<table class="table table-hover">
+
+<tr id="tr-tcadChenKZHY23" >
+<td align='right'>
+1.
+</td>
+<td>
+    PROS 2.0: A Plug-In for Routability Optimization and Routed Wirelength Estimation Using Deep Learning [<a href='https://doi.org/10.1109/TCAD.2022.3168259' target='_blank'>paper</a>] <br>
+    <em>Jingsong&nbsp;Chen, Jian&nbsp;Kuang, Guowei&nbsp;Zhao, Dennis&nbsp;J.&nbsp;-H.&nbsp;Huang, and Evangeline&nbsp;F.&nbsp;Y.&nbsp;Young</em><br>
+    TCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chenPROSPluginRoutability2020" >
+<td align='right'>
+2.
+</td>
+<td>
+    PROS: A Plug-in for Routability Optimization Applied in the State-of-the-art Commercial EDA Tool Using Deep Learning [<a href='https://ieeexplore.ieee.org/document/9256565' target='_blank'>paper</a>] <br>
+    <em>Jingsong&nbsp;Chen, Jian&nbsp;Kuang, Guowei&nbsp;Zhao, Dennis&nbsp;J.-H.&nbsp;Huang, and Evangeline&nbsp;F.Y.&nbsp;Young</em><br>
+    ICCAD 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chanRoutabilityOptimizationIndustrial2017" >
+<td align='right'>
+3.
+</td>
+<td>
+    Routability Optimization for industrial Designs at Sub-14nm Process Nodes Using Machine Learning [<a href='https://dl.acm.org/doi/10.1145/3036669.3036681' target='_blank'>paper</a>] <br>
+    <em>Wei-Ting&nbsp;J.&nbsp;Chan, Pei-Hsin&nbsp;Ho, Andrew&nbsp;B.&nbsp;Kahng, and Prashant&nbsp;Saxena</em><br>
+    ISPD 2017  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>DRC and Pin Accessibility</h3>
+<table class="table table-hover">
+
 <tr id="tr-baek2022pin" >
 <td align='right'>
-11.
+1.
 </td>
 <td>
     Pin Accessibility and Routing Congestion Aware DRC Hotspot Prediction Using Graph Neural Network and U-Net [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549346' target='_blank'>paper</a>] <br>
@@ -1385,7 +1634,7 @@ Placement
 
 <tr id="tr-liang2022stochasticb" >
 <td align='right'>
-12.
+2.
 </td>
 <td>
     A Stochastic Approach to Handle Non-Determinism in Deep Learning-Based Design Rule Violation Predictions [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549347' target='_blank'>paper</a>] <br>
@@ -1396,87 +1645,9 @@ Placement
 </tr>
 
 
-<tr id="tr-PLACE-DATE2021-Cong" >
-<td align='right'>
-13.
-</td>
-<td>
-    Global placement with deep learning-enabled explicit routability optimization [<a href='https://ieeexplore.ieee.org/document/9473959' target='_blank'>paper</a>] <br>
-    <em>Siting&nbsp;Liu, Qi&nbsp;Sun, Peiyu&nbsp;Liao, Yibo&nbsp;Lin, and Bei&nbsp;Yu</em><br>
-    DATE 2021  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-NEURIPS2021_898aef09" >
-<td align='right'>
-14.
-</td>
-<td>
-    On Joint Learning for Solving Placement and Routing in Chip Design [<a href='https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf' target='_blank'>paper</a>] <br>
-    <em>Ruoyu&nbsp;Cheng and Junchi&nbsp;Yan</em><br>
-    NeurIPS 2021  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-changAutomaticRoutabilityPredictor2021a" >
-<td align='right'>
-15.
-</td>
-<td>
-    Automatic Routability Predictor Development Using Neural Architecture Search [<a href='https://arxiv.org/abs/2012.01737' target='_blank'>paper</a>] <br>
-    <em>Chen-Chia&nbsp;Chang, Jingyu&nbsp;Pan, Tunhou&nbsp;Zhang, Zhiyao&nbsp;Xie, Jiang&nbsp;Hu, Weiyi&nbsp;Qi, Chun-Wei&nbsp;Lin, Rongjian&nbsp;Liang, Joydeep&nbsp;Mitra, Elias&nbsp;Fallon, and Yiran&nbsp;Chen</em><br>
-    ICCAD 2021  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-chenPROSPluginRoutability2020" >
-<td align='right'>
-16.
-</td>
-<td>
-    PROS: A Plug-in for Routability Optimization Applied in the State-of-the-art Commercial EDA Tool Using Deep Learning [<a href='https://ieeexplore.ieee.org/document/9256565' target='_blank'>paper</a>] <br>
-    <em>Jingsong&nbsp;Chen, Jian&nbsp;Kuang, Guowei&nbsp;Zhao, Dennis&nbsp;J.-H.&nbsp;Huang, and Evangeline&nbsp;F.Y.&nbsp;Young</em><br>
-    ICCAD 2021  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-ghoseGeneralizableCrossGraphEmbedding2021" >
-<td align='right'>
-17.
-</td>
-<td>
-    Generalizable Cross-Graph Embedding for GNN-based Congestion Prediction [<a href='https://arxiv.org/abs/2111.05941' target='_blank'>paper</a>] <br>
-    <em>Amur&nbsp;Ghose, Vincent&nbsp;Zhang, Yingxue&nbsp;Zhang, Dong&nbsp;Li, Wulong&nbsp;Liu, and Mark&nbsp;Coates</em><br>
-    ICCAD 2021  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-alawiehHighDefinitionRoutingCongestion2020a" >
-<td align='right'>
-18.
-</td>
-<td>
-    High-Definition Routing Congestion Prediction for Large-Scale FPGAs [<a href='https://ieeexplore.ieee.org/document/9045178' target='_blank'>paper</a>] <br>
-    <em>Mohamed&nbsp;Baker&nbsp;Alawieh, Wuxi&nbsp;Li, Yibo&nbsp;Lin, Love&nbsp;Singhal, Mahesh&nbsp;A.&nbsp;Iyer, and David&nbsp;Z.&nbsp;Pan</em><br>
-    ASP-DAC 2020  <br>
-    
-</td>
-</tr>
-
-
 <tr id="tr-liangDRCHotspotPrediction2020" >
 <td align='right'>
-19.
+3.
 </td>
 <td>
     DRC Hotspot Prediction at Sub-10nm Process Nodes Using Customized Convolutional Network [<a href='https://dl.acm.org/doi/10.1145/3372780.3375560' target='_blank'>paper</a>] <br>
@@ -1487,66 +1658,14 @@ Placement
 </tr>
 
 
-<tr id="tr-PLACE-DAC2019-DREAMPlace" >
-<td align='right'>
-20.
-</td>
-<td>
-    DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement [<a href='https://ieeexplore.ieee.org/document/8807076' target='_blank'>paper</a>] <br>
-    <em>Yibo&nbsp;Lin, Shounak&nbsp;Dhar, Wuxi&nbsp;Li, Haoxing&nbsp;Ren, Brucek&nbsp;Khailany, and David&nbsp;Z.&nbsp;Pan</em><br>
-    DAC 2019  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-PLACE-DAC2019-painting" >
-<td align='right'>
-21.
-</td>
-<td>
-    Painting on placement: Forecasting routing congestion using conditional generative adversarial nets [<a href='https://dl.acm.org/doi/10.1145/3316781.3317876' target='_blank'>paper</a>] <br>
-    <em>Cunxi&nbsp;Yu and Zhiru&nbsp;Zhang</em><br>
-    DAC 2019  <br>
-    
-</td>
-</tr>
-
-
 <tr id="tr-PLACE-DAC2019-pin" >
 <td align='right'>
-22.
+4.
 </td>
 <td>
     Pin accessibility prediction and optimization with deep learning-based pin pattern recognition [<a href='https://ieeexplore.ieee.org/document/8806809' target='_blank'>paper</a>] <br>
     <em>Tao-Chun&nbsp;Yu, Shao-Yun&nbsp;Fang, Hsien-Shih&nbsp;Chiu, Kai-Shun&nbsp;Hu, Philip&nbsp;Hui-Yuh&nbsp;Tai, Cindy&nbsp;Chin-Fang&nbsp;Shen, and Henry&nbsp;Sheng</em><br>
     DAC 2019  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-PLACE-ICCAD2018-routenet" >
-<td align='right'>
-23.
-</td>
-<td>
-    RouteNet: Routability prediction for mixed-size designs using convolutional neural network [<a href='https://ieeexplore.ieee.org/document/8587655' target='_blank'>paper</a>] <br>
-    <em>Zhiyao&nbsp;Xie, Yu-Hung&nbsp;Huang, Guan-Qi&nbsp;Fang, Haoxing&nbsp;Ren, Shao-Yun&nbsp;Fang, Yiran&nbsp;Chen, and Jiang&nbsp;Hu</em><br>
-    ICCAD 2018  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-chanRoutabilityOptimizationIndustrial2017" >
-<td align='right'>
-24.
-</td>
-<td>
-    Routability Optimization for ndustrial Designs at Sub-14nm Process Nodes Using Machine Learning [<a href='https://dl.acm.org/doi/10.1145/3036669.3036681' target='_blank'>paper</a>] <br>
-    <em>Wei-Ting&nbsp;J.&nbsp;Chan, Pei-Hsin&nbsp;Ho, Andrew&nbsp;B.&nbsp;Kahng, and Prashant&nbsp;Saxena</em><br>
-    ISPD 2017  <br>
     
 </td>
 </tr>
@@ -1575,7 +1694,7 @@ Clock Tree Synthesis
 <td>
     BufFormer: A Generative ML Framework for Scalable Buffering [<a href='https://doi.org/10.1145/3566097.3567900' target='_blank'>paper</a>] <br>
     <em>Rongjian&nbsp;Liang, Siddhartha&nbsp;Nath, Anand&nbsp;Rajaram, Jiang&nbsp;Hu, and Haoxing&nbsp;Ren</em><br>
-    ASPDAC 2023  <br>
+    ASP-DAC 2023  <br>
     
 </td>
 </tr>
@@ -1669,7 +1788,7 @@ Routing
 <td>
     DPRoute: Deep Learning Framework for Package Routing [<a href='https://dl.acm.org/doi/abs/10.1145/3566097.3567902' target='_blank'>paper</a>] <br>
     <em>Yeu-Haw&nbsp;Yeh, Simon&nbsp;Yi-Hung&nbsp;Chen, Hung-Ming&nbsp;Chen, Deng-Yao&nbsp;Tu, Guan-Qi&nbsp;Fang, Yun-Chih&nbsp;Kuo, and Po-Yang&nbsp;Chen</em><br>
-    ASPDAC 2023  <br>
+    ASP-DAC 2023  <br>
     
 </td>
 </tr>
@@ -1714,22 +1833,9 @@ Routing
 </tr>
 
 
-<tr id="tr-NEURIPS2021_898aef09" >
-<td align='right'>
-6.
-</td>
-<td>
-    On Joint Learning for Solving Placement and Routing in Chip Design [<a href='https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf' target='_blank'>paper</a>] <br>
-    <em>Ruoyu&nbsp;Cheng and Junchi&nbsp;Yan</em><br>
-    NeurIPS 2021  <br>
-    
-</td>
-</tr>
-
-
 <tr id="tr-ROUTE-DAC2020-NNICs" >
 <td align='right'>
-7.
+6.
 </td>
 <td>
     Late breaking results: A neural network that routes ics [<a href='https://ieeexplore.ieee.org/document/9218598' target='_blank'>paper</a>] <br>
@@ -2373,7 +2479,7 @@ Layout Verification
 <td>
     Learning Based Spatial Power Characterization and Full-Chip Power Estimation for Commercial TPUs [<a href='https://doi.org/10.1145/3566097.3568347' target='_blank'>paper</a>] <br>
     <em>Jincong&nbsp;Lu, Jinwei&nbsp;Zhang, Wentian&nbsp;Jin, Sachin&nbsp;Sachdeva, and Sheldon&nbsp;X.&nbsp;-D.&nbsp;Tan</em><br>
-    ASPDAC 2023  <br>
+    ASP-DAC 2023  <br>
     
 </td>
 </tr>
@@ -2386,7 +2492,7 @@ Layout Verification
 <td>
     Microarchitecture Power Modeling via Artificial Neural Network and Transfer Learning [<a href='https://doi.org/10.1145/3566097.3567844' target='_blank'>paper</a>] <br>
     <em>Jianwang&nbsp;Zhai, Yici&nbsp;Cai, and Bei&nbsp;Yu</em><br>
-    ASPDAC 2023  <br>
+    ASP-DAC 2023  <br>
     
 </td>
 </tr>
@@ -2470,7 +2576,7 @@ Mask Optimization
 <td>
     Enabling Scalable AI Computational Lithography with Physics-Inspired Models [<a href='https://doi.org/10.1145/3566097.3568361' target='_blank'>paper</a>] <br>
     <em>Haoyu&nbsp;Yang and Haoxing&nbsp;Ren</em><br>
-    ASPDAC 2023  <br>
+    ASP-DAC 2023  <br>
     
 </td>
 </tr>
@@ -2483,7 +2589,7 @@ Mask Optimization
 <td>
     Data-Driven Approaches for Process Simulation and Optical Proximity Correction [<a href='https://doi.org/10.1145/3566097.3568362' target='_blank'>paper</a>] <br>
     <em>Hao-Chiang&nbsp;Shao, Chia-Wen&nbsp;Lin, and Shao-Yun&nbsp;Fang</em><br>
-    ASPDAC 2023  <br>
+    ASP-DAC 2023  <br>
     
 </td>
 </tr>
@@ -2648,7 +2754,7 @@ Analog Synthesis
 <td>
     Fully Automated Machine Learning Model Development for Analog Placement Quality Prediction [<a href='https://doi.org/10.1145/3566097.3567881' target='_blank'>paper</a>] <br>
     <em>Chen-Chia&nbsp;Chang, Jingyu&nbsp;Pan, Zhiyao&nbsp;Xie, Yaguang&nbsp;Li, Yishuang&nbsp;Lin, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
-    ASPDAC 2023  <br>
+    ASP-DAC 2023  <br>
     
 </td>
 </tr>
@@ -2661,7 +2767,7 @@ Analog Synthesis
 <td>
     APOSTLE: Asynchronously Parallel Optimization for Sizing Analog Transistors Using DNN Learning [<a href='https://doi.org/10.1145/3566097.3567880' target='_blank'>paper</a>] <br>
     <em>Ahmet&nbsp;Faruk&nbsp;Budak, David&nbsp;Smart, Brian&nbsp;Swahn, and David&nbsp;Z.&nbsp;Pan</em><br>
-    ASPDAC 2023  <br>
+    ASP-DAC 2023  <br>
     
 </td>
 </tr>
@@ -2687,7 +2793,7 @@ Analog Synthesis
 <td>
     Layout Symmetry Annotation for Analog Circuits with Graph Neural Networks [<a href='https://doi.org/10.1145/3394885.3431545' target='_blank'>paper</a>] <br>
     <em>Xiaohan&nbsp;Gao, Chenhui&nbsp;Deng, Mingjie&nbsp;Liu, Zhiru&nbsp;Zhang, David&nbsp;Z.&nbsp;Pan, and Yibo&nbsp;Lin</em><br>
-    ASPDAC 2021  <br>
+    ASP-DAC 2021  <br>
     
 </td>
 </tr>
