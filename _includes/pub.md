@@ -1765,30 +1765,43 @@ Routing
 </h2>
 
 <div id="routing" class="collapse-table collapse">
-<h3></h3>
+<h3>Detailed Routing</h3>
 <table class="table table-hover">
 
-<tr id="tr-ROUTE-DAC2023-Steiner" >
+<tr id="tr-khan2026offline" >
 <td align='right'>
 1.
 </td>
 <td>
-    Concurrent Sign-off Timing Optimization via Deep Steiner Points Refinement [<a href='http://www.cse.cuhk.edu.hk/~byu/papers/C170-DAC2023-TSteiner.pdf' target='_blank'>paper</a>] <br>
-    <em>Siting&nbsp;Liu, Ziyi&nbsp;Wang, Fangzhou&nbsp;Liu, Yibo&nbsp;Lin, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
-    DAC 2023  <br>
+    Accelerating Detailed Routing Convergence through Offline Reinforcement Learning [<a href='https://doi.org/10.23919/DATE69613.2026.11539594' target='_blank'>paper</a>] <br>
+    <em>Afsara&nbsp;Khan and Austin&nbsp;Rovinski</em><br>
+    DATE 2026  <br>
     
 </td>
 </tr>
 
 
-<tr id="tr-ASPDAC23_DPRoute" >
+<tr id="tr-keng2025window" >
 <td align='right'>
 2.
 </td>
 <td>
-    DPRoute: Deep Learning Framework for Package Routing [<a href='https://dl.acm.org/doi/abs/10.1145/3566097.3567902' target='_blank'>paper</a>] <br>
-    <em>Yeu-Haw&nbsp;Yeh, Simon&nbsp;Yi-Hung&nbsp;Chen, Hung-Ming&nbsp;Chen, Deng-Yao&nbsp;Tu, Guan-Qi&nbsp;Fang, Yun-Chih&nbsp;Kuo, and Po-Yang&nbsp;Chen</em><br>
-    ASP-DAC 2023  <br>
+    Reinforcement Learning-Driven Window Selection for Enhanced Window-Based Rip-Up and Reroute in Chip Detailed Routing [<a href='https://doi.org/10.1109/DAC63849.2025.11132699' target='_blank'>paper</a>] <br>
+    <em>Yu-Chan&nbsp;Keng, Yu-Chun&nbsp;Pai, Wen-Hao&nbsp;Liu, Haoxing&nbsp;Ren, Danny&nbsp;Liu, Rongjian&nbsp;Liang, Mark&nbsp;Ho, Anthony&nbsp;Agnesina, and Yih-Lang&nbsp;Li</em><br>
+    DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-zhou2024transformer" >
+<td align='right'>
+3.
+</td>
+<td>
+    Transformer-based Reinforcement Learning for Net Ordering in Detailed Routing [<a href='https://doi.org/10.24963/ijcai.2025/1055' target='_blank'>paper</a>] <br>
+    <em>Zhanwen&nbsp;Zhou, Hankz&nbsp;Hankui&nbsp;Zhuo, Jinghua&nbsp;Zhou, and Wushao&nbsp;Wen</em><br>
+    IJCAI 2025  <br>
     
 </td>
 </tr>
@@ -1796,25 +1809,12 @@ Routing
 
 <tr id="tr-ROUTE_DAC2022_Jingyu" >
 <td align='right'>
-3.
-</td>
-<td>
-    Reinforcement Learning Guided Detailed Routing for FinFET Custom Circuits [<a href='https://dl.acm.org/doi/abs/10.1145/3569052.3571874' target='_blank'>paper</a>] <br>
-    <em>Hao&nbsp;Chen, Kai-Chieh&nbsp;Hsu, Walker&nbsp;J.&nbsp;Turner, Po-Hsuan&nbsp;Wei, Keren&nbsp;Zhu, David&nbsp;Z.&nbsp;Pan, and Haoxing&nbsp;Ren</em><br>
-    ISPD 2023  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-DAC22_Pan" >
-<td align='right'>
 4.
 </td>
 <td>
-    Towards Collaborative Intelligence: Routability Estimation Based on Decentralized Private Data [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530578' target='_blank'>paper</a>] <br>
-    <em>Jingyu&nbsp;Pan, Chen-Chia&nbsp;Chang, Zhiyao&nbsp;Xie, Ang&nbsp;Li, Minxue&nbsp;Tang, Tunhou&nbsp;Zhang, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
-    DAC 2022  <br>
+    Reinforcement Learning Guided Detailed Routing for Custom Circuits [<a href='https://dl.acm.org/doi/abs/10.1145/3569052.3571874' target='_blank'>paper</a>] <br>
+    <em>Hao&nbsp;Chen, Kai-Chieh&nbsp;Hsu, Walker&nbsp;J.&nbsp;Turner, Po-Hsuan&nbsp;Wei, Keren&nbsp;Zhu, David&nbsp;Z.&nbsp;Pan, and Haoxing&nbsp;Ren</em><br>
+    ISPD 2023  <br>
     
 </td>
 </tr>
@@ -1838,9 +1838,102 @@ Routing
 6.
 </td>
 <td>
-    Late breaking results: A neural network that routes ics [<a href='https://ieeexplore.ieee.org/document/9218598' target='_blank'>paper</a>] <br>
+    Late breaking results: A neural network that routes ICs [<a href='https://ieeexplore.ieee.org/document/9218598' target='_blank'>paper</a>] <br>
     <em>Dmitry&nbsp;Utyamishev and Inna&nbsp;Partin-Vaisband</em><br>
     DAC 2020  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Dataset and Benchmark</h3>
+<table class="table table-hover">
+
+<tr id="tr-liang2025contest" >
+<td align='right'>
+1.
+</td>
+<td>
+    Invited: ISPD 2025 Performance-Driven Large Scale Global Routing Contest [<a href='https://doi.org/10.1145/3698364.3715706' target='_blank'>paper</a>] <br>
+    <em>Rongjian&nbsp;Liang, Anthony&nbsp;Agnesina, Wen-Hao&nbsp;Liu, Matt&nbsp;Liberty, Hsin-Tzu&nbsp;Chang, and Haoxing&nbsp;Ren</em><br>
+    ISPD 2025  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Global Routing</h3>
+<table class="table table-hover">
+
+<tr id="tr-zhou2023medusa" >
+<td align='right'>
+1.
+</td>
+<td>
+    MEDUSA: A Multi-Resolution Machine Learning Congestion Estimation Method for 2D and 3D Global Routing [<a href='https://doi.org/10.1145/3590768' target='_blank'>paper</a>] <br>
+    <em>Zhonghua&nbsp;Zhou, Yuxuan&nbsp;Pan, Guy&nbsp;G.&nbsp;F.&nbsp;Lemieux, and Andr&eacute;&nbsp;Ivanov</em><br>
+    TODAES 2023  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>3D IC and Package Routing</h3>
+<table class="table table-hover">
+
+<tr id="tr-lu2026tier" >
+<td align='right'>
+1.
+</td>
+<td>
+    Differentiable Tier Assignment for Timing and Congestion-Aware Routing in 3D ICs [<a href='https://doi.org/10.1109/ASP-DAC66049.2026.11420682' target='_blank'>paper</a>] <br>
+    <em>Yuan-Hsiang&nbsp;Lu, Hao-Hsiang&nbsp;Hsiao, Yi-Chen&nbsp;Lu, Haoxing&nbsp;Ren, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
+    ASP-DAC 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ASPDAC23_DPRoute" >
+<td align='right'>
+2.
+</td>
+<td>
+    DPRoute: Deep Learning Framework for Package Routing [<a href='https://dl.acm.org/doi/abs/10.1145/3566097.3567902' target='_blank'>paper</a>] <br>
+    <em>Yeu-Haw&nbsp;Yeh, Simon&nbsp;Yi-Hung&nbsp;Chen, Hung-Ming&nbsp;Chen, Deng-Yao&nbsp;Tu, Guan-Qi&nbsp;Fang, Yun-Chih&nbsp;Kuo, and Po-Yang&nbsp;Chen</em><br>
+    ASP-DAC 2023  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Steiner Tree and Timing-Driven Routing</h3>
+<table class="table table-hover">
+
+<tr id="tr-ROUTE-DAC2023-Steiner" >
+<td align='right'>
+1.
+</td>
+<td>
+    Concurrent Sign-off Timing Optimization via Deep Steiner Points Refinement [<a href='http://www.cse.cuhk.edu.hk/~byu/papers/C170-DAC2023-TSteiner.pdf' target='_blank'>paper</a>] <br>
+    <em>Siting&nbsp;Liu, Ziyi&nbsp;Wang, Fangzhou&nbsp;Liu, Yibo&nbsp;Lin, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Routability Estimation</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC22_Pan" >
+<td align='right'>
+1.
+</td>
+<td>
+    Towards Collaborative Intelligence: Routability Estimation Based on Decentralized Private Data [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530578' target='_blank'>paper</a>] <br>
+    <em>Jingyu&nbsp;Pan, Chen-Chia&nbsp;Chang, Zhiyao&nbsp;Xie, Ang&nbsp;Li, Minxue&nbsp;Tang, Tunhou&nbsp;Zhang, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
+    DAC 2022  <br>
     
 </td>
 </tr>
