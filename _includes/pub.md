@@ -3597,12 +3597,38 @@ Testing
 </h2>
 
 <div id="testing" class="collapse-table collapse">
-<h3></h3>
+<h3>Test Point Insertion</h3>
 <table class="table table-hover">
+
+<tr id="tr-cho2026explainable" >
+<td align='right'>
+1.
+</td>
+<td>
+    Explainable GNN-Driven Test Point Insertion on Uncontrollable I/Os [<a href='https://doi.org/10.23919/DATE69613.2026.11539099' target='_blank'>paper</a>] <br>
+    <em>Sung-Hyuk&nbsp;Cho, Tae-Min&nbsp;Park, Jeongyeol&nbsp;Lee, Jae-Youn&nbsp;Hong, Andreas&nbsp;Gerstlauer, and Joon-Sung&nbsp;Yang</em><br>
+    DATE 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-hung2023tpi3d" >
+<td align='right'>
+2.
+</td>
+<td>
+    Test-Point Insertion for Power-Safe Testing of Monolithic 3D ICs using Reinforcement Learning [<a href='https://doi.org/10.1109/ETS56758.2023.10174135' target='_blank'>paper</a>] <br>
+    <em>Shao-Chun&nbsp;Hung, Arjun&nbsp;Chaudhuri, and Krishnendu&nbsp;Chakrabarty</em><br>
+    ETS 2023  <br>
+    
+</td>
+</tr>
+
 
 <tr id="tr-Shi2022DeepTPITP" >
 <td align='right'>
-1.
+3.
 </td>
 <td>
     DeepTPI: Test Point Insertion with Deep Reinforcement Learning [<a href='https://arxiv.org/abs/2206.06975' target='_blank'>paper</a>] <br>
@@ -3612,10 +3638,39 @@ Testing
 </td>
 </tr>
 
+</table>
+<h3>ATPG and Fault Analysis</h3>
+<table class="table table-hover">
+
+<tr id="tr-li2024smartatpg" >
+<td align='right'>
+1.
+</td>
+<td>
+    SmartATPG: Learning-based Automatic Test Pattern Generation with Graph Convolutional Network and Reinforcement Learning [<a href='https://doi.org/10.1145/3649329.3656526' target='_blank'>paper</a>] <br>
+    <em>Wenxing&nbsp;Li, Hongqin&nbsp;Lyu, Shengwen&nbsp;Liang, Tiancheng&nbsp;Wang, and Huawei&nbsp;Li</em><br>
+    DAC 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ye2023fpgnn" >
+<td align='right'>
+2.
+</td>
+<td>
+    FPGNN-ATPG: An Efficient Fault Parallel Automatic Test Pattern Generator [<a href='https://doi.org/10.1145/3583781.3590250' target='_blank'>paper</a>] <br>
+    <em>Yuyang&nbsp;Ye, Zonghui&nbsp;Wang, Zun&nbsp;Xue, Ziqi&nbsp;Wang, Yifei&nbsp;Gao, and Hao&nbsp;Yan</em><br>
+    GLSVLSI 2023  <br>
+    
+</td>
+</tr>
+
 
 <tr id="tr-9983862" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     Neural Fault Analysis for SAT-based ATPG [<a href='https://ieeexplore.ieee.org/document/9983862' target='_blank'>paper</a>] <br>
@@ -3625,15 +3680,50 @@ Testing
 </td>
 </tr>
 
+</table>
+<h3>Testability Analysis</h3>
+<table class="table table-hover">
 
 <tr id="tr-10.1145/3316781.3317838" >
 <td align='right'>
-3.
+1.
 </td>
 <td>
     High Performance Graph Convolutional Networks with Applications in Testability Analysis [<a href='https://doi.org/10.1145/3316781.3317838' target='_blank'>paper</a>] <br>
     <em>Yuzhe&nbsp;Ma, Haoxing&nbsp;Ren, Brucek&nbsp;Khailany, Harbinder&nbsp;Sikka, Lijuan&nbsp;Luo, Karthikeyan&nbsp;Natarajan, and Bei&nbsp;Yu</em><br>
     DAC 2019  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Power-Safe and 3D Testing</h3>
+<table class="table table-hover">
+
+<tr id="tr-hung2023scanseg" >
+<td align='right'>
+1.
+</td>
+<td>
+    Scan Cell Segmentation Based on Reinforcement Learning for Power-Safe Testing of Monolithic 3D ICs [<a href='https://doi.org/10.1109/ITC51656.2023.00038' target='_blank'>paper</a>] <br>
+    <em>Shao-Chun&nbsp;Hung, Arjun&nbsp;Chaudhuri, Sanmitra&nbsp;Banerjee, and Krishnendu&nbsp;Chakrabarty</em><br>
+    ITC 2023  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>LLM for Test Generation</h3>
+<table class="table table-hover">
+
+<tr id="tr-wan2026chattest" >
+<td align='right'>
+1.
+</td>
+<td>
+    ChatTest: Coverage-Enhanced Testbench Generation for Agile Hardware Verification with LLMs [<a href='https://doi.org/10.23919/DATE69613.2026.11539733' target='_blank'>paper</a>] <br>
+    <em>Gwok-Waa&nbsp;Wan, Shengchu&nbsp;Su, Jingyi&nbsp;Zhang, Sam&nbsp;Zaak&nbsp;Wong, Mengnv&nbsp;Xing, Lei&nbsp;Ji, Zhe&nbsp;Jiang, Xi&nbsp;Wang, and Jun&nbsp;Yang</em><br>
+    DATE 2026  <br>
     
 </td>
 </tr>
