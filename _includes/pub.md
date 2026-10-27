@@ -1684,17 +1684,17 @@ Clock Tree Synthesis
 </h2>
 
 <div id="clock_tree_synthesis" class="collapse-table collapse">
-<h3></h3>
+<h3>Clock Tree Prediction and Estimation</h3>
 <table class="table table-hover">
 
-<tr id="tr-DBLP:conf/aspdac/LiangNRHR23" >
+<tr id="tr-choi2023multisource" >
 <td align='right'>
 1.
 </td>
 <td>
-    BufFormer: A Generative ML Framework for Scalable Buffering [<a href='https://doi.org/10.1145/3566097.3567900' target='_blank'>paper</a>] <br>
-    <em>Rongjian&nbsp;Liang, Siddhartha&nbsp;Nath, Anand&nbsp;Rajaram, Jiang&nbsp;Hu, and Haoxing&nbsp;Ren</em><br>
-    ASP-DAC 2023  <br>
+    Multisource Clock Tree Synthesis Through Sink Clustering and Fast Clock Latency Prediction [<a href='https://doi.org/10.1109/ISCAS46773.2023.10181849' target='_blank'>paper</a>] <br>
+    <em>Byungho&nbsp;Choi, Yonghwi&nbsp;Kwon, Umar&nbsp;Afzaal, and Youngsoo&nbsp;Shin</em><br>
+    ISCAS 2023  <br>
     
 </td>
 </tr>
@@ -1707,20 +1707,7 @@ Clock Tree Synthesis
 <td>
     A Clock Tree Prediction and Optimization Framework Using Generative Adversarial Learning [<a href='https://doi.org/10.1109/TCAD.2021.3122109' target='_blank'>paper</a>] <br>
     <em>Yi-Chen&nbsp;Lu, Jeehyun&nbsp;Lee, Anthony&nbsp;Agnesina, Kambiz&nbsp;Samadi, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
-    TCAD 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-DBLP:conf/glvlsi/Beheshti-Shirazi21" >
-<td align='right'>
-3.
-</td>
-<td>
-    A Reinforced Learning Solution for Clock Skew Engineering to Reduce Peak Current and IR Drop [<a href='https://doi.org/10.1145/3453688.3461754' target='_blank'>paper</a>] <br>
-    <em>Sayed&nbsp;Aresh&nbsp;Beheshti-Shirazi, Ashkan&nbsp;Vakil, Sai&nbsp;Manoj&nbsp;P.&nbsp;D., Ioannis&nbsp;Savidis, Houman&nbsp;Homayoun, and Avesta&nbsp;Sasan</em><br>
-    GLSVLSI 2021  <br>
+    TCAD 2021  <br>
     
 </td>
 </tr>
@@ -1728,7 +1715,7 @@ Clock Tree Synthesis
 
 <tr id="tr-DBLP:conf/ises/NagariaD20" >
 <td align='right'>
-4.
+3.
 </td>
 <td>
     Designing of an Optimization Technique for the Prediction of CTS Outcomes using Neural Network [<a href='https://doi.org/10.1109/iSES50453.2020.00075' target='_blank'>paper</a>] <br>
@@ -1741,12 +1728,86 @@ Clock Tree Synthesis
 
 <tr id="tr-DBLP:conf/iccad/LuLASL19" >
 <td align='right'>
-5.
+4.
 </td>
 <td>
     GAN-CTS: A Generative Adversarial Framework for Clock Tree Prediction and Optimization [<a href='https://doi.org/10.1109/ICCAD45719.2019.8942063' target='_blank'>paper</a>] <br>
     <em>Yi-Chen&nbsp;Lu, Jeehyun&nbsp;Lee, Anthony&nbsp;Agnesina, Kambiz&nbsp;Samadi, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
     ICCAD 2019  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Clock Skew Optimization</h3>
+<table class="table table-hover">
+
+<tr id="tr-lu2023rlccd" >
+<td align='right'>
+1.
+</td>
+<td>
+    RL-CCD: Concurrent Clock and Data Optimization using Attention-Based Self-Supervised Reinforcement Learning [<a href='https://doi.org/10.1109/DAC56929.2023.10248008' target='_blank'>paper</a>] <br>
+    <em>Yi-Chen&nbsp;Lu, Wei-Ting&nbsp;Chan, Deyuan&nbsp;Guo, Sudipto&nbsp;Kundu, Vishal&nbsp;Khandelwal, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
+    DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/glvlsi/Beheshti-Shirazi21" >
+<td align='right'>
+2.
+</td>
+<td>
+    A Reinforced Learning Solution for Clock Skew Engineering to Reduce Peak Current and IR Drop [<a href='https://doi.org/10.1145/3453688.3461754' target='_blank'>paper</a>] <br>
+    <em>Sayed&nbsp;Aresh&nbsp;Beheshti-Shirazi, Ashkan&nbsp;Vakil, Sai&nbsp;Manoj&nbsp;P.&nbsp;D., Ioannis&nbsp;Savidis, Houman&nbsp;Homayoun, and Avesta&nbsp;Sasan</em><br>
+    GLSVLSI 2021  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Clock Tree Construction and Buffering</h3>
+<table class="table table-hover">
+
+<tr id="tr-xi2026cnn" >
+<td align='right'>
+1.
+</td>
+<td>
+    CNN-Assisted Low-Power Clock Tree Synthesis for 3D ICs [<a href='https://doi.org/10.1109/ASP-DAC66049.2026.11420521' target='_blank'>paper</a>] <br>
+    <em>Chenbo&nbsp;Xi, Jindong&nbsp;Zhou, and Pingqiang&nbsp;Zhou</em><br>
+    ASP-DAC 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/aspdac/LiangNRHR23" >
+<td align='right'>
+2.
+</td>
+<td>
+    BufFormer: A Generative ML Framework for Scalable Buffering [<a href='https://doi.org/10.1145/3566097.3567900' target='_blank'>paper</a>] <br>
+    <em>Rongjian&nbsp;Liang, Siddhartha&nbsp;Nath, Anand&nbsp;Rajaram, Jiang&nbsp;Hu, and Haoxing&nbsp;Ren</em><br>
+    ASP-DAC 2023  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Dataset and Benchmark</h3>
+<table class="table table-hover">
+
+<tr id="tr-khadka2026ctsbench" >
+<td align='right'>
+1.
+</td>
+<td>
+    CTS-Bench: Benchmarking Graph Coarsening Trade-offs for GNNs in Clock Tree Synthesis [<a href='https://arxiv.org/abs/2602.19330' target='_blank'>paper</a>] <br>
+    <em>Barsat&nbsp;Khadka, Kawsher&nbsp;Roxy, and Md&nbsp;Rubel&nbsp;Ahmed</em><br>
+    MLBench 2026  <br>
     
 </td>
 </tr>
