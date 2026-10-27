@@ -38,7 +38,7 @@ High Level Synthesis
 <td>
     Hierarchical mixture of experts: Generalizable learning for high-level synthesis [<a href='https://ojs.aaai.org/index.php/AAAI/article/view/34033' target='_blank'>paper</a>] <br>
     <em>Weikai&nbsp;Li, Ding&nbsp;Wang, Zijian&nbsp;Ding, Atefeh&nbsp;Sohrabizadeh, Zongyue&nbsp;Qin, Jason&nbsp;Cong, and Yizhou&nbsp;Sun</em><br>
-    DATE 2025  <br>
+    AAAI 2025  <br>
     
 </td>
 </tr>
