@@ -1024,38 +1024,12 @@ Floorplan
 </h2>
 
 <div id="floorplan" class="collapse-table collapse">
-<h3></h3>
+<h3>Learning-Based Floorplanning</h3>
 <table class="table table-hover">
-
-<tr id="tr-DAC22_SpecPart" >
-<td align='right'>
-1.
-</td>
-<td>
-    SpecPart: A Supervised Spectral Framework for Hypergraph Partitioning Solution Improvement [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549390' target='_blank'>paper</a>] <br>
-    <em>Ismail&nbsp;Bustany, Andrew&nbsp;B.&nbsp;Kahng, Ioannis&nbsp;Koutis, Bodhisatta&nbsp;Pramanik, and Zhiang&nbsp;Wang</em><br>
-    DAC 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-DBLP:conf/iccad/WenZYCYLX22" >
-<td align='right'>
-2.
-</td>
-<td>
-    LayouTransformer: Generating Layout Patterns with Transformer via Sequential Pattern Modeling [<a href='https://doi.org/10.1145/3508352.3549350' target='_blank'>paper</a>] <br>
-    <em>Liangjian&nbsp;Wen, Yi&nbsp;Zhu, Lei&nbsp;Ye, Guojin&nbsp;Chen, Bei&nbsp;Yu, Jianzhuang&nbsp;Liu, and Chunjing&nbsp;Xu</em><br>
-    ICCAD 2022  <br>
-    
-</td>
-</tr>
-
 
 <tr id="tr-DAC22_Flora" >
 <td align='right'>
-3.
+1.
 </td>
 <td>
     Floorplanning with Graph Attention [<a href='https://doi.org/10.1145/3489517.3530484' target='_blank'>paper</a>] <br>
@@ -1068,7 +1042,7 @@ Floorplan
 
 <tr id="tr-TODAES22_GraphPlanner" >
 <td align='right'>
-4.
+2.
 </td>
 <td>
     GraphPlanner: Floorplanning with Graph Neural Network [<a href='https://doi.org/10.1145/3555804' target='_blank'>paper</a>] <br>
@@ -1078,15 +1052,173 @@ Floorplan
 </td>
 </tr>
 
+</table>
+<h3>Reinforcement Learning for Floorplanning</h3>
+<table class="table table-hover">
+
+<tr id="tr-wu2026mdpo" >
+<td align='right'>
+1.
+</td>
+<td>
+    MdpoPlanner: Mask-Driven Floorplan via Reinforcement Learning-Based Placement Order [<a href='https://doi.org/10.1109/ASP-DAC66049.2026.11420532' target='_blank'>paper</a>] <br>
+    <em>Yue&nbsp;Wu, Caiyu&nbsp;Chen, and Xiaoyan&nbsp;Yang</em><br>
+    ASP-DAC 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-li2025core" >
+<td align='right'>
+2.
+</td>
+<td>
+    CORE: Collaborative Optimization with Reinforcement Learning and Evolutionary Algorithm for Floorplanning [<a href='https://openreview.net/forum?id=86IvZmY26S' target='_blank'>paper</a>]  [<a href='https://github.com/yeshenpy/CORE' target='_blank'>code</a>] <br>
+    <em>Pengyi&nbsp;Li, Shixiong&nbsp;Kai, Jianye&nbsp;Hao, Ruizhe&nbsp;Zhong, Hongyao&nbsp;Tang, Zhentao&nbsp;Tang, Mingxuan&nbsp;Yuan, and Junchi&nbsp;Yan</em><br>
+    NeurIPS 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-yan2024learning" >
+<td align='right'>
+3.
+</td>
+<td>
+    Learning to Floorplan like Human Experts via Reinforcement Learning [<a href='https://doi.org/10.23919/DATE58400.2024.10546817' target='_blank'>paper</a>] <br>
+    <em>Binjie&nbsp;Yan, Lin&nbsp;Xu, Zefang&nbsp;Yu, Mingye&nbsp;Xie, Wei&nbsp;Ran, Jingsheng&nbsp;Gao, Yuzhuo&nbsp;Fu, and Ting&nbsp;Liu</em><br>
+    DATE 2024  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Chiplet and 3D Floorplanning</h3>
+<table class="table table-hover">
+
+<tr id="tr-wang2026kuannet" >
+<td align='right'>
+1.
+</td>
+<td>
+    Finetune Chiplet Design Floorplan via KuanNet [<a href='https://doi.org/10.1109/TVLSI.2026.3681746' target='_blank'>paper</a>] <br>
+    <em>Xiaomeng&nbsp;Wang, Zhen&nbsp;Zhou, and Yang&nbsp;Yi</em><br>
+    TVLSI 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2024floorplet" >
+<td align='right'>
+2.
+</td>
+<td>
+    Floorplet: Performance-Aware Floorplan Framework for Chiplet Integration [<a href='https://doi.org/10.1109/TCAD.2023.3347302' target='_blank'>paper</a>] <br>
+    <em>Shixin&nbsp;Chen, Shanyi&nbsp;Li, Zhen&nbsp;Zhuang, Su&nbsp;Zheng, Zheng&nbsp;Liang, Tsung-Yi&nbsp;Ho, Bei&nbsp;Yu, and Alberto&nbsp;L.&nbsp;Sangiovanni-Vincentelli</em><br>
+    TCAD 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-duan2024rlplanner" >
+<td align='right'>
+3.
+</td>
+<td>
+    RLPlanner: Reinforcement Learning Based Floorplanning for Chiplets with Fast Thermal Analysis [<a href='https://doi.org/10.23919/DATE58400.2024.10546812' target='_blank'>paper</a>] <br>
+    <em>Yuanyuan&nbsp;Duan, Xingchen&nbsp;Liu, Zhiping&nbsp;Yu, Hanming&nbsp;Wu, Leilai&nbsp;Shao, and Xiaolei&nbsp;Zhu</em><br>
+    DATE 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-amin2024largeaction" >
+<td align='right'>
+4.
+</td>
+<td>
+    Addressing Large Action Spaces in 3D Floorplanning via Spatial Generalization [<a href='https://arxiv.org/abs/2406.10538' target='_blank'>paper</a>] <br>
+    <em>Fin&nbsp;Amin, Nirjhor&nbsp;Rouf, Tse-Han&nbsp;Pan, Sounak&nbsp;Dutta, Md&nbsp;Kamal&nbsp;Ibn&nbsp;Shafi, and Paul&nbsp;D.&nbsp;Franzon</em><br>
+    arXiv 2024  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Analog Floorplanning</h3>
+<table class="table table-hover">
+
+<tr id="tr-basso2025analog" >
+<td align='right'>
+1.
+</td>
+<td>
+    Effective Analog ICs Floorplanning with Relational Graph Neural Networks and Reinforcement Learning [<a href='https://doi.org/10.23919/DATE64628.2025.10992888' target='_blank'>paper</a>] <br>
+    <em>Davide&nbsp;Basso, Luca&nbsp;Bortolussi, Mirjana&nbsp;Videnovic-Misic, and Husni&nbsp;Habal</em><br>
+    DATE 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-dellarovere2025beam" >
+<td align='right'>
+2.
+</td>
+<td>
+    Enhancing Reinforcement Learning for the Floorplanning of Analog ICs with Beam Search [<a href='https://arxiv.org/abs/2505.05059' target='_blank'>paper</a>] <br>
+    <em>Sandro&nbsp;Junior&nbsp;Della&nbsp;Rovere, Davide&nbsp;Basso, Luca&nbsp;Bortolussi, Mirjana&nbsp;Videnovic-Misic, and Husni&nbsp;Habal</em><br>
+    SMACD 2025  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Partitioning</h3>
+<table class="table table-hover">
+
+<tr id="tr-DAC22_SpecPart" >
+<td align='right'>
+1.
+</td>
+<td>
+    SpecPart: A Supervised Spectral Framework for Hypergraph Partitioning Solution Improvement [<a href='https://doi.org/10.1145/3508352.3549390' target='_blank'>paper</a>] <br>
+    <em>Ismail&nbsp;Bustany, Andrew&nbsp;B.&nbsp;Kahng, Ioannis&nbsp;Koutis, Bodhisatta&nbsp;Pramanik, and Zhiang&nbsp;Wang</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
 
 <tr id="tr-DAC20_TPGNN" >
 <td align='right'>
-5.
+2.
 </td>
 <td>
     TP-GNN: A Graph Neural Network Framework for Tier Partitioning in Monolithic 3D ICs [<a href='https://ieeexplore.ieee.org/document/9218582' target='_blank'>paper</a>] <br>
     <em>Yi-Chen&nbsp;Lu, Sai&nbsp;Surya&nbsp;Kiran&nbsp;Pentapati, Lingjun&nbsp;Zhu, Kambiz&nbsp;Samadi, and Sung&nbsp;Kyu&nbsp;Lim</em><br>
     DAC 2020  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Dataset and Benchmark</h3>
+<table class="table table-hover">
+
+<tr id="tr-mallappa2024floorset" >
+<td align='right'>
+1.
+</td>
+<td>
+    FloorSet&nbsp;-&nbsp;a VLSI Floorplanning Dataset with Design Constraints of Real-World SoCs [<a href='https://doi.org/10.1145/3676536.3676814' target='_blank'>paper</a>]  [<a href='https://github.com/IntelLabs/FloorSet' target='_blank'>code</a>] <br>
+    <em>Uday&nbsp;Mallappa, Hesham&nbsp;Mostafa, Mikhail&nbsp;Galkin, Mariano&nbsp;Phielipp, and Somdeb&nbsp;Majumdar</em><br>
+    ICCAD 2024  <br>
     
 </td>
 </tr>
@@ -2420,6 +2552,19 @@ Mask Optimization
     DiffPattern: Layout Pattern Generation via Discrete Diffusion [<a href='https://arxiv.org/abs/2303.13060' target='_blank'>paper</a>] <br>
     <em>Zixiao&nbsp;Wang, Yunheng&nbsp;Shen, Wenqian&nbsp;Zhao, Yang&nbsp;Bai, Guojin&nbsp;Chen, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
     DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/iccad/WenZYCYLX22" >
+<td align='right'>
+2.
+</td>
+<td>
+    LayouTransformer: Generating Layout Patterns with Transformer via Sequential Pattern Modeling [<a href='https://doi.org/10.1145/3508352.3549350' target='_blank'>paper</a>] <br>
+    <em>Liangjian&nbsp;Wen, Yi&nbsp;Zhu, Lei&nbsp;Ye, Guojin&nbsp;Chen, Bei&nbsp;Yu, Jianzhuang&nbsp;Liu, and Chunjing&nbsp;Xu</em><br>
+    ICCAD 2022  <br>
     
 </td>
 </tr>
