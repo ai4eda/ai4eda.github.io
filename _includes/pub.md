@@ -2444,12 +2444,51 @@ Layout Verification
 </h2>
 
 <div id="layout_verification" class="collapse-table collapse">
-<h3></h3>
+<h3>Hotspot Detection</h3>
 <table class="table table-hover">
+
+<tr id="tr-chen2026mfrlnet" >
+<td align='right'>
+1.
+</td>
+<td>
+    MFRLNet: A Layout Hotspot Detection Network Based on Multi-feature Representation Learning [<a href='https://doi.org/10.1145/3846000' target='_blank'>paper</a>] <br>
+    <em>Han&nbsp;Chen, Ziqiang&nbsp;Cao, Zhaori&nbsp;Bi, Jun&nbsp;Tang, Ke&nbsp;Wang, Ming&nbsp;Zhu, and Xiulong&nbsp;Wu</em><br>
+    TODAES 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2025topology" >
+<td align='right'>
+2.
+</td>
+<td>
+    Delving into Topology Representation for Layout Pattern: A Novel Contrastive Learning Framework for Hotspot Detection [<a href='https://doi.org/10.1109/DAC63849.2025.11133380' target='_blank'>paper</a>] <br>
+    <em>Silin&nbsp;Chen, Kangjian&nbsp;Di, Guohao&nbsp;Wang, Wenzheng&nbsp;Zhao, Li&nbsp;Du, and Ningmu&nbsp;Zou</em><br>
+    DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2024llmhd" >
+<td align='right'>
+3.
+</td>
+<td>
+    LLM-HD: Layout Language Model for Hotspot Detection with GDS Semantic Encoding [<a href='https://doi.org/10.1145/3649329.3658479' target='_blank'>paper</a>] <br>
+    <em>Yuyang&nbsp;Chen, Yiwen&nbsp;Wu, Jingya&nbsp;Wang, Tao&nbsp;Wu, Xuming&nbsp;He, Jingyi&nbsp;Yu, and Hao&nbsp;Geng</em><br>
+    DAC 2024  <br>
+    
+</td>
+</tr>
+
 
 <tr id="tr-9536958" >
 <td align='right'>
-1.
+4.
 </td>
 <td>
     Hotspot Detection via Attention-Based Deep Layout Metric Learning [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C106-ICCAD2020-Metric-HSD.pdf' target='_blank'>paper</a>] <br>
@@ -2462,7 +2501,7 @@ Layout Verification
 
 <tr id="tr-9774579" >
 <td align='right'>
-2.
+5.
 </td>
 <td>
     Efficient Hotspot Detection via Graph Neural Network [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C134-DATE2022-GNN-HSD.pdf' target='_blank'>paper</a>] <br>
@@ -2475,7 +2514,7 @@ Layout Verification
 
 <tr id="tr-9586273" >
 <td align='right'>
-3.
+6.
 </td>
 <td>
     Low-Cost Lithography Hotspot Detection with Active Entropy Sampling and Model Calibration [<a href='https://ieeexplore.ieee.org/document/9586273' target='_blank'>paper</a>] <br>
@@ -2486,35 +2525,9 @@ Layout Verification
 </tr>
 
 
-<tr id="tr-9164914" >
-<td align='right'>
-4.
-</td>
-<td>
-    Efficient Layout Hotspot Detection via Binarized Residual Neural Network Ensemble [<a href='https://ieeexplore.ieee.org/document/9164914' target='_blank'>paper</a>] <br>
-    <em>Yiyang&nbsp;Jiang, Fan&nbsp;Yang, Bei&nbsp;Yu, Dian&nbsp;Zhou, and Xuan&nbsp;Zeng</em><br>
-    TCAD 2021  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-9164899" >
-<td align='right'>
-5.
-</td>
-<td>
-    Bridging the Gap Between Layout Pattern Sampling and Hotspot Detection via Batch Active Learning [<a href='https://arxiv.org/abs/1807.06446' target='_blank'>paper</a>] <br>
-    <em>Haoyu&nbsp;Yang, Shuhe&nbsp;Li, Cyrus&nbsp;Tabery, Bingqing&nbsp;Lin, and Bei&nbsp;Yu</em><br>
-    TCAD 2021  <br>
-    
-</td>
-</tr>
-
-
 <tr id="tr-9643590" >
 <td align='right'>
-6.
+7.
 </td>
 <td>
     Hotspot Detection via Multi-task Learning and Transformer Encoder [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C125-ICCAD2021-H-DETR.pdf' target='_blank'>paper</a>] <br>
@@ -2524,13 +2537,91 @@ Layout Verification
 </td>
 </tr>
 
+
+<tr id="tr-9164914" >
+<td align='right'>
+8.
+</td>
+<td>
+    Efficient Layout Hotspot Detection via Binarized Residual Neural Network Ensemble [<a href='https://ieeexplore.ieee.org/document/9164914' target='_blank'>paper</a>] <br>
+    <em>Yiyang&nbsp;Jiang, Fan&nbsp;Yang, Bei&nbsp;Yu, Dian&nbsp;Zhou, and Xuan&nbsp;Zeng</em><br>
+    TCAD 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-9164899" >
+<td align='right'>
+9.
+</td>
+<td>
+    Bridging the Gap Between Layout Pattern Sampling and Hotspot Detection via Batch Active Learning [<a href='https://arxiv.org/abs/1807.06446' target='_blank'>paper</a>] <br>
+    <em>Haoyu&nbsp;Yang, Shuhe&nbsp;Li, Cyrus&nbsp;Tabery, Bingqing&nbsp;Lin, and Bei&nbsp;Yu</em><br>
+    TCAD 2020  <br>
+    
+</td>
+</tr>
+
 </table>
 <h3>IR Drop</h3>
 <table class="table table-hover">
 
-<tr id="tr-hyun2023decoupling" >
+<tr id="tr-guo2026gemir" >
 <td align='right'>
 1.
+</td>
+<td>
+    GEMIR: Graph-Based Joint Modeling of Electromigration and IR Drop for Power Grid [<a href='https://doi.org/10.1145/3770743.3803897' target='_blank'>paper</a>] <br>
+    <em>Feng&nbsp;Guo, Yueyue&nbsp;Xi, Jingyu&nbsp;Jia, Jiawei&nbsp;Liu, Tianshu&nbsp;Hou, Yuyang&nbsp;Ye, Jianwang&nbsp;Zhai, Kang&nbsp;Zhao, and Chuan&nbsp;Shi</em><br>
+    DAC 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-lee2026consolidating" >
+<td align='right'>
+2.
+</td>
+<td>
+    Consolidating ML-driven Early IR-drop Mitigation for Fast and Reliable IR-drop Closure [<a href='https://doi.org/10.23919/DATE69613.2026.11539600' target='_blank'>paper</a>] <br>
+    <em>Munwon&nbsp;Lee, Chanhee&nbsp;Jeon, and Taewhan&nbsp;Kim</em><br>
+    DATE 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wen2024peakpower" >
+<td align='right'>
+3.
+</td>
+<td>
+    Peak Power and Dynamic IR-drop Assessment via Waveform Augmenting [<a href='https://doi.org/10.1145/3676536.3676767' target='_blank'>paper</a>] <br>
+    <em>Yihan&nbsp;Wen, Juan&nbsp;Li, Bei&nbsp;Yu, and Xiaoyi&nbsp;Wang</em><br>
+    ICCAD 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-woo2024rlpdn" >
+<td align='right'>
+4.
+</td>
+<td>
+    Reinforcement Learning-Based Optimization of Back-Side Power Delivery Networks in VLSI Design for IR-Drop Reduction [<a href='https://doi.org/10.23919/DATE58400.2024.10546599' target='_blank'>paper</a>] <br>
+    <em>Seungmin&nbsp;Woo, Hyunsoo&nbsp;Lee, Yunjeong&nbsp;Shin, MinSeok&nbsp;Han, Yunjeong&nbsp;Go, Jongbeom&nbsp;Kim, Hyundong&nbsp;Lee, Hyunwoo&nbsp;Kim, and Taigon&nbsp;Song</em><br>
+    DATE 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-hyun2023decoupling" >
+<td align='right'>
+5.
 </td>
 <td>
     Decoupling Capacitor Insertion Minimizing IR-Drop Violations and Routing DRVs [<a href='https://dl.acm.org/doi/abs/10.1145/3566097.3567905' target='_blank'>paper</a>] <br>
@@ -2543,7 +2634,7 @@ Layout Verification
 
 <tr id="tr-chen2022vectorbaseda" >
 <td align='right'>
-2.
+6.
 </td>
 <td>
     Vector-Based Dynamic IR-drop Prediction Using Machine Learning [<a href='https://ieeexplore.ieee.org/document/9712489' target='_blank'>paper</a>] <br>
@@ -2556,12 +2647,12 @@ Layout Verification
 
 <tr id="tr-chhabriaMAVIRECMLAidedVectored2021" >
 <td align='right'>
-3.
+7.
 </td>
 <td>
     MAVIREC: ML-Aided Vectored IR-Drop Estimation and Classification [<a href='https://arxiv.org/abs/2012.10597' target='_blank'>paper</a>] <br>
     <em>Vidya&nbsp;A.&nbsp;Chhabria, Yanqing&nbsp;Zhang, Haoxing&nbsp;Ren, Ben&nbsp;Keller, Brucek&nbsp;Khailany, and Sachin&nbsp;S.&nbsp;Sapatnekar</em><br>
-    ASP-DAC 2021  <br>
+    DATE 2021  <br>
     
 </td>
 </tr>
@@ -2569,7 +2660,7 @@ Layout Verification
 
 <tr id="tr-chhabriaThermalIRDrop2021" >
 <td align='right'>
-4.
+8.
 </td>
 <td>
     Thermal and IR Drop Analysis Using Convolutional Encoder-Decoder Networks [<a href='https://ieeexplore.ieee.org/document/9371634' target='_blank'>paper</a>] <br>
@@ -2582,7 +2673,7 @@ Layout Verification
 
 <tr id="tr-huangDynamicIRDropECO2020" >
 <td align='right'>
-5.
+9.
 </td>
 <td>
     Dynamic IR-Drop ECO Optimization by Cell Movement with Current Waveform Staggering and Machine Learning Guidance [<a href='https://ieeexplore.ieee.org/document/9256574' target='_blank'>paper</a>] <br>
@@ -2595,7 +2686,7 @@ Layout Verification
 
 <tr id="tr-pao2020xgbir" >
 <td align='right'>
-6.
+10.
 </td>
 <td>
     XGBIR: An XGBoost-based IR Drop Predictor for Power Delivery Network [<a href='https://ieeexplore.ieee.org/document/9116327' target='_blank'>paper</a>] <br>
@@ -2608,7 +2699,7 @@ Layout Verification
 
 <tr id="tr-xieFastIRDrop2020" >
 <td align='right'>
-7.
+11.
 </td>
 <td>
     Fast IR Drop Estimation with Machine Learning [<a href='https://arxiv.org/pdf/2011.13491.pdf' target='_blank'>paper</a>] <br>
@@ -2621,7 +2712,7 @@ Layout Verification
 
 <tr id="tr-xiePowerNetTransferableDynamic2020a" >
 <td align='right'>
-8.
+12.
 </td>
 <td>
     PowerNet: Transferable Dynamic IR Drop Estimation via Maximum Convolutional Neural Network [<a href='https://ieeexplore.ieee.org/document/9045574' target='_blank'>paper</a>] <br>
@@ -2634,7 +2725,7 @@ Layout Verification
 
 <tr id="tr-zhou2020gridnet" >
 <td align='right'>
-9.
+13.
 </td>
 <td>
     GridNet: Fast Data-Driven EM-induced IR Drop Prediction and Localized Fixing for on-Chip Power Grid Networks [<a href='https://ieeexplore.ieee.org/document/9256488' target='_blank'>paper</a>] <br>
@@ -2647,7 +2738,7 @@ Layout Verification
 
 <tr id="tr-hoIncPIRDFastLearningBased2019" >
 <td align='right'>
-10.
+14.
 </td>
 <td>
     IncPIRD: Fast Learning-Based Prediction of Incremental IR Drop [<a href='https://ieeexplore.ieee.org/document/8942110/' target='_blank'>paper</a>] <br>
@@ -2660,7 +2751,7 @@ Layout Verification
 
 <tr id="tr-fang2018machinelearningbased" >
 <td align='right'>
-11.
+15.
 </td>
 <td>
     Machine-Learning-Based Dynamic IR Drop Prediction for ECO [<a href='https://ieeexplore.ieee.org/document/8587752/' target='_blank'>paper</a>] <br>
@@ -2674,9 +2765,22 @@ Layout Verification
 <h3>Gate Sizing</h3>
 <table class="table table-hover">
 
-<tr id="tr-DBLP:conf/iccad/ZhouYPSZWHCH22" >
+<tr id="tr-wu2024aito" >
 <td align='right'>
 1.
+</td>
+<td>
+    AiTO: Simultaneous gate sizing and buffer insertion for timing optimization with GNNs and RL [<a href='https://doi.org/10.1016/j.vlsi.2024.102211' target='_blank'>paper</a>] <br>
+    <em>Hongxi&nbsp;Wu, Zhipeng&nbsp;Huang, Xingquan&nbsp;Li, and Wenxing&nbsp;Zhu</em><br>
+    Integration 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/iccad/ZhouYPSZWHCH22" >
+<td align='right'>
+2.
 </td>
 <td>
     Heterogeneous Graph Neural Network-Based Imitation Learning for Gate Sizing Acceleration [<a href='https://doi.org/10.1145/3508352.3549361' target='_blank'>paper</a>] <br>
@@ -2689,7 +2793,7 @@ Layout Verification
 
 <tr id="tr-DBLP:conf/iccad/NathPHYKR22" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     TransSizer: A Novel Transformer-Based Fast Gate Sizer [<a href='https://doi.org/10.1145/3508352.3549442' target='_blank'>paper</a>] <br>
@@ -2702,7 +2806,7 @@ Layout Verification
 
 <tr id="tr-lu2021rl" >
 <td align='right'>
-3.
+4.
 </td>
 <td>
     Rl-sizer: Vlsi gate sizing for timing optimization using deep reinforcement learning [<a href='https://ieeexplore.ieee.org/document/9586138' target='_blank'>paper</a>] <br>
@@ -2715,7 +2819,7 @@ Layout Verification
 
 <tr id="tr-wang2020gcn" >
 <td align='right'>
-4.
+5.
 </td>
 <td>
     GCN-RL circuit designer: Transferable transistor sizing with graph neural networks and reinforcement learning [<a href='https://arxiv.org/abs/2005.00406' target='_blank'>paper</a>] <br>
@@ -2729,9 +2833,22 @@ Layout Verification
 <h3>Power</h3>
 <table class="table table-hover">
 
-<tr id="tr-DBLP:conf/aspdac/LuZJST23" >
+<tr id="tr-pandit2025mlpower" >
 <td align='right'>
 1.
+</td>
+<td>
+    ML-Power: Machine Learning based Power Estimation for SoCs [<a href='https://doi.org/10.1109/ISLPED65674.2025.11261702' target='_blank'>paper</a>] <br>
+    <em>Sujay&nbsp;Pandit, Sujit&nbsp;Dey, and Anand&nbsp;Raghunathan</em><br>
+    ISLPED 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DBLP:conf/aspdac/LuZJST23" >
+<td align='right'>
+2.
 </td>
 <td>
     Learning Based Spatial Power Characterization and Full-Chip Power Estimation for Commercial TPUs [<a href='https://doi.org/10.1145/3566097.3568347' target='_blank'>paper</a>] <br>
@@ -2744,7 +2861,7 @@ Layout Verification
 
 <tr id="tr-DBLP:conf/aspdac/ZhaiC023" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     Microarchitecture Power Modeling via Artificial Neural Network and Transfer Learning [<a href='https://doi.org/10.1145/3566097.3567844' target='_blank'>paper</a>] <br>
@@ -2778,7 +2895,7 @@ Layout Verification
 <td>
     Efficient Learning Strategies for Machine Learning-Based Characterization of Aging-Aware Cell Libraries [<a href='https://ieeexplore.ieee.org/document/9875000/' target='_blank'>paper</a>] <br>
     <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
-    TCSI 2022  <br>
+    TCAS-I 2022  <br>
     
 </td>
 </tr>
@@ -2791,7 +2908,7 @@ Layout Verification
 <td>
     Scalable Machine Learning to Estimate the Impact of Aging on Circuits Under Workload Dependency [<a href='https://ieeexplore.ieee.org/document/9704874' target='_blank'>paper</a>] <br>
     <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
-    TCSI 2022  <br>
+    TCAS-I 2022  <br>
     
 </td>
 </tr>
@@ -2804,7 +2921,7 @@ Layout Verification
 <td>
     Machine Learning for On-the-Fly Reliability-Aware Cell Library Characterization [<a href='https://ieeexplore.ieee.org/document/9394564' target='_blank'>paper</a>] <br>
     <em>Florian&nbsp;Klemme and Hussam&nbsp;Amrouch</em><br>
-    TCSI 2021  <br>
+    TCAS-I 2021  <br>
     
 </td>
 </tr>
