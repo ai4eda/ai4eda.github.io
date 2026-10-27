@@ -3742,17 +3742,17 @@ Dataset and Tools
 </h2>
 
 <div id="dataset_and_tools" class="collapse-table collapse">
-<h3></h3>
+<h3>Dataset</h3>
 <table class="table table-hover">
 
-<tr id="tr-sharma2026evaluating" >
+<tr id="tr-jiang2023circuitnet" >
 <td align='right'>
 1.
 </td>
 <td>
-    Evaluating Agentic AI for Chip Design: Information Loss in Cost-Deadline Benchmarks [<a href='https://doi.org/10.5281/zenodo.23545974' target='_blank'>paper</a>]  [<a href='https://zenodo.org/records/23545974' target='_blank'>project</a>] <br>
-    <em>Amit&nbsp;Sharma</em><br>
-    Zenodo 2026  <br>
+    Invited Paper: Accelerating Routability and Timing Optimization with Open-Source AI4EDA Dataset CircuitNet and Heterogeneous Platforms [<a href='https://doi.org/10.1109/ICCAD57390.2023.10323938' target='_blank'>paper</a>] <br>
+    <em>Xun&nbsp;Jiang, Zizheng&nbsp;Guo, Zhuomin&nbsp;Chai, Yuxiang&nbsp;Zhao, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
+    ICCAD 2023  <br>
     
 </td>
 </tr>
@@ -3766,6 +3766,77 @@ Dataset and Tools
     CircuitNet: An Open-Source Dataset for Machine Learning Applications in Electronic Design Automation (EDA) [<a href='https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3571-8' target='_blank'>paper</a>]  [<a href='https://circuitnet.github.io/' target='_blank'>code</a>] <br>
     <em>Zhuomin&nbsp;Chai, Yuxiang&nbsp;Zhao, Yibo&nbsp;Lin, Wei&nbsp;Liu, Runsheng&nbsp;Wang, and Ru&nbsp;Huang</em><br>
     SCIENCE CHINA Information Sciences 2022  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>RTL Generation Benchmark</h3>
+<table class="table table-hover">
+
+<tr id="tr-lu2024rtllm" >
+<td align='right'>
+1.
+</td>
+<td>
+    RTLLM: An Open-Source Benchmark for Design RTL Generation with Large Language Model [<a href='https://doi.org/10.1109/ASP-DAC58780.2024.10473904' target='_blank'>paper</a>] <br>
+    <em>Yao&nbsp;Lu, Shang&nbsp;Liu, Qijun&nbsp;Zhang, and Zhiyao&nbsp;Xie</em><br>
+    ASP-DAC 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liu2024openllmrtl" >
+<td align='right'>
+2.
+</td>
+<td>
+    OpenLLM-RTL: Open Dataset and Benchmark for LLM-Aided Design RTL Generation [<a href='https://doi.org/10.1145/3676536.3697118' target='_blank'>paper</a>] <br>
+    <em>Shang&nbsp;Liu, Yao&nbsp;Lu, Wenji&nbsp;Fang, Mengming&nbsp;Li, and Zhiyao&nbsp;Xie</em><br>
+    ICCAD 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-allam2024rtlrepo" >
+<td align='right'>
+3.
+</td>
+<td>
+    RTL-Repo: A Benchmark for Evaluating LLMs on Large-Scale RTL Design Projects [<a href='https://doi.org/10.1109/LAD62341.2024.10691810' target='_blank'>paper</a>] <br>
+    <em>Ahmed&nbsp;Allam and Mohamed&nbsp;Shalan</em><br>
+    LAD 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liu2023verilogeval" >
+<td align='right'>
+4.
+</td>
+<td>
+    Invited Paper: VerilogEval: Evaluating Large Language Models for Verilog Code Generation [<a href='https://doi.org/10.1109/ICCAD57390.2023.10323812' target='_blank'>paper</a>] <br>
+    <em>Mingjie&nbsp;Liu, Nathaniel&nbsp;Pinckney, Brucek&nbsp;Khailany, and Haoxing&nbsp;Ren</em><br>
+    ICCAD 2023  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Benchmark Evaluation</h3>
+<table class="table table-hover">
+
+<tr id="tr-sharma2026evaluating" >
+<td align='right'>
+1.
+</td>
+<td>
+    Evaluating Agentic AI for Chip Design: Information Loss in Cost-Deadline Benchmarks [<a href='https://doi.org/10.5281/zenodo.23545974' target='_blank'>paper</a>]  [<a href='https://zenodo.org/records/23545974' target='_blank'>project</a>] <br>
+    <em>Amit&nbsp;Sharma</em><br>
+    Zenodo 2026  <br>
     
 </td>
 </tr>
