@@ -3186,26 +3186,26 @@ Analog Synthesis
 <h3>Analog Layout Placement</h3>
 <table class="table table-hover">
 
-<tr id="tr-ChangPXLLH023" >
+<tr id="tr-cai2025sacplace" >
 <td align='right'>
 1.
 </td>
 <td>
-    Fully Automated Machine Learning Model Development for Analog Placement Quality Prediction [<a href='https://doi.org/10.1145/3566097.3567881' target='_blank'>paper</a>] <br>
-    <em>Chen-Chia&nbsp;Chang, Jingyu&nbsp;Pan, Zhiyao&nbsp;Xie, Yaguang&nbsp;Li, Yishuang&nbsp;Lin, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
-    ASP-DAC 2023  <br>
+    SACPlace: Multi-Agent Deep Reinforcement Learning for Symmetry-Aware Analog Circuit Placement [<a href='https://doi.org/10.23919/DATE64628.2025.10992846' target='_blank'>paper</a>] <br>
+    <em>Lei&nbsp;Cai, Guojing&nbsp;Ge, Guibo&nbsp;Zhu, Jixin&nbsp;Zhang, Jinqiao&nbsp;Wang, Bowen&nbsp;Jia, and Ning&nbsp;Xu</em><br>
+    DATE 2025  <br>
     
 </td>
 </tr>
 
 
-<tr id="tr-BudakSSP23" >
+<tr id="tr-ChangPXLLH023" >
 <td align='right'>
 2.
 </td>
 <td>
-    APOSTLE: Asynchronously Parallel Optimization for Sizing Analog Transistors Using DNN Learning [<a href='https://doi.org/10.1145/3566097.3567880' target='_blank'>paper</a>] <br>
-    <em>Ahmet&nbsp;Faruk&nbsp;Budak, David&nbsp;Smart, Brian&nbsp;Swahn, and David&nbsp;Z.&nbsp;Pan</em><br>
+    Fully Automated Machine Learning Model Development for Analog Placement Quality Prediction [<a href='https://doi.org/10.1145/3566097.3567881' target='_blank'>paper</a>] <br>
+    <em>Chen-Chia&nbsp;Chang, Jingyu&nbsp;Pan, Zhiyao&nbsp;Xie, Yaguang&nbsp;Li, Yishuang&nbsp;Lin, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
     ASP-DAC 2023  <br>
     
 </td>
@@ -3225,9 +3225,35 @@ Analog Synthesis
 </tr>
 
 
-<tr id="tr-GaoDLZPL21" >
+<tr id="tr-MAGICAL_ICCAD22_Zhu" >
 <td align='right'>
 4.
+</td>
+<td>
+    TAG: Learning Circuit Spatial Embedding from Layouts [<a href='https://doi.org/10.1145/3508352.3549384' target='_blank'>paper</a>] <br>
+    <em>Keren&nbsp;Zhu, Hao&nbsp;Chen, Walker&nbsp;J.&nbsp;Turner, George&nbsp;F.&nbsp;Kokai, Po-Hsuan&nbsp;Wei, David&nbsp;Z.&nbsp;Pan, and Haoxing&nbsp;Ren</em><br>
+    ICCAD 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-lin2022analyticalplacement" >
+<td align='right'>
+5.
+</td>
+<td>
+    Are Analytical Techniques Worthwhile for Analog IC Placement? [<a href='https://ieeexplore.ieee.org/document/9774498' target='_blank'>paper</a>] <br>
+    <em>Yishuang&nbsp;Lin, Yaguang&nbsp;Li, Donghao&nbsp;Fang, Meghna&nbsp;Madhusudan, Sachin&nbsp;S.&nbsp;Sapatnekar, Ramesh&nbsp;Harjani, and Jiang&nbsp;Hu</em><br>
+    DATE 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-GaoDLZPL21" >
+<td align='right'>
+6.
 </td>
 <td>
     Layout Symmetry Annotation for Analog Circuits with Graph Neural Networks [<a href='https://doi.org/10.1145/3394885.3431545' target='_blank'>paper</a>] <br>
@@ -3238,14 +3264,121 @@ Analog Synthesis
 </tr>
 
 
+<tr id="tr-MAGICAL_DAC21_Chen" >
+<td align='right'>
+7.
+</td>
+<td>
+    Universal Symmetry Constraint Extraction for Analog and Mixed-Signal Circuits with Graph Neural Networks [<a href='https://ieeexplore.ieee.org/document/9586211' target='_blank'>paper</a>] <br>
+    <em>Hao&nbsp;Chen, Keren&nbsp;Zhu, Mingjie&nbsp;Liu, Xiyuan&nbsp;Tang, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
+    DAC 2021  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-MAGICAL_DATE20_Liu" >
+<td align='right'>
+8.
+</td>
+<td>
+    Towards Decrypting the Art of Analog Layout: Placement Quality Prediction via Transfer Learning [<a href='https://ieeexplore.ieee.org/document/9116330' target='_blank'>paper</a>] <br>
+    <em>Mingjie&nbsp;Liu, Keren&nbsp;Zhu, Jiaqi&nbsp;Gu, Linxiao&nbsp;Shen, Xiyuan&nbsp;Tang, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
+    DATE 2020  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-li2020customizedGNNPlacement" >
 <td align='right'>
-5.
+9.
 </td>
 <td>
     A Customized Graph Neural Network Model for Guiding Analog IC Placement [<a href='https://dl.acm.org/doi/10.1145/3400302.3415624' target='_blank'>paper</a>] <br>
     <em>Yaguang&nbsp;Li, Yishuang&nbsp;Lin, Meghna&nbsp;Madhusudan, Arvind&nbsp;Sharma, Wenbin&nbsp;Xu, Sachin&nbsp;S.&nbsp;Sapatnekar, Ramesh&nbsp;Harjani, and Jiang&nbsp;Hu</em><br>
     ICCAD 2020  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-MAGICAL_DAC19_Xu" >
+<td align='right'>
+10.
+</td>
+<td>
+    WellGAN: Generative-Adversarial-Network-Guided Well Generation for Analog/Mixed-Signal Circuit Layout [<a href='https://ieeexplore.ieee.org/document/8806799' target='_blank'>paper</a>] <br>
+    <em>Biying&nbsp;Xu, Yibo&nbsp;Lin, Xiyuan&nbsp;Tang, Shaolan&nbsp;Li, Linxiao&nbsp;Shen, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
+    DAC 2019  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Analog Circuit Sizing and Optimization</h3>
+<table class="table table-hover">
+
+<tr id="tr-paik2026hyperanalog" >
+<td align='right'>
+1.
+</td>
+<td>
+    HyperAnalog: Domain-Aware Hypergraph Transformer for Analog Circuit Representation Learning [<a href='https://doi.org/10.1145/3770743.3803977' target='_blank'>paper</a>] <br>
+    <em>Taejin&nbsp;Paik and Suwan&nbsp;Kim</em><br>
+    DAC 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-kim2025glova" >
+<td align='right'>
+2.
+</td>
+<td>
+    GLOVA: Global and Local Variation-Aware Analog Circuit Design with Risk-Sensitive Reinforcement Learning [<a href='https://doi.org/10.1109/DAC63849.2025.11132461' target='_blank'>paper</a>] <br>
+    <em>Dongjun&nbsp;Kim, Junwoo&nbsp;Park, Chaehyeon&nbsp;Shin, Jaeheon&nbsp;Jung, Kyungho&nbsp;Shin, Seungheon&nbsp;Baek, Sanghyuk&nbsp;Heo, Woongrae&nbsp;Kim, Inchul&nbsp;Jeong, Joohwan&nbsp;Cho, and Jongsun&nbsp;Park</em><br>
+    DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ahmadzadeh2024rollouts" >
+<td align='right'>
+3.
+</td>
+<td>
+    Using Probabilistic Model Rollouts to Boost the Sample Efficiency of Reinforcement Learning for Automated Analog Circuit Sizing [<a href='https://doi.org/10.1145/3649329.3657335' target='_blank'>paper</a>] <br>
+    <em>Mohsen&nbsp;Ahmadzadeh and Georges&nbsp;G.&nbsp;E.&nbsp;Gielen</em><br>
+    DAC 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-BudakSSP23" >
+<td align='right'>
+4.
+</td>
+<td>
+    APOSTLE: Asynchronously Parallel Optimization for Sizing Analog Transistors Using DNN Learning [<a href='https://doi.org/10.1145/3566097.3567880' target='_blank'>paper</a>] <br>
+    <em>Ahmet&nbsp;Faruk&nbsp;Budak, David&nbsp;Smart, Brian&nbsp;Swahn, and David&nbsp;Z.&nbsp;Pan</em><br>
+    ASP-DAC 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-gao2023rose" >
+<td align='right'>
+5.
+</td>
+<td>
+    RoSE: Robust Analog Circuit Parameter Optimization with Sampling-Efficient Reinforcement Learning [<a href='https://doi.org/10.1109/DAC56929.2023.10247991' target='_blank'>paper</a>] <br>
+    <em>Jian&nbsp;Gao, Weidong&nbsp;Cao, and Xuan&nbsp;Zhang</em><br>
+    DAC 2023  <br>
     
 </td>
 </tr>
@@ -3296,9 +3429,22 @@ Analog Synthesis
 </tr>
 
 
-<tr id="tr-DAC20_ClosingTheDesignLoop" >
+<tr id="tr-budak2023practical" >
 <td align='right'>
 2.
+</td>
+<td>
+    Practical Layout-Aware Analog/Mixed-Signal Design Automation with Bayesian Neural Networks [<a href='https://doi.org/10.1109/ICCAD57390.2023.10323923' target='_blank'>paper</a>] <br>
+    <em>Ahmet&nbsp;F.&nbsp;Budak, Keren&nbsp;Zhu, and David&nbsp;Z.&nbsp;Pan</em><br>
+    ICCAD 2023  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC20_ClosingTheDesignLoop" >
+<td align='right'>
+3.
 </td>
 <td>
     Closing the Design Loop: Bayesian Optimization Assisted Hierarchical Analog Layout Synthesis [<a href='https://dl.acm.org/doi/pdf/10.5555/3437539.3437770' target='_blank'>paper</a>]  [<a href='https://github.com/magical-eda/MAGICAL.git' target='_blank'>code</a>]  [<a href='https://pdfs.semanticscholar.org/e994/c108710d83541a08d21b4a34ca3dfe221c31.pdf' target='_blank'>slides</a>] <br>
@@ -3348,7 +3494,7 @@ Analog Synthesis
 <td>
     A Thermal Machine Learning Solver For Chip Simulation [<a href='https://doi.org/10.1145/3551901.3556484' target='_blank'>paper</a>] <br>
     <em>Rishikesh&nbsp;Ranade, Haiyang&nbsp;He, Jay&nbsp;Pathak, Norman&nbsp;Chang, Akhilesh&nbsp;Kumar, and Jimin&nbsp;Wen</em><br>
-    ML4CAD 2022  <br>
+    MLCAD 2022  <br>
     
 </td>
 </tr>
@@ -3396,82 +3542,43 @@ Analog Synthesis
 </tr>
 
 </table>
-<h3></h3>
+<h3>LLM for Analog Design</h3>
 <table class="table table-hover">
 
-<tr id="tr-lai2024analogcoder" >
+<tr id="tr-chang2026lamagic" >
 <td align='right'>
 1.
 </td>
 <td>
-    AnalogCoder: Analog Circuit Design via Training-Free Code Generation [<a href='https://arxiv.org/abs/2405.14918' target='_blank'>paper</a>] <br>
-    <em>Yao&nbsp;Lai, Sungyoung&nbsp;Lee, Guojin&nbsp;Chen, Souradip&nbsp;Poddar, Mengkang&nbsp;Hu, David&nbsp;Z&nbsp;Pan, and Ping&nbsp;Luo</em><br>
-    arXiv 2024  <br>
+    LaMAGIC: Advanced Circuit Formulations for Language-Model-based Topology Generation for Analog Integrated Circuits [<a href='https://doi.org/10.1145/3799428' target='_blank'>paper</a>] <br>
+    <em>Chen-Chia&nbsp;Chang, Wan-Hsuan&nbsp;Lin, Yikang&nbsp;Shen, Guanglei&nbsp;Zhou, Yiran&nbsp;Chen, and Xin&nbsp;Zhang</em><br>
+    TODAES 2026  <br>
     
 </td>
 </tr>
 
 
-<tr id="tr-MAGICAL_ICCAD22_Zhu" >
+<tr id="tr-chae2025generative" >
 <td align='right'>
 2.
 </td>
 <td>
-    TAG: Learning Circuit Spatial Embedding from Layouts [<a href='https://doi.org/10.1145/3508352.3549384' target='_blank'>paper</a>] <br>
-    <em>Keren&nbsp;Zhu, Hao&nbsp;Chen, Walker&nbsp;J.&nbsp;Turner, George&nbsp;F.&nbsp;Kokai, Po-Hsuan&nbsp;Wei, David&nbsp;Z.&nbsp;Pan, and Haoxing&nbsp;Ren</em><br>
-    ICCAD 2022  <br>
+    Invited Paper: Towards Generative AI for Analog and RF IC Design: From Spec to Layout [<a href='https://doi.org/10.1109/ICCAD66269.2025.11240831' target='_blank'>paper</a>] <br>
+    <em>Hyunsu&nbsp;Chae, Seunggeun&nbsp;Kim, Souradip&nbsp;Poddar, Xiaohan&nbsp;Gao, Sensen&nbsp;Li, and David&nbsp;Z.&nbsp;Pan</em><br>
+    ICCAD 2025  <br>
     
 </td>
 </tr>
 
 
-<tr id="tr-lin2022analyticalplacement" >
+<tr id="tr-lai2024analogcoder" >
 <td align='right'>
 3.
 </td>
 <td>
-    Are Analytical Techniques Worthwhile for Analog IC Placement? [<a href='https://ieeexplore.ieee.org/document/9774498' target='_blank'>paper</a>] <br>
-    <em>Yishuang&nbsp;Lin, Yaguang&nbsp;Li, Donghao&nbsp;Fang, Meghna&nbsp;Madhusudan, Sachin&nbsp;S.&nbsp;Sapatnekar, Ramesh&nbsp;Harjani, and Jiang&nbsp;Hu</em><br>
-    DATE 2022  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-MAGICAL_DAC21_Chen" >
-<td align='right'>
-4.
-</td>
-<td>
-    Universal Symmetry Constraint Extraction for Analog and Mixed-Signal Circuits with Graph Neural Networks [<a href='https://ieeexplore.ieee.org/document/9586211' target='_blank'>paper</a>] <br>
-    <em>Hao&nbsp;Chen, Keren&nbsp;Zhu, Mingjie&nbsp;Liu, Xiyuan&nbsp;Tang, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
-    DAC 2021  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-MAGICAL_DATE20_Liu" >
-<td align='right'>
-5.
-</td>
-<td>
-    Towards Decrypting the Art of Analog Layout: Placement Quality Prediction via Transfer Learning [<a href='https://ieeexplore.ieee.org/document/9116330' target='_blank'>paper</a>] <br>
-    <em>Mingjie&nbsp;Liu, Keren&nbsp;Zhu, Jiaqi&nbsp;Gu, Linxiao&nbsp;Shen, Xiyuan&nbsp;Tang, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
-    DATE 2020  <br>
-    
-</td>
-</tr>
-
-
-<tr id="tr-MAGICAL_DAC19_Xu" >
-<td align='right'>
-6.
-</td>
-<td>
-    WellGAN: Generative-Adversarial-Network-Guided Well Generation for Analog/Mixed-Signal Circuit Layout [<a href='https://ieeexplore.ieee.org/document/8806799' target='_blank'>paper</a>] <br>
-    <em>Biying&nbsp;Xu, Yibo&nbsp;Lin, Xiyuan&nbsp;Tang, Shaolan&nbsp;Li, Linxiao&nbsp;Shen, Nan&nbsp;Sun, and David&nbsp;Z.&nbsp;Pan</em><br>
-    DAC 2019  <br>
+    AnalogCoder: Analog Circuit Design via Training-Free Code Generation [<a href='https://doi.org/10.1609/aaai.v39i1.32016' target='_blank'>paper</a>] <br>
+    <em>Yao&nbsp;Lai, Sungyoung&nbsp;Lee, Guojin&nbsp;Chen, Souradip&nbsp;Poddar, Mengkang&nbsp;Hu, David&nbsp;Z.&nbsp;Pan, and Ping&nbsp;Luo</em><br>
+    AAAI 2025  <br>
     
 </td>
 </tr>
