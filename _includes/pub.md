@@ -225,6 +225,90 @@ Logic Synthesis
 </tr>
 
 </table>
+<h3>Generative Logic Optimization</h3>
+<table class="table table-hover">
+
+<tr id="tr-walter2026aig2pt" >
+<td align='right'>
+1.
+</td>
+<td>
+    AIG2PT: A Generative Pre-trained Transformer for Unconditional And-Inverter Graph Synthesis [<a href='https://marcelwa.github.io/publication/2026_012' target='_blank'>paper</a>] <br>
+    <em>Marcel&nbsp;Walter</em><br>
+    IWLS 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ouyang2025efficient" >
+<td align='right'>
+2.
+</td>
+<td>
+    Efficient Continuous Logic Optimization with Diffusion Model [<a href='https://doi.org/10.1109/DAC63849.2025.11133282' target='_blank'>paper</a>]  [<a href='https://github.com/YiKangOY/Continuous-Logic-Optimization' target='_blank'>code</a>] <br>
+    <em>Yikang&nbsp;Ouyang, Xiaofei&nbsp;Yu, Jiadong&nbsp;Zhu, Tinghuan&nbsp;Chen, and Yuzhe&nbsp;Ma</em><br>
+    DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ICLR25_circuit_transformer" >
+<td align='right'>
+3.
+</td>
+<td>
+    Circuit Transformer: A Transformer That Preserves Logical Equivalence [<a href='https://openreview.net/forum?id=kpnW12Lm9p' target='_blank'>paper</a>]  [<a href='https://github.com/snowkylin/circuit-transformer' target='_blank'>code</a>] <br>
+    <em>Xihan&nbsp;Li, Xing&nbsp;Li, Lei&nbsp;Chen, Xing&nbsp;Zhang, Mingxuan&nbsp;Yuan, and Jun&nbsp;Wang</em><br>
+    ICLR 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-IWLS24_ctrw" >
+<td align='right'>
+4.
+</td>
+<td>
+    Logic Synthesis with Generative Deep Neural Networks [<a href='https://arxiv.org/pdf/2406.04699' target='_blank'>paper</a>] <br>
+    <em>Xihan&nbsp;Li, Xing&nbsp;Li, Lei&nbsp;Chen, Xing&nbsp;Zhang, Mingxuan&nbsp;Yuan, and Jun&nbsp;Wang</em><br>
+    IWLS 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-vijayaraghavan2024circuitsynth" >
+<td align='right'>
+5.
+</td>
+<td>
+    CircuitSynth: Leveraging Large Language Models for Circuit Topology Synthesis [<a href='https://doi.org/10.1109/LAD62341.2024.10691716' target='_blank'>paper</a>] <br>
+    <em>Prashanth&nbsp;Vijayaraghavan, Luyao&nbsp;Shi, Ehsan&nbsp;Degan, and Xin&nbsp;Zhang</em><br>
+    LAD 2024  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>AIG Rewriting</h3>
+<table class="table table-hover">
+
+<tr id="tr-zheng2025irw" >
+<td align='right'>
+1.
+</td>
+<td>
+    iRw: An Intelligent Rewriting [<a href='https://doi.org/10.23919/DATE64628.2025.10993244' target='_blank'>paper</a>] <br>
+    <em>Haisheng&nbsp;Zheng, Haoyuan&nbsp;Wu, Zhuolun&nbsp;He, Yuzhe&nbsp;Ma, and Bei&nbsp;Yu</em><br>
+    DATE 2025  <br>
+    
+</td>
+</tr>
+
+</table>
 <h3>Approximate Logic Synthesis</h3>
 <table class="table table-hover">
 
@@ -257,9 +341,22 @@ Logic Synthesis
 <h3>Operator Sequence Scheduling</h3>
 <table class="table table-hover">
 
-<tr id="tr-TODAES25_CBEVO" >
+<tr id="tr-liu2026synact" >
 <td align='right'>
 1.
+</td>
+<td>
+    SynAct: A Reasoning-Acting Large Language Model Agent for Adaptive Synthesis Optimization [<a href='https://arxiv.org/abs/2608.12751' target='_blank'>paper</a>] <br>
+    <em>Fangzhou&nbsp;Liu, Peiyi&nbsp;Han, Jiawei&nbsp;Liu, Yuan&nbsp;Pu, Zhuolun&nbsp;He, Rongliang&nbsp;Fu, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    arXiv 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-TODAES25_CBEVO" >
+<td align='right'>
+2.
 </td>
 <td>
     CB-EVO: Contextual Bandit Tuning with Evolutionary Search for Logic Synthesis [<a href='https://doi.org/10.1145/3779431' target='_blank'>paper</a>] <br>
@@ -272,7 +369,7 @@ Logic Synthesis
 
 <tr id="tr-ASPDAC25_PIRLLS" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     PIRLLS: Pretraining with Imitation and RL Finetuning for Logic Synthesis [<a href='https://doi.org/10.1145/3658617.3697786' target='_blank'>paper</a>] <br>
@@ -285,7 +382,7 @@ Logic Synthesis
 
 <tr id="tr-DATE24_CBTune" >
 <td align='right'>
-3.
+4.
 </td>
 <td>
     CBTune: Contextual Bandit Tuning for Logic Synthesis [<a href='https://doi.org/10.23919/DATE58400.2024.10546766' target='_blank'>paper</a>] <br>
@@ -298,7 +395,7 @@ Logic Synthesis
 
 <tr id="tr-HLS-ICCAD23-Pei" >
 <td align='right'>
-4.
+5.
 </td>
 <td>
     AlphaSyn: Logic Synthesis Optimization with Efficient Monte Carlo Tree Search [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C184-ICCAD2023-AlphaSyn.pdf' target='_blank'>paper</a>] <br>
@@ -311,7 +408,7 @@ Logic Synthesis
 
 <tr id="tr-DBLP:conf/iccad/FengLCYYH22" >
 <td align='right'>
-5.
+6.
 </td>
 <td>
     Batch Sequential Black-Box Optimization with Embedding Alignment Cells for Logic Synthesis [<a href='https://doi.org/10.1145/3508352.3549363' target='_blank'>paper</a>] <br>
@@ -324,7 +421,7 @@ Logic Synthesis
 
 <tr id="tr-ICCAD20_flowtune" >
 <td align='right'>
-6.
+7.
 </td>
 <td>
     Practical Multi-armed Bandits in Boolean Optimization [<a href='https://doi.org/10.1145/3400302.3415615' target='_blank'>paper</a>]  [<a href='https://github.com/Yu-Utah/FlowTune' target='_blank'>code</a>]  [<a href='https://www.youtube.com/watch?v=EPcn5ttp1TM&t=360s' target='_blank'>talk</a>] <br>
@@ -337,7 +434,7 @@ Logic Synthesis
 
 <tr id="tr-ASPDAC20_drills" >
 <td align='right'>
-7.
+8.
 </td>
 <td>
     DRiLLS: Deep Reinforcement Learning for Logic Synthesis [<a href='https://ieeexplore.ieee.org/abstract/document/9045559' target='_blank'>paper</a>]  [<a href='https://github.com/scale-lab/DRiLLS' target='_blank'>code</a>] <br>
@@ -350,7 +447,7 @@ Logic Synthesis
 
 <tr id="tr-LS_MLCAD20_Zhu" >
 <td align='right'>
-8.
+9.
 </td>
 <td>
     Exploring Logic Optimizations with Reinforcement Learning and Graph Convolutional Network [<a href='https://ieeexplore.ieee.org/document/9394650' target='_blank'>paper</a>] <br>
@@ -363,7 +460,7 @@ Logic Synthesis
 
 <tr id="tr-DAC18_angel" >
 <td align='right'>
-9.
+10.
 </td>
 <td>
     Developing synthesis flows without human knowledge [<a href='https://doi.org/10.1145/3195970.3196026' target='_blank'>paper</a>]  [<a href='https://github.com/ycunxi/FLowGen-CNNs-DAC18' target='_blank'>code</a>]  [<a href='https://ycunxi.github.io/cunxiyu/slides/dac18.pdf' target='_blank'>slides</a>] <br>
@@ -461,9 +558,22 @@ Logic Synthesis
 <h3>Representation Learning for Logic Circuits</h3>
 <table class="table table-hover">
 
-<tr id="tr-liu2024polargate" >
+<tr id="tr-fang2025geneda" >
 <td align='right'>
 1.
+</td>
+<td>
+    GenEDA: Towards Generative Netlist Functional Reasoning via Cross-Modal Circuit Encoder-Decoder Alignment [<a href='https://doi.org/10.1109/ICCAD66269.2025.11240762' target='_blank'>paper</a>] <br>
+    <em>Wenji&nbsp;Fang, Jing&nbsp;Wang, Yao&nbsp;Lu, Shang&nbsp;Liu, and Zhiyao&nbsp;Xie</em><br>
+    ICCAD 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liu2024polargate" >
+<td align='right'>
+2.
 </td>
 <td>
     Polargate: Breaking the functionality representation bottleneck of and-inverter graph neural network [<a href='https://doi.org/10.1145/3676536.3676834' target='_blank'>paper</a>] <br>
@@ -477,9 +587,22 @@ Logic Synthesis
 <h3>Arithmetic Architecture Selection</h3>
 <table class="table table-hover">
 
-<tr id="tr-10.1145/3560712" >
+<tr id="tr-xiao2024prefixllm" >
 <td align='right'>
 1.
+</td>
+<td>
+    PrefixLLM: LLM-aided Prefix Circuit Design [<a href='https://arxiv.org/abs/2412.02594' target='_blank'>paper</a>] <br>
+    <em>Weihua&nbsp;Xiao, Venkata&nbsp;Sai&nbsp;Charan&nbsp;Putrevu, Raghu&nbsp;Vamshi&nbsp;Hemadri, Siddharth&nbsp;Garg, and Ramesh&nbsp;Karri</em><br>
+    arXiv 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-10.1145/3560712" >
+<td align='right'>
+2.
 </td>
 <td>
     Machine-Learning-Driven Architectural Selection of Adders and Multipliers in Logic Synthesis [<a href='https://doi.org/10.1145/3560712' target='_blank'>paper</a>] <br>
@@ -1501,9 +1624,22 @@ Timing
 <h3></h3>
 <table class="table table-hover">
 
-<tr id="tr-DAC23_gnnOpt" >
+<tr id="tr-sharma2026ai" >
 <td align='right'>
 1.
+</td>
+<td>
+    AI-Driven, Timing-Aware Power Optimization [<a href='https://arxiv.org/abs/2610.18890' target='_blank'>paper</a>] <br>
+    <em>Amit&nbsp;Sharma</em><br>
+    arXiv 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC23_gnnOpt" >
+<td align='right'>
+2.
 </td>
 <td>
     Restructure-Tolerant Timing Prediction via Multimodal Fusion [<a href='http://www.cse.cuhk.edu.hk/~byu/papers/C167-DAC2023-PathPred.pdf' target='_blank'>paper</a>] <br>
@@ -1516,7 +1652,7 @@ Timing
 
 <tr id="tr-ye2023graph" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     Graph-Learning-Driven Path-Based Timing Analysis Results Predictor from Graph-Based Timing Analysis [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C152-ASPDAC2023-GPBA.pdf' target='_blank'>paper</a>] <br>
@@ -1529,7 +1665,7 @@ Timing
 
 <tr id="tr-ye2023fast" >
 <td align='right'>
-3.
+4.
 </td>
 <td>
     Fast and Accurate Wire Timing Estimation Based on Graph Learning [<a href='http://www.cse.cuhk.edu.hk/~byu/papers/C159-DATE2023-NetTiming.pdf' target='_blank'>paper</a>] <br>
@@ -1542,7 +1678,7 @@ Timing
 
 <tr id="tr-9648307" >
 <td align='right'>
-4.
+5.
 </td>
 <td>
     Estimating Code Vulnerability to Timing Errors Via Microarchitecture-Aware Machine Learning [<a href='https://ieeexplore.ieee.org/abstract/document/9648307' target='_blank'>paper</a>] <br>
@@ -1555,7 +1691,7 @@ Timing
 
 <tr id="tr-Ismail_FPGA_delay" >
 <td align='right'>
-5.
+6.
 </td>
 <td>
     Machine-Learning Based Delay Prediction for FPGA Technology Mapping [<a href='https://doi.org/10.1145/3557988.3569713' target='_blank'>paper</a>] <br>
@@ -1568,7 +1704,7 @@ Timing
 
 <tr id="tr-DAC22_gnnSTA" >
 <td align='right'>
-6.
+7.
 </td>
 <td>
     A timing engine inspired graph neural network model for pre-routing slack prediction [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530597' target='_blank'>paper</a>] <br>
@@ -1581,7 +1717,7 @@ Timing
 
 <tr id="tr-9419866" >
 <td align='right'>
-7.
+8.
 </td>
 <td>
     DEVoT: Dynamic Delay Modeling of Functional Units Under Voltage and Temperature Variations [<a href='https://ieeexplore.ieee.org/abstract/document/9419866' target='_blank'>paper</a>] <br>
@@ -1594,7 +1730,7 @@ Timing
 
 <tr id="tr-10.1145/3526241.3530343" >
 <td align='right'>
-8.
+9.
 </td>
 <td>
     Leveraging Machine Learning for Gate-Level Timing Estimation Using Current Source Models and Effective Capacitance [<a href='https://dl.acm.org/doi/abs/10.1145/3526241.3530343' target='_blank'>paper</a>] <br>
@@ -1607,7 +1743,7 @@ Timing
 
 <tr id="tr-9832695" >
 <td align='right'>
-9.
+10.
 </td>
 <td>
     ARETE: Accurate Error Assessment via Machine Learning-Guided Dynamic-Timing Analysis [<a href='https://ieeexplore.ieee.org/document/9832695/' target='_blank'>paper</a>] <br>
@@ -1620,7 +1756,7 @@ Timing
 
 <tr id="tr-Ren_DAC22_Gatesizign" >
 <td align='right'>
-10.
+11.
 </td>
 <td>
     Generative Self-Supervised Learning for Gate Sizing: Invited [<a href='https://doi.org/10.1145/3489517.3530645' target='_blank'>paper</a>] <br>
@@ -1633,7 +1769,7 @@ Timing
 
 <tr id="tr-xie_net2_2020" >
 <td align='right'>
-11.
+12.
 </td>
 <td>
     Net2: A Graph Attention Network Method Customized for Pre-Placement Net Length Estimation [<a href='http://arxiv.org/abs/2011.13522' target='_blank'>paper</a>] <br>
@@ -1646,7 +1782,7 @@ Timing
 
 <tr id="tr-liang_routing-free_2020" >
 <td align='right'>
-12.
+13.
 </td>
 <td>
     Routing-free crosstalk prediction [<a href='https://dl.acm.org/doi/10.1145/3400302.3415712' target='_blank'>paper</a>] <br>
@@ -1659,7 +1795,7 @@ Timing
 
 <tr id="tr-cheng_fast_2020" >
 <td align='right'>
-13.
+14.
 </td>
 <td>
     Fast and Accurate Wire Timing Estimation on Tree and Non-Tree Net Structures [<a href='https://ieeexplore.ieee.org/document/9218712/' target='_blank'>paper</a>] <br>
@@ -1672,7 +1808,7 @@ Timing
 
 <tr id="tr-GNN_HLS_timing" >
 <td align='right'>
-14.
+15.
 </td>
 <td>
     Accurate Operation Delay Prediction for FPGA HLS Using Graph Neural Networks [<a href='https://www.csl.cornell.edu/~zhiruz/pdfs/dsp-gnn-iccad2020.pdf' target='_blank'>paper</a>] <br>
@@ -1685,7 +1821,7 @@ Timing
 
 <tr id="tr-9218588" >
 <td align='right'>
-15.
+16.
 </td>
 <td>
     TEVoT: Timing Error Modeling of Functional Units under Dynamic Voltage and Temperature Variations [<a href='https://ieeexplore.ieee.org/document/9218588' target='_blank'>paper</a>] <br>
@@ -1698,7 +1834,7 @@ Timing
 
 <tr id="tr-9116363" >
 <td align='right'>
-16.
+17.
 </td>
 <td>
     DEFCON: Generating and Detecting Failure-prone Instruction Sequences via Stochastic Search [<a href='https://ieeexplore.ieee.org/document/9116363' target='_blank'>paper</a>] <br>
@@ -1711,7 +1847,7 @@ Timing
 
 <tr id="tr-barboza_machine_2019" >
 <td align='right'>
-17.
+18.
 </td>
 <td>
     Machine Learning-Based Pre-Routing Timing Prediction with Reduced Pessimism [<a href='https://dl.acm.org/doi/10.1145/3316781.3317857' target='_blank'>paper</a>] <br>
@@ -1724,7 +1860,7 @@ Timing
 
 <tr id="tr-hyun_accurate_2019" >
 <td align='right'>
-18.
+19.
 </td>
 <td>
     Accurate Wirelength Prediction for Placement-Aware Synthesis through Machine Learning [<a href='https://ieeexplore.ieee.org/document/8715016/' target='_blank'>paper</a>] <br>
@@ -1737,7 +1873,7 @@ Timing
 
 <tr id="tr-kahng_using_2018" >
 <td align='right'>
-19.
+20.
 </td>
 <td>
     Using Machine Learning to Predict Path-Based Slack from Graph-Based Timing Analysis [<a href='https://ieeexplore.ieee.org/document/8615746/' target='_blank'>paper</a>] <br>
@@ -1750,7 +1886,7 @@ Timing
 
 <tr id="tr-CLIM" >
 <td align='right'>
-20.
+21.
 </td>
 <td>
     CLIM: A Cross-Level Workload-Aware Timing Error Prediction Model for Functional Units [<a href='https://ieeexplore.ieee.org/document/8207606' target='_blank'>paper</a>] <br>
@@ -1763,7 +1899,7 @@ Timing
 
 <tr id="tr-kahng_si_2015" >
 <td align='right'>
-21.
+22.
 </td>
 <td>
     SI for free: machine learning of interconnect coupling delay and transition effects [<a href='http://ieeexplore.ieee.org/document/7171706/' target='_blank'>paper</a>] <br>
@@ -1776,7 +1912,7 @@ Timing
 
 <tr id="tr-han_deep_nodate" >
 <td align='right'>
-22.
+23.
 </td>
 <td>
     A Deep Learning Methodology to Proliferate Golden Signoff Timing [<a href='https://ieeexplore.ieee.org/document/6800474' target='_blank'>paper</a>] <br>
@@ -1789,7 +1925,7 @@ Timing
 
 <tr id="tr-kahng_learning-based_2013" >
 <td align='right'>
-23.
+24.
 </td>
 <td>
     Learning-based approximation of interconnect delay and slew in signoff timing tools [<a href='http://ieeexplore.ieee.org/document/6681682/' target='_blank'>paper</a>] <br>
@@ -2722,9 +2858,22 @@ Dataset and Tools
 <h3></h3>
 <table class="table table-hover">
 
-<tr id="tr-chai2022circuitnet" >
+<tr id="tr-sharma2026evaluating" >
 <td align='right'>
 1.
+</td>
+<td>
+    Evaluating Agentic AI for Chip Design: Information Loss in Cost-Deadline Benchmarks [<a href='https://doi.org/10.5281/zenodo.23545974' target='_blank'>paper</a>]  [<a href='https://zenodo.org/records/23545974' target='_blank'>project</a>] <br>
+    <em>Amit&nbsp;Sharma</em><br>
+    Zenodo 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chai2022circuitnet" >
+<td align='right'>
+2.
 </td>
 <td>
     CircuitNet: An Open-Source Dataset for Machine Learning Applications in Electronic Design Automation (EDA) [<a href='https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3571-8' target='_blank'>paper</a>]  [<a href='https://circuitnet.github.io/' target='_blank'>code</a>] <br>
