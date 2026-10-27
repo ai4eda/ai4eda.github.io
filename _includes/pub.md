@@ -7,15 +7,15 @@ Click on section title to see details.
 <br>
 
 <h2>
-<a data-toggle="collapse" href="#high_level_synthesis" aria-expanded="false" aria-controls="#high_level_synthesis">
+<a data-toggle="collapse" href="#high_level_synthesis_system_and_architecture" aria-expanded="false" aria-controls="#high_level_synthesis_system_and_architecture">
 <i class="fa fa-chevron-right"></i>
 <i class="fa fa-chevron-down"></i>
-High Level Synthesis
+High Level Synthesis, System, and Architecture
 </a>
 </h2>
 
-<div id="high_level_synthesis" class="collapse-table collapse">
-<h3>QoR Prediction for DSE</h3>
+<div id="high_level_synthesis_system_and_architecture" class="collapse-table collapse">
+<h3>QoR Prediction and DSE for HLS</h3>
 <table class="table table-hover">
 
 <tr id="tr-zheng2026enhancing" >
@@ -151,33 +151,98 @@ High Level Synthesis
 </tr>
 
 </table>
-<h3>Placement and Routing</h3>
+<h3>Design Space Exploration</h3>
 <table class="table table-hover">
 
-<tr id="tr-8714724" >
+<tr id="tr-xu2025rankdse" >
 <td align='right'>
 1.
 </td>
 <td>
-    Machine Learning Based Routing Congestion Prediction in FPGA High-Level Synthesis [<a href='https://arxiv.org/abs/1905.03852' target='_blank'>paper</a>] <br>
-    <em>Jieru&nbsp;Zhao, Tingyuan&nbsp;Liang, Sharad&nbsp;Sinha, and Wei&nbsp;Zhang</em><br>
-    DATE 2019  <br>
+    Rank-DSE: Neural Pareto Comparator of Microarchitecture Design Space Exploration [<a href='https://doi.org/10.1145/3747294' target='_blank'>paper</a>] <br>
+    <em>Peng&nbsp;Xu, Su&nbsp;Zheng, Mingzi&nbsp;Wang, Ziyang&nbsp;Yu, Shixin&nbsp;Chen, Tinghuan&nbsp;Chen, Keren&nbsp;Zhu, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    TODAES 2025  <br>
     
 </td>
 </tr>
 
-</table>
-<h3>Design Space Exploration (DSE)</h3>
-<table class="table table-hover">
+
+<tr id="tr-luo2025llmaugmented" >
+<td align='right'>
+2.
+</td>
+<td>
+    LLM-Augmented Multi-Modal Fusion for SoC Design Space Exploration [<a href='https://doi.org/10.1109/ICCAD66269.2025.11240720' target='_blank'>paper</a>] <br>
+    <em>Donger&nbsp;Luo, Tianyi&nbsp;Li, Xinheng&nbsp;Li, Qi&nbsp;Sun, Cheng&nbsp;Zhuo, Bei&nbsp;Yu, Jingyi&nbsp;Yu, and Hao&nbsp;Geng</em><br>
+    ICCAD 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-cheng2025efficient" >
+<td align='right'>
+3.
+</td>
+<td>
+    Efficient Design Space Exploration for the BOOM Using SAC-Based Reinforcement Learning [<a href='https://doi.org/10.1109/TVLSI.2025.3572799' target='_blank'>paper</a>] <br>
+    <em>Mingjun&nbsp;Cheng, Shihan&nbsp;Zhang, Xin&nbsp;Zheng, Xian&nbsp;Lin, Huaien&nbsp;Gao, Shuting&nbsp;Cai, Xiaoming&nbsp;Xiong, and Bei&nbsp;Yu</em><br>
+    TVLSI 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-RISC-ICCAD2021-BOOM-Explorer" >
+<td align='right'>
+4.
+</td>
+<td>
+    BOOM-Explorer: RISC-V BOOM Microarchitecture Design Space Exploration Framework [<a href='https://doi.org/10.1109/ICCAD51958.2021.9643455' target='_blank'>paper</a>] <br>
+    <em>Chen&nbsp;Bai, Qi&nbsp;Sun, Jianwang&nbsp;Zhai, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;DF&nbsp;Wong</em><br>
+    ICCAD 2021  <br>
+    
+</td>
+</tr>
+
 
 <tr id="tr-10.1145/3020078.3021747" >
 <td align='right'>
-1.
+5.
 </td>
 <td>
     A Parallel Bandit-Based Approach for Autotuning FPGA Compilation [<a href='https://doi.org/10.1145/3020078.3021747' target='_blank'>paper</a>] <br>
     <em>Chang&nbsp;Xu, Gai&nbsp;Liu, Ritchie&nbsp;Zhao, Stephen&nbsp;Yang, Guojie&nbsp;Luo, and Zhiru&nbsp;Zhang</em><br>
     FPGA 2017  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Power Modeling</h3>
+<table class="table table-hover">
+
+<tr id="tr-zhai2024machine" >
+<td align='right'>
+1.
+</td>
+<td>
+    Machine Learning for Microarchitecture Power Modeling and Design Space Exploration: A Survey [<a href='https://crad.ict.ac.cn/en/article/doi/10.7544/issn1000-1239.202440074' target='_blank'>paper</a>] <br>
+    <em>Jianwang&nbsp;Zhai, Zichao&nbsp;Ling, Chen&nbsp;Bai, Kang&nbsp;Zhao, and Bei&nbsp;Yu</em><br>
+    J-CRAD 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-APOLLO" >
+<td align='right'>
+2.
+</td>
+<td>
+    APOLLO: An Automated Power Modeling Framework for Runtime Power Introspection in High-Volume Commercial Microprocessors [<a href='https://doi.org/10.1145/3466752.3480064' target='_blank'>paper</a>] <br>
+    <em>Zhiyao&nbsp;Xie, Xiaoqing&nbsp;Xu, Matt&nbsp;Walker, Joshua&nbsp;Knebel, Kumaraguru&nbsp;Palaniswamy, Nicolas&nbsp;Hebert, Jiang&nbsp;Hu, Huanrui&nbsp;Yang, Yiran&nbsp;Chen, and Shidhartha&nbsp;Das</em><br>
+    MICRO 2021  <br>
     
 </td>
 </tr>
@@ -212,9 +277,22 @@ Logic Synthesis
 </tr>
 
 
-<tr id="tr-ISPD25_HeLO" >
+<tr id="tr-fu2026dclog" >
 <td align='right'>
 2.
+</td>
+<td>
+    DCLOG: Don't Cares-based Logic Optimization using Pre-training Graph Neural Networks [<a href='https://doi.org/10.1109/ASP-DAC66049.2026.11420303' target='_blank'>paper</a>] <br>
+    <em>Rongliang&nbsp;Fu, Libo&nbsp;Shen, Ziyi&nbsp;Wang, Zhengxing&nbsp;Lei, Zixiao&nbsp;Wang, Junying&nbsp;Huang, Bei&nbsp;Yu, and Tsung-Yi&nbsp;Ho</em><br>
+    ASP-DAC 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ISPD25_HeLO" >
+<td align='right'>
+3.
 </td>
 <td>
     HeLO: A Heterogeneous Logic Optimization Framework by Hierarchical Clustering and Graph Learning [<a href='https://doi.org/10.1145/3698364.3705354' target='_blank'>paper</a>] <br>
@@ -333,6 +411,19 @@ Logic Synthesis
     Timing-driven Approximate Logic Synthesis Based on Double-chase Grey Wolf Optimizer [<a href='https://doi.org/10.23919/DATE64628.2025.10992793' target='_blank'>paper</a>] <br>
     <em>Xiangfei&nbsp;Hu, Yuyang&nbsp;Ye, Tinghuan&nbsp;Chen, Hao&nbsp;Yan, and Bei&nbsp;Yu</em><br>
     DATE 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ye2024timingdriven" >
+<td align='right'>
+3.
+</td>
+<td>
+    Timing-driven Technology Mapping Approximation Based on Reinforcement Learning [<a href='https://doi.org/10.1109/TCAD.2024.3379016' target='_blank'>paper</a>] <br>
+    <em>Yuyang&nbsp;Ye, Tinghuan&nbsp;Chen, Yifei&nbsp;Gao, Hao&nbsp;Yan, Bei&nbsp;Yu, and Longxing&nbsp;Shi</em><br>
+    TCAD 2024  <br>
     
 </td>
 </tr>
@@ -571,9 +662,61 @@ Logic Synthesis
 </tr>
 
 
-<tr id="tr-liu2024polargate" >
+<tr id="tr-wang2025fgnn" >
 <td align='right'>
 2.
+</td>
+<td>
+    FGNN2: A Powerful Pretraining Framework for Learning the Logic Functionality of Circuits [<a href='https://doi.org/10.1109/TCAD.2024.3434464' target='_blank'>paper</a>] <br>
+    <em>Ziyi&nbsp;Wang, Chen&nbsp;Bai, Zhuolun&nbsp;He, Guangliang&nbsp;Zhang, Qiang&nbsp;Xu, Tsung-Yi&nbsp;Ho, Yu&nbsp;Huang, and Bei&nbsp;Yu</em><br>
+    TCAD 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liu2025widegate" >
+<td align='right'>
+3.
+</td>
+<td>
+    WideGate: Beyond Directed Acyclic Graph Learning in Subcircuit Boundary Prediction [<a href='https://doi.org/10.23919/DATE64628.2025.10992972' target='_blank'>paper</a>] <br>
+    <em>Jiawei&nbsp;Liu, Zhiyan&nbsp;Liu, Xun&nbsp;He, Jianwang&nbsp;Zhai, Zhengyuan&nbsp;Shi, Qiang&nbsp;Xu, Bei&nbsp;Yu, and Chuan&nbsp;Shi</em><br>
+    DATE 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wang2025moss" >
+<td align='right'>
+4.
+</td>
+<td>
+    MOSS: Multi-Modal Representation Learning on Sequential Circuits [<a href='https://doi.org/10.1109/DAC63849.2025.11132437' target='_blank'>paper</a>] <br>
+    <em>Mingjun&nbsp;Wang, Bin&nbsp;Sun, Jianan&nbsp;Mu, Feng&nbsp;Gu, Boyu&nbsp;Han, Tianmeng&nbsp;Yang, Xinyu&nbsp;Zhang, Silin&nbsp;Liu, Yihan&nbsp;Wen, Hui&nbsp;Wang, Jun&nbsp;Gao, Zhiteng&nbsp;Chao, Husheng&nbsp;Han, Zizhen&nbsp;Liu, Shengwen&nbsp;Liang, Jing&nbsp;Ye, Bei&nbsp;Yu, Xiaowei&nbsp;Li, and Huawei&nbsp;Li</em><br>
+    DAC 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wu2025circuit" >
+<td align='right'>
+5.
+</td>
+<td>
+    Circuit Representation Learning with Masked Gate Modeling and Verilog-AIG Alignment [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C261-ICLR2025-MGVGA.pdf' target='_blank'>paper</a>] <br>
+    <em>Haoyuan&nbsp;Wu, Haisheng&nbsp;Zheng, Yuan&nbsp;Pu, and Bei&nbsp;Yu</em><br>
+    ICLR 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liu2024polargate" >
+<td align='right'>
+6.
 </td>
 <td>
     Polargate: Breaking the functionality representation bottleneck of and-inverter graph neural network [<a href='https://doi.org/10.1145/3676536.3676834' target='_blank'>paper</a>] <br>
@@ -697,9 +840,35 @@ Circuit Verification
 </tr>
 
 
-<tr id="tr-wu2024survey" >
+<tr id="tr-he2025large" >
 <td align='right'>
 2.
+</td>
+<td>
+    Large Language Models for EDA: Future or Mirage? [<a href='https://doi.org/10.1145/3736167' target='_blank'>paper</a>] <br>
+    <em>Zhuolun&nbsp;He, Yuan&nbsp;Pu, Haoyuan&nbsp;Wu, Tairu&nbsp;Qiu, and Bei&nbsp;Yu</em><br>
+    TODAES 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-he2025largeb" >
+<td align='right'>
+3.
+</td>
+<td>
+    Large Language Models for EDA: From Assistants to Agents [<a href='https://doi.org/10.1561/1000000063-2' target='_blank'>paper</a>] <br>
+    <em>Zhuolun&nbsp;He, Yuan&nbsp;Pu, Haoyuan&nbsp;Wu, Yuhan&nbsp;Qin, Tairu&nbsp;Qiu, and Bei&nbsp;Yu</em><br>
+    FnT EDA 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wu2024survey" >
+<td align='right'>
+4.
 </td>
 <td>
     Survey of machine learning for software-assisted hardware design verification: Past, present, and prospect [<a href='https://dl.acm.org/doi/full/10.1145/3661308' target='_blank'>paper</a>] <br>
@@ -1011,6 +1180,126 @@ Circuit Verification
 </tr>
 
 </table>
+<h3>LLM for EDA</h3>
+<table class="table table-hover">
+
+<tr id="tr-ren2027agenticpd" >
+<td align='right'>
+1.
+</td>
+<td>
+    AgenticPD: A Stage-Aware Agentic Framework for Closed-Loop Physical Design Optimization <br>
+    <em>Shuo&nbsp;Ren, Zijin&nbsp;Cheng, Yaohui&nbsp;Han, Libo&nbsp;Shen, Leilei&nbsp;Jin, Wanting&nbsp;Tian, Rongliang&nbsp;Fu, Chao&nbsp;Wang, Bei&nbsp;Yu, and Tsung-Yi&nbsp;Ho</em><br>
+    ASP-DAC 2027  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-qin2026infusing" >
+<td align='right'>
+2.
+</td>
+<td>
+    Infusing EDA Knowledge into LLM Systems: An Information-Source Perspective [<a href='https://doi.org/10.1145/3764386.3779640' target='_blank'>paper</a>] <br>
+    <em>Yuhan&nbsp;Qin, Yuan&nbsp;Pu, Tairu&nbsp;Qiu, Zhuolun&nbsp;He, and Bei&nbsp;Yu</em><br>
+    ISPD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-yin2026cppl" >
+<td align='right'>
+3.
+</td>
+<td>
+    CPPL: A Circuit Prompt Programming Language [<a href='https://arxiv.org/abs/2605.17892' target='_blank'>paper</a>] <br>
+    <em>Shuo&nbsp;Yin, Yihe&nbsp;Wang, Lancheng&nbsp;Zou, Xufeng&nbsp;Yao, Tinghuan&nbsp;Chen, Chen&nbsp;Bai, Zhengrong&nbsp;Wang, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    ICCD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-lou2026lego" >
+<td align='right'>
+4.
+</td>
+<td>
+    LEGO 2.0: A Unified Agentic Platform for Digital Chip Design and Optimization <br>
+    <em>Jincheng&nbsp;Lou, Ruohan&nbsp;Xu, Jiecheng&nbsp;Ma, Boyang&nbsp;Wu, Yuhao&nbsp;Ji, Chunyuan&nbsp;Zhao, Xinyu&nbsp;Qu, Yuxiang&nbsp;Zhao, Runzhe&nbsp;Tao, Bei&nbsp;Yu, Zhixiong&nbsp;Di, and Yibo&nbsp;Lin</em><br>
+    ICCAD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2026maeda" >
+<td align='right'>
+5.
+</td>
+<td>
+    MAEDA: An LLM-Powered Multi-Agent Evaluation Framework for EDA Tool Documentation QA [<a href='https://doi.org/10.23919/DATE69613.2026.11539506' target='_blank'>paper</a>] <br>
+    <em>Zhenghao&nbsp;Chen, Yuan&nbsp;Pu, Hairuo&nbsp;Han, Yuntao&nbsp;Nie, Jiajun&nbsp;Qin, Yuhan&nbsp;Qin, Tairu&nbsp;Qiu, Zhuolun&nbsp;He, Jianwang&nbsp;Zhai, Bei&nbsp;Yu, and Kang&nbsp;Zhao</em><br>
+    DATE 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-huang2026a" >
+<td align='right'>
+6.
+</td>
+<td>
+    A Multi-Granularity Retrieval Augmented Generation Framework for EDA Tasks Leveraging Knowledge Graph <br>
+    <em>Yuheng&nbsp;Huang, Yuhan&nbsp;Qin, Yuan&nbsp;Pu, Zhaotan&nbsp;Lin, Yuntao&nbsp;Nie, Zhuolun&nbsp;He, Jianwang&nbsp;Zhai, Kang&nbsp;Zhao, and Bei&nbsp;Yu</em><br>
+    ICCAD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-di2026smartpclib" >
+<td align='right'>
+7.
+</td>
+<td>
+    Smart-PCLib: A LLM-based Multi-Agent Framework for Automated PCB Component Library Generation [<a href='https://doi.org/10.23919/DATE69613.2026.11539310' target='_blank'>paper</a>] <br>
+    <em>Zhaohai&nbsp;Di, Jindong&nbsp;Tu, Zhiyuan&nbsp;HE, Yuan&nbsp;Pu, Jiawei&nbsp;Liu, Chong&nbsp;Tong, Tsung-Yi&nbsp;Ho, Bei&nbsp;Yu, and Tinghuan&nbsp;Chen</em><br>
+    DATE 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wu2025divergent" >
+<td align='right'>
+8.
+</td>
+<td>
+    Divergent Thoughts toward One Goal: LLM-based Multi-Agent Collaboration System for Electronic Design Automation [<a href='https://doi.org/10.18653/v1/2025.naacl-long.83' target='_blank'>paper</a>] <br>
+    <em>Haoyuan&nbsp;Wu, Haisheng&nbsp;Zheng, Zhuolun&nbsp;He, and Bei&nbsp;Yu</em><br>
+    NAACL 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wu2024chateda" >
+<td align='right'>
+9.
+</td>
+<td>
+    ChatEDA: A Large Language Model Powered Autonomous Agent for EDA [<a href='https://doi.org/10.1109/TCAD.2024.3383347' target='_blank'>paper</a>] <br>
+    <em>Haoyuan&nbsp;Wu, Zhuolun&nbsp;He, Xinyun&nbsp;Zhang, Xufeng&nbsp;Yao, Su&nbsp;Zheng, Haisheng&nbsp;Zheng, and Bei&nbsp;Yu</em><br>
+    TCAD 2024  <br>
+    
+</td>
+</tr>
+
+</table>
 
 </div>
 <br>
@@ -1090,6 +1379,19 @@ Floorplan
     Learning to Floorplan like Human Experts via Reinforcement Learning [<a href='https://doi.org/10.23919/DATE58400.2024.10546817' target='_blank'>paper</a>] <br>
     <em>Binjie&nbsp;Yan, Lin&nbsp;Xu, Zefang&nbsp;Yu, Mingye&nbsp;Xie, Wei&nbsp;Ran, Jingsheng&nbsp;Gao, Yuzhuo&nbsp;Fu, and Ting&nbsp;Liu</em><br>
     DATE 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-yang2024floorplanning" >
+<td align='right'>
+4.
+</td>
+<td>
+    Floorplanning with Edge-Aware Graph Attention Network and Hindsight Experience Replay [<a href='https://doi.org/10.1145/3653453' target='_blank'>paper</a>] <br>
+    <em>Bo&nbsp;Yang, Qi&nbsp;Xu, Hao&nbsp;Geng, Song&nbsp;Chen, Bei&nbsp;Yu, and Yi&nbsp;Kang</em><br>
+    TODAES 2024  <br>
     
 </td>
 </tr>
@@ -1182,9 +1484,22 @@ Floorplan
 <h3>Partitioning</h3>
 <table class="table table-hover">
 
-<tr id="tr-DAC22_SpecPart" >
+<tr id="tr-zhang2027learningaugmented" >
 <td align='right'>
 1.
+</td>
+<td>
+    Learning-Augmented Multilevel Hypergraph Partitioning with Net-Level Cut Priors <br>
+    <em>Pengju&nbsp;Zhang, Ziyi&nbsp;Wang, Bei&nbsp;Yu, and Zhiang&nbsp;Wang</em><br>
+    ASP-DAC 2027  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC22_SpecPart" >
+<td align='right'>
+2.
 </td>
 <td>
     SpecPart: A Supervised Spectral Framework for Hypergraph Partitioning Solution Improvement [<a href='https://doi.org/10.1145/3508352.3549390' target='_blank'>paper</a>] <br>
@@ -1197,7 +1512,7 @@ Floorplan
 
 <tr id="tr-DAC20_TPGNN" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     TP-GNN: A Graph Neural Network Framework for Tier Partitioning in Monolithic 3D ICs [<a href='https://ieeexplore.ieee.org/document/9218582' target='_blank'>paper</a>] <br>
@@ -1253,9 +1568,22 @@ Placement
 </tr>
 
 
-<tr id="tr-li2025differentiable" >
+<tr id="tr-yao2026evoplace" >
 <td align='right'>
 2.
+</td>
+<td>
+    EvoPlace: Evolution of Optimization Algorithms for Global Placement via Large Language Models [<a href='https://doi.org/10.1109/TCAD.2026.3652945' target='_blank'>paper</a>] <br>
+    <em>Xufeng&nbsp;Yao, Jiaxi&nbsp;Jiang, Yuxuan&nbsp;Zhao, Peiyu&nbsp;Liao, Yibo&nbsp;Lin, and Bei&nbsp;Yu</em><br>
+    TCAD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-li2025differentiable" >
+<td align='right'>
+3.
 </td>
 <td>
     Differentiable Net-Moving and Local Congestion Mitigation for Routability-Driven Global Placement [<a href='https://doi.org/10.1109/DAC63849.2025.11133117' target='_blank'>paper</a>] <br>
@@ -1266,9 +1594,22 @@ Placement
 </tr>
 
 
+<tr id="tr-liu2025theplace" >
+<td align='right'>
+4.
+</td>
+<td>
+    ThePlace: Thermal-Aware Placement With Operator Learning-Based Ultra-Fast Simulator [<a href='https://doi.org/10.1145/3658617.3697729' target='_blank'>paper</a>] <br>
+    <em>Xinfei&nbsp;Liu, Siting&nbsp;Liu, Bei&nbsp;Yu, Song&nbsp;Chen, and Qi&nbsp;Xu</em><br>
+    ASP-DAC 2025  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-fu2024hybrid" >
 <td align='right'>
-3.
+5.
 </td>
 <td>
     Hybrid Modeling and Weighting for Timing-driven Placement with Efficient Calibration [<a href='https://doi.org/10.1145/3676536.3676803' target='_blank'>paper</a>] <br>
@@ -1281,7 +1622,7 @@ Placement
 
 <tr id="tr-DREAM-GAN_ISPD2023_Yichen" >
 <td align='right'>
-4.
+6.
 </td>
 <td>
     DREAM-GAN: Advancing DREAMPlace towards Commercial-Quality using Generative Adversarial Learning [<a href='https://doi.org/10.1145/3569052.3572993' target='_blank'>paper</a>] <br>
@@ -1294,7 +1635,7 @@ Placement
 
 <tr id="tr-liao2023dreamplace4" >
 <td align='right'>
-5.
+7.
 </td>
 <td>
     DREAMPlace 4.0: Timing-Driven Placement With Momentum-Based Net Weighting and Lagrangian-Based Refinement [<a href='https://doi.org/10.1109/TCAD.2023.3240132' target='_blank'>paper</a>] <br>
@@ -1307,7 +1648,7 @@ Placement
 
 <tr id="tr-PLACE-DATE2021-Cong" >
 <td align='right'>
-6.
+8.
 </td>
 <td>
     Global placement with deep learning-enabled explicit routability optimization [<a href='https://ieeexplore.ieee.org/document/9473959' target='_blank'>paper</a>] <br>
@@ -1320,7 +1661,7 @@ Placement
 
 <tr id="tr-PLACE-DAC2019-DREAMPlace" >
 <td align='right'>
-7.
+9.
 </td>
 <td>
     DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement [<a href='https://ieeexplore.ieee.org/document/8807076' target='_blank'>paper</a>] <br>
@@ -1347,9 +1688,22 @@ Placement
 </tr>
 
 
-<tr id="tr-lee2025diffusion" >
+<tr id="tr-han2026moduplace" >
 <td align='right'>
 2.
+</td>
+<td>
+    ModuPlace: LLM-Assisted Modular PCB Placement via Preference-Optimized Constraint Graph Generation [<a href='https://doi.org/10.1145/3770743.3803892' target='_blank'>paper</a>] <br>
+    <em>Yaohui&nbsp;Han, Beichen&nbsp;Li, Mingyang&nbsp;Zhao, Rongliang&nbsp;Fu, Qunsong&nbsp;Ye, Tinghuan&nbsp;Chen, Bei&nbsp;Yu, and Tsung-Yi&nbsp;Ho</em><br>
+    DAC 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-lee2025diffusion" >
+<td align='right'>
+3.
 </td>
 <td>
     Chip Placement with Diffusion Models [<a href='https://proceedings.mlr.press/v267/lee25y.html' target='_blank'>paper</a>] <br>
@@ -1360,9 +1714,22 @@ Placement
 </tr>
 
 
+<tr id="tr-chen2025pcbagent" >
+<td align='right'>
+4.
+</td>
+<td>
+    PCBAgent: An Agent-based Framework for High-Density Printed Circuit Board Placement [<a href='https://doi.org/10.1145/3658617.3697736' target='_blank'>paper</a>] <br>
+    <em>Lin&nbsp;Chen, Ran&nbsp;Chen, Shoubo&nbsp;Hu, Xufeng&nbsp;Yao, Zhentao&nbsp;Tang, Shixiong&nbsp;Kai, Siyuan&nbsp;Xu, Mingxuan&nbsp;Yuan, Jianye&nbsp;Hao, Bei&nbsp;Yu, and Jiang&nbsp;Xu</em><br>
+    ASP-DAC 2025  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-DBLP:conf/aspdac/ChenMGZL23" >
 <td align='right'>
-3.
+5.
 </td>
 <td>
     MacroRank: Ranking Macro Placement Solutions Leveraging Translation Equivariancy [<a href='https://doi.org/10.1145/3566097.3567899' target='_blank'>paper</a>] <br>
@@ -1375,7 +1742,7 @@ Placement
 
 <tr id="tr-lai2023chipformer" >
 <td align='right'>
-4.
+6.
 </td>
 <td>
     ChiPFormer: Transferable Chip Placement via Offline Decision Transformer [<a href='https://openreview.net/pdf?id=j0miEWtw87' target='_blank'>paper</a>] <br>
@@ -1388,7 +1755,7 @@ Placement
 
 <tr id="tr-ISPD23_autodmp" >
 <td align='right'>
-5.
+7.
 </td>
 <td>
     AutoDMP: Automated DREAMPlace-based Macro Placement [<a href='https://dl.acm.org/doi/abs/10.1145/3569052.3578923' target='_blank'>paper</a>]  [<a href='https://github.com/NVlabs/AutoDMP' target='_blank'>code</a>] <br>
@@ -1401,7 +1768,7 @@ Placement
 
 <tr id="tr-shi2023wiremask" >
 <td align='right'>
-6.
+8.
 </td>
 <td>
     Macro Placement by Wire-Mask-Guided Black-Box Optimization [<a href='https://doi.org/10.52202/075280-0299' target='_blank'>paper</a>] <br>
@@ -1414,7 +1781,7 @@ Placement
 
 <tr id="tr-cheng2022the" >
 <td align='right'>
-7.
+9.
 </td>
 <td>
     The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design [<a href='https://openreview.net/forum?id=uNYqDfPEDD8' target='_blank'>paper</a>] <br>
@@ -1427,7 +1794,7 @@ Placement
 
 <tr id="tr-lai2022maskplace" >
 <td align='right'>
-8.
+10.
 </td>
 <td>
     MaskPlace: Fast Chip Placement via Reinforced Visual Representation Learning [<a href='https://proceedings.neurips.cc/paper_files/paper/2022/file/97c8a8eb0e5231d107d0da51b79e09cb-Paper-Conference.pdf' target='_blank'>paper</a>] <br>
@@ -1440,7 +1807,7 @@ Placement
 
 <tr id="tr-NEURIPS2021_898aef09" >
 <td align='right'>
-9.
+11.
 </td>
 <td>
     On Joint Learning for Solving Placement and Routing in Chip Design [<a href='https://proceedings.neurips.cc/paper/2021/file/898aef0932f6aaecda27aba8e9903991-Paper.pdf' target='_blank'>paper</a>] <br>
@@ -1454,9 +1821,22 @@ Placement
 <h3>Chiplet Placement</h3>
 <table class="table table-hover">
 
-<tr id="tr-wu2025p2pchiplet" >
+<tr id="tr-cao2027thermalaware" >
 <td align='right'>
 1.
+</td>
+<td>
+    Thermal-Aware Chiplet Placement Integrating Evolutionary Reinforcement Learning and Monte Carlo Tree Search <br>
+    <em>Debin&nbsp;Cao, Kanglin&nbsp;Tian, Ze&nbsp;Hao, Yi&nbsp;Huang, Bei&nbsp;Yu, Jianwang&nbsp;Zhai, and Kang&nbsp;Zhao</em><br>
+    ASP-DAC 2027  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wu2025p2pchiplet" >
+<td align='right'>
+2.
 </td>
 <td>
     P2P-Chiplet: Partition and Placement Co-Optimization for Multi-Chiplet Architecture [<a href='https://doi.org/10.1109/ICCAD66269.2025.11240768' target='_blank'>paper</a>] <br>
@@ -1509,9 +1889,22 @@ Placement
 </tr>
 
 
-<tr id="tr-ghoseGeneralizableCrossGraphEmbedding2021" >
+<tr id="tr-DAC22_Pan" >
 <td align='right'>
 4.
+</td>
+<td>
+    Towards Collaborative Intelligence: Routability Estimation Based on Decentralized Private Data [<a href='https://doi.org/10.1145/3489517.3530578' target='_blank'>paper</a>] <br>
+    <em>Jingyu&nbsp;Pan, Chen-Chia&nbsp;Chang, Zhiyao&nbsp;Xie, Ang&nbsp;Li, Minxue&nbsp;Tang, Tunhou&nbsp;Zhang, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
+    DAC 2022  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-ghoseGeneralizableCrossGraphEmbedding2021" >
+<td align='right'>
+5.
 </td>
 <td>
     Generalizable Cross-Graph Embedding for GNN-based Congestion Prediction [<a href='https://arxiv.org/abs/2111.05941' target='_blank'>paper</a>] <br>
@@ -1524,7 +1917,7 @@ Placement
 
 <tr id="tr-changAutomaticRoutabilityPredictor2021a" >
 <td align='right'>
-5.
+6.
 </td>
 <td>
     Automatic Routability Predictor Development Using Neural Architecture Search [<a href='https://arxiv.org/abs/2012.01737' target='_blank'>paper</a>] <br>
@@ -1537,7 +1930,7 @@ Placement
 
 <tr id="tr-alawiehHighDefinitionRoutingCongestion2020a" >
 <td align='right'>
-6.
+7.
 </td>
 <td>
     High-Definition Routing Congestion Prediction for Large-Scale FPGAs [<a href='https://ieeexplore.ieee.org/document/9045178' target='_blank'>paper</a>] <br>
@@ -1550,7 +1943,7 @@ Placement
 
 <tr id="tr-PLACE-DAC2019-painting" >
 <td align='right'>
-7.
+8.
 </td>
 <td>
     Painting on placement: Forecasting routing congestion using conditional generative adversarial nets [<a href='https://dl.acm.org/doi/10.1145/3316781.3317876' target='_blank'>paper</a>] <br>
@@ -1561,9 +1954,22 @@ Placement
 </tr>
 
 
+<tr id="tr-8714724" >
+<td align='right'>
+9.
+</td>
+<td>
+    Machine Learning Based Routing Congestion Prediction in FPGA High-Level Synthesis [<a href='https://doi.org/10.23919/DATE.2019.8714724' target='_blank'>paper</a>] <br>
+    <em>Jieru&nbsp;Zhao, Tingyuan&nbsp;Liang, Sharad&nbsp;Sinha, and Wei&nbsp;Zhang</em><br>
+    DATE 2019  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-PLACE-ICCAD2018-routenet" >
 <td align='right'>
-8.
+10.
 </td>
 <td>
     RouteNet: Routability prediction for mixed-size designs using convolutional neural network [<a href='https://ieeexplore.ieee.org/document/8587655' target='_blank'>paper</a>] <br>
@@ -1984,22 +2390,6 @@ Routing
 </tr>
 
 </table>
-<h3>Routability Estimation</h3>
-<table class="table table-hover">
-
-<tr id="tr-DAC22_Pan" >
-<td align='right'>
-1.
-</td>
-<td>
-    Towards Collaborative Intelligence: Routability Estimation Based on Decentralized Private Data [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530578' target='_blank'>paper</a>] <br>
-    <em>Jingyu&nbsp;Pan, Chen-Chia&nbsp;Chang, Zhiyao&nbsp;Xie, Ang&nbsp;Li, Minxue&nbsp;Tang, Tunhou&nbsp;Zhang, Jiang&nbsp;Hu, and Yiran&nbsp;Chen</em><br>
-    DAC 2022  <br>
-    
-</td>
-</tr>
-
-</table>
 
 </div>
 <br>
@@ -2016,9 +2406,22 @@ Timing
 <h3>Pre-Routing and Early-Stage Timing Prediction</h3>
 <table class="table table-hover">
 
-<tr id="tr-jiang2025aig" >
+<tr id="tr-wang2026distilld" >
 <td align='right'>
 1.
+</td>
+<td>
+    Distill3D: Cross-Stage Knowledge Distillation for Early-Stage 3D IC Timing Prediction <br>
+    <em>Mingjun&nbsp;Wang, Lancheng&nbsp;Zou, Guanqi&nbsp;Li, Feng&nbsp;Gu, Yuntao&nbsp;Lu, Tianmeng&nbsp;Yang, Boyu&nbsp;Han, Jianan&nbsp;Mu, Huawei&nbsp;Li, Sung&nbsp;Kyu&nbsp;Lim, and Bei&nbsp;Yu</em><br>
+    ICCAD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-jiang2025aig" >
+<td align='right'>
+2.
 </td>
 <td>
     ML-Based AIG Timing Prediction to Enhance Logic Optimization [<a href='https://doi.org/10.23919/DATE64628.2025.10993071' target='_blank'>paper</a>] <br>
@@ -2031,7 +2434,7 @@ Timing
 
 <tr id="tr-ye2025truly" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     Truly Pre-Routing Timing Prediction via Considering Power Delivery Network [<a href='https://doi.org/10.1109/DAC63849.2025.11133278' target='_blank'>paper</a>] <br>
@@ -2044,7 +2447,7 @@ Timing
 
 <tr id="tr-amik2025graph" >
 <td align='right'>
-3.
+4.
 </td>
 <td>
     Graph-Based Timing Prediction at Early-Stage RTL Using Large Language Model [<a href='https://doi.org/10.1145/3658617.3697742' target='_blank'>paper</a>] <br>
@@ -2055,9 +2458,61 @@ Timing
 </tr>
 
 
+<tr id="tr-wang2025nuatimer" >
+<td align='right'>
+5.
+</td>
+<td>
+    NUA-Timer: Pre-Synthesis Timing Prediction Under Non-Uniform Input Arrival Times [<a href='https://doi.org/10.1109/ICCAD66269.2025.11240652' target='_blank'>paper</a>] <br>
+    <em>Ziyi&nbsp;Wang, Fangzhou&nbsp;Liu, Tsung-Yi&nbsp;Ho, David&nbsp;Z.&nbsp;Pan, and Bei&nbsp;Yu</em><br>
+    ICCAD 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wang2025protime" >
+<td align='right'>
+6.
+</td>
+<td>
+    PRO-TIME: Prerouting Optimization-Aware Timing Prediction via Multimodal Learning [<a href='https://doi.org/10.1109/TCAD.2025.3569488' target='_blank'>paper</a>] <br>
+    <em>Ziyi&nbsp;Wang, Siting&nbsp;Liu, Yuan&nbsp;Pu, Song&nbsp;Chen, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    TCAD 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-zhang2025prerouting" >
+<td align='right'>
+7.
+</td>
+<td>
+    Prerouting Timing Prediction Across Different Technology Nodes [<a href='https://doi.org/10.1109/TCAD.2024.3523426' target='_blank'>paper</a>] <br>
+    <em>Xinyun&nbsp;Zhang, Binwu&nbsp;Zhu, Fangzhou&nbsp;Liu, Jiaxi&nbsp;Jiang, Ziyi&nbsp;Wang, Peng&nbsp;Xu, Hong&nbsp;Xu, and Bei&nbsp;Yu</em><br>
+    TCAD 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wang2025bridging" >
+<td align='right'>
+8.
+</td>
+<td>
+    Bridging Layout and RTL: Knowledge Distillation based Timing Prediction [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C276-ICML2025-Net2RTL.pdf' target='_blank'>paper</a>] <br>
+    <em>Mingjun&nbsp;Wang, Yihan&nbsp;Wen, Bin&nbsp;Sun, Jianan&nbsp;Mu, Juan&nbsp;Li, Xiaoyi&nbsp;Wang, Jing&nbsp;Justin&nbsp;Ye, Bei&nbsp;Yu, and Huawei&nbsp;Li</em><br>
+    ICML 2025  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-Ismail_FPGA_delay" >
 <td align='right'>
-4.
+9.
 </td>
 <td>
     Machine-Learning Based Delay Prediction for FPGA Technology Mapping [<a href='https://doi.org/10.1145/3557988.3569713' target='_blank'>paper</a>] <br>
@@ -2070,7 +2525,7 @@ Timing
 
 <tr id="tr-DAC22_gnnSTA" >
 <td align='right'>
-5.
+10.
 </td>
 <td>
     A timing engine inspired graph neural network model for pre-routing slack prediction [<a href='https://dl.acm.org/doi/abs/10.1145/3489517.3530597' target='_blank'>paper</a>] <br>
@@ -2083,7 +2538,7 @@ Timing
 
 <tr id="tr-xie2021net2" >
 <td align='right'>
-6.
+11.
 </td>
 <td>
     Net2: A Graph Attention Network Method Customized for Pre-Placement Net Length Estimation [<a href='https://doi.org/10.1145/3394885.3431562' target='_blank'>paper</a>] <br>
@@ -2096,7 +2551,7 @@ Timing
 
 <tr id="tr-GNN_HLS_timing" >
 <td align='right'>
-7.
+12.
 </td>
 <td>
     Accurate Operation Delay Prediction for FPGA HLS Using Graph Neural Networks [<a href='https://www.csl.cornell.edu/~zhiruz/pdfs/dsp-gnn-iccad2020.pdf' target='_blank'>paper</a>] <br>
@@ -2109,7 +2564,7 @@ Timing
 
 <tr id="tr-barboza_machine_2019" >
 <td align='right'>
-8.
+13.
 </td>
 <td>
     Machine Learning-Based Pre-Routing Timing Prediction with Reduced Pessimism [<a href='https://dl.acm.org/doi/10.1145/3316781.3317857' target='_blank'>paper</a>] <br>
@@ -2122,7 +2577,7 @@ Timing
 
 <tr id="tr-hyun_accurate_2019" >
 <td align='right'>
-9.
+14.
 </td>
 <td>
     Accurate Wirelength Prediction for Placement-Aware Synthesis through Machine Learning [<a href='https://ieeexplore.ieee.org/document/8715016/' target='_blank'>paper</a>] <br>
@@ -2269,9 +2724,35 @@ Timing
 </tr>
 
 
-<tr id="tr-liang_routing-free_2020" >
+<tr id="tr-jin2025chronote" >
 <td align='right'>
 2.
+</td>
+<td>
+    ChronoTE: Crosstalk-Aware Timing Estimation for Routing Optimization via Edge-Enhanced GNNs [<a href='https://doi.org/10.1109/ICCAD66269.2025.11240759' target='_blank'>paper</a>] <br>
+    <em>Leilei&nbsp;Jin, Rongliang&nbsp;Fu, Zhen&nbsp;Zhuang, Liang&nbsp;Xiao, Fangzhou&nbsp;Liu, Bei&nbsp;Yu, and Tsung-Yi&nbsp;Ho</em><br>
+    ICCAD 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liu2025graphcad" >
+<td align='right'>
+3.
+</td>
+<td>
+    GraphCAD: Leveraging Graph Neural Networks for Accuracy Prediction Handling Crosstalk-affected Delays [<a href='https://doi.org/10.1145/3698364.3705345' target='_blank'>paper</a>] <br>
+    <em>Fangzhou&nbsp;Liu, Guannan&nbsp;Guo, Yuyang&nbsp;Ye, Ziyi&nbsp;Wang, Wenjie&nbsp;Fu, Weihua&nbsp;Sheng, and Bei&nbsp;Yu</em><br>
+    ISPD 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liang_routing-free_2020" >
+<td align='right'>
+4.
 </td>
 <td>
     Routing-free crosstalk prediction [<a href='https://dl.acm.org/doi/10.1145/3400302.3415712' target='_blank'>paper</a>] <br>
@@ -2284,7 +2765,7 @@ Timing
 
 <tr id="tr-kahng_si_2015" >
 <td align='right'>
-3.
+5.
 </td>
 <td>
     SI for free: machine learning of interconnect coupling delay and transition effects [<a href='http://ieeexplore.ieee.org/document/7171706/' target='_blank'>paper</a>] <br>
@@ -2297,7 +2778,7 @@ Timing
 
 <tr id="tr-kahng_learning-based_2013" >
 <td align='right'>
-4.
+6.
 </td>
 <td>
     Learning-based approximation of interconnect delay and slew in signoff timing tools [<a href='http://ieeexplore.ieee.org/document/6681682/' target='_blank'>paper</a>] <br>
@@ -2460,9 +2941,35 @@ Layout Verification
 </tr>
 
 
-<tr id="tr-chen2025topology" >
+<tr id="tr-li2026lithography" >
 <td align='right'>
 2.
+</td>
+<td>
+    Lithography Hotspot Detection for Complex Non-Manhattan Layouts via Graph Neural Network [<a href='https://doi.org/10.23919/DATE69613.2026.11539144' target='_blank'>paper</a>] <br>
+    <em>Bohao&nbsp;Li, Ranran&nbsp;Liu, Yumeng&nbsp;Liu, Cong&nbsp;Jiang, Kang&nbsp;Liu, Bei&nbsp;Yu, Kun&nbsp;Ren, Qi&nbsp;Sun, and Cheng&nbsp;Zhuo</em><br>
+    DATE 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-xu2026nodenode" >
+<td align='right'>
+3.
+</td>
+<td>
+    Node2Node: Node Adaptation with Transformer for Cross-Node Hotspot Detection [<a href='https://doi.org/10.23919/DATE69613.2026.11539589' target='_blank'>paper</a>] <br>
+    <em>Wenbo&nbsp;Xu, Silin&nbsp;Chen, Yibo&nbsp;Huang, Xinyun&nbsp;Zhang, Zixiao&nbsp;Wang, Bei&nbsp;Yu, and Ningmu&nbsp;Zou</em><br>
+    DATE 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2025topology" >
+<td align='right'>
+4.
 </td>
 <td>
     Delving into Topology Representation for Layout Pattern: A Novel Contrastive Learning Framework for Hotspot Detection [<a href='https://doi.org/10.1109/DAC63849.2025.11133380' target='_blank'>paper</a>] <br>
@@ -2475,7 +2982,7 @@ Layout Verification
 
 <tr id="tr-chen2024llmhd" >
 <td align='right'>
-3.
+5.
 </td>
 <td>
     LLM-HD: Layout Language Model for Hotspot Detection with GDS Semantic Encoding [<a href='https://doi.org/10.1145/3649329.3658479' target='_blank'>paper</a>] <br>
@@ -2488,7 +2995,7 @@ Layout Verification
 
 <tr id="tr-9536958" >
 <td align='right'>
-4.
+6.
 </td>
 <td>
     Hotspot Detection via Attention-Based Deep Layout Metric Learning [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C106-ICCAD2020-Metric-HSD.pdf' target='_blank'>paper</a>] <br>
@@ -2501,7 +3008,7 @@ Layout Verification
 
 <tr id="tr-9774579" >
 <td align='right'>
-5.
+7.
 </td>
 <td>
     Efficient Hotspot Detection via Graph Neural Network [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C134-DATE2022-GNN-HSD.pdf' target='_blank'>paper</a>] <br>
@@ -2514,7 +3021,7 @@ Layout Verification
 
 <tr id="tr-9586273" >
 <td align='right'>
-6.
+8.
 </td>
 <td>
     Low-Cost Lithography Hotspot Detection with Active Entropy Sampling and Model Calibration [<a href='https://ieeexplore.ieee.org/document/9586273' target='_blank'>paper</a>] <br>
@@ -2527,7 +3034,7 @@ Layout Verification
 
 <tr id="tr-9643590" >
 <td align='right'>
-7.
+9.
 </td>
 <td>
     Hotspot Detection via Multi-task Learning and Transformer Encoder [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C125-ICCAD2021-H-DETR.pdf' target='_blank'>paper</a>] <br>
@@ -2540,7 +3047,7 @@ Layout Verification
 
 <tr id="tr-9164914" >
 <td align='right'>
-8.
+10.
 </td>
 <td>
     Efficient Layout Hotspot Detection via Binarized Residual Neural Network Ensemble [<a href='https://ieeexplore.ieee.org/document/9164914' target='_blank'>paper</a>] <br>
@@ -2553,7 +3060,7 @@ Layout Verification
 
 <tr id="tr-9164899" >
 <td align='right'>
-9.
+11.
 </td>
 <td>
     Bridging the Gap Between Layout Pattern Sampling and Hotspot Detection via Batch Active Learning [<a href='https://arxiv.org/abs/1807.06446' target='_blank'>paper</a>] <br>
@@ -2593,9 +3100,35 @@ Layout Verification
 </tr>
 
 
-<tr id="tr-wen2024peakpower" >
+<tr id="tr-wen2026disentangled" >
 <td align='right'>
 3.
+</td>
+<td>
+    Disentangled Multimodal Learning for Scalable Dynamic IR-Drop Analysis <br>
+    <em>Yihan&nbsp;Wen, Su&nbsp;Zheng, Tianshu&nbsp;Hou, Shiping&nbsp;Wu, Yuzhou&nbsp;Feng, and Bei&nbsp;Yu</em><br>
+    NeurIPS 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-guo2025irfusion" >
+<td align='right'>
+4.
+</td>
+<td>
+    IR-Fusion: A Fusion Framework for Static IR Drop Analysis Combining Numerical Solution and Machine Learning [<a href='https://doi.org/10.23919/DATE64628.2025.10992959' target='_blank'>paper</a>] <br>
+    <em>Feng&nbsp;Guo, Jianwang&nbsp;Zhai, Jingyu&nbsp;Jia, Jiawei&nbsp;Liu, Kang&nbsp;Zhao, Bei&nbsp;Yu, and Chuan&nbsp;Shi</em><br>
+    DATE 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wen2024peakpower" >
+<td align='right'>
+5.
 </td>
 <td>
     Peak Power and Dynamic IR-drop Assessment via Waveform Augmenting [<a href='https://doi.org/10.1145/3676536.3676767' target='_blank'>paper</a>] <br>
@@ -2608,7 +3141,7 @@ Layout Verification
 
 <tr id="tr-woo2024rlpdn" >
 <td align='right'>
-4.
+6.
 </td>
 <td>
     Reinforcement Learning-Based Optimization of Back-Side Power Delivery Networks in VLSI Design for IR-Drop Reduction [<a href='https://doi.org/10.23919/DATE58400.2024.10546599' target='_blank'>paper</a>] <br>
@@ -2621,7 +3154,7 @@ Layout Verification
 
 <tr id="tr-hyun2023decoupling" >
 <td align='right'>
-5.
+7.
 </td>
 <td>
     Decoupling Capacitor Insertion Minimizing IR-Drop Violations and Routing DRVs [<a href='https://dl.acm.org/doi/abs/10.1145/3566097.3567905' target='_blank'>paper</a>] <br>
@@ -2634,7 +3167,7 @@ Layout Verification
 
 <tr id="tr-chen2022vectorbaseda" >
 <td align='right'>
-6.
+8.
 </td>
 <td>
     Vector-Based Dynamic IR-drop Prediction Using Machine Learning [<a href='https://ieeexplore.ieee.org/document/9712489' target='_blank'>paper</a>] <br>
@@ -2647,7 +3180,7 @@ Layout Verification
 
 <tr id="tr-chhabriaMAVIRECMLAidedVectored2021" >
 <td align='right'>
-7.
+9.
 </td>
 <td>
     MAVIREC: ML-Aided Vectored IR-Drop Estimation and Classification [<a href='https://arxiv.org/abs/2012.10597' target='_blank'>paper</a>] <br>
@@ -2660,7 +3193,7 @@ Layout Verification
 
 <tr id="tr-chhabriaThermalIRDrop2021" >
 <td align='right'>
-8.
+10.
 </td>
 <td>
     Thermal and IR Drop Analysis Using Convolutional Encoder-Decoder Networks [<a href='https://ieeexplore.ieee.org/document/9371634' target='_blank'>paper</a>] <br>
@@ -2673,7 +3206,7 @@ Layout Verification
 
 <tr id="tr-huangDynamicIRDropECO2020" >
 <td align='right'>
-9.
+11.
 </td>
 <td>
     Dynamic IR-Drop ECO Optimization by Cell Movement with Current Waveform Staggering and Machine Learning Guidance [<a href='https://ieeexplore.ieee.org/document/9256574' target='_blank'>paper</a>] <br>
@@ -2686,7 +3219,7 @@ Layout Verification
 
 <tr id="tr-pao2020xgbir" >
 <td align='right'>
-10.
+12.
 </td>
 <td>
     XGBIR: An XGBoost-based IR Drop Predictor for Power Delivery Network [<a href='https://ieeexplore.ieee.org/document/9116327' target='_blank'>paper</a>] <br>
@@ -2699,7 +3232,7 @@ Layout Verification
 
 <tr id="tr-xieFastIRDrop2020" >
 <td align='right'>
-11.
+13.
 </td>
 <td>
     Fast IR Drop Estimation with Machine Learning [<a href='https://arxiv.org/pdf/2011.13491.pdf' target='_blank'>paper</a>] <br>
@@ -2712,7 +3245,7 @@ Layout Verification
 
 <tr id="tr-xiePowerNetTransferableDynamic2020a" >
 <td align='right'>
-12.
+14.
 </td>
 <td>
     PowerNet: Transferable Dynamic IR Drop Estimation via Maximum Convolutional Neural Network [<a href='https://ieeexplore.ieee.org/document/9045574' target='_blank'>paper</a>] <br>
@@ -2725,7 +3258,7 @@ Layout Verification
 
 <tr id="tr-zhou2020gridnet" >
 <td align='right'>
-13.
+15.
 </td>
 <td>
     GridNet: Fast Data-Driven EM-induced IR Drop Prediction and Localized Fixing for on-Chip Power Grid Networks [<a href='https://ieeexplore.ieee.org/document/9256488' target='_blank'>paper</a>] <br>
@@ -2738,7 +3271,7 @@ Layout Verification
 
 <tr id="tr-hoIncPIRDFastLearningBased2019" >
 <td align='right'>
-14.
+16.
 </td>
 <td>
     IncPIRD: Fast Learning-Based Prediction of Incremental IR Drop [<a href='https://ieeexplore.ieee.org/document/8942110/' target='_blank'>paper</a>] <br>
@@ -2751,7 +3284,7 @@ Layout Verification
 
 <tr id="tr-fang2018machinelearningbased" >
 <td align='right'>
-15.
+17.
 </td>
 <td>
     Machine-Learning-Based Dynamic IR Drop Prediction for ECO [<a href='https://ieeexplore.ieee.org/document/8587752/' target='_blank'>paper</a>] <br>
@@ -2765,9 +3298,22 @@ Layout Verification
 <h3>Gate Sizing</h3>
 <table class="table table-hover">
 
-<tr id="tr-wu2024aito" >
+<tr id="tr-ye2025learningdriven" >
 <td align='right'>
 1.
+</td>
+<td>
+    Learning-Driven Physically Aware Large-Scale Circuit Gate Sizing [<a href='https://doi.org/10.1109/TCAD.2024.3488577' target='_blank'>paper</a>] <br>
+    <em>Yuyang&nbsp;Ye, Peng&nbsp;Xu, Lizheng&nbsp;Ren, Tinghuan&nbsp;Chen, Hao&nbsp;Yan, Bei&nbsp;Yu, and Longxing&nbsp;Shi</em><br>
+    TCAD 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wu2024aito" >
+<td align='right'>
+2.
 </td>
 <td>
     AiTO: Simultaneous gate sizing and buffer insertion for timing optimization with GNNs and RL [<a href='https://doi.org/10.1016/j.vlsi.2024.102211' target='_blank'>paper</a>] <br>
@@ -2780,7 +3326,7 @@ Layout Verification
 
 <tr id="tr-DBLP:conf/iccad/ZhouYPSZWHCH22" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     Heterogeneous Graph Neural Network-Based Imitation Learning for Gate Sizing Acceleration [<a href='https://doi.org/10.1145/3508352.3549361' target='_blank'>paper</a>] <br>
@@ -2793,7 +3339,7 @@ Layout Verification
 
 <tr id="tr-DBLP:conf/iccad/NathPHYKR22" >
 <td align='right'>
-3.
+4.
 </td>
 <td>
     TransSizer: A Novel Transformer-Based Fast Gate Sizer [<a href='https://doi.org/10.1145/3508352.3549442' target='_blank'>paper</a>] <br>
@@ -2806,7 +3352,7 @@ Layout Verification
 
 <tr id="tr-lu2021rl" >
 <td align='right'>
-4.
+5.
 </td>
 <td>
     Rl-sizer: Vlsi gate sizing for timing optimization using deep reinforcement learning [<a href='https://ieeexplore.ieee.org/document/9586138' target='_blank'>paper</a>] <br>
@@ -2819,7 +3365,7 @@ Layout Verification
 
 <tr id="tr-wang2020gcn" >
 <td align='right'>
-5.
+6.
 </td>
 <td>
     GCN-RL circuit designer: Transferable transistor sizing with graph neural networks and reinforcement learning [<a href='https://arxiv.org/abs/2005.00406' target='_blank'>paper</a>] <br>
@@ -2833,9 +3379,22 @@ Layout Verification
 <h3>Power</h3>
 <table class="table table-hover">
 
-<tr id="tr-pandit2025mlpower" >
+<tr id="tr-liang2026diffcool" >
 <td align='right'>
 1.
+</td>
+<td>
+    DiffCool: Label-Free Synthesis of Chip-Tailored Heat Sinks via Thermal-Aware Diffusion <br>
+    <em>Siyuan&nbsp;Liang, Zixiao&nbsp;Wang, Chenghan&nbsp;Wang, Shanyi&nbsp;Li, Yushen&nbsp;Zhang, Leilei&nbsp;Jin, Zhen&nbsp;Zhuang, Ulf&nbsp;Schlichtmann, Bei&nbsp;Yu, and Tsung-Yi&nbsp;Ho</em><br>
+    NeurIPS 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-pandit2025mlpower" >
+<td align='right'>
+2.
 </td>
 <td>
     ML-Power: Machine Learning based Power Estimation for SoCs [<a href='https://doi.org/10.1109/ISLPED65674.2025.11261702' target='_blank'>paper</a>] <br>
@@ -2848,7 +3407,7 @@ Layout Verification
 
 <tr id="tr-DBLP:conf/aspdac/LuZJST23" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     Learning Based Spatial Power Characterization and Full-Chip Power Estimation for Commercial TPUs [<a href='https://doi.org/10.1145/3566097.3568347' target='_blank'>paper</a>] <br>
@@ -2861,7 +3420,7 @@ Layout Verification
 
 <tr id="tr-DBLP:conf/aspdac/ZhaiC023" >
 <td align='right'>
-3.
+4.
 </td>
 <td>
     Microarchitecture Power Modeling via Artificial Neural Network and Transfer Learning [<a href='https://doi.org/10.1145/3566097.3567844' target='_blank'>paper</a>] <br>
@@ -2943,9 +3502,100 @@ Mask Optimization
 <h3>Mask Optimization</h3>
 <table class="table table-hover">
 
-<tr id="tr-li2025llmsraf" >
+<tr id="tr-li2027chain" >
 <td align='right'>
 1.
+</td>
+<td>
+    Chain of SRAF Generation: A Large Reasoning Model for Sub-resolution Assist Features <br>
+    <em>Jiale&nbsp;Li, Silin&nbsp;Chen, Yufeng&nbsp;Zhang, Zhili&nbsp;Xu, Yiqing&nbsp;Wang, Wenbo&nbsp;Xu, Ziyang&nbsp;Yu, Bei&nbsp;Yu, and Ningmu&nbsp;Zou</em><br>
+    ASP-DAC 2027  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-yu2026coordinated" >
+<td align='right'>
+2.
+</td>
+<td>
+    Coordinated Clip-Wise Gradient Scheduling for Full-Chip ILT via Policy Learning [<a href='https://doi.org/10.1145/3770743.3804349' target='_blank'>paper</a>] <br>
+    <em>Ziyang&nbsp;Yu, Shuo&nbsp;Yin, Su&nbsp;Zheng, Xiaoxiao&nbsp;Liang, Yuzhe&nbsp;Ma, and Bei&nbsp;Yu</em><br>
+    DAC 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-lai2026fast" >
+<td align='right'>
+3.
+</td>
+<td>
+    Fast Inverse Lithography via GRPO Reinforced Flow Matching [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C355-ICML2026-LithoGRPO.pdf' target='_blank'>paper</a>] <br>
+    <em>Yao&nbsp;Lai, Xuyuan&nbsp;Xiong, Zeyue&nbsp;Xue, Guojin&nbsp;Chen, Jing&nbsp;Wang, Xihui&nbsp;Liu, Rui&nbsp;Zhang, Robert&nbsp;D.&nbsp;Mullins, Bei&nbsp;Yu, and Ping&nbsp;Luo</em><br>
+    ICML 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-zhu2026innilt" >
+<td align='right'>
+4.
+</td>
+<td>
+    INN-ILT: Inverse Lithography Technique via Invertible Neural Network [<a href='https://doi.org/10.1109/TCAD.2025.3650094' target='_blank'>paper</a>] <br>
+    <em>Binwu&nbsp;Zhu, Siliang&nbsp;Fei, and Bei&nbsp;Yu</em><br>
+    TCAD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wang2026moreauilt" >
+<td align='right'>
+5.
+</td>
+<td>
+    Moreau-ILT: Efficient Inverse Lithography Exploiting Weak Convexity <br>
+    <em>Chaofan&nbsp;Wang, Ziyang&nbsp;Yu, Su&nbsp;Zheng, Zixiao&nbsp;Wang, Yifan&nbsp;Shi, and Bei&nbsp;Yu</em><br>
+    ICCAD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-zheng2026nodeilt" >
+<td align='right'>
+6.
+</td>
+<td>
+    NODE-ILT: Learning the Neural Ordinary Differential Equation for Full-Chip Inverse Lithography Techniques <br>
+    <em>Su&nbsp;Zheng, Shuo&nbsp;Yin, Ziyang&nbsp;Yu, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
+    ICCD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-zheng2026scalable" >
+<td align='right'>
+7.
+</td>
+<td>
+    Scalable Second-Order Optimizer for Full-Chip Inverse Lithography Techniques [<a href='https://doi.org/10.23919/DATE69613.2026.11539366' target='_blank'>paper</a>] <br>
+    <em>Su&nbsp;Zheng, Ziyang&nbsp;Yu, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
+    DATE 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-li2025llmsraf" >
+<td align='right'>
+8.
 </td>
 <td>
     LLM-SRAF: Sub-Resolution Assist Feature Generation Using Large Language Model [<a href='https://doi.org/10.23919/DATE64628.2025.10993108' target='_blank'>paper</a>] <br>
@@ -2956,9 +3606,35 @@ Mask Optimization
 </tr>
 
 
+<tr id="tr-sun2025adaptive" >
+<td align='right'>
+9.
+</td>
+<td>
+    Adaptive ILT via Multi-level Lithography Simulation [<a href='https://doi.org/10.1109/TCAD.2025.3561233' target='_blank'>paper</a>] <br>
+    <em>Shuyuan&nbsp;Sun, Fan&nbsp;Yang, Bei&nbsp;Yu, Li&nbsp;Shang, and Xuan&nbsp;Zeng</em><br>
+    TCAD 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-yu2025rulelearner" >
+<td align='right'>
+10.
+</td>
+<td>
+    RuleLearner: OPC Rule Extraction from Inverse Lithography Technique Engine [<a href='https://doi.org/10.1109/TCAD.2024.3499909' target='_blank'>paper</a>] <br>
+    <em>Ziyang&nbsp;Yu, Su&nbsp;Zheng, Wenqian&nbsp;Zhao, Shuo&nbsp;Yin, Xiaoxiao&nbsp;Liang, Guojin&nbsp;Chen, Yuzhe&nbsp;Ma, Bei&nbsp;Yu, and Martin&nbsp;D.F.&nbsp;Wong</em><br>
+    TCAD 2025  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-chen2024bilevel" >
 <td align='right'>
-2.
+11.
 </td>
 <td>
     Efficient Bilevel Source Mask Optimization [<a href='https://doi.org/10.1145/3649329.3656252' target='_blank'>paper</a>] <br>
@@ -2971,7 +3647,7 @@ Mask Optimization
 
 <tr id="tr-zheng2024emogen" >
 <td align='right'>
-3.
+12.
 </td>
 <td>
     EMOGen: Enhancing Mask Optimization via Pattern Generation [<a href='https://doi.org/10.1145/3649329.3655680' target='_blank'>paper</a>] <br>
@@ -2984,7 +3660,7 @@ Mask Optimization
 
 <tr id="tr-liang2024camo" >
 <td align='right'>
-4.
+13.
 </td>
 <td>
     CAMO: Correlation-Aware Mask Optimization with Modulated Reinforcement Learning [<a href='https://doi.org/10.1145/3649329.3656254' target='_blank'>paper</a>] <br>
@@ -2995,9 +3671,48 @@ Mask Optimization
 </tr>
 
 
+<tr id="tr-zhu2024loilt" >
+<td align='right'>
+14.
+</td>
+<td>
+    L2O-ILT: Learning to Optimize Inverse Lithography Techniques [<a href='https://doi.org/10.1109/TCAD.2023.3323164' target='_blank'>paper</a>] <br>
+    <em>Binwu&nbsp;Zhu, Su&nbsp;Zheng, Ziyang&nbsp;Yu, Guojin&nbsp;Chen, Yuzhe&nbsp;Ma, Fan&nbsp;Yang, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
+    TCAD 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liang2024rlopc" >
+<td align='right'>
+15.
+</td>
+<td>
+    RL-OPC: Mask Optimization with Deep Reinforcement Learning [<a href='https://doi.org/10.1109/TCAD.2023.3309745' target='_blank'>paper</a>] <br>
+    <em>Xiaoxiao&nbsp;Liang, Yikang&nbsp;Ouyang, Haoyu&nbsp;Yang, Bei&nbsp;Yu, and Yuzhe&nbsp;Ma</em><br>
+    TCAD 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2024ultrafast" >
+<td align='right'>
+16.
+</td>
+<td>
+    Ultrafast Source Mask Optimization via Conditional Discrete Diffusion [<a href='https://doi.org/10.1109/TCAD.2024.3361400' target='_blank'>paper</a>] <br>
+    <em>Guojin&nbsp;Chen, Zixiao&nbsp;Wang, Bei&nbsp;Yu, David&nbsp;Z.&nbsp;Pan, and Martin&nbsp;D.F.&nbsp;Wong</em><br>
+    TCAD 2024  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-DBLP:conf/aspdac/YangR23" >
 <td align='right'>
-5.
+17.
 </td>
 <td>
     Enabling Scalable AI Computational Lithography with Physics-Inspired Models [<a href='https://doi.org/10.1145/3566097.3568361' target='_blank'>paper</a>] <br>
@@ -3010,7 +3725,7 @@ Mask Optimization
 
 <tr id="tr-DBLP:conf/aspdac/ShaoLF23" >
 <td align='right'>
-6.
+18.
 </td>
 <td>
     Data-Driven Approaches for Process Simulation and Optical Proximity Correction [<a href='https://doi.org/10.1145/3566097.3568362' target='_blank'>paper</a>] <br>
@@ -3023,7 +3738,7 @@ Mask Optimization
 
 <tr id="tr-yu2023ctmsraf" >
 <td align='right'>
-7.
+19.
 </td>
 <td>
     CTM-SRAF: Continuous Transmission Mask-Based Constraint-Aware Subresolution Assist Feature Generation [<a href='https://doi.org/10.1109/TCAD.2023.3239559' target='_blank'>paper</a>] <br>
@@ -3036,7 +3751,7 @@ Mask Optimization
 
 <tr id="tr-ICCAD22_AdaOPC" >
 <td align='right'>
-8.
+20.
 </td>
 <td>
     AdaOPC: A Self-Adaptive Mask Optimization Framework For Real Design Patterns [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C148-ICCAD2022-AdaOPC.pdf' target='_blank'>paper</a>] <br>
@@ -3049,7 +3764,7 @@ Mask Optimization
 
 <tr id="tr-ICCAD21_develset" >
 <td align='right'>
-9.
+21.
 </td>
 <td>
     DevelSet: Deep Neural Level Set for Instant Mask optimization [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C124-ICCAD2021-DevelSet.pdf' target='_blank'>paper</a>] <br>
@@ -3062,7 +3777,7 @@ Mask Optimization
 
 <tr id="tr-ICCAD20_damo" >
 <td align='right'>
-10.
+22.
 </td>
 <td>
     DAMO: Deep Agile Mask Optimization for Full Chip Scale [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C104-ICCAD2020-DAMO.pdf' target='_blank'>paper</a>] <br>
@@ -3075,7 +3790,7 @@ Mask Optimization
 
 <tr id="tr-10.1145/3195970.3196056" >
 <td align='right'>
-11.
+23.
 </td>
 <td>
     GAN-OPC: Mask Optimization with Lithography-Guided Generative Adversarial Nets [<a href='https://doi.org/10.1145/3195970.3196056' target='_blank'>paper</a>] <br>
@@ -3089,9 +3804,48 @@ Mask Optimization
 <h3>Layout Generation</h3>
 <table class="table table-hover">
 
-<tr id="tr-DAC23_Diff" >
+<tr id="tr-chen2026sglayout" >
 <td align='right'>
 1.
+</td>
+<td>
+    SGLayout: Schema-Guided Closed-Loop Refinement for LLM-Driven Parameterized Layout Generation <br>
+    <em>Siyang&nbsp;Chen, Yuan&nbsp;Pu, Yuhan&nbsp;Qin, Zhaotan&nbsp;Lin, Siyuan&nbsp;Liang, Zhuolun&nbsp;He, Lining&nbsp;Zhang, and Bei&nbsp;Yu</em><br>
+    ICCAD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-han2026expertlevel" >
+<td align='right'>
+2.
+</td>
+<td>
+    Expert-level Leaf Cell Layout Generation via Preference-Optimized LLM [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C360-ICML2026-GenLeaf.pdf' target='_blank'>paper</a>] <br>
+    <em>Yaohui&nbsp;Han, Rongliang&nbsp;Fu, Yanming&nbsp;Liu, Shuo&nbsp;Ren, Shuai&nbsp;Dong, Yunpeng&nbsp;Wang, Tinghuan&nbsp;Chen, Bei&nbsp;Yu, and Tsung-Yi&nbsp;Ho</em><br>
+    ICML 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-liu2026libpilot" >
+<td align='right'>
+3.
+</td>
+<td>
+    LibPilot: Knowledge-Constrained Dual-Agent Reasoning for Standard Cell Library Tuning <br>
+    <em>Yanfang&nbsp;Liu, Zijin&nbsp;Cheng, Mingjun&nbsp;Wang, Rongliang&nbsp;Fu, Chao&nbsp;Wang, and Bei&nbsp;Yu</em><br>
+    ICCAD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC23_Diff" >
+<td align='right'>
+4.
 </td>
 <td>
     DiffPattern: Layout Pattern Generation via Discrete Diffusion [<a href='https://arxiv.org/abs/2303.13060' target='_blank'>paper</a>] <br>
@@ -3104,7 +3858,7 @@ Mask Optimization
 
 <tr id="tr-DBLP:conf/iccad/WenZYCYLX22" >
 <td align='right'>
-2.
+5.
 </td>
 <td>
     LayouTransformer: Generating Layout Patterns with Transformer via Sequential Pattern Modeling [<a href='https://doi.org/10.1145/3508352.3549350' target='_blank'>paper</a>] <br>
@@ -3118,9 +3872,87 @@ Mask Optimization
 <h3>Lithography</h3>
 <table class="table table-hover">
 
-<tr id="tr-DAC23_Nitho" >
+<tr id="tr-wang2026diffresist" >
 <td align='right'>
 1.
+</td>
+<td>
+    DiffResist: Physics-Constrained Diffusion for Photoresist Modeling [<a href='https://doi.org/10.23919/DATE69613.2026.11539572' target='_blank'>paper</a>] <br>
+    <em>Zixiao&nbsp;Wang, Jieya&nbsp;Zhou, Xinyun&nbsp;Zhang, Shoubo&nbsp;Hu, Farzan&nbsp;Farnia, and Bei&nbsp;Yu</em><br>
+    DATE 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-wang2025lmlitho" >
+<td align='right'>
+2.
+</td>
+<td>
+    LMLitho: A Large Vision Model-Driven Lithography Simulation Framework [<a href='https://doi.org/10.1109/ICCAD66269.2025.11240940' target='_blank'>paper</a>] <br>
+    <em>Zhen&nbsp;Wang, Hongquan&nbsp;He, Tao&nbsp;Wu, Xuming&nbsp;He, Qi&nbsp;Sun, Cheng&nbsp;Zhuo, Bei&nbsp;Yu, Jingyi&nbsp;Yu, and Hao&nbsp;Geng</em><br>
+    ICCAD 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-he2025lithosim" >
+<td align='right'>
+3.
+</td>
+<td>
+    LithoSim: A Large, Holistic Lithography Simulation Benchmark for AI-Driven Semiconductor Manufacturing [<a href='https://doi.org/10.52202/085713-5259' target='_blank'>paper</a>] <br>
+    <em>Hongquan&nbsp;He, Zhen&nbsp;Wang, Jingya&nbsp;Wang, Tao&nbsp;Wu, Xuming&nbsp;He, Bei&nbsp;Yu, Jingyi&nbsp;Yu, and Hao&nbsp;Geng</em><br>
+    NeurIPS 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-zheng2025streamlining" >
+<td align='right'>
+4.
+</td>
+<td>
+    Streamlining Computational Lithography with Efficient Pattern Database [<a href='https://doi.org/10.1109/TCAD.2025.3562158' target='_blank'>paper</a>] <br>
+    <em>Su&nbsp;Zheng, Wenqian&nbsp;Zhao, Shuyuan&nbsp;Sun, Fan&nbsp;Yang, Bei&nbsp;Yu, and Martin&nbsp;D.F.&nbsp;Wong</em><br>
+    TCAD 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-yin2025torchlitho" >
+<td align='right'>
+5.
+</td>
+<td>
+    TorchLitho 2.0: Ultrafast Differentiable Lithography Simulation Engine [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C281-ASICON2025-TorchLitho.pdf' target='_blank'>paper</a>] <br>
+    <em>Shuo&nbsp;Yin, Su&nbsp;Zheng, Ziyang&nbsp;Yu, and Bei&nbsp;Yu</em><br>
+    ASICON 2025  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2024opensource" >
+<td align='right'>
+6.
+</td>
+<td>
+    Open-Source Differentiable Lithography Imaging Framework [<a href='https://doi.org/10.1117/12.3009980' target='_blank'>paper</a>] <br>
+    <em>Guojin&nbsp;Chen, Hao&nbsp;Geng, Bei&nbsp;Yu, and David&nbsp;Z.&nbsp;Pan</em><br>
+    SPIE 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-DAC23_Nitho" >
+<td align='right'>
+7.
 </td>
 <td>
     Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields [<a href='https://arxiv.org/pdf/2303.08435.pdf' target='_blank'>paper</a>] <br>
@@ -3131,9 +3963,22 @@ Mask Optimization
 </tr>
 
 
+<tr id="tr-zheng2023lithobench" >
+<td align='right'>
+8.
+</td>
+<td>
+    LithoBench: Benchmarking AI Computational Lithography for Semiconductor Manufacturing [<a href='https://doi.org/10.52202/075280-1315' target='_blank'>paper</a>]  [<a href='https://github.com/shelljane/lithobench' target='_blank'>code</a>] <br>
+    <em>Su&nbsp;Zheng, Haoyu&nbsp;Yang, Binwu&nbsp;Zhu, Bei&nbsp;Yu, and Martin&nbsp;Wong</em><br>
+    NeurIPS 2023  <br>
+    
+</td>
+</tr>
+
+
 <tr id="tr-wang2022deepeb" >
 <td align='right'>
-2.
+9.
 </td>
 <td>
     DeePEB: A Neural Partial Differential Equation Solver for Post Exposure Baking Simulation in Lithography [<a href='https://dl.acm.org/doi/abs/10.1145/3508352.3549398' target='_blank'>paper</a>]  [<a href='https://github.com/Brilight/DeePEB' target='_blank'>code</a>] <br>
@@ -3146,7 +3991,7 @@ Mask Optimization
 
 <tr id="tr-10.1145/3489517.3530580" >
 <td align='right'>
-3.
+10.
 </td>
 <td>
     Generic Lithography Modeling with Dual-Band Optics-Inspired Neural Networks [<a href='https://doi.org/10.1145/3489517.3530580' target='_blank'>paper</a>] <br>
@@ -3159,7 +4004,7 @@ Mask Optimization
 
 <tr id="tr-DBLP:conf/iccad/PanCXH022" >
 <td align='right'>
-4.
+11.
 </td>
 <td>
     Robustify ML-Based Lithography Hotspot Detectors [<a href='https://doi.org/10.1145/3508352.3549389' target='_blank'>paper</a>] <br>
@@ -3387,9 +4232,35 @@ Analog Synthesis
 <h3>Analog Layout Routing</h3>
 <table class="table table-hover">
 
-<tr id="tr-chen2023trouter" >
+<tr id="tr-xu2026davinci" >
 <td align='right'>
 1.
+</td>
+<td>
+    DaVinci: Performance-Driven Analog Routing via Multimodality Guidance Prediction [<a href='https://doi.org/10.1109/TCAD.2026.3663518' target='_blank'>paper</a>] <br>
+    <em>Peng&nbsp;Xu, Rong&nbsp;Sun, Su&nbsp;Zheng, Song&nbsp;Chen, Qi&nbsp;Xu, and Bei&nbsp;Yu</em><br>
+    TCAD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-xu2024performancedriven" >
+<td align='right'>
+2.
+</td>
+<td>
+    Performance-driven Analog Routing via Heterogeneous 3DGNN and Potential Relaxation [<a href='https://doi.org/10.1145/3649329.3658480' target='_blank'>paper</a>] <br>
+    <em>Peng&nbsp;Xu, Guojin&nbsp;Chen, Keren&nbsp;Zhu, Tinghuan&nbsp;Chen, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    DAC 2024  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-chen2023trouter" >
+<td align='right'>
+3.
 </td>
 <td>
     TRouter: Thermal-driven PCB Routing via Non-Local Crisscross Attention Networks [<a href='https://ieeexplore.ieee.org/abstract/document/10042057' target='_blank'>paper</a>] <br>
@@ -3402,7 +4273,7 @@ Analog Synthesis
 
 <tr id="tr-zhu2019geniusroute" >
 <td align='right'>
-2.
+4.
 </td>
 <td>
     GeniusRoute: A new analog routing paradigm using generative neural network guidance [<a href='https://ieeexplore.ieee.org/document/8942164' target='_blank'>paper</a>] <br>
@@ -3583,6 +4454,61 @@ Analog Synthesis
 </td>
 </tr>
 
+
+<tr id="tr-chen2024llmenhanced" >
+<td align='right'>
+4.
+</td>
+<td>
+    LLM-Enhanced Bayesian Optimization for Efficient Analog Layout Constraint Generation [<a href='https://arxiv.org/abs/2406.05250' target='_blank'>paper</a>] <br>
+    <em>Guojin&nbsp;Chen, Keren&nbsp;Zhu, Seunggeun&nbsp;Kim, Hanqing&nbsp;Zhu, Yao&nbsp;Lai, Bei&nbsp;Yu, and David&nbsp;Z.&nbsp;Pan</em><br>
+    arXiv 2024  <br>
+    
+</td>
+</tr>
+
+</table>
+<h3>Analog Representation Learning</h3>
+<table class="table table-hover">
+
+<tr id="tr-xu2026kclnet" >
+<td align='right'>
+1.
+</td>
+<td>
+    KCLNet: Electrically Equivalence-Oriented Graph Representation Learning for Analog Circuits [<a href='https://doi.org/10.1609/aaai.v40i2.37109' target='_blank'>paper</a>] <br>
+    <em>Peng&nbsp;Xu, Yapeng&nbsp;Li, Tinghuan&nbsp;Chen, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    AAAI 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-xu2026cktvec" >
+<td align='right'>
+2.
+</td>
+<td>
+    Ckt2Vec: Efficient Electrical Encoding for Analog Circuit Representations in Vector Space [<a href='https://doi.org/10.1109/TCAD.2025.3643366' target='_blank'>paper</a>] <br>
+    <em>Peng&nbsp;Xu, Yapeng&nbsp;Li, Tinghuan&nbsp;Chen, Tsung-Yi&nbsp;Ho, and Bei&nbsp;Yu</em><br>
+    TCAD 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-tu2025smart" >
+<td align='right'>
+3.
+</td>
+<td>
+    SMART: Graph Learning-Boosted Subcircuit Matching for Large-scale Analog Circuits [<a href='https://doi.org/10.1109/TCAD.2025.3549701' target='_blank'>paper</a>] <br>
+    <em>Jindong&nbsp;Tu, Yapeng&nbsp;Li, Pengjia&nbsp;Li, Peng&nbsp;Xu, Qianru&nbsp;Zhang, Sanping&nbsp;Wan, Yongsheng&nbsp;Sun, Bei&nbsp;Yu, and Tinghuan&nbsp;Chen</em><br>
+    TCAD 2025  <br>
+    
+</td>
+</tr>
+
 </table>
 
 </div>
@@ -3728,6 +4654,19 @@ Testing
 </td>
 </tr>
 
+
+<tr id="tr-pu2026chatfcm" >
+<td align='right'>
+2.
+</td>
+<td>
+    ChatFCM: Comprehension-Synthesis Decoupling for LLM-Based Functional Coverage Model Generation <br>
+    <em>Yuan&nbsp;Pu, Yudong&nbsp;He, Zhenghao&nbsp;Chen, Mingjun&nbsp;Wang, Bingkun&nbsp;Yao, Zhaotan&nbsp;Lin, Qin&nbsp;Chen, Bing&nbsp;Li, Song&nbsp;Chen, Zhuolun&nbsp;He, Wenjian&nbsp;Yu, Yanfeng&nbsp;Li, and Bei&nbsp;Yu</em><br>
+    ICCAD 2026  <br>
+    
+</td>
+</tr>
+
 </table>
 
 </div>
@@ -3745,9 +4684,22 @@ Dataset and Tools
 <h3>Dataset</h3>
 <table class="table table-hover">
 
-<tr id="tr-jiang2023circuitnet" >
+<tr id="tr-wang2026circuitnet" >
 <td align='right'>
 1.
+</td>
+<td>
+    CircuitNet 3.0: A Multi-Modal Dataset with Task-Oriented Augmentation for AI-Driven Circuit Design [<a href='https://www.cse.cuhk.edu.hk/~byu/papers/C336-ICLR2026-RTLBench.pdf' target='_blank'>paper</a>] <br>
+    <em>Mingjun&nbsp;Wang, Yihan&nbsp;Wen, Yuntao&nbsp;Lu, Fengrui&nbsp;Liu, Yuxiang&nbsp;Zhao, Boyu&nbsp;Han, Jianan&nbsp;Mu, Yibo&nbsp;Lin, Runsheng&nbsp;Wang, Huawei&nbsp;Li, and Bei&nbsp;Yu</em><br>
+    ICLR 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-jiang2023circuitnet" >
+<td align='right'>
+2.
 </td>
 <td>
     Invited Paper: Accelerating Routability and Timing Optimization with Open-Source AI4EDA Dataset CircuitNet and Heterogeneous Platforms [<a href='https://doi.org/10.1109/ICCAD57390.2023.10323938' target='_blank'>paper</a>] <br>
@@ -3760,7 +4712,7 @@ Dataset and Tools
 
 <tr id="tr-chai2022circuitnet" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     CircuitNet: An Open-Source Dataset for Machine Learning Applications in Electronic Design Automation (EDA) [<a href='https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3571-8' target='_blank'>paper</a>]  [<a href='https://circuitnet.github.io/' target='_blank'>code</a>] <br>
@@ -3774,9 +4726,22 @@ Dataset and Tools
 <h3>RTL Generation Benchmark</h3>
 <table class="table table-hover">
 
-<tr id="tr-lu2024rtllm" >
+<tr id="tr-zhao2027verigrag" >
 <td align='right'>
 1.
+</td>
+<td>
+    VeriGRAG: Enhancing LLM-Based Verilog Code Generation with Structure-Aware Soft Prompts <br>
+    <em>Jiayu&nbsp;Zhao, Zehua&nbsp;Pei, Zetao&nbsp;Guo, Bei&nbsp;Yu, and Song&nbsp;Chen</em><br>
+    ASP-DAC 2027  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-lu2024rtllm" >
+<td align='right'>
+2.
 </td>
 <td>
     RTLLM: An Open-Source Benchmark for Design RTL Generation with Large Language Model [<a href='https://doi.org/10.1109/ASP-DAC58780.2024.10473904' target='_blank'>paper</a>] <br>
@@ -3789,7 +4754,7 @@ Dataset and Tools
 
 <tr id="tr-liu2024openllmrtl" >
 <td align='right'>
-2.
+3.
 </td>
 <td>
     OpenLLM-RTL: Open Dataset and Benchmark for LLM-Aided Design RTL Generation [<a href='https://doi.org/10.1145/3676536.3697118' target='_blank'>paper</a>] <br>
@@ -3802,7 +4767,7 @@ Dataset and Tools
 
 <tr id="tr-allam2024rtlrepo" >
 <td align='right'>
-3.
+4.
 </td>
 <td>
     RTL-Repo: A Benchmark for Evaluating LLMs on Large-Scale RTL Design Projects [<a href='https://doi.org/10.1109/LAD62341.2024.10691810' target='_blank'>paper</a>] <br>
@@ -3815,7 +4780,7 @@ Dataset and Tools
 
 <tr id="tr-liu2023verilogeval" >
 <td align='right'>
-4.
+5.
 </td>
 <td>
     Invited Paper: VerilogEval: Evaluating Large Language Models for Verilog Code Generation [<a href='https://doi.org/10.1109/ICCAD57390.2023.10323812' target='_blank'>paper</a>] <br>
@@ -3837,6 +4802,19 @@ Dataset and Tools
     Evaluating Agentic AI for Chip Design: Information Loss in Cost-Deadline Benchmarks [<a href='https://doi.org/10.5281/zenodo.23545974' target='_blank'>paper</a>]  [<a href='https://zenodo.org/records/23545974' target='_blank'>project</a>] <br>
     <em>Amit&nbsp;Sharma</em><br>
     Zenodo 2026  <br>
+    
+</td>
+</tr>
+
+
+<tr id="tr-pu2025customized" >
+<td align='right'>
+2.
+</td>
+<td>
+    Customized Retrieval Augmented Generation and Benchmarking for EDA Tool Documentation QA [<a href='https://doi.org/10.1109/TCAD.2025.3568776' target='_blank'>paper</a>] <br>
+    <em>Yuan&nbsp;Pu, Zhuolun&nbsp;He, Yuqi&nbsp;Jiang, Tairu&nbsp;Qiu, Haoyuan&nbsp;Wu, Qi&nbsp;Sun, Cheng&nbsp;Zhuo, and Bei&nbsp;Yu</em><br>
+    TCAD 2025  <br>
     
 </td>
 </tr>
